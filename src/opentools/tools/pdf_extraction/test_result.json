@@ -1,0 +1,3704 @@
+{
+  "Test-File length": 48,
+  "Q1": {
+    "id": "pdf_extraction_1",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Paris",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_001**\n\nPage 1\n\nKey takeaway: The capital of France is Paris.",
+        "metadata": {
+          "file_name": "pdf_read_001.pdf",
+          "file_size": 15987,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_001.pdf",
+          "page_count": null,
+          "processing_time": 0.7236649990081787,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_001**\n\nPage 1\n\nKey takeaway: The capital of France is Paris.",
+        "metadata": {
+          "file_name": "pdf_read_001.pdf",
+          "file_size": 15987,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_001.pdf",
+          "page_count": null,
+          "processing_time": 0.2641170024871826,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_001**\n\nPage 1\n\nKey takeaway: The capital of France is Paris.",
+        "metadata": {
+          "file_name": "pdf_read_001.pdf",
+          "file_size": 15987,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_001.pdf",
+          "page_count": null,
+          "processing_time": 0.2541849613189697,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": "pdf_extraction_2",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Tokyo",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_002**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_002. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_002**\n\nPage 2\n\nKey takeaway: Japan's bustling capital city is Tokyo.",
+        "metadata": {
+          "file_name": "pdf_read_002.pdf",
+          "file_size": 20753,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_002.pdf",
+          "page_count": null,
+          "processing_time": 0.6280910968780518,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_002**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_002. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_002**\n\nPage 2\n\nKey takeaway: Japan's bustling capital city is Tokyo.",
+        "metadata": {
+          "file_name": "pdf_read_002.pdf",
+          "file_size": 20753,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_002.pdf",
+          "page_count": null,
+          "processing_time": 0.42194604873657227,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_002**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_002. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_002**\n\nPage 2\n\nKey takeaway: Japan's bustling capital city is Tokyo.",
+        "metadata": {
+          "file_name": "pdf_read_002.pdf",
+          "file_size": 20753,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_002.pdf",
+          "page_count": null,
+          "processing_time": 0.41249608993530273,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q3": {
+    "id": "pdf_extraction_3",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Nile",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_003**\n\nPage 1\n\nKey takeaway: The longest river has long been considered the Nile.",
+        "metadata": {
+          "file_name": "pdf_read_003.pdf",
+          "file_size": 16561,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_003.pdf",
+          "page_count": null,
+          "processing_time": 0.27257585525512695,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_003**\n\nPage 1\n\nKey takeaway: The longest river has long been considered the Nile.",
+        "metadata": {
+          "file_name": "pdf_read_003.pdf",
+          "file_size": 16561,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_003.pdf",
+          "page_count": null,
+          "processing_time": 0.2601499557495117,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_003**\n\nPage 1\n\nKey takeaway: The longest river has long been considered the Nile.",
+        "metadata": {
+          "file_name": "pdf_read_003.pdf",
+          "file_size": 16561,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_003.pdf",
+          "page_count": null,
+          "processing_time": 0.25927186012268066,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": "pdf_extraction_4",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Mount Everest",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_004**\n\nPage 1\n\nKey takeaway: The tallest mountain above sea level is Mount Everest.",
+        "metadata": {
+          "file_name": "pdf_read_004.pdf",
+          "file_size": 16468,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_004.pdf",
+          "page_count": null,
+          "processing_time": 0.3549797534942627,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_004**\n\nPage 1\n\nKey takeaway: The tallest mountain above sea level is Mount Everest.",
+        "metadata": {
+          "file_name": "pdf_read_004.pdf",
+          "file_size": 16468,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_004.pdf",
+          "page_count": null,
+          "processing_time": 0.258558988571167,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_004**\n\nPage 1\n\nKey takeaway: The tallest mountain above sea level is Mount Everest.",
+        "metadata": {
+          "file_name": "pdf_read_004.pdf",
+          "file_size": 16468,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_004.pdf",
+          "page_count": null,
+          "processing_time": 0.2573990821838379,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": "pdf_extraction_5",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Pacific Ocean",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_005**\n\nPage 1\n\nKey takeaway: The largest ocean on Earth is the Pacific Ocean.",
+        "metadata": {
+          "file_name": "pdf_read_005.pdf",
+          "file_size": 16169,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_005.pdf",
+          "page_count": null,
+          "processing_time": 0.2552499771118164,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_005**\n\nPage 1\n\nKey takeaway: The largest ocean on Earth is the Pacific Ocean.",
+        "metadata": {
+          "file_name": "pdf_read_005.pdf",
+          "file_size": 16169,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_005.pdf",
+          "page_count": null,
+          "processing_time": 0.25339508056640625,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_005**\n\nPage 1\n\nKey takeaway: The largest ocean on Earth is the Pacific Ocean.",
+        "metadata": {
+          "file_name": "pdf_read_005.pdf",
+          "file_size": 16169,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_005.pdf",
+          "page_count": null,
+          "processing_time": 0.254619836807251,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q6": {
+    "id": "pdf_extraction_6",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Canberra",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_006**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_006. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_006**\n\nPage 2\n\nKey takeaway: Australia's capital is Canberra, not Sydney or Melbourne.",
+        "metadata": {
+          "file_name": "pdf_read_006.pdf",
+          "file_size": 21844,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_006.pdf",
+          "page_count": null,
+          "processing_time": 0.4188499450683594,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_006**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_006. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_006**\n\nPage 2\n\nKey takeaway: Australia's capital is Canberra, not Sydney or Melbourne.",
+        "metadata": {
+          "file_name": "pdf_read_006.pdf",
+          "file_size": 21844,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_006.pdf",
+          "page_count": null,
+          "processing_time": 0.4129369258880615,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_006**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_006. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_006**\n\nPage 2\n\nKey takeaway: Australia's capital is Canberra, not Sydney or Melbourne.",
+        "metadata": {
+          "file_name": "pdf_read_006.pdf",
+          "file_size": 21844,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_006.pdf",
+          "page_count": null,
+          "processing_time": 0.4167358875274658,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": "pdf_extraction_7",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Mercury",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_007**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_007. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_007**\n\nPage 2\n\nKey takeaway: The closest planet to the Sun is Mercury.",
+        "metadata": {
+          "file_name": "pdf_read_007.pdf",
+          "file_size": 20252,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_007.pdf",
+          "page_count": null,
+          "processing_time": 0.41291189193725586,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_007**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_007. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_007**\n\nPage 2\n\nKey takeaway: The closest planet to the Sun is Mercury.",
+        "metadata": {
+          "file_name": "pdf_read_007.pdf",
+          "file_size": 20252,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_007.pdf",
+          "page_count": null,
+          "processing_time": 0.412445068359375,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_007**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_007. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_007**\n\nPage 2\n\nKey takeaway: The closest planet to the Sun is Mercury.",
+        "metadata": {
+          "file_name": "pdf_read_007.pdf",
+          "file_size": 20252,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_007.pdf",
+          "page_count": null,
+          "processing_time": 0.4128692150115967,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": "pdf_extraction_8",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Oxygen",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_008**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_008. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_008**\n\nPage 2\n\nKey takeaway: Humans primarily breathe Oxygen for cellular respiration.",
+        "metadata": {
+          "file_name": "pdf_read_008.pdf",
+          "file_size": 21582,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_008.pdf",
+          "page_count": null,
+          "processing_time": 0.4144551753997803,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_008**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_008. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_008**\n\nPage 2\n\nKey takeaway: Humans primarily breathe Oxygen for cellular respiration.",
+        "metadata": {
+          "file_name": "pdf_read_008.pdf",
+          "file_size": 21582,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_008.pdf",
+          "page_count": null,
+          "processing_time": 0.4102022647857666,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_008**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_008. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_008**\n\nPage 2\n\nKey takeaway: Humans primarily breathe Oxygen for cellular respiration.",
+        "metadata": {
+          "file_name": "pdf_read_008.pdf",
+          "file_size": 21582,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_008.pdf",
+          "page_count": null,
+          "processing_time": 0.41175198554992676,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q9": {
+    "id": "pdf_extraction_9",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Einstein",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_009**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_009. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_009**\n\nPage 2\n\nKey takeaway: The theory of relativity was proposed by Einstein.",
+        "metadata": {
+          "file_name": "pdf_read_009.pdf",
+          "file_size": 21283,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_009.pdf",
+          "page_count": null,
+          "processing_time": 0.41246700286865234,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_009**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_009. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_009**\n\nPage 2\n\nKey takeaway: The theory of relativity was proposed by Einstein.",
+        "metadata": {
+          "file_name": "pdf_read_009.pdf",
+          "file_size": 21283,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_009.pdf",
+          "page_count": null,
+          "processing_time": 0.41368985176086426,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_009**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_009. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_009**\n\nPage 2\n\nKey takeaway: The theory of relativity was proposed by Einstein.",
+        "metadata": {
+          "file_name": "pdf_read_009.pdf",
+          "file_size": 21283,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_009.pdf",
+          "page_count": null,
+          "processing_time": 0.4116189479827881,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": "pdf_extraction_10",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Nairobi",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_010**\n\nPage 1\n\nKey takeaway: The capital city of Kenya is Nairobi.",
+        "metadata": {
+          "file_name": "pdf_read_010.pdf",
+          "file_size": 16341,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_010.pdf",
+          "page_count": null,
+          "processing_time": 0.2700319290161133,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_010**\n\nPage 1\n\nKey takeaway: The capital city of Kenya is Nairobi.",
+        "metadata": {
+          "file_name": "pdf_read_010.pdf",
+          "file_size": 16341,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_010.pdf",
+          "page_count": null,
+          "processing_time": 0.2558321952819824,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_010**\n\nPage 1\n\nKey takeaway: The capital city of Kenya is Nairobi.",
+        "metadata": {
+          "file_name": "pdf_read_010.pdf",
+          "file_size": 16341,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_010.pdf",
+          "page_count": null,
+          "processing_time": 0.2552058696746826,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q11": {
+    "id": "pdf_extraction_11",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Python",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_011**\n\nPage 1\n\nKey takeaway: This program is written in Python.",
+        "metadata": {
+          "file_name": "pdf_read_011.pdf",
+          "file_size": 15438,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_011.pdf",
+          "page_count": null,
+          "processing_time": 0.25357913970947266,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_011**\n\nPage 1\n\nKey takeaway: This program is written in Python.",
+        "metadata": {
+          "file_name": "pdf_read_011.pdf",
+          "file_size": 15438,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_011.pdf",
+          "page_count": null,
+          "processing_time": 0.2543649673461914,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_011**\n\nPage 1\n\nKey takeaway: This program is written in Python.",
+        "metadata": {
+          "file_name": "pdf_read_011.pdf",
+          "file_size": 15438,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_011.pdf",
+          "page_count": null,
+          "processing_time": 0.2555696964263916,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q12": {
+    "id": "pdf_extraction_12",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Photosynthesis",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_012**\n\nPage 1\n\nKey takeaway: Plants produce glucose via Photosynthesis.",
+        "metadata": {
+          "file_name": "pdf_read_012.pdf",
+          "file_size": 16511,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_012.pdf",
+          "page_count": null,
+          "processing_time": 0.255443811416626,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_012**\n\nPage 1\n\nKey takeaway: Plants produce glucose via Photosynthesis.",
+        "metadata": {
+          "file_name": "pdf_read_012.pdf",
+          "file_size": 16511,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_012.pdf",
+          "page_count": null,
+          "processing_time": 0.255612850189209,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_012**\n\nPage 1\n\nKey takeaway: Plants produce glucose via Photosynthesis.",
+        "metadata": {
+          "file_name": "pdf_read_012.pdf",
+          "file_size": 16511,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_012.pdf",
+          "page_count": null,
+          "processing_time": 0.25515103340148926,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q13": {
+    "id": "pdf_extraction_13",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Amazon",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_013**\n\nPage 1\n\nKey takeaway: The largest rainforest is the Amazon rainforest.",
+        "metadata": {
+          "file_name": "pdf_read_013.pdf",
+          "file_size": 16342,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_013.pdf",
+          "page_count": null,
+          "processing_time": 0.2652158737182617,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_013**\n\nPage 1\n\nKey takeaway: The largest rainforest is the Amazon rainforest.",
+        "metadata": {
+          "file_name": "pdf_read_013.pdf",
+          "file_size": 16342,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_013.pdf",
+          "page_count": null,
+          "processing_time": 0.2549121379852295,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_013**\n\nPage 1\n\nKey takeaway: The largest rainforest is the Amazon rainforest.",
+        "metadata": {
+          "file_name": "pdf_read_013.pdf",
+          "file_size": 16342,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_013.pdf",
+          "page_count": null,
+          "processing_time": 0.25769591331481934,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q14": {
+    "id": "pdf_extraction_14",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Sahara",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_014**\n\nPage 1\n\nKey takeaway: The largest hot desert is the Sahara.",
+        "metadata": {
+          "file_name": "pdf_read_014.pdf",
+          "file_size": 15603,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_014.pdf",
+          "page_count": null,
+          "processing_time": 0.25443196296691895,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_014**\n\nPage 1\n\nKey takeaway: The largest hot desert is the Sahara.",
+        "metadata": {
+          "file_name": "pdf_read_014.pdf",
+          "file_size": 15603,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_014.pdf",
+          "page_count": null,
+          "processing_time": 0.25427889823913574,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_014**\n\nPage 1\n\nKey takeaway: The largest hot desert is the Sahara.",
+        "metadata": {
+          "file_name": "pdf_read_014.pdf",
+          "file_size": 15603,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_014.pdf",
+          "page_count": null,
+          "processing_time": 0.25427889823913574,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q15": {
+    "id": "pdf_extraction_15",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Gutenberg",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_015**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_015. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_015**\n\nPage 2\n\nKey takeaway: Movable type printing press was invented by Gutenberg.",
+        "metadata": {
+          "file_name": "pdf_read_015.pdf",
+          "file_size": 21703,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_015.pdf",
+          "page_count": null,
+          "processing_time": 0.4189109802246094,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_015**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_015. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_015**\n\nPage 2\n\nKey takeaway: Movable type printing press was invented by Gutenberg.",
+        "metadata": {
+          "file_name": "pdf_read_015.pdf",
+          "file_size": 21703,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_015.pdf",
+          "page_count": null,
+          "processing_time": 0.4136009216308594,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_015**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_015. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_015**\n\nPage 2\n\nKey takeaway: Movable type printing press was invented by Gutenberg.",
+        "metadata": {
+          "file_name": "pdf_read_015.pdf",
+          "file_size": 21703,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_015.pdf",
+          "page_count": null,
+          "processing_time": 0.414654016494751,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q16": {
+    "id": "pdf_extraction_16",
+    "evaluation_metrics": "search_pattern",
+    "answer": "H2O",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_016**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_016. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_016**\n\nPage 2\n\nKey takeaway: The chemical formula for water is H2O.",
+        "metadata": {
+          "file_name": "pdf_read_016.pdf",
+          "file_size": 21250,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_016.pdf",
+          "page_count": null,
+          "processing_time": 0.4126319885253906,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_016**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_016. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_016**\n\nPage 2\n\nKey takeaway: The chemical formula for water is H2O.",
+        "metadata": {
+          "file_name": "pdf_read_016.pdf",
+          "file_size": 21250,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_016.pdf",
+          "page_count": null,
+          "processing_time": 0.4116940498352051,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_016**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_016. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_016**\n\nPage 2\n\nKey takeaway: The chemical formula for water is H2O.",
+        "metadata": {
+          "file_name": "pdf_read_016.pdf",
+          "file_size": 21250,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_016.pdf",
+          "page_count": null,
+          "processing_time": 0.41127586364746094,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q17": {
+    "id": "pdf_extraction_17",
+    "evaluation_metrics": "search_pattern",
+    "answer": "E=mc^2",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_017**\n\nPage 1\n\nKey takeaway: Einstein's famous mass-energy equivalence is E=mc^2.",
+        "metadata": {
+          "file_name": "pdf_read_017.pdf",
+          "file_size": 17690,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_017.pdf",
+          "page_count": null,
+          "processing_time": 0.34792089462280273,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_017**\n\nPage 1\n\nKey takeaway: Einstein's famous mass-energy equivalence is E=mc^2.",
+        "metadata": {
+          "file_name": "pdf_read_017.pdf",
+          "file_size": 17690,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_017.pdf",
+          "page_count": null,
+          "processing_time": 0.25727295875549316,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_017**\n\nPage 1\n\nKey takeaway: Einstein's famous mass-energy equivalence is E=mc^2.",
+        "metadata": {
+          "file_name": "pdf_read_017.pdf",
+          "file_size": 17690,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_017.pdf",
+          "page_count": null,
+          "processing_time": 0.25756287574768066,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q18": {
+    "id": "pdf_extraction_18",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Jupiter",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_018**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_018. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_018**\n\nPage 2\n\nKey takeaway: The largest planet in our solar system is Jupiter.",
+        "metadata": {
+          "file_name": "pdf_read_018.pdf",
+          "file_size": 21134,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_018.pdf",
+          "page_count": null,
+          "processing_time": 0.41652822494506836,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_018**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_018. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_018**\n\nPage 2\n\nKey takeaway: The largest planet in our solar system is Jupiter.",
+        "metadata": {
+          "file_name": "pdf_read_018.pdf",
+          "file_size": 21134,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_018.pdf",
+          "page_count": null,
+          "processing_time": 0.4121420383453369,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_018**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_018. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_018**\n\nPage 2\n\nKey takeaway: The largest planet in our solar system is Jupiter.",
+        "metadata": {
+          "file_name": "pdf_read_018.pdf",
+          "file_size": 21134,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_018.pdf",
+          "page_count": null,
+          "processing_time": 0.41475486755371094,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q19": {
+    "id": "pdf_extraction_19",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Andromeda",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_019**\n\nPage 1\n\nKey takeaway: The nearest large galaxy to the Milky Way is Andromeda.",
+        "metadata": {
+          "file_name": "pdf_read_019.pdf",
+          "file_size": 16859,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_019.pdf",
+          "page_count": null,
+          "processing_time": 0.2731750011444092,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_019**\n\nPage 1\n\nKey takeaway: The nearest large galaxy to the Milky Way is Andromeda.",
+        "metadata": {
+          "file_name": "pdf_read_019.pdf",
+          "file_size": 16859,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_019.pdf",
+          "page_count": null,
+          "processing_time": 0.2597320079803467,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_019**\n\nPage 1\n\nKey takeaway: The nearest large galaxy to the Milky Way is Andromeda.",
+        "metadata": {
+          "file_name": "pdf_read_019.pdf",
+          "file_size": 16859,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_019.pdf",
+          "page_count": null,
+          "processing_time": 0.25721311569213867,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q20": {
+    "id": "pdf_extraction_20",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Quark",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_020**\n\nPage 1\n\nKey takeaway: Protons and neutrons are made of quarks.",
+        "metadata": {
+          "file_name": "pdf_read_020.pdf",
+          "file_size": 15823,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_020.pdf",
+          "page_count": null,
+          "processing_time": 0.25615406036376953,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_020**\n\nPage 1\n\nKey takeaway: Protons and neutrons are made of quarks.",
+        "metadata": {
+          "file_name": "pdf_read_020.pdf",
+          "file_size": 15823,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_020.pdf",
+          "page_count": null,
+          "processing_time": 0.2547152042388916,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_020**\n\nPage 1\n\nKey takeaway: Protons and neutrons are made of quarks.",
+        "metadata": {
+          "file_name": "pdf_read_020.pdf",
+          "file_size": 15823,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_020.pdf",
+          "page_count": null,
+          "processing_time": 0.2560551166534424,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q21": {
+    "id": "pdf_extraction_21",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Algorithm",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_021**\n\nPage 1\n\nKey takeaway: A step-by-step computational procedure is an algorithm.",
+        "metadata": {
+          "file_name": "pdf_read_021.pdf",
+          "file_size": 17437,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_021.pdf",
+          "page_count": null,
+          "processing_time": 0.2671623229980469,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_021**\n\nPage 1\n\nKey takeaway: A step-by-step computational procedure is an algorithm.",
+        "metadata": {
+          "file_name": "pdf_read_021.pdf",
+          "file_size": 17437,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_021.pdf",
+          "page_count": null,
+          "processing_time": 0.25566911697387695,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_021**\n\nPage 1\n\nKey takeaway: A step-by-step computational procedure is an algorithm.",
+        "metadata": {
+          "file_name": "pdf_read_021.pdf",
+          "file_size": 17437,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_021.pdf",
+          "page_count": null,
+          "processing_time": 0.25699782371520996,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q22": {
+    "id": "pdf_extraction_22",
+    "evaluation_metrics": "search_pattern",
+    "answer": "HTTP",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_022**\n\nPage 1\n\nKey takeaway: Web pages are commonly transferred via HTTP.",
+        "metadata": {
+          "file_name": "pdf_read_022.pdf",
+          "file_size": 17321,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_022.pdf",
+          "page_count": null,
+          "processing_time": 0.2539370059967041,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_022**\n\nPage 1\n\nKey takeaway: Web pages are commonly transferred via HTTP.",
+        "metadata": {
+          "file_name": "pdf_read_022.pdf",
+          "file_size": 17321,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_022.pdf",
+          "page_count": null,
+          "processing_time": 0.25507402420043945,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_022**\n\nPage 1\n\nKey takeaway: Web pages are commonly transferred via HTTP.",
+        "metadata": {
+          "file_name": "pdf_read_022.pdf",
+          "file_size": 17321,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_022.pdf",
+          "page_count": null,
+          "processing_time": 0.2547571659088135,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q23": {
+    "id": "pdf_extraction_23",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Git",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_023**\n\nPage 1\n\nKey takeaway: A distributed version control system is Git.",
+        "metadata": {
+          "file_name": "pdf_read_023.pdf",
+          "file_size": 17438,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_023.pdf",
+          "page_count": null,
+          "processing_time": 0.26519298553466797,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_023**\n\nPage 1\n\nKey takeaway: A distributed version control system is Git.",
+        "metadata": {
+          "file_name": "pdf_read_023.pdf",
+          "file_size": 17438,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_023.pdf",
+          "page_count": null,
+          "processing_time": 0.2567322254180908,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_023**\n\nPage 1\n\nKey takeaway: A distributed version control system is Git.",
+        "metadata": {
+          "file_name": "pdf_read_023.pdf",
+          "file_size": 17438,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_023.pdf",
+          "page_count": null,
+          "processing_time": 0.2578258514404297,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q24": {
+    "id": "pdf_extraction_24",
+    "evaluation_metrics": "search_pattern",
+    "answer": "SQL",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_024**\n\nPage 1\n\nKey takeaway: Relational databases are queried using SQL.",
+        "metadata": {
+          "file_name": "pdf_read_024.pdf",
+          "file_size": 17420,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_024.pdf",
+          "page_count": null,
+          "processing_time": 0.2582268714904785,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_024**\n\nPage 1\n\nKey takeaway: Relational databases are queried using SQL.",
+        "metadata": {
+          "file_name": "pdf_read_024.pdf",
+          "file_size": 17420,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_024.pdf",
+          "page_count": null,
+          "processing_time": 0.25591301918029785,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_024**\n\nPage 1\n\nKey takeaway: Relational databases are queried using SQL.",
+        "metadata": {
+          "file_name": "pdf_read_024.pdf",
+          "file_size": 17420,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_024.pdf",
+          "page_count": null,
+          "processing_time": 0.25778818130493164,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q25": {
+    "id": "pdf_extraction_25",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Vatican City",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_025**\n\nPage 1\n\nKey takeaway: The smallest country by area is Vatican City.",
+        "metadata": {
+          "file_name": "pdf_read_025.pdf",
+          "file_size": 17258,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_025.pdf",
+          "page_count": null,
+          "processing_time": 0.25594305992126465,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_025**\n\nPage 1\n\nKey takeaway: The smallest country by area is Vatican City.",
+        "metadata": {
+          "file_name": "pdf_read_025.pdf",
+          "file_size": 17258,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_025.pdf",
+          "page_count": null,
+          "processing_time": 0.2578103542327881,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_025**\n\nPage 1\n\nKey takeaway: The smallest country by area is Vatican City.",
+        "metadata": {
+          "file_name": "pdf_read_025.pdf",
+          "file_size": 17258,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_025.pdf",
+          "page_count": null,
+          "processing_time": 0.25485801696777344,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q26": {
+    "id": "pdf_extraction_26",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Beijing",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_026**\n\nPage 1\n\nKey takeaway: The capital of China is Beijing.",
+        "metadata": {
+          "file_name": "pdf_read_026.pdf",
+          "file_size": 17048,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_026.pdf",
+          "page_count": null,
+          "processing_time": 0.258573055267334,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_026**\n\nPage 1\n\nKey takeaway: The capital of China is Beijing.",
+        "metadata": {
+          "file_name": "pdf_read_026.pdf",
+          "file_size": 17048,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_026.pdf",
+          "page_count": null,
+          "processing_time": 0.2552809715270996,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_026**\n\nPage 1\n\nKey takeaway: The capital of China is Beijing.",
+        "metadata": {
+          "file_name": "pdf_read_026.pdf",
+          "file_size": 17048,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_026.pdf",
+          "page_count": null,
+          "processing_time": 0.25617527961730957,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q27": {
+    "id": "pdf_extraction_27",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Ottawa",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_027**\n\nPage 1\n\nKey takeaway: The capital of Canada is Ottawa.",
+        "metadata": {
+          "file_name": "pdf_read_027.pdf",
+          "file_size": 16841,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_027.pdf",
+          "page_count": null,
+          "processing_time": 0.2560849189758301,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_027**\n\nPage 1\n\nKey takeaway: The capital of Canada is Ottawa.",
+        "metadata": {
+          "file_name": "pdf_read_027.pdf",
+          "file_size": 16841,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_027.pdf",
+          "page_count": null,
+          "processing_time": 0.25514984130859375,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_027**\n\nPage 1\n\nKey takeaway: The capital of Canada is Ottawa.",
+        "metadata": {
+          "file_name": "pdf_read_027.pdf",
+          "file_size": 16841,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_027.pdf",
+          "page_count": null,
+          "processing_time": 0.254518985748291,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q28": {
+    "id": "pdf_extraction_28",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Bern",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_028**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_028. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_028**\n\nPage 2\n\nKey takeaway: The de facto capital of Switzerland is Bern.",
+        "metadata": {
+          "file_name": "pdf_read_028.pdf",
+          "file_size": 21580,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_028.pdf",
+          "page_count": null,
+          "processing_time": 0.4215250015258789,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_028**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_028. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_028**\n\nPage 2\n\nKey takeaway: The de facto capital of Switzerland is Bern.",
+        "metadata": {
+          "file_name": "pdf_read_028.pdf",
+          "file_size": 21580,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_028.pdf",
+          "page_count": null,
+          "processing_time": 0.4123198986053467,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_028**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_028. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_028**\n\nPage 2\n\nKey takeaway: The de facto capital of Switzerland is Bern.",
+        "metadata": {
+          "file_name": "pdf_read_028.pdf",
+          "file_size": 21580,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_028.pdf",
+          "page_count": null,
+          "processing_time": 0.4139399528503418,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q29": {
+    "id": "pdf_extraction_29",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Cairo",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_029**\n\nPage 1\n\nKey takeaway: Egypt's capital city is Cairo.",
+        "metadata": {
+          "file_name": "pdf_read_029.pdf",
+          "file_size": 16157,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_029.pdf",
+          "page_count": null,
+          "processing_time": 0.26616692543029785,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_029**\n\nPage 1\n\nKey takeaway: Egypt's capital city is Cairo.",
+        "metadata": {
+          "file_name": "pdf_read_029.pdf",
+          "file_size": 16157,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_029.pdf",
+          "page_count": null,
+          "processing_time": 0.2853360176086426,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_029**\n\nPage 1\n\nKey takeaway: Egypt's capital city is Cairo.",
+        "metadata": {
+          "file_name": "pdf_read_029.pdf",
+          "file_size": 16157,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_029.pdf",
+          "page_count": null,
+          "processing_time": 0.2578287124633789,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q30": {
+    "id": "pdf_extraction_30",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Seoul",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_030**\n\nPage 1\n\nKey takeaway: The capital of South Korea is Seoul.",
+        "metadata": {
+          "file_name": "pdf_read_030.pdf",
+          "file_size": 16541,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_030.pdf",
+          "page_count": null,
+          "processing_time": 0.25900697708129883,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_030**\n\nPage 1\n\nKey takeaway: The capital of South Korea is Seoul.",
+        "metadata": {
+          "file_name": "pdf_read_030.pdf",
+          "file_size": 16541,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_030.pdf",
+          "page_count": null,
+          "processing_time": 0.2568020820617676,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_030**\n\nPage 1\n\nKey takeaway: The capital of South Korea is Seoul.",
+        "metadata": {
+          "file_name": "pdf_read_030.pdf",
+          "file_size": 16541,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_030.pdf",
+          "page_count": null,
+          "processing_time": 0.2758159637451172,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q31": {
+    "id": "pdf_extraction_31",
+    "evaluation_metrics": "search_pattern",
+    "answer": "New Delhi",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_031**\n\nPage 1\n\nKey takeaway: India's capital is New Delhi.",
+        "metadata": {
+          "file_name": "pdf_read_031.pdf",
+          "file_size": 16394,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_031.pdf",
+          "page_count": null,
+          "processing_time": 0.25478672981262207,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_031**\n\nPage 1\n\nKey takeaway: India's capital is New Delhi.",
+        "metadata": {
+          "file_name": "pdf_read_031.pdf",
+          "file_size": 16394,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_031.pdf",
+          "page_count": null,
+          "processing_time": 0.2554481029510498,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_031**\n\nPage 1\n\nKey takeaway: India's capital is New Delhi.",
+        "metadata": {
+          "file_name": "pdf_read_031.pdf",
+          "file_size": 16394,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_031.pdf",
+          "page_count": null,
+          "processing_time": 0.2552220821380615,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q32": {
+    "id": "pdf_extraction_32",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Bras\u00edlia",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_032**\n\nPage 1\n\nKey takeaway: Brazil's planned capital is Bras\u00edlia.",
+        "metadata": {
+          "file_name": "pdf_read_032.pdf",
+          "file_size": 16673,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_032.pdf",
+          "page_count": null,
+          "processing_time": 0.2535998821258545,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_032**\n\nPage 1\n\nKey takeaway: Brazil's planned capital is Bras\u00edlia.",
+        "metadata": {
+          "file_name": "pdf_read_032.pdf",
+          "file_size": 16673,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_032.pdf",
+          "page_count": null,
+          "processing_time": 0.25540828704833984,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_032**\n\nPage 1\n\nKey takeaway: Brazil's planned capital is Bras\u00edlia.",
+        "metadata": {
+          "file_name": "pdf_read_032.pdf",
+          "file_size": 16673,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_032.pdf",
+          "page_count": null,
+          "processing_time": 0.25501298904418945,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q33": {
+    "id": "pdf_extraction_33",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Rome",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_033**\n\nPage 1\n\nKey takeaway: Italy's capital is Rome.",
+        "metadata": {
+          "file_name": "pdf_read_033.pdf",
+          "file_size": 15904,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_033.pdf",
+          "page_count": null,
+          "processing_time": 0.2557859420776367,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_033**\n\nPage 1\n\nKey takeaway: Italy's capital is Rome.",
+        "metadata": {
+          "file_name": "pdf_read_033.pdf",
+          "file_size": 15904,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_033.pdf",
+          "page_count": null,
+          "processing_time": 0.2534210681915283,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_033**\n\nPage 1\n\nKey takeaway: Italy's capital is Rome.",
+        "metadata": {
+          "file_name": "pdf_read_033.pdf",
+          "file_size": 15904,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_033.pdf",
+          "page_count": null,
+          "processing_time": 0.2542111873626709,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q34": {
+    "id": "pdf_extraction_34",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Madrid",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_034**\n\nPage 1\n\nKey takeaway: Spain's capital is Madrid.",
+        "metadata": {
+          "file_name": "pdf_read_034.pdf",
+          "file_size": 16437,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_034.pdf",
+          "page_count": null,
+          "processing_time": 0.25476670265197754,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_034**\n\nPage 1\n\nKey takeaway: Spain's capital is Madrid.",
+        "metadata": {
+          "file_name": "pdf_read_034.pdf",
+          "file_size": 16437,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_034.pdf",
+          "page_count": null,
+          "processing_time": 0.2536649703979492,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_034**\n\nPage 1\n\nKey takeaway: Spain's capital is Madrid.",
+        "metadata": {
+          "file_name": "pdf_read_034.pdf",
+          "file_size": 16437,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_034.pdf",
+          "page_count": null,
+          "processing_time": 0.2538411617279053,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q35": {
+    "id": "pdf_extraction_35",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Lisbon",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_035**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_035. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_035**\n\nPage 2\n\nKey takeaway: Portugal's capital is Lisbon.",
+        "metadata": {
+          "file_name": "pdf_read_035.pdf",
+          "file_size": 22008,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_035.pdf",
+          "page_count": null,
+          "processing_time": 0.4199092388153076,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_035**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_035. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_035**\n\nPage 2\n\nKey takeaway: Portugal's capital is Lisbon.",
+        "metadata": {
+          "file_name": "pdf_read_035.pdf",
+          "file_size": 22008,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_035.pdf",
+          "page_count": null,
+          "processing_time": 0.4127781391143799,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_035**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_035. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_035**\n\nPage 2\n\nKey takeaway: Portugal's capital is Lisbon.",
+        "metadata": {
+          "file_name": "pdf_read_035.pdf",
+          "file_size": 22008,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_035.pdf",
+          "page_count": null,
+          "processing_time": 0.41245388984680176,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q36": {
+    "id": "pdf_extraction_36",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Athens",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_036**\n\nPage 1\n\nKey takeaway: Greece's capital is Athens.",
+        "metadata": {
+          "file_name": "pdf_read_036.pdf",
+          "file_size": 16530,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_036.pdf",
+          "page_count": null,
+          "processing_time": 0.2625088691711426,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_036**\n\nPage 1\n\nKey takeaway: Greece's capital is Athens.",
+        "metadata": {
+          "file_name": "pdf_read_036.pdf",
+          "file_size": 16530,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_036.pdf",
+          "page_count": null,
+          "processing_time": 0.25602293014526367,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_036**\n\nPage 1\n\nKey takeaway: Greece's capital is Athens.",
+        "metadata": {
+          "file_name": "pdf_read_036.pdf",
+          "file_size": 16530,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_036.pdf",
+          "page_count": null,
+          "processing_time": 0.25843214988708496,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q37": {
+    "id": "pdf_extraction_37",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Oslo",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_037**\n\nPage 1\n\nKey takeaway: Norway's capital is Oslo.",
+        "metadata": {
+          "file_name": "pdf_read_037.pdf",
+          "file_size": 15997,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_037.pdf",
+          "page_count": null,
+          "processing_time": 0.25563812255859375,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_037**\n\nPage 1\n\nKey takeaway: Norway's capital is Oslo.",
+        "metadata": {
+          "file_name": "pdf_read_037.pdf",
+          "file_size": 15997,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_037.pdf",
+          "page_count": null,
+          "processing_time": 0.2549569606781006,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_037**\n\nPage 1\n\nKey takeaway: Norway's capital is Oslo.",
+        "metadata": {
+          "file_name": "pdf_read_037.pdf",
+          "file_size": 15997,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_037.pdf",
+          "page_count": null,
+          "processing_time": 0.2540290355682373,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q38": {
+    "id": "pdf_extraction_38",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Stockholm",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_038**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_038. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_038**\n\nPage 2\n\nKey takeaway: Sweden's capital is Stockholm.",
+        "metadata": {
+          "file_name": "pdf_read_038.pdf",
+          "file_size": 21790,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_038.pdf",
+          "page_count": null,
+          "processing_time": 0.4175291061401367,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_038**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_038. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_038**\n\nPage 2\n\nKey takeaway: Sweden's capital is Stockholm.",
+        "metadata": {
+          "file_name": "pdf_read_038.pdf",
+          "file_size": 21790,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_038.pdf",
+          "page_count": null,
+          "processing_time": 0.41200900077819824,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_038**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_038. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_038**\n\nPage 2\n\nKey takeaway: Sweden's capital is Stockholm.",
+        "metadata": {
+          "file_name": "pdf_read_038.pdf",
+          "file_size": 21790,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_038.pdf",
+          "page_count": null,
+          "processing_time": 0.4145348072052002,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q39": {
+    "id": "pdf_extraction_39",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Helsinki",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_039**\n\nPage 1\n\nKey takeaway: Finland's capital is Helsinki.",
+        "metadata": {
+          "file_name": "pdf_read_039.pdf",
+          "file_size": 16139,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_039.pdf",
+          "page_count": null,
+          "processing_time": 0.26359987258911133,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_039**\n\nPage 1\n\nKey takeaway: Finland's capital is Helsinki.",
+        "metadata": {
+          "file_name": "pdf_read_039.pdf",
+          "file_size": 16139,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_039.pdf",
+          "page_count": null,
+          "processing_time": 0.25708889961242676,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_039**\n\nPage 1\n\nKey takeaway: Finland's capital is Helsinki.",
+        "metadata": {
+          "file_name": "pdf_read_039.pdf",
+          "file_size": 16139,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_039.pdf",
+          "page_count": null,
+          "processing_time": 0.2551400661468506,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q40": {
+    "id": "pdf_extraction_40",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Copenhagen",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_040**\n\nPage 1\n\nKey takeaway: Denmark's capital is Copenhagen.",
+        "metadata": {
+          "file_name": "pdf_read_040.pdf",
+          "file_size": 16553,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_040.pdf",
+          "page_count": null,
+          "processing_time": 0.25478410720825195,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_040**\n\nPage 1\n\nKey takeaway: Denmark's capital is Copenhagen.",
+        "metadata": {
+          "file_name": "pdf_read_040.pdf",
+          "file_size": 16553,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_040.pdf",
+          "page_count": null,
+          "processing_time": 0.25624513626098633,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_040**\n\nPage 1\n\nKey takeaway: Denmark's capital is Copenhagen.",
+        "metadata": {
+          "file_name": "pdf_read_040.pdf",
+          "file_size": 16553,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_040.pdf",
+          "page_count": null,
+          "processing_time": 0.2570047378540039,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q41": {
+    "id": "pdf_extraction_41",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Vienna",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_041**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_041. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_041**\n\nPage 2\n\nKey takeaway: Austria's capital is Vienna.",
+        "metadata": {
+          "file_name": "pdf_read_041.pdf",
+          "file_size": 20836,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_041.pdf",
+          "page_count": null,
+          "processing_time": 0.428192138671875,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_041**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_041. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_041**\n\nPage 2\n\nKey takeaway: Austria's capital is Vienna.",
+        "metadata": {
+          "file_name": "pdf_read_041.pdf",
+          "file_size": 20836,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_041.pdf",
+          "page_count": null,
+          "processing_time": 0.41294288635253906,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_041**\n\nPage 1\n\nThis is a synthetic study handout for pdf\\_read\\_041. It contains context, examples, and practice prompts. Some questions are designed to test page-range handling.\n\n## **Benchmark pdf\\_read\\_041**\n\nPage 2\n\nKey takeaway: Austria's capital is Vienna.",
+        "metadata": {
+          "file_name": "pdf_read_041.pdf",
+          "file_size": 20836,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_041.pdf",
+          "page_count": null,
+          "processing_time": 0.4143519401550293,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q42": {
+    "id": "pdf_extraction_42",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Budapest",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_042**\n\nPage 1\n\nKey takeaway: Hungary's capital is Budapest.",
+        "metadata": {
+          "file_name": "pdf_read_042.pdf",
+          "file_size": 16490,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_042.pdf",
+          "page_count": null,
+          "processing_time": 0.2613101005554199,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_042**\n\nPage 1\n\nKey takeaway: Hungary's capital is Budapest.",
+        "metadata": {
+          "file_name": "pdf_read_042.pdf",
+          "file_size": 16490,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_042.pdf",
+          "page_count": null,
+          "processing_time": 0.258756160736084,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_042**\n\nPage 1\n\nKey takeaway: Hungary's capital is Budapest.",
+        "metadata": {
+          "file_name": "pdf_read_042.pdf",
+          "file_size": 16490,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_042.pdf",
+          "page_count": null,
+          "processing_time": 0.25643277168273926,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q43": {
+    "id": "pdf_extraction_43",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Warsaw",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_043**\n\nPage 1\n\nKey takeaway: Poland's capital is Warsaw.",
+        "metadata": {
+          "file_name": "pdf_read_043.pdf",
+          "file_size": 16332,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_043.pdf",
+          "page_count": null,
+          "processing_time": 0.2568020820617676,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_043**\n\nPage 1\n\nKey takeaway: Poland's capital is Warsaw.",
+        "metadata": {
+          "file_name": "pdf_read_043.pdf",
+          "file_size": 16332,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_043.pdf",
+          "page_count": null,
+          "processing_time": 0.2555110454559326,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_043**\n\nPage 1\n\nKey takeaway: Poland's capital is Warsaw.",
+        "metadata": {
+          "file_name": "pdf_read_043.pdf",
+          "file_size": 16332,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_043.pdf",
+          "page_count": null,
+          "processing_time": 0.25553464889526367,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q44": {
+    "id": "pdf_extraction_44",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Prague",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_044**\n\nPage 1\n\nKey takeaway: Czechia's capital is Prague.",
+        "metadata": {
+          "file_name": "pdf_read_044.pdf",
+          "file_size": 15797,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_044.pdf",
+          "page_count": null,
+          "processing_time": 0.25455617904663086,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_044**\n\nPage 1\n\nKey takeaway: Czechia's capital is Prague.",
+        "metadata": {
+          "file_name": "pdf_read_044.pdf",
+          "file_size": 15797,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_044.pdf",
+          "page_count": null,
+          "processing_time": 0.2549622058868408,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_044**\n\nPage 1\n\nKey takeaway: Czechia's capital is Prague.",
+        "metadata": {
+          "file_name": "pdf_read_044.pdf",
+          "file_size": 15797,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_044.pdf",
+          "page_count": null,
+          "processing_time": 0.2553081512451172,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q45": {
+    "id": "pdf_extraction_45",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Dublin",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_045**\n\nPage 1\n\nKey takeaway: Ireland's capital is Dublin.",
+        "metadata": {
+          "file_name": "pdf_read_045.pdf",
+          "file_size": 16759,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_045.pdf",
+          "page_count": null,
+          "processing_time": 0.254680871963501,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_045**\n\nPage 1\n\nKey takeaway: Ireland's capital is Dublin.",
+        "metadata": {
+          "file_name": "pdf_read_045.pdf",
+          "file_size": 16759,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_045.pdf",
+          "page_count": null,
+          "processing_time": 0.2537670135498047,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_045**\n\nPage 1\n\nKey takeaway: Ireland's capital is Dublin.",
+        "metadata": {
+          "file_name": "pdf_read_045.pdf",
+          "file_size": 16759,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_045.pdf",
+          "page_count": null,
+          "processing_time": 0.25305700302124023,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q46": {
+    "id": "pdf_extraction_46",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Reykjavik",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_046**\n\nPage 1\n\nKey takeaway: Iceland's capital is Reykjavik.",
+        "metadata": {
+          "file_name": "pdf_read_046.pdf",
+          "file_size": 16424,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_046.pdf",
+          "page_count": null,
+          "processing_time": 0.2553441524505615,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_046**\n\nPage 1\n\nKey takeaway: Iceland's capital is Reykjavik.",
+        "metadata": {
+          "file_name": "pdf_read_046.pdf",
+          "file_size": 16424,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_046.pdf",
+          "page_count": null,
+          "processing_time": 0.2544572353363037,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_046**\n\nPage 1\n\nKey takeaway: Iceland's capital is Reykjavik.",
+        "metadata": {
+          "file_name": "pdf_read_046.pdf",
+          "file_size": 16424,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_046.pdf",
+          "page_count": null,
+          "processing_time": 0.255357027053833,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q47": {
+    "id": "pdf_extraction_47",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Riyadh",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_047**\n\nPage 1\n\nKey takeaway: Saudi Arabia's capital is Riyadh.",
+        "metadata": {
+          "file_name": "pdf_read_047.pdf",
+          "file_size": 17123,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_047.pdf",
+          "page_count": null,
+          "processing_time": 0.25529980659484863,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_047**\n\nPage 1\n\nKey takeaway: Saudi Arabia's capital is Riyadh.",
+        "metadata": {
+          "file_name": "pdf_read_047.pdf",
+          "file_size": 17123,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_047.pdf",
+          "page_count": null,
+          "processing_time": 0.25496816635131836,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_047**\n\nPage 1\n\nKey takeaway: Saudi Arabia's capital is Riyadh.",
+        "metadata": {
+          "file_name": "pdf_read_047.pdf",
+          "file_size": 17123,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_047.pdf",
+          "page_count": null,
+          "processing_time": 0.2545888423919678,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q48": {
+    "id": "pdf_extraction_48",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Abuja",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_048**\n\nPage 1\n\nKey takeaway: Nigeria's capital is Abuja.",
+        "metadata": {
+          "file_name": "pdf_read_048.pdf",
+          "file_size": 16481,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_048.pdf",
+          "page_count": null,
+          "processing_time": 0.2572171688079834,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_048**\n\nPage 1\n\nKey takeaway: Nigeria's capital is Abuja.",
+        "metadata": {
+          "file_name": "pdf_read_048.pdf",
+          "file_size": 16481,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_048.pdf",
+          "page_count": null,
+          "processing_time": 0.2565040588378906,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "## **Benchmark pdf\\_read\\_048**\n\nPage 1\n\nKey takeaway: Nigeria's capital is Abuja.",
+        "metadata": {
+          "file_name": "pdf_read_048.pdf",
+          "file_size": 16481,
+          "file_type": ".pdf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/tools/test_file/pdf_read_tests/pdf_read_048.pdf",
+          "page_count": null,
+          "processing_time": 0.2538771629333496,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": true,
+          "search_performed": false,
+          "search_query_used": null,
+          "search_matches_found": 0,
+          "extracted_text_file_path": null
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 100.0,
+    "run_2": 100.0,
+    "run_3": 100.0
+  }
+}

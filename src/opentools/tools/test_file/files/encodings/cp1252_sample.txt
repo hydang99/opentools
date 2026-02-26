@@ -1,0 +1,2 @@
+Café naïve façade. Currency: €.
+This line tests Windows-1252 compatibility.

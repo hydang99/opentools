@@ -1,0 +1,4048 @@
+{
+  "Test-File length": 40,
+  "Q1": {
+    "id": "doc_extraction_1",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 1.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 1.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_001.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_001.docx",
+          "page_count": null,
+          "processing_time": 0.00820302963256836,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 1.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_001.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_001.docx",
+          "page_count": null,
+          "processing_time": 0.007143974304199219,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 1.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_001.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_001.docx",
+          "page_count": null,
+          "processing_time": 0.007345914840698242,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": "doc_extraction_2",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 2.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 2.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_002.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_002.docx",
+          "page_count": null,
+          "processing_time": 0.010031938552856445,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 2.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_002.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_002.docx",
+          "page_count": null,
+          "processing_time": 0.007086038589477539,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 2.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_002.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_002.docx",
+          "page_count": null,
+          "processing_time": 0.00886988639831543,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q3": {
+    "id": "doc_extraction_3",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 3.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-3 | 2 | $9.99 |\n| Gadget-3 | 1 | $19.99 |\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 3.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-3 | 2 | $9.99 |\n| Gadget-3 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_003.docx",
+          "file_size": 36860,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_003.docx",
+          "page_count": null,
+          "processing_time": 0.0071179866790771484,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 3.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-3 | 2 | $9.99 |\n| Gadget-3 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_003.docx",
+          "file_size": 36860,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_003.docx",
+          "page_count": null,
+          "processing_time": 0.01022195816040039,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 3.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-3 | 2 | $9.99 |\n| Gadget-3 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_003.docx",
+          "file_size": 36860,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_003.docx",
+          "page_count": null,
+          "processing_time": 0.007213115692138672,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": "doc_extraction_4",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 4.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 4\n\n**Footer (Section 1):**\nPage 1\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 4.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 4\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_004.docx",
+          "file_size": 37765,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_004.docx",
+          "page_count": null,
+          "processing_time": 0.0066568851470947266,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 4.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 4\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_004.docx",
+          "file_size": 37765,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_004.docx",
+          "page_count": null,
+          "processing_time": 0.006886959075927734,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 4.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 4\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_004.docx",
+          "file_size": 37765,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_004.docx",
+          "page_count": null,
+          "processing_time": 0.010543107986450195,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": "doc_extraction_5",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 5.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 5.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_005.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_005.docx",
+          "page_count": null,
+          "processing_time": 0.0069849491119384766,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 5.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_005.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_005.docx",
+          "page_count": null,
+          "processing_time": 0.006874799728393555,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 5.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_005.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_005.docx",
+          "page_count": null,
+          "processing_time": 0.007214069366455078,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q6": {
+    "id": "doc_extraction_6",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 6.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-6 | 2 | $9.99 |\n| Gadget-6 | 1 | $19.99 |\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 6.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-6 | 2 | $9.99 |\n| Gadget-6 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_006.docx",
+          "file_size": 36860,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_006.docx",
+          "page_count": null,
+          "processing_time": 0.007151126861572266,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 6.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-6 | 2 | $9.99 |\n| Gadget-6 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_006.docx",
+          "file_size": 36860,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_006.docx",
+          "page_count": null,
+          "processing_time": 0.010818004608154297,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 6.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-6 | 2 | $9.99 |\n| Gadget-6 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_006.docx",
+          "file_size": 36860,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_006.docx",
+          "page_count": null,
+          "processing_time": 0.007025241851806641,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": "doc_extraction_7",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 7.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 7.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_007.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_007.docx",
+          "page_count": null,
+          "processing_time": 0.0069162845611572266,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 7.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_007.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_007.docx",
+          "page_count": null,
+          "processing_time": 0.0064640045166015625,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 7.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_007.docx",
+          "file_size": 36675,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_007.docx",
+          "page_count": null,
+          "processing_time": 0.010008811950683594,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": "doc_extraction_8",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 8.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 8\n\n**Footer (Section 1):**\nPage 1\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 8.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 8\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_008.docx",
+          "file_size": 37765,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_008.docx",
+          "page_count": null,
+          "processing_time": 0.006569862365722656,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 8.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 8\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_008.docx",
+          "file_size": 37765,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_008.docx",
+          "page_count": null,
+          "processing_time": 0.00680088996887207,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 8.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 8\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_008.docx",
+          "file_size": 37765,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_008.docx",
+          "page_count": null,
+          "processing_time": 0.006880044937133789,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q9": {
+    "id": "doc_extraction_9",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 9.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-9 | 2 | $9.99 |\n| Gadget-9 | 1 | $19.99 |\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 9.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-9 | 2 | $9.99 |\n| Gadget-9 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_009.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_009.docx",
+          "page_count": null,
+          "processing_time": 0.00706791877746582,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 9.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-9 | 2 | $9.99 |\n| Gadget-9 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_009.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_009.docx",
+          "page_count": null,
+          "processing_time": 0.011105775833129883,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 147\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 9.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-9 | 2 | $9.99 |\n| Gadget-9 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_009.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_009.docx",
+          "page_count": null,
+          "processing_time": 0.007185935974121094,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 147,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": "doc_extraction_10",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 10.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 10.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_010.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_010.docx",
+          "page_count": null,
+          "processing_time": 0.0068166255950927734,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 10.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_010.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_010.docx",
+          "page_count": null,
+          "processing_time": 0.00681614875793457,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 10.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_010.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_010.docx",
+          "page_count": null,
+          "processing_time": 0.009932994842529297,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q11": {
+    "id": "doc_extraction_11",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 11.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 11.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_011.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_011.docx",
+          "page_count": null,
+          "processing_time": 0.0068891048431396484,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 11.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_011.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_011.docx",
+          "page_count": null,
+          "processing_time": 0.006674051284790039,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 11.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_011.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_011.docx",
+          "page_count": null,
+          "processing_time": 0.006787300109863281,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q12": {
+    "id": "doc_extraction_12",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 12.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-12 | 2 | $9.99 |\n| Gadget-12 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 12\n\n**Footer (Section 1):**\nPage 1\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 12.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-12 | 2 | $9.99 |\n| Gadget-12 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 12\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_012.docx",
+          "file_size": 37947,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_012.docx",
+          "page_count": null,
+          "processing_time": 0.006742954254150391,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 12.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-12 | 2 | $9.99 |\n| Gadget-12 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 12\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_012.docx",
+          "file_size": 37947,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_012.docx",
+          "page_count": null,
+          "processing_time": 0.010933637619018555,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 12.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-12 | 2 | $9.99 |\n| Gadget-12 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 12\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_012.docx",
+          "file_size": 37947,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_012.docx",
+          "page_count": null,
+          "processing_time": 0.00691986083984375,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q13": {
+    "id": "doc_extraction_13",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 13.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 13.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_013.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_013.docx",
+          "page_count": null,
+          "processing_time": 0.006662130355834961,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 13.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_013.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_013.docx",
+          "page_count": null,
+          "processing_time": 0.006779909133911133,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 13.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_013.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_013.docx",
+          "page_count": null,
+          "processing_time": 0.006948947906494141,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q14": {
+    "id": "doc_extraction_14",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 14.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 14.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_014.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_014.docx",
+          "page_count": null,
+          "processing_time": 0.010859012603759766,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 14.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_014.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_014.docx",
+          "page_count": null,
+          "processing_time": 0.007093906402587891,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 14.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_014.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_014.docx",
+          "page_count": null,
+          "processing_time": 0.006766080856323242,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q15": {
+    "id": "doc_extraction_15",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 15.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-15 | 2 | $9.99 |\n| Gadget-15 | 1 | $19.99 |\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 15.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-15 | 2 | $9.99 |\n| Gadget-15 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_015.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_015.docx",
+          "page_count": null,
+          "processing_time": 0.007261991500854492,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 15.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-15 | 2 | $9.99 |\n| Gadget-15 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_015.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_015.docx",
+          "page_count": null,
+          "processing_time": 0.007246255874633789,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 15.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-15 | 2 | $9.99 |\n| Gadget-15 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_015.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_015.docx",
+          "page_count": null,
+          "processing_time": 0.011090755462646484,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q16": {
+    "id": "doc_extraction_16",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 16.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 16\n\n**Footer (Section 1):**\nPage 1\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 16.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 16\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_016.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_016.docx",
+          "page_count": null,
+          "processing_time": 0.0067138671875,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 16.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 16\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_016.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_016.docx",
+          "page_count": null,
+          "processing_time": 0.006894111633300781,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 16.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 16\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_016.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_016.docx",
+          "page_count": null,
+          "processing_time": 0.006599903106689453,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q17": {
+    "id": "doc_extraction_17",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 17.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 17.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_017.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_017.docx",
+          "page_count": null,
+          "processing_time": 0.006854057312011719,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 17.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_017.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_017.docx",
+          "page_count": null,
+          "processing_time": 0.024749755859375,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 17.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_017.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_017.docx",
+          "page_count": null,
+          "processing_time": 0.006454944610595703,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q18": {
+    "id": "doc_extraction_18",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 18.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-18 | 2 | $9.99 |\n| Gadget-18 | 1 | $19.99 |\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 18.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-18 | 2 | $9.99 |\n| Gadget-18 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_018.docx",
+          "file_size": 36859,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_018.docx",
+          "page_count": null,
+          "processing_time": 0.006908893585205078,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 18.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-18 | 2 | $9.99 |\n| Gadget-18 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_018.docx",
+          "file_size": 36859,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_018.docx",
+          "page_count": null,
+          "processing_time": 0.00709986686706543,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 18.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-18 | 2 | $9.99 |\n| Gadget-18 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_018.docx",
+          "file_size": 36859,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_018.docx",
+          "page_count": null,
+          "processing_time": 0.009737968444824219,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q19": {
+    "id": "doc_extraction_19",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 19.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 19.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_019.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_019.docx",
+          "page_count": null,
+          "processing_time": 0.006958961486816406,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 19.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_019.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_019.docx",
+          "page_count": null,
+          "processing_time": 0.006737947463989258,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 19.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_019.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_019.docx",
+          "page_count": null,
+          "processing_time": 0.006721019744873047,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q20": {
+    "id": "doc_extraction_20",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 20.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 20\n\n**Footer (Section 1):**\nPage 1\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 20.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 20\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_020.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_020.docx",
+          "page_count": null,
+          "processing_time": 0.009444952011108398,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 20.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 20\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_020.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_020.docx",
+          "page_count": null,
+          "processing_time": 0.00663304328918457,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 20.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 20\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_020.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_020.docx",
+          "page_count": null,
+          "processing_time": 0.006791114807128906,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q21": {
+    "id": "doc_extraction_21",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 21.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-21 | 2 | $9.99 |\n| Gadget-21 | 1 | $19.99 |\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 21.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-21 | 2 | $9.99 |\n| Gadget-21 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_021.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_021.docx",
+          "page_count": null,
+          "processing_time": 0.007054805755615234,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 21.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-21 | 2 | $9.99 |\n| Gadget-21 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_021.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_021.docx",
+          "page_count": null,
+          "processing_time": 0.007071971893310547,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 21.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-21 | 2 | $9.99 |\n| Gadget-21 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_021.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_021.docx",
+          "page_count": null,
+          "processing_time": 0.010977029800415039,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q22": {
+    "id": "doc_extraction_22",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 22.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 22.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_022.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_022.docx",
+          "page_count": null,
+          "processing_time": 0.006711006164550781,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 22.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_022.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_022.docx",
+          "page_count": null,
+          "processing_time": 0.006608009338378906,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 22.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_022.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_022.docx",
+          "page_count": null,
+          "processing_time": 0.00674891471862793,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q23": {
+    "id": "doc_extraction_23",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 23.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 23.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_023.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_023.docx",
+          "page_count": null,
+          "processing_time": 0.0071179866790771484,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 23.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_023.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_023.docx",
+          "page_count": null,
+          "processing_time": 0.010521173477172852,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 23.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_023.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_023.docx",
+          "page_count": null,
+          "processing_time": 0.006779909133911133,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q24": {
+    "id": "doc_extraction_24",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 24.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-24 | 2 | $9.99 |\n| Gadget-24 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 24\n\n**Footer (Section 1):**\nPage 1\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 24.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-24 | 2 | $9.99 |\n| Gadget-24 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 24\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_024.docx",
+          "file_size": 37948,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_024.docx",
+          "page_count": null,
+          "processing_time": 0.007012128829956055,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 24.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-24 | 2 | $9.99 |\n| Gadget-24 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 24\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_024.docx",
+          "file_size": 37948,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_024.docx",
+          "page_count": null,
+          "processing_time": 0.0072247982025146484,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 24.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-24 | 2 | $9.99 |\n| Gadget-24 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 24\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_024.docx",
+          "file_size": 37948,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_024.docx",
+          "page_count": null,
+          "processing_time": 0.009788990020751953,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q25": {
+    "id": "doc_extraction_25",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 25.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 25.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_025.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_025.docx",
+          "page_count": null,
+          "processing_time": 0.006949901580810547,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 25.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_025.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_025.docx",
+          "page_count": null,
+          "processing_time": 0.0071408748626708984,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 25.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_025.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_025.docx",
+          "page_count": null,
+          "processing_time": 0.0077419281005859375,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q26": {
+    "id": "doc_extraction_26",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 26.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 26.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_026.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_026.docx",
+          "page_count": null,
+          "processing_time": 0.007093906402587891,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 26.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_026.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_026.docx",
+          "page_count": null,
+          "processing_time": 0.011201143264770508,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 26.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_026.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_026.docx",
+          "page_count": null,
+          "processing_time": 0.0073680877685546875,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q27": {
+    "id": "doc_extraction_27",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 27.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-27 | 2 | $9.99 |\n| Gadget-27 | 1 | $19.99 |\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 27.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-27 | 2 | $9.99 |\n| Gadget-27 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_027.docx",
+          "file_size": 36863,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_027.docx",
+          "page_count": null,
+          "processing_time": 0.007533073425292969,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 27.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-27 | 2 | $9.99 |\n| Gadget-27 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_027.docx",
+          "file_size": 36863,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_027.docx",
+          "page_count": null,
+          "processing_time": 0.0072748661041259766,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 27.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-27 | 2 | $9.99 |\n| Gadget-27 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_027.docx",
+          "file_size": 36863,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_027.docx",
+          "page_count": null,
+          "processing_time": 0.009884834289550781,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q28": {
+    "id": "doc_extraction_28",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 28.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 28\n\n**Footer (Section 1):**\nPage 1\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 28.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 28\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_028.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_028.docx",
+          "page_count": null,
+          "processing_time": 0.007027864456176758,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 28.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 28\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_028.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_028.docx",
+          "page_count": null,
+          "processing_time": 0.00699615478515625,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 28.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 28\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_028.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_028.docx",
+          "page_count": null,
+          "processing_time": 0.00694584846496582,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q29": {
+    "id": "doc_extraction_29",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 29.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 29.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_029.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_029.docx",
+          "page_count": null,
+          "processing_time": 0.006936788558959961,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 29.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_029.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_029.docx",
+          "page_count": null,
+          "processing_time": 0.01129913330078125,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 29.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_029.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_029.docx",
+          "page_count": null,
+          "processing_time": 0.007751941680908203,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q30": {
+    "id": "doc_extraction_30",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 30.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-30 | 2 | $9.99 |\n| Gadget-30 | 1 | $19.99 |\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 30.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-30 | 2 | $9.99 |\n| Gadget-30 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_030.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_030.docx",
+          "page_count": null,
+          "processing_time": 0.041290998458862305,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 30.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-30 | 2 | $9.99 |\n| Gadget-30 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_030.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_030.docx",
+          "page_count": null,
+          "processing_time": 0.01788806915283203,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 30.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-30 | 2 | $9.99 |\n| Gadget-30 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_030.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_030.docx",
+          "page_count": null,
+          "processing_time": 0.01544499397277832,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q31": {
+    "id": "doc_extraction_31",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 31.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 31.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_031.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_031.docx",
+          "page_count": null,
+          "processing_time": 0.00961613655090332,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 31.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_031.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_031.docx",
+          "page_count": null,
+          "processing_time": 0.007446765899658203,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 31.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_031.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_031.docx",
+          "page_count": null,
+          "processing_time": 0.007317304611206055,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q32": {
+    "id": "doc_extraction_32",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 32.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 32\n\n**Footer (Section 1):**\nPage 1\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 32.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 32\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_032.docx",
+          "file_size": 37769,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_032.docx",
+          "page_count": null,
+          "processing_time": 0.01322627067565918,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 32.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 32\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_032.docx",
+          "file_size": 37769,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_032.docx",
+          "page_count": null,
+          "processing_time": 0.009927988052368164,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 32.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 32\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_032.docx",
+          "file_size": 37769,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_032.docx",
+          "page_count": null,
+          "processing_time": 0.008112907409667969,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q33": {
+    "id": "doc_extraction_33",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 33.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-33 | 2 | $9.99 |\n| Gadget-33 | 1 | $19.99 |\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 33.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-33 | 2 | $9.99 |\n| Gadget-33 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_033.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_033.docx",
+          "page_count": null,
+          "processing_time": 0.008091926574707031,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 33.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-33 | 2 | $9.99 |\n| Gadget-33 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_033.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_033.docx",
+          "page_count": null,
+          "processing_time": 0.00755000114440918,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 33.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-33 | 2 | $9.99 |\n| Gadget-33 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_033.docx",
+          "file_size": 36862,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_033.docx",
+          "page_count": null,
+          "processing_time": 0.011228322982788086,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q34": {
+    "id": "doc_extraction_34",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 34.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 34.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_034.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_034.docx",
+          "page_count": null,
+          "processing_time": 0.0070648193359375,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 34.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_034.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_034.docx",
+          "page_count": null,
+          "processing_time": 0.007021188735961914,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 34.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_034.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_034.docx",
+          "page_count": null,
+          "processing_time": 0.0071942806243896484,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q35": {
+    "id": "doc_extraction_35",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 35.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 35.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_035.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_035.docx",
+          "page_count": null,
+          "processing_time": 0.007440090179443359,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 35.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_035.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_035.docx",
+          "page_count": null,
+          "processing_time": 0.027432918548583984,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 35.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_035.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_035.docx",
+          "page_count": null,
+          "processing_time": 0.006919384002685547,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q36": {
+    "id": "doc_extraction_36",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 36.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-36 | 2 | $9.99 |\n| Gadget-36 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 36\n\n**Footer (Section 1):**\nPage 1\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 36.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-36 | 2 | $9.99 |\n| Gadget-36 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 36\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_036.docx",
+          "file_size": 37949,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_036.docx",
+          "page_count": null,
+          "processing_time": 0.007407188415527344,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 36.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-36 | 2 | $9.99 |\n| Gadget-36 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 36\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_036.docx",
+          "file_size": 37949,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_036.docx",
+          "page_count": null,
+          "processing_time": 0.007400035858154297,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 36.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-36 | 2 | $9.99 |\n| Gadget-36 | 1 | $19.99 |\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 36\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_036.docx",
+          "file_size": 37949,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_036.docx",
+          "page_count": null,
+          "processing_time": 0.010417938232421875,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q37": {
+    "id": "doc_extraction_37",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 37.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 37.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_037.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_037.docx",
+          "page_count": null,
+          "processing_time": 0.007566213607788086,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 37.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_037.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_037.docx",
+          "page_count": null,
+          "processing_time": 0.00745701789855957,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 37.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_037.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_037.docx",
+          "page_count": null,
+          "processing_time": 0.0074443817138671875,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q38": {
+    "id": "doc_extraction_38",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 38.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 38.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_038.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_038.docx",
+          "page_count": null,
+          "processing_time": 0.0074100494384765625,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 38.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_038.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_038.docx",
+          "page_count": null,
+          "processing_time": 0.010970115661621094,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 38.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_038.docx",
+          "file_size": 36676,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_038.docx",
+          "page_count": null,
+          "processing_time": 0.007246732711791992,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q39": {
+    "id": "doc_extraction_39",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 39.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-39 | 2 | $9.99 |\n| Gadget-39 | 1 | $19.99 |\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 39.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-39 | 2 | $9.99 |\n| Gadget-39 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_039.docx",
+          "file_size": 36864,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_039.docx",
+          "page_count": null,
+          "processing_time": 0.007653236389160156,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 39.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-39 | 2 | $9.99 |\n| Gadget-39 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_039.docx",
+          "file_size": 36864,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_039.docx",
+          "page_count": null,
+          "processing_time": 0.007867813110351562,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 1\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 39.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Tables\n\n### Table 1\n\n| Item | Qty | Price |\n|---|---|---|\n| Widget-39 | 2 | $9.99 |\n| Gadget-39 | 1 | $19.99 |\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_039.docx",
+          "file_size": 36864,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_039.docx",
+          "page_count": null,
+          "processing_time": 0.010653018951416016,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 1,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": false,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q40": {
+    "id": "doc_extraction_40",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 40.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 40\n\n**Footer (Section 1):**\nPage 1\n\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 40.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 40\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_040.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_040.docx",
+          "page_count": null,
+          "processing_time": 0.0072290897369384766,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 40.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 40\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_040.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_040.docx",
+          "page_count": null,
+          "processing_time": 0.0070760250091552734,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# Document Structure\n- **Paragraphs**: 3\n- **Tables**: 0\n- **Sections**: 1\n- **Word Count**: 24\n- **Character Count**: 148\n- **Styles Used**: Normal\n\n---\n\n# Document Content\n\nThis is sample document 40.\n\nIt contains simple paragraphs to test the DOCX extraction output.\n\nThe goal is to make the expected markdown deterministic.\n\n\n## Headers and Footers\n\n**Header (Section 1):**\nConfidential Sample 40\n\n**Footer (Section 1):**\nPage 1\n\n",
+        "success": true,
+        "metadata": {
+          "file_name": "doc_040.docx",
+          "file_size": 37768,
+          "file_type": ".docx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/docs/doc_040.docx",
+          "page_count": null,
+          "processing_time": 0.0073549747467041016,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "paragraphs_count": 3,
+          "tables_count": 0,
+          "sections_count": 1,
+          "word_count": 24,
+          "character_count": 148,
+          "styles_used": [
+            "Normal"
+          ],
+          "has_headers_footers": true,
+          "has_embedded_media": false,
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 100.0,
+    "run_2": 100.0,
+    "run_3": 100.0
+  }
+}

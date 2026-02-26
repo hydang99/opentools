@@ -1,0 +1,4852 @@
+{
+  "Test-File length": 40,
+  "Q1": {
+    "id": "plain_text_extraction_1",
+    "evaluation_metrics": "search_pattern",
+    "answer": "This is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_01.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_01.txt",
+          "page_count": 3,
+          "processing_time": 0.0005509853363037109,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_01.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_01.txt",
+          "page_count": 3,
+          "processing_time": 7.700920104980469e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_01.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_01.txt",
+          "page_count": 3,
+          "processing_time": 3.886222839355469e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": "plain_text_extraction_2",
+    "evaluation_metrics": "search_pattern",
+    "answer": "This is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_02.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_02.txt",
+          "page_count": 3,
+          "processing_time": 5.0067901611328125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_02.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_02.txt",
+          "page_count": 3,
+          "processing_time": 3.4809112548828125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_02.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_02.txt",
+          "page_count": 3,
+          "processing_time": 3.790855407714844e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q3": {
+    "id": "plain_text_extraction_3",
+    "evaluation_metrics": "search_pattern",
+    "answer": "This is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_03.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_03.txt",
+          "page_count": 3,
+          "processing_time": 6.818771362304688e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_03.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_03.txt",
+          "page_count": 3,
+          "processing_time": 6.604194641113281e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_03.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_03.txt",
+          "page_count": 3,
+          "processing_time": 3.790855407714844e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": "plain_text_extraction_4",
+    "evaluation_metrics": "search_pattern",
+    "answer": "This is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_04.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_04.txt",
+          "page_count": 3,
+          "processing_time": 4.291534423828125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_04.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_04.txt",
+          "page_count": 3,
+          "processing_time": 5.817413330078125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_04.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_04.txt",
+          "page_count": 3,
+          "processing_time": 3.409385681152344e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": "plain_text_extraction_5",
+    "evaluation_metrics": "search_pattern",
+    "answer": "This is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_05.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_05.txt",
+          "page_count": 3,
+          "processing_time": 3.3855438232421875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_05.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_05.txt",
+          "page_count": 3,
+          "processing_time": 3.1948089599609375e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_05.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_05.txt",
+          "page_count": 3,
+          "processing_time": 0.0005917549133300781,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q6": {
+    "id": "plain_text_extraction_6",
+    "evaluation_metrics": "search_pattern",
+    "answer": "This is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_06.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_06.txt",
+          "page_count": 3,
+          "processing_time": 0.0002932548522949219,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_06.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_06.txt",
+          "page_count": 3,
+          "processing_time": 0.0002758502960205078,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_06.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_06.txt",
+          "page_count": 3,
+          "processing_time": 0.0001652240753173828,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": "plain_text_extraction_7",
+    "evaluation_metrics": "search_pattern",
+    "answer": "This is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_07.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_07.txt",
+          "page_count": 3,
+          "processing_time": 0.00010418891906738281,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_07.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_07.txt",
+          "page_count": 3,
+          "processing_time": 0.0002841949462890625,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_07.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_07.txt",
+          "page_count": 3,
+          "processing_time": 0.00013518333435058594,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": "plain_text_extraction_8",
+    "evaluation_metrics": "search_pattern",
+    "answer": "This is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_08.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_08.txt",
+          "page_count": 3,
+          "processing_time": 0.00010418891906738281,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_08.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_08.txt",
+          "page_count": 3,
+          "processing_time": 8.296966552734375e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_08.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_08.txt",
+          "page_count": 3,
+          "processing_time": 7.295608520507812e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q9": {
+    "id": "plain_text_extraction_9",
+    "evaluation_metrics": "search_pattern",
+    "answer": "This is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_09.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_09.txt",
+          "page_count": 3,
+          "processing_time": 6.604194641113281e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_09.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_09.txt",
+          "page_count": 3,
+          "processing_time": 5.602836608886719e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_09.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_09.txt",
+          "page_count": 3,
+          "processing_time": 9.703636169433594e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": "plain_text_extraction_10",
+    "evaluation_metrics": "search_pattern",
+    "answer": "This is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_10.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_10.txt",
+          "page_count": 3,
+          "processing_time": 7.891654968261719e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_10.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_10.txt",
+          "page_count": 3,
+          "processing_time": 5.984306335449219e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 174\n- Lines: 3\n- Words: 29\n- Empty lines: 0\n- Average line length: 57.0 characters\n\n## Content\n\n```\nThis is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.\nAll content here is the ground truth. Read everything, do not search.\nEnd of file.\n\n```",
+        "metadata": {
+          "file_name": "utf8_text_10.txt",
+          "file_size": 174,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/utf8_text_10.txt",
+          "page_count": 3,
+          "processing_time": 3.886222839355469e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 174,
+            "line_count": 3,
+            "word_count": 29,
+            "empty_lines": 0,
+            "max_line_length": 90,
+            "min_line_length": 12,
+            "avg_line_length": 57.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 174
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q11": {
+    "id": "plain_text_extraction_11",
+    "evaluation_metrics": "search_pattern",
+    "answer": "# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Markdown document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 7\n- Words: 20\n- Empty lines: 2\n- Average line length: 12.71 characters\n\n## Content\n\n```\n# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n\n```",
+        "metadata": {
+          "file_name": "doc_01.md",
+          "file_size": 96,
+          "file_type": ".md",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/doc_01.md",
+          "page_count": 7,
+          "processing_time": 9.179115295410156e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Markdown document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 7,
+            "word_count": 20,
+            "empty_lines": 2,
+            "max_line_length": 49,
+            "min_line_length": 0,
+            "avg_line_length": 12.71
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Markdown document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 7\n- Words: 20\n- Empty lines: 2\n- Average line length: 12.71 characters\n\n## Content\n\n```\n# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n\n```",
+        "metadata": {
+          "file_name": "doc_01.md",
+          "file_size": 96,
+          "file_type": ".md",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/doc_01.md",
+          "page_count": 7,
+          "processing_time": 4.00543212890625e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Markdown document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 7,
+            "word_count": 20,
+            "empty_lines": 2,
+            "max_line_length": 49,
+            "min_line_length": 0,
+            "avg_line_length": 12.71
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Markdown document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 7\n- Words: 20\n- Empty lines: 2\n- Average line length: 12.71 characters\n\n## Content\n\n```\n# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n\n```",
+        "metadata": {
+          "file_name": "doc_01.md",
+          "file_size": 96,
+          "file_type": ".md",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/doc_01.md",
+          "page_count": 7,
+          "processing_time": 3.409385681152344e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Markdown document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 7,
+            "word_count": 20,
+            "empty_lines": 2,
+            "max_line_length": 49,
+            "min_line_length": 0,
+            "avg_line_length": 12.71
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q12": {
+    "id": "plain_text_extraction_12",
+    "evaluation_metrics": "search_pattern",
+    "answer": "# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Markdown document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 7\n- Words: 20\n- Empty lines: 2\n- Average line length: 12.71 characters\n\n## Content\n\n```\n# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n\n```",
+        "metadata": {
+          "file_name": "doc_02.md",
+          "file_size": 96,
+          "file_type": ".md",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/doc_02.md",
+          "page_count": 7,
+          "processing_time": 7.486343383789062e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Markdown document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 7,
+            "word_count": 20,
+            "empty_lines": 2,
+            "max_line_length": 49,
+            "min_line_length": 0,
+            "avg_line_length": 12.71
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Markdown document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 7\n- Words: 20\n- Empty lines: 2\n- Average line length: 12.71 characters\n\n## Content\n\n```\n# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n\n```",
+        "metadata": {
+          "file_name": "doc_02.md",
+          "file_size": 96,
+          "file_type": ".md",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/doc_02.md",
+          "page_count": 7,
+          "processing_time": 5.91278076171875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Markdown document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 7,
+            "word_count": 20,
+            "empty_lines": 2,
+            "max_line_length": 49,
+            "min_line_length": 0,
+            "avg_line_length": 12.71
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Markdown document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 7\n- Words: 20\n- Empty lines: 2\n- Average line length: 12.71 characters\n\n## Content\n\n```\n# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n\n```",
+        "metadata": {
+          "file_name": "doc_02.md",
+          "file_size": 96,
+          "file_type": ".md",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/doc_02.md",
+          "page_count": 7,
+          "processing_time": 3.409385681152344e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Markdown document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 7,
+            "word_count": 20,
+            "empty_lines": 2,
+            "max_line_length": 49,
+            "min_line_length": 0,
+            "avg_line_length": 12.71
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q13": {
+    "id": "plain_text_extraction_13",
+    "evaluation_metrics": "search_pattern",
+    "answer": "# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Markdown document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 7\n- Words: 20\n- Empty lines: 2\n- Average line length: 12.71 characters\n\n## Content\n\n```\n# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n\n```",
+        "metadata": {
+          "file_name": "doc_03.md",
+          "file_size": 96,
+          "file_type": ".md",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/doc_03.md",
+          "page_count": 7,
+          "processing_time": 7.033348083496094e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Markdown document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 7,
+            "word_count": 20,
+            "empty_lines": 2,
+            "max_line_length": 49,
+            "min_line_length": 0,
+            "avg_line_length": 12.71
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Markdown document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 7\n- Words: 20\n- Empty lines: 2\n- Average line length: 12.71 characters\n\n## Content\n\n```\n# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n\n```",
+        "metadata": {
+          "file_name": "doc_03.md",
+          "file_size": 96,
+          "file_type": ".md",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/doc_03.md",
+          "page_count": 7,
+          "processing_time": 3.4809112548828125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Markdown document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 7,
+            "word_count": 20,
+            "empty_lines": 2,
+            "max_line_length": 49,
+            "min_line_length": 0,
+            "avg_line_length": 12.71
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Markdown document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 7\n- Words: 20\n- Empty lines: 2\n- Average line length: 12.71 characters\n\n## Content\n\n```\n# Sample Note\n\nThis is a markdown file with a header and a list.\n\n- apples\n- bananas\n- cherries\n\n```",
+        "metadata": {
+          "file_name": "doc_03.md",
+          "file_size": 96,
+          "file_type": ".md",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/doc_03.md",
+          "page_count": 7,
+          "processing_time": 6.389617919921875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Markdown document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 7,
+            "word_count": 20,
+            "empty_lines": 2,
+            "max_line_length": 49,
+            "min_line_length": 0,
+            "avg_line_length": 12.71
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q14": {
+    "id": "plain_text_extraction_14",
+    "evaluation_metrics": "search_pattern",
+    "answer": "name,qty,price\napple,3,0.99\nbanana,5,0.59\n",
+    "run_1": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/inventory.csv",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/inventory.csv",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/inventory.csv",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    }
+  },
+  "Q15": {
+    "id": "plain_text_extraction_15",
+    "evaluation_metrics": "search_pattern",
+    "answer": "city,country,pop\nParis,France,2140526\nTokyo,Japan,13929286\n",
+    "run_1": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/cities.csv",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/cities.csv",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/cities.csv",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    }
+  },
+  "Q16": {
+    "id": "plain_text_extraction_16",
+    "evaluation_metrics": "search_pattern",
+    "answer": "{\n  \"greeting\": \"hello\",\n  \"items\": [\n    1,\n    2,\n    3\n  ],\n  \"note\": \"Full content should be read.\"\n}",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** JSON data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 105\n- Lines: 9\n- Words: 16\n- Empty lines: 0\n- Average line length: 10.78 characters\n\n## Content\n\n```\n{\n  \"greeting\": \"hello\",\n  \"items\": [\n    1,\n    2,\n    3\n  ],\n  \"note\": \"Full content should be read.\"\n}\n```",
+        "metadata": {
+          "file_name": "config.json",
+          "file_size": 105,
+          "file_type": ".json",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/config.json",
+          "page_count": 9,
+          "processing_time": 3.719329833984375e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "JSON data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 105,
+            "line_count": 9,
+            "word_count": 16,
+            "empty_lines": 0,
+            "max_line_length": 40,
+            "min_line_length": 1,
+            "avg_line_length": 10.78
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 105
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** JSON data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 105\n- Lines: 9\n- Words: 16\n- Empty lines: 0\n- Average line length: 10.78 characters\n\n## Content\n\n```\n{\n  \"greeting\": \"hello\",\n  \"items\": [\n    1,\n    2,\n    3\n  ],\n  \"note\": \"Full content should be read.\"\n}\n```",
+        "metadata": {
+          "file_name": "config.json",
+          "file_size": 105,
+          "file_type": ".json",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/config.json",
+          "page_count": 9,
+          "processing_time": 3.1948089599609375e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "JSON data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 105,
+            "line_count": 9,
+            "word_count": 16,
+            "empty_lines": 0,
+            "max_line_length": 40,
+            "min_line_length": 1,
+            "avg_line_length": 10.78
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 105
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** JSON data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 105\n- Lines: 9\n- Words: 16\n- Empty lines: 0\n- Average line length: 10.78 characters\n\n## Content\n\n```\n{\n  \"greeting\": \"hello\",\n  \"items\": [\n    1,\n    2,\n    3\n  ],\n  \"note\": \"Full content should be read.\"\n}\n```",
+        "metadata": {
+          "file_name": "config.json",
+          "file_size": 105,
+          "file_type": ".json",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/config.json",
+          "page_count": 9,
+          "processing_time": 3.123283386230469e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "JSON data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 105,
+            "line_count": 9,
+            "word_count": 16,
+            "empty_lines": 0,
+            "max_line_length": 40,
+            "min_line_length": 1,
+            "avg_line_length": 10.78
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 105
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q17": {
+    "id": "plain_text_extraction_17",
+    "evaluation_metrics": "search_pattern",
+    "answer": "{\n  \"user\": {\n    \"id\": 123,\n    \"name\": \"Ada\"\n  },\n  \"roles\": [\n    \"admin\",\n    \"editor\"\n  ]\n}",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** JSON data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 10\n- Words: 14\n- Empty lines: 0\n- Average line length: 8.7 characters\n\n## Content\n\n```\n{\n  \"user\": {\n    \"id\": 123,\n    \"name\": \"Ada\"\n  },\n  \"roles\": [\n    \"admin\",\n    \"editor\"\n  ]\n}\n```",
+        "metadata": {
+          "file_name": "user.json",
+          "file_size": 96,
+          "file_type": ".json",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/user.json",
+          "page_count": 10,
+          "processing_time": 3.504753112792969e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "JSON data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 10,
+            "word_count": 14,
+            "empty_lines": 0,
+            "max_line_length": 17,
+            "min_line_length": 1,
+            "avg_line_length": 8.7
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** JSON data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 10\n- Words: 14\n- Empty lines: 0\n- Average line length: 8.7 characters\n\n## Content\n\n```\n{\n  \"user\": {\n    \"id\": 123,\n    \"name\": \"Ada\"\n  },\n  \"roles\": [\n    \"admin\",\n    \"editor\"\n  ]\n}\n```",
+        "metadata": {
+          "file_name": "user.json",
+          "file_size": 96,
+          "file_type": ".json",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/user.json",
+          "page_count": 10,
+          "processing_time": 5.4836273193359375e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "JSON data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 10,
+            "word_count": 14,
+            "empty_lines": 0,
+            "max_line_length": 17,
+            "min_line_length": 1,
+            "avg_line_length": 8.7
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** JSON data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 96\n- Lines: 10\n- Words: 14\n- Empty lines: 0\n- Average line length: 8.7 characters\n\n## Content\n\n```\n{\n  \"user\": {\n    \"id\": 123,\n    \"name\": \"Ada\"\n  },\n  \"roles\": [\n    \"admin\",\n    \"editor\"\n  ]\n}\n```",
+        "metadata": {
+          "file_name": "user.json",
+          "file_size": 96,
+          "file_type": ".json",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/user.json",
+          "page_count": 10,
+          "processing_time": 3.695487976074219e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "JSON data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 96,
+            "line_count": 10,
+            "word_count": 14,
+            "empty_lines": 0,
+            "max_line_length": 17,
+            "min_line_length": 1,
+            "avg_line_length": 8.7
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 96
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q18": {
+    "id": "plain_text_extraction_18",
+    "evaluation_metrics": "search_pattern",
+    "answer": "[2025-08-20 12:00:00] INFO Starting service\n[2025-08-20 12:00:05] OK Ready\n",
+    "run_1": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/service_01.log",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/service_01.log",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/service_01.log",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    }
+  },
+  "Q19": {
+    "id": "plain_text_extraction_19",
+    "evaluation_metrics": "search_pattern",
+    "answer": "[2025-08-20 12:00:00] INFO Starting service\n[2025-08-20 12:00:05] OK Ready\n",
+    "run_1": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/service_02.log",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/service_02.log",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "File not found: File not found: /Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/service_02.log",
+        "success": false,
+        "error_type": "file_not_found"
+      },
+      "accuracy": 0
+    }
+  },
+  "Q20": {
+    "id": "plain_text_extraction_20",
+    "evaluation_metrics": "search_pattern",
+    "answer": "\"\"\"Example module\"\"\"\n\ndef add(a, b):\n    return a + b\n\nprint(\"ready\")\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Python source code\n**Encoding:** ascii\n**Statistics:**\n- Characters: 70\n- Lines: 6\n- Words: 10\n- Empty lines: 2\n- Average line length: 10.67 characters\n\n## Content\n\n```\n\"\"\"Example module\"\"\"\n\ndef add(a, b):\n    return a + b\n\nprint(\"ready\")\n\n```",
+        "metadata": {
+          "file_name": "calc.py",
+          "file_size": 70,
+          "file_type": ".py",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tools/calc.py",
+          "page_count": 6,
+          "processing_time": 3.314018249511719e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Python source code",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 70,
+            "line_count": 6,
+            "word_count": 10,
+            "empty_lines": 2,
+            "max_line_length": 20,
+            "min_line_length": 0,
+            "avg_line_length": 10.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 70
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Python source code\n**Encoding:** ascii\n**Statistics:**\n- Characters: 70\n- Lines: 6\n- Words: 10\n- Empty lines: 2\n- Average line length: 10.67 characters\n\n## Content\n\n```\n\"\"\"Example module\"\"\"\n\ndef add(a, b):\n    return a + b\n\nprint(\"ready\")\n\n```",
+        "metadata": {
+          "file_name": "calc.py",
+          "file_size": 70,
+          "file_type": ".py",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tools/calc.py",
+          "page_count": 6,
+          "processing_time": 2.9087066650390625e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Python source code",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 70,
+            "line_count": 6,
+            "word_count": 10,
+            "empty_lines": 2,
+            "max_line_length": 20,
+            "min_line_length": 0,
+            "avg_line_length": 10.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 70
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Python source code\n**Encoding:** ascii\n**Statistics:**\n- Characters: 70\n- Lines: 6\n- Words: 10\n- Empty lines: 2\n- Average line length: 10.67 characters\n\n## Content\n\n```\n\"\"\"Example module\"\"\"\n\ndef add(a, b):\n    return a + b\n\nprint(\"ready\")\n\n```",
+        "metadata": {
+          "file_name": "calc.py",
+          "file_size": 70,
+          "file_type": ".py",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tools/calc.py",
+          "page_count": 6,
+          "processing_time": 2.8133392333984375e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Python source code",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 70,
+            "line_count": 6,
+            "word_count": 10,
+            "empty_lines": 2,
+            "max_line_length": 20,
+            "min_line_length": 0,
+            "avg_line_length": 10.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 70
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q21": {
+    "id": "plain_text_extraction_21",
+    "evaluation_metrics": "search_pattern",
+    "answer": "# Utility\nvalues = [1,2,3]\nprint(sum(values))\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Python source code\n**Encoding:** ascii\n**Statistics:**\n- Characters: 46\n- Lines: 3\n- Words: 6\n- Empty lines: 0\n- Average line length: 14.33 characters\n\n## Content\n\n```\n# Utility\nvalues = [1,2,3]\nprint(sum(values))\n\n```",
+        "metadata": {
+          "file_name": "util.py",
+          "file_size": 46,
+          "file_type": ".py",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tools/util.py",
+          "page_count": 3,
+          "processing_time": 3.314018249511719e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Python source code",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 46,
+            "line_count": 3,
+            "word_count": 6,
+            "empty_lines": 0,
+            "max_line_length": 18,
+            "min_line_length": 9,
+            "avg_line_length": 14.33
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 46
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Python source code\n**Encoding:** ascii\n**Statistics:**\n- Characters: 46\n- Lines: 3\n- Words: 6\n- Empty lines: 0\n- Average line length: 14.33 characters\n\n## Content\n\n```\n# Utility\nvalues = [1,2,3]\nprint(sum(values))\n\n```",
+        "metadata": {
+          "file_name": "util.py",
+          "file_size": 46,
+          "file_type": ".py",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tools/util.py",
+          "page_count": 3,
+          "processing_time": 3.1948089599609375e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Python source code",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 46,
+            "line_count": 3,
+            "word_count": 6,
+            "empty_lines": 0,
+            "max_line_length": 18,
+            "min_line_length": 9,
+            "avg_line_length": 14.33
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 46
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Python source code\n**Encoding:** ascii\n**Statistics:**\n- Characters: 46\n- Lines: 3\n- Words: 6\n- Empty lines: 0\n- Average line length: 14.33 characters\n\n## Content\n\n```\n# Utility\nvalues = [1,2,3]\nprint(sum(values))\n\n```",
+        "metadata": {
+          "file_name": "util.py",
+          "file_size": 46,
+          "file_type": ".py",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tools/util.py",
+          "page_count": 3,
+          "processing_time": 8.606910705566406e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Python source code",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 46,
+            "line_count": 3,
+            "word_count": 6,
+            "empty_lines": 0,
+            "max_line_length": 18,
+            "min_line_length": 9,
+            "avg_line_length": 14.33
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 46
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q22": {
+    "id": "plain_text_extraction_22",
+    "evaluation_metrics": "search_pattern",
+    "answer": "<!doctype html>\n<html><head><title>Test</title></head><body><h1>Hello</h1><p>Read me fully.</p></body></html>\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** HTML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 110\n- Lines: 2\n- Words: 5\n- Empty lines: 0\n- Average line length: 54.0 characters\n\n## Content\n\n```\n<!doctype html>\n<html><head><title>Test</title></head><body><h1>Hello</h1><p>Read me fully.</p></body></html>\n\n```",
+        "metadata": {
+          "file_name": "page1.html",
+          "file_size": 110,
+          "file_type": ".html",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/page1.html",
+          "page_count": 2,
+          "processing_time": 3.814697265625e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "HTML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 110,
+            "line_count": 2,
+            "word_count": 5,
+            "empty_lines": 0,
+            "max_line_length": 93,
+            "min_line_length": 15,
+            "avg_line_length": 54.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 110
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** HTML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 110\n- Lines: 2\n- Words: 5\n- Empty lines: 0\n- Average line length: 54.0 characters\n\n## Content\n\n```\n<!doctype html>\n<html><head><title>Test</title></head><body><h1>Hello</h1><p>Read me fully.</p></body></html>\n\n```",
+        "metadata": {
+          "file_name": "page1.html",
+          "file_size": 110,
+          "file_type": ".html",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/page1.html",
+          "page_count": 2,
+          "processing_time": 3.0040740966796875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "HTML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 110,
+            "line_count": 2,
+            "word_count": 5,
+            "empty_lines": 0,
+            "max_line_length": 93,
+            "min_line_length": 15,
+            "avg_line_length": 54.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 110
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** HTML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 110\n- Lines: 2\n- Words: 5\n- Empty lines: 0\n- Average line length: 54.0 characters\n\n## Content\n\n```\n<!doctype html>\n<html><head><title>Test</title></head><body><h1>Hello</h1><p>Read me fully.</p></body></html>\n\n```",
+        "metadata": {
+          "file_name": "page1.html",
+          "file_size": 110,
+          "file_type": ".html",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/page1.html",
+          "page_count": 2,
+          "processing_time": 2.6941299438476562e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "HTML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 110,
+            "line_count": 2,
+            "word_count": 5,
+            "empty_lines": 0,
+            "max_line_length": 93,
+            "min_line_length": 15,
+            "avg_line_length": 54.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 110
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q23": {
+    "id": "plain_text_extraction_23",
+    "evaluation_metrics": "search_pattern",
+    "answer": "<html><body><ul><li>A</li><li>B</li><li>C</li></ul></body></html>\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** HTML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 66\n- Lines: 1\n- Words: 1\n- Empty lines: 0\n- Average line length: 65.0 characters\n\n## Content\n\n```\n<html><body><ul><li>A</li><li>B</li><li>C</li></ul></body></html>\n\n```",
+        "metadata": {
+          "file_name": "page2.html",
+          "file_size": 66,
+          "file_type": ".html",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/page2.html",
+          "page_count": 1,
+          "processing_time": 2.6941299438476562e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "HTML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 66,
+            "line_count": 1,
+            "word_count": 1,
+            "empty_lines": 0,
+            "max_line_length": 65,
+            "min_line_length": 65,
+            "avg_line_length": 65.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 66
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** HTML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 66\n- Lines: 1\n- Words: 1\n- Empty lines: 0\n- Average line length: 65.0 characters\n\n## Content\n\n```\n<html><body><ul><li>A</li><li>B</li><li>C</li></ul></body></html>\n\n```",
+        "metadata": {
+          "file_name": "page2.html",
+          "file_size": 66,
+          "file_type": ".html",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/page2.html",
+          "page_count": 1,
+          "processing_time": 2.574920654296875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "HTML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 66,
+            "line_count": 1,
+            "word_count": 1,
+            "empty_lines": 0,
+            "max_line_length": 65,
+            "min_line_length": 65,
+            "avg_line_length": 65.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 66
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** HTML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 66\n- Lines: 1\n- Words: 1\n- Empty lines: 0\n- Average line length: 65.0 characters\n\n## Content\n\n```\n<html><body><ul><li>A</li><li>B</li><li>C</li></ul></body></html>\n\n```",
+        "metadata": {
+          "file_name": "page2.html",
+          "file_size": 66,
+          "file_type": ".html",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/page2.html",
+          "page_count": 1,
+          "processing_time": 2.384185791015625e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "HTML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 66,
+            "line_count": 1,
+            "word_count": 1,
+            "empty_lines": 0,
+            "max_line_length": 65,
+            "min_line_length": 65,
+            "avg_line_length": 65.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 66
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q24": {
+    "id": "plain_text_extraction_24",
+    "evaluation_metrics": "search_pattern",
+    "answer": "service:\n  name: demo\n  port: 8080\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** YAML configuration\n**Encoding:** ascii\n**Statistics:**\n- Characters: 35\n- Lines: 3\n- Words: 5\n- Empty lines: 0\n- Average line length: 10.67 characters\n\n## Content\n\n```\nservice:\n  name: demo\n  port: 8080\n\n```",
+        "metadata": {
+          "file_name": "app.yaml",
+          "file_size": 35,
+          "file_type": ".yaml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/cfg/app.yaml",
+          "page_count": 3,
+          "processing_time": 2.8848648071289062e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "YAML configuration",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 35,
+            "line_count": 3,
+            "word_count": 5,
+            "empty_lines": 0,
+            "max_line_length": 12,
+            "min_line_length": 8,
+            "avg_line_length": 10.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 35
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** YAML configuration\n**Encoding:** ascii\n**Statistics:**\n- Characters: 35\n- Lines: 3\n- Words: 5\n- Empty lines: 0\n- Average line length: 10.67 characters\n\n## Content\n\n```\nservice:\n  name: demo\n  port: 8080\n\n```",
+        "metadata": {
+          "file_name": "app.yaml",
+          "file_size": 35,
+          "file_type": ".yaml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/cfg/app.yaml",
+          "page_count": 3,
+          "processing_time": 7.104873657226562e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "YAML configuration",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 35,
+            "line_count": 3,
+            "word_count": 5,
+            "empty_lines": 0,
+            "max_line_length": 12,
+            "min_line_length": 8,
+            "avg_line_length": 10.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 35
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** YAML configuration\n**Encoding:** ascii\n**Statistics:**\n- Characters: 35\n- Lines: 3\n- Words: 5\n- Empty lines: 0\n- Average line length: 10.67 characters\n\n## Content\n\n```\nservice:\n  name: demo\n  port: 8080\n\n```",
+        "metadata": {
+          "file_name": "app.yaml",
+          "file_size": 35,
+          "file_type": ".yaml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/cfg/app.yaml",
+          "page_count": 3,
+          "processing_time": 5.3882598876953125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "YAML configuration",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 35,
+            "line_count": 3,
+            "word_count": 5,
+            "empty_lines": 0,
+            "max_line_length": 12,
+            "min_line_length": 8,
+            "avg_line_length": 10.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 35
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q25": {
+    "id": "plain_text_extraction_25",
+    "evaluation_metrics": "search_pattern",
+    "answer": "env:\n  prod: true\n  region: us-east-1\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** YAML configuration\n**Encoding:** ascii\n**Statistics:**\n- Characters: 38\n- Lines: 3\n- Words: 5\n- Empty lines: 0\n- Average line length: 11.67 characters\n\n## Content\n\n```\nenv:\n  prod: true\n  region: us-east-1\n\n```",
+        "metadata": {
+          "file_name": "env.yml",
+          "file_size": 38,
+          "file_type": ".yml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/cfg/env.yml",
+          "page_count": 3,
+          "processing_time": 3.2901763916015625e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "YAML configuration",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 38,
+            "line_count": 3,
+            "word_count": 5,
+            "empty_lines": 0,
+            "max_line_length": 19,
+            "min_line_length": 4,
+            "avg_line_length": 11.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 38
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** YAML configuration\n**Encoding:** ascii\n**Statistics:**\n- Characters: 38\n- Lines: 3\n- Words: 5\n- Empty lines: 0\n- Average line length: 11.67 characters\n\n## Content\n\n```\nenv:\n  prod: true\n  region: us-east-1\n\n```",
+        "metadata": {
+          "file_name": "env.yml",
+          "file_size": 38,
+          "file_type": ".yml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/cfg/env.yml",
+          "page_count": 3,
+          "processing_time": 5.3882598876953125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "YAML configuration",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 38,
+            "line_count": 3,
+            "word_count": 5,
+            "empty_lines": 0,
+            "max_line_length": 19,
+            "min_line_length": 4,
+            "avg_line_length": 11.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 38
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** YAML configuration\n**Encoding:** ascii\n**Statistics:**\n- Characters: 38\n- Lines: 3\n- Words: 5\n- Empty lines: 0\n- Average line length: 11.67 characters\n\n## Content\n\n```\nenv:\n  prod: true\n  region: us-east-1\n\n```",
+        "metadata": {
+          "file_name": "env.yml",
+          "file_size": 38,
+          "file_type": ".yml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/cfg/env.yml",
+          "page_count": 3,
+          "processing_time": 0.00012421607971191406,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "YAML configuration",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 38,
+            "line_count": 3,
+            "word_count": 5,
+            "empty_lines": 0,
+            "max_line_length": 19,
+            "min_line_length": 4,
+            "avg_line_length": 11.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 38
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q26": {
+    "id": "plain_text_extraction_26",
+    "evaluation_metrics": "search_pattern",
+    "answer": "<note><to>World</to><from>Bot</from><body>Read everything</body></note>\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** XML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 72\n- Lines: 1\n- Words: 2\n- Empty lines: 0\n- Average line length: 71.0 characters\n\n## Content\n\n```\n<note><to>World</to><from>Bot</from><body>Read everything</body></note>\n\n```",
+        "metadata": {
+          "file_name": "note.xml",
+          "file_size": 72,
+          "file_type": ".xml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/data/note.xml",
+          "page_count": 1,
+          "processing_time": 4.100799560546875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "XML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 72,
+            "line_count": 1,
+            "word_count": 2,
+            "empty_lines": 0,
+            "max_line_length": 71,
+            "min_line_length": 71,
+            "avg_line_length": 71.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 72
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** XML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 72\n- Lines: 1\n- Words: 2\n- Empty lines: 0\n- Average line length: 71.0 characters\n\n## Content\n\n```\n<note><to>World</to><from>Bot</from><body>Read everything</body></note>\n\n```",
+        "metadata": {
+          "file_name": "note.xml",
+          "file_size": 72,
+          "file_type": ".xml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/data/note.xml",
+          "page_count": 1,
+          "processing_time": 4.1961669921875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "XML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 72,
+            "line_count": 1,
+            "word_count": 2,
+            "empty_lines": 0,
+            "max_line_length": 71,
+            "min_line_length": 71,
+            "avg_line_length": 71.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 72
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** XML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 72\n- Lines: 1\n- Words: 2\n- Empty lines: 0\n- Average line length: 71.0 characters\n\n## Content\n\n```\n<note><to>World</to><from>Bot</from><body>Read everything</body></note>\n\n```",
+        "metadata": {
+          "file_name": "note.xml",
+          "file_size": 72,
+          "file_type": ".xml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/data/note.xml",
+          "page_count": 1,
+          "processing_time": 3.218650817871094e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "XML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 72,
+            "line_count": 1,
+            "word_count": 2,
+            "empty_lines": 0,
+            "max_line_length": 71,
+            "min_line_length": 71,
+            "avg_line_length": 71.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 72
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q27": {
+    "id": "plain_text_extraction_27",
+    "evaluation_metrics": "search_pattern",
+    "answer": "<items><item id='1'/><item id='2'/></items>\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** XML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 44\n- Lines: 1\n- Words: 3\n- Empty lines: 0\n- Average line length: 43.0 characters\n\n## Content\n\n```\n<items><item id='1'/><item id='2'/></items>\n\n```",
+        "metadata": {
+          "file_name": "items.xml",
+          "file_size": 44,
+          "file_type": ".xml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/data/items.xml",
+          "page_count": 1,
+          "processing_time": 3.218650817871094e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "XML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 44,
+            "line_count": 1,
+            "word_count": 3,
+            "empty_lines": 0,
+            "max_line_length": 43,
+            "min_line_length": 43,
+            "avg_line_length": 43.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 44
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** XML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 44\n- Lines: 1\n- Words: 3\n- Empty lines: 0\n- Average line length: 43.0 characters\n\n## Content\n\n```\n<items><item id='1'/><item id='2'/></items>\n\n```",
+        "metadata": {
+          "file_name": "items.xml",
+          "file_size": 44,
+          "file_type": ".xml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/data/items.xml",
+          "page_count": 1,
+          "processing_time": 6.866455078125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "XML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 44,
+            "line_count": 1,
+            "word_count": 3,
+            "empty_lines": 0,
+            "max_line_length": 43,
+            "min_line_length": 43,
+            "avg_line_length": 43.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 44
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** XML document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 44\n- Lines: 1\n- Words: 3\n- Empty lines: 0\n- Average line length: 43.0 characters\n\n## Content\n\n```\n<items><item id='1'/><item id='2'/></items>\n\n```",
+        "metadata": {
+          "file_name": "items.xml",
+          "file_size": 44,
+          "file_type": ".xml",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/data/items.xml",
+          "page_count": 1,
+          "processing_time": 3.218650817871094e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "XML document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 44,
+            "line_count": 1,
+            "word_count": 3,
+            "empty_lines": 0,
+            "max_line_length": 43,
+            "min_line_length": 43,
+            "avg_line_length": 43.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 44
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q28": {
+    "id": "plain_text_extraction_28",
+    "evaluation_metrics": "search_pattern",
+    "answer": "lang\tcreator\tyear\nPython\tGuido\t1991\nGo\tPike\t2009\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** TSV data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 49\n- Lines: 3\n- Words: 9\n- Empty lines: 0\n- Average line length: 15.33 characters\n\n## Content\n\n```\nlang\tcreator\tyear\nPython\tGuido\t1991\nGo\tPike\t2009\n\n```",
+        "metadata": {
+          "file_name": "langs.tsv",
+          "file_size": 49,
+          "file_type": ".tsv",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tables/langs.tsv",
+          "page_count": 3,
+          "processing_time": 3.314018249511719e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "TSV data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 49,
+            "line_count": 3,
+            "word_count": 9,
+            "empty_lines": 0,
+            "max_line_length": 17,
+            "min_line_length": 12,
+            "avg_line_length": 15.33
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 49
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** TSV data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 49\n- Lines: 3\n- Words: 9\n- Empty lines: 0\n- Average line length: 15.33 characters\n\n## Content\n\n```\nlang\tcreator\tyear\nPython\tGuido\t1991\nGo\tPike\t2009\n\n```",
+        "metadata": {
+          "file_name": "langs.tsv",
+          "file_size": 49,
+          "file_type": ".tsv",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tables/langs.tsv",
+          "page_count": 3,
+          "processing_time": 5.4836273193359375e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "TSV data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 49,
+            "line_count": 3,
+            "word_count": 9,
+            "empty_lines": 0,
+            "max_line_length": 17,
+            "min_line_length": 12,
+            "avg_line_length": 15.33
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 49
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** TSV data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 49\n- Lines: 3\n- Words: 9\n- Empty lines: 0\n- Average line length: 15.33 characters\n\n## Content\n\n```\nlang\tcreator\tyear\nPython\tGuido\t1991\nGo\tPike\t2009\n\n```",
+        "metadata": {
+          "file_name": "langs.tsv",
+          "file_size": 49,
+          "file_type": ".tsv",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tables/langs.tsv",
+          "page_count": 3,
+          "processing_time": 6.198883056640625e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "TSV data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 49,
+            "line_count": 3,
+            "word_count": 9,
+            "empty_lines": 0,
+            "max_line_length": 17,
+            "min_line_length": 12,
+            "avg_line_length": 15.33
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 49
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q29": {
+    "id": "plain_text_extraction_29",
+    "evaluation_metrics": "search_pattern",
+    "answer": "key\tvalue\nalpha\t1\nbeta\t2\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** TSV data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 25\n- Lines: 3\n- Words: 6\n- Empty lines: 0\n- Average line length: 7.33 characters\n\n## Content\n\n```\nkey\tvalue\nalpha\t1\nbeta\t2\n\n```",
+        "metadata": {
+          "file_name": "kv.tsv",
+          "file_size": 25,
+          "file_type": ".tsv",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tables/kv.tsv",
+          "page_count": 3,
+          "processing_time": 3.409385681152344e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "TSV data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 25,
+            "line_count": 3,
+            "word_count": 6,
+            "empty_lines": 0,
+            "max_line_length": 9,
+            "min_line_length": 6,
+            "avg_line_length": 7.33
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 25
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** TSV data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 25\n- Lines: 3\n- Words: 6\n- Empty lines: 0\n- Average line length: 7.33 characters\n\n## Content\n\n```\nkey\tvalue\nalpha\t1\nbeta\t2\n\n```",
+        "metadata": {
+          "file_name": "kv.tsv",
+          "file_size": 25,
+          "file_type": ".tsv",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tables/kv.tsv",
+          "page_count": 3,
+          "processing_time": 5.125999450683594e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "TSV data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 25,
+            "line_count": 3,
+            "word_count": 6,
+            "empty_lines": 0,
+            "max_line_length": 9,
+            "min_line_length": 6,
+            "avg_line_length": 7.33
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 25
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** TSV data\n**Encoding:** ascii\n**Statistics:**\n- Characters: 25\n- Lines: 3\n- Words: 6\n- Empty lines: 0\n- Average line length: 7.33 characters\n\n## Content\n\n```\nkey\tvalue\nalpha\t1\nbeta\t2\n\n```",
+        "metadata": {
+          "file_name": "kv.tsv",
+          "file_size": 25,
+          "file_type": ".tsv",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/tables/kv.tsv",
+          "page_count": 3,
+          "processing_time": 3.4809112548828125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "TSV data",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 25,
+            "line_count": 3,
+            "word_count": 6,
+            "empty_lines": 0,
+            "max_line_length": 9,
+            "min_line_length": 6,
+            "avg_line_length": 7.33
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 25
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q30": {
+    "id": "plain_text_extraction_30",
+    "evaluation_metrics": "search_pattern",
+    "answer": "[general]\nname=demo\nversion=1.0\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 32\n- Lines: 3\n- Words: 3\n- Empty lines: 0\n- Average line length: 9.67 characters\n\n## Content\n\n```\n[general]\nname=demo\nversion=1.0\n\n```",
+        "metadata": {
+          "file_name": "general.ini",
+          "file_size": 32,
+          "file_type": ".ini",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/general.ini",
+          "page_count": 3,
+          "processing_time": 7.104873657226562e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 32,
+            "line_count": 3,
+            "word_count": 3,
+            "empty_lines": 0,
+            "max_line_length": 11,
+            "min_line_length": 9,
+            "avg_line_length": 9.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 32
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 32\n- Lines: 3\n- Words: 3\n- Empty lines: 0\n- Average line length: 9.67 characters\n\n## Content\n\n```\n[general]\nname=demo\nversion=1.0\n\n```",
+        "metadata": {
+          "file_name": "general.ini",
+          "file_size": 32,
+          "file_type": ".ini",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/general.ini",
+          "page_count": 3,
+          "processing_time": 3.3855438232421875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 32,
+            "line_count": 3,
+            "word_count": 3,
+            "empty_lines": 0,
+            "max_line_length": 11,
+            "min_line_length": 9,
+            "avg_line_length": 9.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 32
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 32\n- Lines: 3\n- Words: 3\n- Empty lines: 0\n- Average line length: 9.67 characters\n\n## Content\n\n```\n[general]\nname=demo\nversion=1.0\n\n```",
+        "metadata": {
+          "file_name": "general.ini",
+          "file_size": 32,
+          "file_type": ".ini",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/general.ini",
+          "page_count": 3,
+          "processing_time": 3.0040740966796875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 32,
+            "line_count": 3,
+            "word_count": 3,
+            "empty_lines": 0,
+            "max_line_length": 11,
+            "min_line_length": 9,
+            "avg_line_length": 9.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 32
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q31": {
+    "id": "plain_text_extraction_31",
+    "evaluation_metrics": "search_pattern",
+    "answer": "[network]\nhost=localhost\nport=9000\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 35\n- Lines: 3\n- Words: 3\n- Empty lines: 0\n- Average line length: 10.67 characters\n\n## Content\n\n```\n[network]\nhost=localhost\nport=9000\n\n```",
+        "metadata": {
+          "file_name": "network.ini",
+          "file_size": 35,
+          "file_type": ".ini",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/network.ini",
+          "page_count": 3,
+          "processing_time": 8.320808410644531e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 35,
+            "line_count": 3,
+            "word_count": 3,
+            "empty_lines": 0,
+            "max_line_length": 14,
+            "min_line_length": 9,
+            "avg_line_length": 10.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 35
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 35\n- Lines: 3\n- Words: 3\n- Empty lines: 0\n- Average line length: 10.67 characters\n\n## Content\n\n```\n[network]\nhost=localhost\nport=9000\n\n```",
+        "metadata": {
+          "file_name": "network.ini",
+          "file_size": 35,
+          "file_type": ".ini",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/network.ini",
+          "page_count": 3,
+          "processing_time": 3.886222839355469e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 35,
+            "line_count": 3,
+            "word_count": 3,
+            "empty_lines": 0,
+            "max_line_length": 14,
+            "min_line_length": 9,
+            "avg_line_length": 10.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 35
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 35\n- Lines: 3\n- Words: 3\n- Empty lines: 0\n- Average line length: 10.67 characters\n\n## Content\n\n```\n[network]\nhost=localhost\nport=9000\n\n```",
+        "metadata": {
+          "file_name": "network.ini",
+          "file_size": 35,
+          "file_type": ".ini",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/network.ini",
+          "page_count": 3,
+          "processing_time": 3.409385681152344e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 35,
+            "line_count": 3,
+            "word_count": 3,
+            "empty_lines": 0,
+            "max_line_length": 14,
+            "min_line_length": 9,
+            "avg_line_length": 10.67
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 35
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q32": {
+    "id": "plain_text_extraction_32",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Heading\n=======\n\nThis is reStructuredText.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** reStructuredText document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 43\n- Lines: 4\n- Words: 5\n- Empty lines: 1\n- Average line length: 9.75 characters\n\n## Content\n\n```\nHeading\n=======\n\nThis is reStructuredText.\n\n```",
+        "metadata": {
+          "file_name": "readme.rst",
+          "file_size": 43,
+          "file_type": ".rst",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/docs/readme.rst",
+          "page_count": 4,
+          "processing_time": 4.076957702636719e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "reStructuredText document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 43,
+            "line_count": 4,
+            "word_count": 5,
+            "empty_lines": 1,
+            "max_line_length": 25,
+            "min_line_length": 0,
+            "avg_line_length": 9.75
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 43
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** reStructuredText document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 43\n- Lines: 4\n- Words: 5\n- Empty lines: 1\n- Average line length: 9.75 characters\n\n## Content\n\n```\nHeading\n=======\n\nThis is reStructuredText.\n\n```",
+        "metadata": {
+          "file_name": "readme.rst",
+          "file_size": 43,
+          "file_type": ".rst",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/docs/readme.rst",
+          "page_count": 4,
+          "processing_time": 6.198883056640625e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "reStructuredText document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 43,
+            "line_count": 4,
+            "word_count": 5,
+            "empty_lines": 1,
+            "max_line_length": 25,
+            "min_line_length": 0,
+            "avg_line_length": 9.75
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 43
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** reStructuredText document\n**Encoding:** ascii\n**Statistics:**\n- Characters: 43\n- Lines: 4\n- Words: 5\n- Empty lines: 1\n- Average line length: 9.75 characters\n\n## Content\n\n```\nHeading\n=======\n\nThis is reStructuredText.\n\n```",
+        "metadata": {
+          "file_name": "readme.rst",
+          "file_size": 43,
+          "file_type": ".rst",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/docs/readme.rst",
+          "page_count": 4,
+          "processing_time": 3.314018249511719e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "reStructuredText document",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 43,
+            "line_count": 4,
+            "word_count": 5,
+            "empty_lines": 1,
+            "max_line_length": 25,
+            "min_line_length": 0,
+            "avg_line_length": 9.75
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 43
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q33": {
+    "id": "plain_text_extraction_33",
+    "evaluation_metrics": "search_pattern",
+    "answer": "body { font-family: system-ui; }\n.main { padding: 16px; }\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** CSS stylesheet\n**Encoding:** ascii\n**Statistics:**\n- Characters: 58\n- Lines: 2\n- Words: 10\n- Empty lines: 0\n- Average line length: 28.0 characters\n\n## Content\n\n```\nbody { font-family: system-ui; }\n.main { padding: 16px; }\n\n```",
+        "metadata": {
+          "file_name": "styles.css",
+          "file_size": 58,
+          "file_type": ".css",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/styles.css",
+          "page_count": 2,
+          "processing_time": 4.8160552978515625e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "CSS stylesheet",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 58,
+            "line_count": 2,
+            "word_count": 10,
+            "empty_lines": 0,
+            "max_line_length": 32,
+            "min_line_length": 24,
+            "avg_line_length": 28.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 58
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** CSS stylesheet\n**Encoding:** ascii\n**Statistics:**\n- Characters: 58\n- Lines: 2\n- Words: 10\n- Empty lines: 0\n- Average line length: 28.0 characters\n\n## Content\n\n```\nbody { font-family: system-ui; }\n.main { padding: 16px; }\n\n```",
+        "metadata": {
+          "file_name": "styles.css",
+          "file_size": 58,
+          "file_type": ".css",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/styles.css",
+          "page_count": 2,
+          "processing_time": 4.00543212890625e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "CSS stylesheet",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 58,
+            "line_count": 2,
+            "word_count": 10,
+            "empty_lines": 0,
+            "max_line_length": 32,
+            "min_line_length": 24,
+            "avg_line_length": 28.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 58
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** CSS stylesheet\n**Encoding:** ascii\n**Statistics:**\n- Characters: 58\n- Lines: 2\n- Words: 10\n- Empty lines: 0\n- Average line length: 28.0 characters\n\n## Content\n\n```\nbody { font-family: system-ui; }\n.main { padding: 16px; }\n\n```",
+        "metadata": {
+          "file_name": "styles.css",
+          "file_size": 58,
+          "file_type": ".css",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/styles.css",
+          "page_count": 2,
+          "processing_time": 5.078315734863281e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "CSS stylesheet",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 58,
+            "line_count": 2,
+            "word_count": 10,
+            "empty_lines": 0,
+            "max_line_length": 32,
+            "min_line_length": 24,
+            "avg_line_length": 28.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 58
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q34": {
+    "id": "plain_text_extraction_34",
+    "evaluation_metrics": "search_pattern",
+    "answer": "function greet(n){ console.log('Hello ' + n); }\ngreet('world');\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** JavaScript source code\n**Encoding:** ascii\n**Statistics:**\n- Characters: 64\n- Lines: 2\n- Words: 8\n- Empty lines: 0\n- Average line length: 31.0 characters\n\n## Content\n\n```\nfunction greet(n){ console.log('Hello ' + n); }\ngreet('world');\n\n```",
+        "metadata": {
+          "file_name": "app.js",
+          "file_size": 64,
+          "file_type": ".js",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/app.js",
+          "page_count": 2,
+          "processing_time": 7.224082946777344e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "JavaScript source code",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 64,
+            "line_count": 2,
+            "word_count": 8,
+            "empty_lines": 0,
+            "max_line_length": 47,
+            "min_line_length": 15,
+            "avg_line_length": 31.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 64
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** JavaScript source code\n**Encoding:** ascii\n**Statistics:**\n- Characters: 64\n- Lines: 2\n- Words: 8\n- Empty lines: 0\n- Average line length: 31.0 characters\n\n## Content\n\n```\nfunction greet(n){ console.log('Hello ' + n); }\ngreet('world');\n\n```",
+        "metadata": {
+          "file_name": "app.js",
+          "file_size": 64,
+          "file_type": ".js",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/app.js",
+          "page_count": 2,
+          "processing_time": 3.0994415283203125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "JavaScript source code",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 64,
+            "line_count": 2,
+            "word_count": 8,
+            "empty_lines": 0,
+            "max_line_length": 47,
+            "min_line_length": 15,
+            "avg_line_length": 31.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 64
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** JavaScript source code\n**Encoding:** ascii\n**Statistics:**\n- Characters: 64\n- Lines: 2\n- Words: 8\n- Empty lines: 0\n- Average line length: 31.0 characters\n\n## Content\n\n```\nfunction greet(n){ console.log('Hello ' + n); }\ngreet('world');\n\n```",
+        "metadata": {
+          "file_name": "app.js",
+          "file_size": 64,
+          "file_type": ".js",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/web/app.js",
+          "page_count": 2,
+          "processing_time": 2.9802322387695312e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "JavaScript source code",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 64,
+            "line_count": 2,
+            "word_count": 8,
+            "empty_lines": 0,
+            "max_line_length": 47,
+            "min_line_length": 15,
+            "avg_line_length": 31.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 64
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q35": {
+    "id": "plain_text_extraction_35",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Caf\u00e9 na\u00efve fa\u00e7ade. Currency: \u20ac.\nThis line tests Windows-1252 compatibility.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** Windows-1252\n**Statistics:**\n- Characters: 76\n- Lines: 2\n- Words: 10\n- Empty lines: 0\n- Average line length: 37.0 characters\n\n## Content\n\n```\nCaf\u00e9 na\u00efve fa\u00e7ade. Currency: \u20ac.\nThis line tests Windows-1252 compatibility.\n\n```",
+        "metadata": {
+          "file_name": "cp1252_sample.txt",
+          "file_size": 76,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/encodings/cp1252_sample.txt",
+          "page_count": 2,
+          "processing_time": 0.0006520748138427734,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "Windows-1252",
+            "confidence": 0.73,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 76,
+            "line_count": 2,
+            "word_count": 10,
+            "empty_lines": 0,
+            "max_line_length": 43,
+            "min_line_length": 31,
+            "avg_line_length": 37.0
+          },
+          "used_encoding": "Windows-1252",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 76
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** Windows-1252\n**Statistics:**\n- Characters: 76\n- Lines: 2\n- Words: 10\n- Empty lines: 0\n- Average line length: 37.0 characters\n\n## Content\n\n```\nCaf\u00e9 na\u00efve fa\u00e7ade. Currency: \u20ac.\nThis line tests Windows-1252 compatibility.\n\n```",
+        "metadata": {
+          "file_name": "cp1252_sample.txt",
+          "file_size": 76,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/encodings/cp1252_sample.txt",
+          "page_count": 2,
+          "processing_time": 0.0002529621124267578,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "Windows-1252",
+            "confidence": 0.73,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 76,
+            "line_count": 2,
+            "word_count": 10,
+            "empty_lines": 0,
+            "max_line_length": 43,
+            "min_line_length": 31,
+            "avg_line_length": 37.0
+          },
+          "used_encoding": "Windows-1252",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 76
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** Windows-1252\n**Statistics:**\n- Characters: 76\n- Lines: 2\n- Words: 10\n- Empty lines: 0\n- Average line length: 37.0 characters\n\n## Content\n\n```\nCaf\u00e9 na\u00efve fa\u00e7ade. Currency: \u20ac.\nThis line tests Windows-1252 compatibility.\n\n```",
+        "metadata": {
+          "file_name": "cp1252_sample.txt",
+          "file_size": 76,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/encodings/cp1252_sample.txt",
+          "page_count": 2,
+          "processing_time": 0.0002219676971435547,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "Windows-1252",
+            "confidence": 0.73,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 76,
+            "line_count": 2,
+            "word_count": 10,
+            "empty_lines": 0,
+            "max_line_length": 43,
+            "min_line_length": 31,
+            "avg_line_length": 37.0
+          },
+          "used_encoding": "Windows-1252",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 76
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q36": {
+    "id": "plain_text_extraction_36",
+    "evaluation_metrics": "search_pattern",
+    "answer": "UTF-16 sample: \u3053\u3093\u306b\u3061\u306f, \u043c\u0438\u0440, hello.\nLine two.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** utf-16-le\n**Statistics:**\n- Characters: 45\n- Lines: 2\n- Words: 7\n- Empty lines: 0\n- Average line length: 21.5 characters\n\n## Content\n\n```\n\ufeffUTF-16 sample: \u3053\u3093\u306b\u3061\u306f, \u043c\u0438\u0440, hello.\nLine two.\n\n```",
+        "metadata": {
+          "file_name": "utf16_sample.txt",
+          "file_size": 90,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/encodings/utf16_sample.txt",
+          "page_count": 2,
+          "processing_time": 7.200241088867188e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "utf-16-le",
+            "confidence": 1.0,
+            "bom_detected": true,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": true
+          },
+          "text_statistics": {
+            "character_count": 45,
+            "line_count": 2,
+            "word_count": 7,
+            "empty_lines": 0,
+            "max_line_length": 34,
+            "min_line_length": 9,
+            "avg_line_length": 21.5
+          },
+          "used_encoding": "utf-16-le",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 45
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** utf-16-le\n**Statistics:**\n- Characters: 45\n- Lines: 2\n- Words: 7\n- Empty lines: 0\n- Average line length: 21.5 characters\n\n## Content\n\n```\n\ufeffUTF-16 sample: \u3053\u3093\u306b\u3061\u306f, \u043c\u0438\u0440, hello.\nLine two.\n\n```",
+        "metadata": {
+          "file_name": "utf16_sample.txt",
+          "file_size": 90,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/encodings/utf16_sample.txt",
+          "page_count": 2,
+          "processing_time": 4.100799560546875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "utf-16-le",
+            "confidence": 1.0,
+            "bom_detected": true,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": true
+          },
+          "text_statistics": {
+            "character_count": 45,
+            "line_count": 2,
+            "word_count": 7,
+            "empty_lines": 0,
+            "max_line_length": 34,
+            "min_line_length": 9,
+            "avg_line_length": 21.5
+          },
+          "used_encoding": "utf-16-le",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 45
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** utf-16-le\n**Statistics:**\n- Characters: 45\n- Lines: 2\n- Words: 7\n- Empty lines: 0\n- Average line length: 21.5 characters\n\n## Content\n\n```\n\ufeffUTF-16 sample: \u3053\u3093\u306b\u3061\u306f, \u043c\u0438\u0440, hello.\nLine two.\n\n```",
+        "metadata": {
+          "file_name": "utf16_sample.txt",
+          "file_size": 90,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/encodings/utf16_sample.txt",
+          "page_count": 2,
+          "processing_time": 4.38690185546875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "utf-16-le",
+            "confidence": 1.0,
+            "bom_detected": true,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": true
+          },
+          "text_statistics": {
+            "character_count": 45,
+            "line_count": 2,
+            "word_count": 7,
+            "empty_lines": 0,
+            "max_line_length": 34,
+            "min_line_length": 9,
+            "avg_line_length": 21.5
+          },
+          "used_encoding": "utf-16-le",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 45
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q37": {
+    "id": "plain_text_extraction_37",
+    "evaluation_metrics": "search_pattern",
+    "answer": "app.name=SampleApp\napp.debug=true\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 34\n- Lines: 2\n- Words: 2\n- Empty lines: 0\n- Average line length: 16.0 characters\n\n## Content\n\n```\napp.name=SampleApp\napp.debug=true\n\n```",
+        "metadata": {
+          "file_name": "app.properties",
+          "file_size": 34,
+          "file_type": ".properties",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/app.properties",
+          "page_count": 2,
+          "processing_time": 4.1961669921875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 34,
+            "line_count": 2,
+            "word_count": 2,
+            "empty_lines": 0,
+            "max_line_length": 18,
+            "min_line_length": 14,
+            "avg_line_length": 16.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 34
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 34\n- Lines: 2\n- Words: 2\n- Empty lines: 0\n- Average line length: 16.0 characters\n\n## Content\n\n```\napp.name=SampleApp\napp.debug=true\n\n```",
+        "metadata": {
+          "file_name": "app.properties",
+          "file_size": 34,
+          "file_type": ".properties",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/app.properties",
+          "page_count": 2,
+          "processing_time": 7.224082946777344e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 34,
+            "line_count": 2,
+            "word_count": 2,
+            "empty_lines": 0,
+            "max_line_length": 18,
+            "min_line_length": 14,
+            "avg_line_length": 16.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 34
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 34\n- Lines: 2\n- Words: 2\n- Empty lines: 0\n- Average line length: 16.0 characters\n\n## Content\n\n```\napp.name=SampleApp\napp.debug=true\n\n```",
+        "metadata": {
+          "file_name": "app.properties",
+          "file_size": 34,
+          "file_type": ".properties",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/app.properties",
+          "page_count": 2,
+          "processing_time": 3.0994415283203125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 34,
+            "line_count": 2,
+            "word_count": 2,
+            "empty_lines": 0,
+            "max_line_length": 18,
+            "min_line_length": 14,
+            "avg_line_length": 16.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 34
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q38": {
+    "id": "plain_text_extraction_38",
+    "evaluation_metrics": "search_pattern",
+    "answer": "server {\n  listen 80;\n  server_name example.test;\n}\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 52\n- Lines: 4\n- Words: 7\n- Empty lines: 0\n- Average line length: 12.0 characters\n\n## Content\n\n```\nserver {\n  listen 80;\n  server_name example.test;\n}\n\n```",
+        "metadata": {
+          "file_name": "site.conf",
+          "file_size": 52,
+          "file_type": ".conf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/nginx/site.conf",
+          "page_count": 4,
+          "processing_time": 6.985664367675781e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 52,
+            "line_count": 4,
+            "word_count": 7,
+            "empty_lines": 0,
+            "max_line_length": 27,
+            "min_line_length": 1,
+            "avg_line_length": 12.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 52
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 52\n- Lines: 4\n- Words: 7\n- Empty lines: 0\n- Average line length: 12.0 characters\n\n## Content\n\n```\nserver {\n  listen 80;\n  server_name example.test;\n}\n\n```",
+        "metadata": {
+          "file_name": "site.conf",
+          "file_size": 52,
+          "file_type": ".conf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/nginx/site.conf",
+          "page_count": 4,
+          "processing_time": 4.100799560546875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 52,
+            "line_count": 4,
+            "word_count": 7,
+            "empty_lines": 0,
+            "max_line_length": 27,
+            "min_line_length": 1,
+            "avg_line_length": 12.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 52
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 52\n- Lines: 4\n- Words: 7\n- Empty lines: 0\n- Average line length: 12.0 characters\n\n## Content\n\n```\nserver {\n  listen 80;\n  server_name example.test;\n}\n\n```",
+        "metadata": {
+          "file_name": "site.conf",
+          "file_size": 52,
+          "file_type": ".conf",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/nginx/site.conf",
+          "page_count": 4,
+          "processing_time": 3.0040740966796875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 52,
+            "line_count": 4,
+            "word_count": 7,
+            "empty_lines": 0,
+            "max_line_length": 27,
+            "min_line_length": 1,
+            "avg_line_length": 12.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 52
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q39": {
+    "id": "plain_text_extraction_39",
+    "evaluation_metrics": "search_pattern",
+    "answer": "threshold=0.75\nretry=3\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 23\n- Lines: 2\n- Words: 2\n- Empty lines: 0\n- Average line length: 10.5 characters\n\n## Content\n\n```\nthreshold=0.75\nretry=3\n\n```",
+        "metadata": {
+          "file_name": "params.cfg",
+          "file_size": 23,
+          "file_type": ".cfg",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/params.cfg",
+          "page_count": 2,
+          "processing_time": 3.0040740966796875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 23,
+            "line_count": 2,
+            "word_count": 2,
+            "empty_lines": 0,
+            "max_line_length": 14,
+            "min_line_length": 7,
+            "avg_line_length": 10.5
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 23
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 23\n- Lines: 2\n- Words: 2\n- Empty lines: 0\n- Average line length: 10.5 characters\n\n## Content\n\n```\nthreshold=0.75\nretry=3\n\n```",
+        "metadata": {
+          "file_name": "params.cfg",
+          "file_size": 23,
+          "file_type": ".cfg",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/params.cfg",
+          "page_count": 2,
+          "processing_time": 2.9087066650390625e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 23,
+            "line_count": 2,
+            "word_count": 2,
+            "empty_lines": 0,
+            "max_line_length": 14,
+            "min_line_length": 7,
+            "avg_line_length": 10.5
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 23
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Configuration file\n**Encoding:** ascii\n**Statistics:**\n- Characters: 23\n- Lines: 2\n- Words: 2\n- Empty lines: 0\n- Average line length: 10.5 characters\n\n## Content\n\n```\nthreshold=0.75\nretry=3\n\n```",
+        "metadata": {
+          "file_name": "params.cfg",
+          "file_size": 23,
+          "file_type": ".cfg",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/settings/params.cfg",
+          "page_count": 2,
+          "processing_time": 6.008148193359375e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Configuration file",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 23,
+            "line_count": 2,
+            "word_count": 2,
+            "empty_lines": 0,
+            "max_line_length": 14,
+            "min_line_length": 7,
+            "avg_line_length": 10.5
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 23
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q40": {
+    "id": "plain_text_extraction_40",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Extra sample #40\nThis is filler text to reach exactly 40 files.\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 64\n- Lines: 2\n- Words: 12\n- Empty lines: 0\n- Average line length: 31.0 characters\n\n## Content\n\n```\nExtra sample #40\nThis is filler text to reach exactly 40 files.\n\n```",
+        "metadata": {
+          "file_name": "extra_40.txt",
+          "file_size": 64,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/extra/extra_40.txt",
+          "page_count": 2,
+          "processing_time": 4.100799560546875e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 64,
+            "line_count": 2,
+            "word_count": 12,
+            "empty_lines": 0,
+            "max_line_length": 46,
+            "min_line_length": 16,
+            "avg_line_length": 31.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 64
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 64\n- Lines: 2\n- Words: 12\n- Empty lines: 0\n- Average line length: 31.0 characters\n\n## Content\n\n```\nExtra sample #40\nThis is filler text to reach exactly 40 files.\n\n```",
+        "metadata": {
+          "file_name": "extra_40.txt",
+          "file_size": 64,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/extra/extra_40.txt",
+          "page_count": 2,
+          "processing_time": 3.218650817871094e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 64,
+            "line_count": 2,
+            "word_count": 12,
+            "empty_lines": 0,
+            "max_line_length": 46,
+            "min_line_length": 16,
+            "avg_line_length": 31.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 64
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Text Document Content\n**File Type:** Plain text\n**Encoding:** ascii\n**Statistics:**\n- Characters: 64\n- Lines: 2\n- Words: 12\n- Empty lines: 0\n- Average line length: 31.0 characters\n\n## Content\n\n```\nExtra sample #40\nThis is filler text to reach exactly 40 files.\n\n```",
+        "metadata": {
+          "file_name": "extra_40.txt",
+          "file_size": 64,
+          "file_type": ".txt",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/files/extra/extra_40.txt",
+          "page_count": 2,
+          "processing_time": 3.0994415283203125e-05,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "content_type": "Plain text",
+          "encoding_info": {
+            "detected_encoding": "ascii",
+            "confidence": 1.0,
+            "bom_detected": false,
+            "line_endings": "LF (Unix/Linux/Mac)",
+            "is_binary": false
+          },
+          "text_statistics": {
+            "character_count": 64,
+            "line_count": 2,
+            "word_count": 12,
+            "empty_lines": 0,
+            "max_line_length": 46,
+            "min_line_length": 16,
+            "avg_line_length": 31.0
+          },
+          "used_encoding": "ascii",
+          "encoding_fallback": false,
+          "content_truncated": false,
+          "original_content_length": 64
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 90.0,
+    "run_2": 90.0,
+    "run_3": 90.0
+  }
+}

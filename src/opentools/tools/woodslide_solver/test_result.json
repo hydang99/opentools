@@ -1,0 +1,7307 @@
+{
+  "Test-File length": 30,
+  "Q1": {
+    "id": "woodslide_solver_1",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 2\nB. 1\nC. 6\nD. 5",
+    "answer": "B",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "B",
+              "E",
+              "E"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "E",
+              "E"
+            ],
+            [
+              "D",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "B",
+              "E",
+              "E"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "E",
+              "E"
+            ],
+            [
+              "D",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "B",
+              "E",
+              "E"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "E",
+              "E"
+            ],
+            [
+              "D",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q2": {
+    "id": "woodslide_solver_2",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 5\nB. 2\nC. 4\nD. 3",
+    "answer": "D",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:LEFT",
+            "E:UP",
+            "D:RIGHT"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "EMP",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "E"
+            ],
+            [
+              "C",
+              "EMP",
+              "D",
+              "D"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:LEFT",
+            "E:UP",
+            "D:RIGHT"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "EMP",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "E"
+            ],
+            [
+              "C",
+              "EMP",
+              "D",
+              "D"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:LEFT",
+            "E:UP",
+            "D:RIGHT"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "EMP",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "E"
+            ],
+            [
+              "C",
+              "EMP",
+              "D",
+              "D"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q3": {
+    "id": "woodslide_solver_3",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 3\nB. 5\nC. 2\nD. 1",
+    "answer": "B",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:DOWN",
+            "F:RIGHT",
+            "E:RIGHT",
+            "A:DOWN",
+            "A:DOWN"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "E",
+              "F",
+              "G"
+            ],
+            [
+              "E",
+              "E",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:DOWN",
+            "F:RIGHT",
+            "E:RIGHT",
+            "A:DOWN",
+            "A:DOWN"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "E",
+              "F",
+              "G"
+            ],
+            [
+              "E",
+              "E",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:DOWN",
+            "F:RIGHT",
+            "E:RIGHT",
+            "A:DOWN",
+            "A:DOWN"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "E",
+              "F",
+              "G"
+            ],
+            [
+              "E",
+              "E",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q4": {
+    "id": "woodslide_solver_4",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 6\nC. 1\nD. 2",
+    "answer": "D",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "EMP",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "EMP",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "EMP",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q5": {
+    "id": "woodslide_solver_5",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 3\nB. 6\nC. 4\nD. 5",
+    "answer": "C",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:RIGHT",
+            "C:RIGHT",
+            "F:UP",
+            "F:UP"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "EMP"
+            ],
+            [
+              "C",
+              "C",
+              "EMP",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "F",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "F",
+              "C",
+              "C",
+              "E"
+            ],
+            [
+              "EMP",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "EMP",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:RIGHT",
+            "C:RIGHT",
+            "F:UP",
+            "F:UP"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "EMP"
+            ],
+            [
+              "C",
+              "C",
+              "EMP",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "F",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "F",
+              "C",
+              "C",
+              "E"
+            ],
+            [
+              "EMP",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "EMP",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:RIGHT",
+            "C:RIGHT",
+            "F:UP",
+            "F:UP"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "EMP"
+            ],
+            [
+              "C",
+              "C",
+              "EMP",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "F",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "F",
+              "C",
+              "C",
+              "E"
+            ],
+            [
+              "EMP",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "EMP",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q6": {
+    "id": "woodslide_solver_6",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 6\nB. 4\nC. 3\nD. 1",
+    "answer": "B",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "B:DOWN",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "A",
+              "A",
+              "EMP"
+            ],
+            [
+              "C",
+              "D",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "E",
+              "E"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "B:DOWN",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "A",
+              "A",
+              "EMP"
+            ],
+            [
+              "C",
+              "D",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "E",
+              "E"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "B:DOWN",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "A",
+              "A",
+              "EMP"
+            ],
+            [
+              "C",
+              "D",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "E",
+              "E"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q7": {
+    "id": "woodslide_solver_7",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 2\nC. 5\nD. 6",
+    "answer": "C",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:UP",
+            "I:UP",
+            "I:UP",
+            "G:RIGHT",
+            "H:RIGHT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "EMP"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "F",
+              "H",
+              "H",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "I"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "EMP",
+              "H",
+              "H"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:UP",
+            "I:UP",
+            "I:UP",
+            "G:RIGHT",
+            "H:RIGHT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "EMP"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "F",
+              "H",
+              "H",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "I"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "EMP",
+              "H",
+              "H"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:UP",
+            "I:UP",
+            "I:UP",
+            "G:RIGHT",
+            "H:RIGHT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "EMP"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "F",
+              "H",
+              "H",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "I"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "EMP",
+              "H",
+              "H"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q8": {
+    "id": "woodslide_solver_8",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 6\nB. 1\nC. 2\nD. 3",
+    "answer": "C",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT",
+            "E:DOWN"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "G",
+              "EMP",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT",
+            "E:DOWN"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "G",
+              "EMP",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT",
+            "E:DOWN"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "G",
+              "EMP",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q9": {
+    "id": "woodslide_solver_9",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 1\nB. 2\nC. 4\nD. 5",
+    "answer": "A",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:RIGHT"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "EMP",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:RIGHT"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "EMP",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:RIGHT"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "EMP",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q10": {
+    "id": "woodslide_solver_10",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 5\nC. 1\nD. 2",
+    "answer": "C",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "H:UP"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "EMP"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "H"
+            ],
+            [
+              "F",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "F",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "H:UP"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "EMP"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "H"
+            ],
+            [
+              "F",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "F",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "H:UP"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "EMP"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "H"
+            ],
+            [
+              "F",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "F",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q11": {
+    "id": "woodslide_solver_11",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 5\nB. 2\nC. 1\nD. 3",
+    "answer": "B",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "I:LEFT",
+            "H:DOWN"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "H"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "EMP"
+            ],
+            [
+              "EMP",
+              "I",
+              "I",
+              "H"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "I:LEFT",
+            "H:DOWN"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "H"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "EMP"
+            ],
+            [
+              "EMP",
+              "I",
+              "I",
+              "H"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "I:LEFT",
+            "H:DOWN"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "H"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "EMP"
+            ],
+            [
+              "EMP",
+              "I",
+              "I",
+              "H"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q12": {
+    "id": "woodslide_solver_12",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 1\nC. 3\nD. 2",
+    "answer": "D",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "E:DOWN"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "E:DOWN"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "E:DOWN"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q13": {
+    "id": "woodslide_solver_13",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 2\nB. 1\nC. 6\nD. 3",
+    "answer": "D",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "A:RIGHT",
+            "E:UP"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "G",
+              "EMP",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "E",
+              "A",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "G",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "A:RIGHT",
+            "E:UP"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "G",
+              "EMP",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "E",
+              "A",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "G",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "A:RIGHT",
+            "E:UP"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "G",
+              "EMP",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "E",
+              "A",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "G",
+              "C",
+              "F",
+              "F"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q14": {
+    "id": "woodslide_solver_14",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 1\nC. 2\nD. 6",
+    "answer": "A",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "C:LEFT",
+            "D:LEFT",
+            "D:DOWN"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "C",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "EMP",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "C",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "E",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "C:LEFT",
+            "D:LEFT",
+            "D:DOWN"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "C",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "EMP",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "C",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "E",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "C:LEFT",
+            "D:LEFT",
+            "D:DOWN"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "C",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "EMP",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "C",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "E",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q15": {
+    "id": "woodslide_solver_15",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 1\nB. 5\nC. 4\nD. 3",
+    "answer": "B",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:LEFT",
+            "A:LEFT",
+            "B:LEFT",
+            "B:LEFT",
+            "D:UP"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "EMP",
+              "EMP",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "C",
+              "C",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:LEFT",
+            "A:LEFT",
+            "B:LEFT",
+            "B:LEFT",
+            "D:UP"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "EMP",
+              "EMP",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "C",
+              "C",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:LEFT",
+            "A:LEFT",
+            "B:LEFT",
+            "B:LEFT",
+            "D:UP"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "EMP",
+              "EMP",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "C",
+              "C",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q16": {
+    "id": "woodslide_solver_16",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 3\nB. 6\nC. 5\nD. 1",
+    "answer": "C",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:RIGHT",
+            "A:RIGHT",
+            "D:UP",
+            "D:UP",
+            "E:LEFT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "C",
+              "EMP"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "D",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "D",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "E",
+              "E",
+              "EMP",
+              "F"
+            ],
+            [
+              "E",
+              "E",
+              "EMP",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:RIGHT",
+            "A:RIGHT",
+            "D:UP",
+            "D:UP",
+            "E:LEFT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "C",
+              "EMP"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "D",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "D",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "E",
+              "E",
+              "EMP",
+              "F"
+            ],
+            [
+              "E",
+              "E",
+              "EMP",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:RIGHT",
+            "A:RIGHT",
+            "D:UP",
+            "D:UP",
+            "E:LEFT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "EMP",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "C",
+              "C",
+              "EMP"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "D",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "D",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "E",
+              "E",
+              "EMP",
+              "F"
+            ],
+            [
+              "E",
+              "E",
+              "EMP",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q17": {
+    "id": "woodslide_solver_17",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 1\nB. 3\nC. 2\nD. 4",
+    "answer": "D",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN",
+            "E:LEFT",
+            "E:LEFT",
+            "C:DOWN"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "D",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "E",
+              "E",
+              "C",
+              "C"
+            ],
+            [
+              "F",
+              "D",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "D",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN",
+            "E:LEFT",
+            "E:LEFT",
+            "C:DOWN"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "D",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "E",
+              "E",
+              "C",
+              "C"
+            ],
+            [
+              "F",
+              "D",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "D",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN",
+            "E:LEFT",
+            "E:LEFT",
+            "C:DOWN"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "D",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "E",
+              "E",
+              "C",
+              "C"
+            ],
+            [
+              "F",
+              "D",
+              "G",
+              "G"
+            ],
+            [
+              "F",
+              "D",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q18": {
+    "id": "woodslide_solver_18",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 3\nB. 1\nC. 2\nD. 6",
+    "answer": "B",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "C",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "EMP",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "E",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "C",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "EMP",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "E",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "E",
+              "C",
+              "C",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "EMP",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "C",
+              "F"
+            ],
+            [
+              "E",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "E",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q19": {
+    "id": "woodslide_solver_19",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 6\nB. 1\nC. 5\nD. 2",
+    "answer": "C",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "F:UP",
+            "G:LEFT",
+            "C:DOWN",
+            "A:RIGHT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "B",
+              "EMP"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "E",
+              "E"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "A",
+              "D",
+              "D"
+            ],
+            [
+              "F",
+              "C",
+              "E",
+              "E"
+            ],
+            [
+              "G",
+              "C",
+              "E",
+              "E"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "F:UP",
+            "G:LEFT",
+            "C:DOWN",
+            "A:RIGHT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "B",
+              "EMP"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "E",
+              "E"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "A",
+              "D",
+              "D"
+            ],
+            [
+              "F",
+              "C",
+              "E",
+              "E"
+            ],
+            [
+              "G",
+              "C",
+              "E",
+              "E"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "F:UP",
+            "G:LEFT",
+            "C:DOWN",
+            "A:RIGHT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "B",
+              "EMP"
+            ],
+            [
+              "A",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "C",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "E",
+              "E"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "EMP",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "EMP",
+              "A",
+              "D",
+              "D"
+            ],
+            [
+              "F",
+              "C",
+              "E",
+              "E"
+            ],
+            [
+              "G",
+              "C",
+              "E",
+              "E"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q20": {
+    "id": "woodslide_solver_20",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 1\nB. 5\nC. 6\nD. 2",
+    "answer": "D",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:LEFT",
+            "E:LEFT"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "D",
+              "EMP",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "EMP",
+              "E",
+              "EMP"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:LEFT",
+            "E:LEFT"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "D",
+              "EMP",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "EMP",
+              "E",
+              "EMP"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:LEFT",
+            "E:LEFT"
+          ],
+          "total_move": 2,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "D",
+              "EMP",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "A",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "D",
+              "EMP",
+              "E",
+              "EMP"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q21": {
+    "id": "woodslide_solver_21",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 2\nB. 3\nC. 1\nD. 4",
+    "answer": "D",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "B:RIGHT",
+            "A:RIGHT",
+            "D:UP"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "C"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "EMP"
+            ],
+            [
+              "D",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "D",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "C"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "B:RIGHT",
+            "A:RIGHT",
+            "D:UP"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "C"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "EMP"
+            ],
+            [
+              "D",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "D",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "C"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "B:RIGHT",
+            "A:RIGHT",
+            "D:UP"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "C"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "EMP"
+            ],
+            [
+              "D",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "D",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "D",
+              "E",
+              "E",
+              "C"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q22": {
+    "id": "woodslide_solver_22",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 5\nC. 2\nD. 1",
+    "answer": "D",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:UP"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "F",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:UP"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "F",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:UP"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "F",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "EMP",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q23": {
+    "id": "woodslide_solver_23",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 1\nB. 5\nC. 2\nD. 3",
+    "answer": "A",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "EMP",
+              "G",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q24": {
+    "id": "woodslide_solver_24",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 3\nB. 6\nC. 2\nD. 4",
+    "answer": "A",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "EMP",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "EMP",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "EMP",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "C",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "EMP",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "A",
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "F",
+              "G",
+              "G",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q25": {
+    "id": "woodslide_solver_25",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 6\nB. 5\nC. 2\nD. 1",
+    "answer": "B",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "A:DOWN",
+            "B:LEFT",
+            "D:LEFT",
+            "F:UP"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "EMP",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "B",
+              "EMP",
+              "C",
+              "C"
+            ],
+            [
+              "B",
+              "D",
+              "D",
+              "F"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "EMP"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "A:DOWN",
+            "B:LEFT",
+            "D:LEFT",
+            "F:UP"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "EMP",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "B",
+              "EMP",
+              "C",
+              "C"
+            ],
+            [
+              "B",
+              "D",
+              "D",
+              "F"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "EMP"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "A:DOWN",
+            "B:LEFT",
+            "D:LEFT",
+            "F:UP"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "A",
+              "B",
+              "D",
+              "D"
+            ],
+            [
+              "EMP",
+              "E",
+              "E",
+              "F"
+            ],
+            [
+              "EMP",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "B",
+              "EMP",
+              "C",
+              "C"
+            ],
+            [
+              "B",
+              "D",
+              "D",
+              "F"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "EMP"
+            ],
+            [
+              "A",
+              "E",
+              "E",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q26": {
+    "id": "woodslide_solver_26",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 5\nB. 6\nC. 1\nD. 4",
+    "answer": "C",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:LEFT"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "EMP",
+              "G"
+            ],
+            [
+              "EMP",
+              "H",
+              "H",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "EMP"
+            ],
+            [
+              "EMP",
+              "H",
+              "H",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:LEFT"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "EMP",
+              "G"
+            ],
+            [
+              "EMP",
+              "H",
+              "H",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "EMP"
+            ],
+            [
+              "EMP",
+              "H",
+              "H",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:LEFT"
+          ],
+          "total_move": 1,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "EMP",
+              "G"
+            ],
+            [
+              "EMP",
+              "H",
+              "H",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "EMP"
+            ],
+            [
+              "EMP",
+              "H",
+              "H",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q27": {
+    "id": "woodslide_solver_27",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 3\nC. 5\nD. 6",
+    "answer": "C",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "A:RIGHT",
+            "B:RIGHT",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "C",
+              "A",
+              "B"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "A:RIGHT",
+            "B:RIGHT",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "C",
+              "A",
+              "B"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "A:RIGHT",
+            "B:RIGHT",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "B",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "C",
+              "C",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "C",
+              "C",
+              "A",
+              "B"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "D",
+              "D"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "E",
+              "F",
+              "G",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q28": {
+    "id": "woodslide_solver_28",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 6\nB. 1\nC. 4\nD. 2",
+    "answer": "C",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "D:UP",
+            "D:RIGHT",
+            "B:RIGHT"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "B",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "B",
+              "B",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "B",
+              "D"
+            ],
+            [
+              "EMP",
+              "B",
+              "B",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "D:UP",
+            "D:RIGHT",
+            "B:RIGHT"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "B",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "B",
+              "B",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "B",
+              "D"
+            ],
+            [
+              "EMP",
+              "B",
+              "B",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "D:UP",
+            "D:RIGHT",
+            "B:RIGHT"
+          ],
+          "total_move": 4,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "B",
+              "B",
+              "C",
+              "C"
+            ],
+            [
+              "B",
+              "B",
+              "D",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "C",
+              "C"
+            ],
+            [
+              "EMP",
+              "B",
+              "B",
+              "D"
+            ],
+            [
+              "EMP",
+              "B",
+              "B",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "H",
+              "H"
+            ],
+            [
+              "F",
+              "G",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q29": {
+    "id": "woodslide_solver_29",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 5\nC. 6\nD. 2",
+    "answer": "B",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:DOWN",
+            "G:LEFT",
+            "G:LEFT",
+            "H:LEFT",
+            "H:LEFT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "H"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "G",
+              "H",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "F",
+              "F",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:DOWN",
+            "G:LEFT",
+            "G:LEFT",
+            "H:LEFT",
+            "H:LEFT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "H"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "G",
+              "H",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "F",
+              "F",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:DOWN",
+            "G:LEFT",
+            "G:LEFT",
+            "H:LEFT",
+            "H:LEFT"
+          ],
+          "total_move": 5,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "F",
+              "G",
+              "H"
+            ],
+            [
+              "EMP",
+              "EMP",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "G",
+              "H",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "F",
+              "F",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q30": {
+    "id": "woodslide_solver_30",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 2\nC. 3\nD. 6",
+    "answer": "C",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:LEFT",
+            "G:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "EMP",
+              "F",
+              "EMP",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:LEFT",
+            "G:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "EMP",
+              "F",
+              "EMP",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:LEFT",
+            "G:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3,
+          "initial_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "EMP",
+              "F",
+              "EMP",
+              "G"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ],
+          "final_config": [
+            [
+              "A",
+              "A",
+              "B",
+              "B"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "C",
+              "D",
+              "E",
+              "E"
+            ],
+            [
+              "F",
+              "G",
+              "EMP",
+              "EMP"
+            ],
+            [
+              "H",
+              "H",
+              "I",
+              "I"
+            ]
+          ]
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 0.0,
+    "run_2": 0.0,
+    "run_3": 0.0
+  }
+}

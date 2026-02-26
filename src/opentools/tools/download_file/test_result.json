@@ -1,0 +1,1108 @@
+{
+  "Test-File length": 28,
+  "Q1": {
+    "id": "download_file_1",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test01_dummy.pdf`\n**Status:** SUCCESS\n**Duration:** 0:00:00.980040\n**Timestamp:** 2025-10-09T14:37:56.431064\n**File Size:** 13,264 bytes (0.01 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test01_dummy.pdf",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.9810051918029785,
+          "file_size_bytes": 13264,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test01_dummy.pdf (13,264 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test01_dummy.pdf (13,264 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": "download_file_2",
+    "evaluation_metrics": "exact_match",
+    "answer": "file_exists",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test01_dummy.pdf (13,264 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test01_dummy.pdf (13,264 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test01_dummy.pdf (13,264 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q3": {
+    "id": "download_file_3",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://www.w3.org/People/mimasa/test/imgformat/img/w3c_home.jpg`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test03_w3c_home.jpg`\n**Status:** SUCCESS\n**Duration:** 0:00:00.097317\n**Timestamp:** 2025-10-09T14:37:57.412726\n**File Size:** 2,165 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://www.w3.org/People/mimasa/test/imgformat/img/w3c_home.jpg",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test03_w3c_home.jpg",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.09797310829162598,
+          "file_size_bytes": 2165,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test03_w3c_home.jpg (2,165 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test03_w3c_home.jpg (2,165 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": "download_file_4",
+    "evaluation_metrics": "exact_match",
+    "answer": "file_exists",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test03_w3c_home.jpg (2,165 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test03_w3c_home.jpg (2,165 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test03_w3c_home.jpg (2,165 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": "download_file_5",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test04_transparency.png`\n**Status:** SUCCESS\n**Duration:** 0:00:00.203342\n**Timestamp:** 2025-10-09T14:37:57.511011\n**File Size:** 224,566 bytes (0.21 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test04_transparency.png",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.20407414436340332,
+          "file_size_bytes": 224566,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test04_transparency.png (224,566 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test04_transparency.png (224,566 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q6": {
+    "id": "download_file_6",
+    "evaluation_metrics": "exact_match",
+    "answer": "file_exists",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test04_transparency.png (224,566 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test04_transparency.png (224,566 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test04_transparency.png (224,566 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": "download_file_7",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `http://arxiv.org/pdf/2207.01510v1`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test05_arxiv_2207_01510v1.pdf`\n**Status:** SUCCESS\n**Duration:** 0:00:00.192852\n**Timestamp:** 2025-10-09T14:37:57.715475\n**File Size:** 579,519 bytes (0.55 MB)",
+        "success": true,
+        "metadata": {
+          "url": "http://arxiv.org/pdf/2207.01510v1",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test05_arxiv_2207_01510v1.pdf",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.19443416595458984,
+          "file_size_bytes": 579519,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test05_arxiv_2207_01510v1.pdf (579,519 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test05_arxiv_2207_01510v1.pdf (579,519 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": "download_file_8",
+    "evaluation_metrics": "exact_match",
+    "answer": "file_exists",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test05_arxiv_2207_01510v1.pdf (579,519 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test05_arxiv_2207_01510v1.pdf (579,519 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test05_arxiv_2207_01510v1.pdf (579,519 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q9": {
+    "id": "download_file_9",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://jsonplaceholder.typicode.com/todos/1`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test06_todo1.json`\n**Status:** SUCCESS\n**Duration:** 0:00:00.072664\n**Timestamp:** 2025-10-09T14:37:57.910645\n**File Size:** 77 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://jsonplaceholder.typicode.com/todos/1",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test06_todo1.json",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.07411694526672363,
+          "file_size_bytes": 77,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test06_todo1.json (77 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test06_todo1.json (77 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": "download_file_10",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://people.sc.fsu.edu/~jburkardt/data/csv/airtravel.csv`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test07_airtravel.csv`\n**Status:** SUCCESS\n**Duration:** 0:00:00.309822\n**Timestamp:** 2025-10-09T14:37:57.985209\n**File Size:** 321 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://people.sc.fsu.edu/~jburkardt/data/csv/airtravel.csv",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test07_airtravel.csv",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.3121500015258789,
+          "file_size_bytes": 321,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test07_airtravel.csv (321 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test07_airtravel.csv (321 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q11": {
+    "id": "download_file_11",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test08_song1.mp3`\n**Status:** SUCCESS\n**Duration:** 0:00:02.452569\n**Timestamp:** 2025-10-09T14:37:58.298182\n**File Size:** 8,945,229 bytes (8.53 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test08_song1.mp3",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 2.453805923461914,
+          "file_size_bytes": 8945229,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test08_song1.mp3 (8,945,229 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test08_song1.mp3 (8,945,229 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q12": {
+    "id": "download_file_12",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://upload.wikimedia.org/wikipedia/commons/0/02/SVG_logo.svg`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test09_svg_logo.svg`\n**Status:** SUCCESS\n**Duration:** 0:00:00.089059\n**Timestamp:** 2025-10-09T14:38:00.752591\n**File Size:** 1,679 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/SVG_logo.svg",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test09_svg_logo.svg",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.09015512466430664,
+          "file_size_bytes": 1679,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test09_svg_logo.svg (1,679 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test09_svg_logo.svg (1,679 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q13": {
+    "id": "download_file_13",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://www.example.com/`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test10_example.html`\n**Status:** SUCCESS\n**Duration:** 0:00:00.286630\n**Timestamp:** 2025-10-09T14:38:00.843212\n**File Size:** 363 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://www.example.com/",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test10_example.html",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.2872791290283203,
+          "file_size_bytes": 363,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test10_example.html (363 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test10_example.html (363 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q14": {
+    "id": "download_file_14",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://raw.githubusercontent.com/vinta/awesome-python/master/README.md`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test11_awesome_python.md`\n**Status:** SUCCESS\n**Duration:** 0:00:00.048078\n**Timestamp:** 2025-10-09T14:38:01.130690\n**File Size:** 25,050 bytes (0.02 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://raw.githubusercontent.com/vinta/awesome-python/master/README.md",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test11_awesome_python.md",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.048689842224121094,
+          "file_size_bytes": 25050,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test11_awesome_python.md (25,050 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test11_awesome_python.md (25,050 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q15": {
+    "id": "download_file_15",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://www.w3schools.com/xml/note.xml`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test12_note.xml`\n**Status:** SUCCESS\n**Duration:** 0:00:00.175205\n**Timestamp:** 2025-10-09T14:38:01.179592\n**File Size:** 149 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://www.w3schools.com/xml/note.xml",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test12_note.xml",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.17603802680969238,
+          "file_size_bytes": 149,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test12_note.xml (149 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test12_note.xml (149 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q16": {
+    "id": "download_file_16",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `http://example.com/`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test21_example_http.html`\n**Status:** SUCCESS\n**Duration:** 0:00:00.084806\n**Timestamp:** 2025-10-09T14:38:01.355888\n**File Size:** 363 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "http://example.com/",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test21_example_http.html",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.08493185043334961,
+          "file_size_bytes": 363,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test21_example_http.html (363 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test21_example_http.html (363 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q17": {
+    "id": "download_file_17",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://raw.githubusercontent.com/tensorflow/tensorflow/master/LICENSE`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test22_tf_license.txt`\n**Status:** SUCCESS\n**Duration:** 0:00:00.132312\n**Timestamp:** 2025-10-09T14:38:01.441071\n**File Size:** 4,873 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://raw.githubusercontent.com/tensorflow/tensorflow/master/LICENSE",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test22_tf_license.txt",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.13317298889160156,
+          "file_size_bytes": 4873,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test22_tf_license.txt (4,873 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test22_tf_license.txt (4,873 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q18": {
+    "id": "download_file_18",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://github.com/githubtraining/hellogitworld/archive/refs/heads/master.zip`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test24_hellogitworld.zip`\n**Status:** SUCCESS\n**Duration:** 0:00:00.469529\n**Timestamp:** 2025-10-09T14:38:01.574682\n**File Size:** 6,667 bytes (0.01 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://github.com/githubtraining/hellogitworld/archive/refs/heads/master.zip",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test24_hellogitworld.zip",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.4713590145111084,
+          "file_size_bytes": 6667,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test24_hellogitworld.zip (6,667 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test24_hellogitworld.zip (6,667 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q19": {
+    "id": "download_file_19",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.csv`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test25_boston_housing.csv`\n**Status:** SUCCESS\n**Duration:** 0:00:00.089615\n**Timestamp:** 2025-10-09T14:38:02.046346\n**File Size:** 11,769 bytes (0.01 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.csv",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test25_boston_housing.csv",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.09111189842224121,
+          "file_size_bytes": 11769,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test25_boston_housing.csv (11,769 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test25_boston_housing.csv (11,769 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q20": {
+    "id": "download_file_20",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test26_us_holidays.ics`\n**Status:** SUCCESS\n**Duration:** 0:00:00.124904\n**Timestamp:** 2025-10-09T14:38:02.137925\n**File Size:** 11,227 bytes (0.01 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test26_us_holidays.ics",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.1269838809967041,
+          "file_size_bytes": 11227,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test26_us_holidays.ics (11,227 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test26_us_holidays.ics (11,227 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q21": {
+    "id": "download_file_21",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test27_countries.csv`\n**Status:** SUCCESS\n**Duration:** 0:00:00.095794\n**Timestamp:** 2025-10-09T14:38:02.265538\n**File Size:** 1,262 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test27_countries.csv",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.09843611717224121,
+          "file_size_bytes": 1262,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test27_countries.csv (1,262 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test27_countries.csv (1,262 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q22": {
+    "id": "download_file_22",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://raw.githubusercontent.com/plotly/datasets/master/tips.csv`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test28_tips.csv`\n**Status:** SUCCESS\n**Duration:** 0:00:00.192595\n**Timestamp:** 2025-10-09T14:38:02.364624\n**File Size:** 1,731 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://raw.githubusercontent.com/plotly/datasets/master/tips.csv",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test28_tips.csv",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.1956188678741455,
+          "file_size_bytes": 1731,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test28_tips.csv (1,731 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test28_tips.csv (1,731 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q23": {
+    "id": "download_file_23",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://raw.githubusercontent.com/plotly/datasets/master/2014_usa_states.csv`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test29_usa_states.csv`\n**Status:** SUCCESS\n**Duration:** 0:00:00.102142\n**Timestamp:** 2025-10-09T14:38:02.561024\n**File Size:** 878 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://raw.githubusercontent.com/plotly/datasets/master/2014_usa_states.csv",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test29_usa_states.csv",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.10433292388916016,
+          "file_size_bytes": 878,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test29_usa_states.csv (878 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test29_usa_states.csv (878 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q24": {
+    "id": "download_file_24",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/README.md`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test30_covid_readme.md`\n**Status:** SUCCESS\n**Duration:** 0:00:00.130042\n**Timestamp:** 2025-10-09T14:38:02.666001\n**File Size:** 10,140 bytes (0.01 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/README.md",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test30_covid_readme.md",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.13099098205566406,
+          "file_size_bytes": 10140,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test30_covid_readme.md (10,140 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test30_covid_readme.md (10,140 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q25": {
+    "id": "download_file_25",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Example.jpg/240px-Example.jpg`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test31_example_240.jpg`\n**Status:** SUCCESS\n**Duration:** 0:00:00.090857\n**Timestamp:** 2025-10-09T14:38:02.797305\n**File Size:** 8,034 bytes (0.01 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Example.jpg/240px-Example.jpg",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test31_example_240.jpg",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.09227800369262695,
+          "file_size_bytes": 8034,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test31_example_240.jpg (8,034 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test31_example_240.jpg (8,034 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q26": {
+    "id": "download_file_26",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://www.w3.org/Icons/w3c_home`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test32_w3c_icon.png`\n**Status:** SUCCESS\n**Duration:** 0:00:00.077721\n**Timestamp:** 2025-10-09T14:38:02.890038\n**File Size:** 19,134 bytes (0.02 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://www.w3.org/Icons/w3c_home",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test32_w3c_icon.png",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.07925915718078613,
+          "file_size_bytes": 19134,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test32_w3c_icon.png (19,134 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test32_w3c_icon.png (19,134 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q27": {
+    "id": "download_file_27",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://www.rfc-editor.org/rfc/rfc1149.txt`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test33_rfc1149.txt`\n**Status:** SUCCESS\n**Duration:** 0:00:00.294430\n**Timestamp:** 2025-10-09T14:38:02.969761\n**File Size:** 1,492 bytes (0.00 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test33_rfc1149.txt",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.2955958843231201,
+          "file_size_bytes": 1492,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test33_rfc1149.txt (1,492 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test33_rfc1149.txt (1,492 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Q28": {
+    "id": "download_file_28",
+    "evaluation_metrics": "exact_match",
+    "answer": true,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "# File Download \u2705\n**URL:** `https://www.rfc-editor.org/rfc/rfc20.txt`\n**File Path:** `/Users/quangdao/Documents/opentools/downloads/test34_rfc20.txt`\n**Status:** SUCCESS\n**Duration:** 0:00:00.104842\n**Timestamp:** 2025-10-09T14:38:03.265753\n**File Size:** 5,647 bytes (0.01 MB)",
+        "success": true,
+        "metadata": {
+          "url": "https://www.rfc-editor.org/rfc/rfc20.txt",
+          "output_path": "/Users/quangdao/Documents/opentools/downloads/test34_rfc20.txt",
+          "timeout_seconds": 60,
+          "overwrite_enabled": false,
+          "execution_time": 0.10563993453979492,
+          "file_size_bytes": 5647,
+          "content_type": null,
+          "status_code": null,
+          "error_type": null,
+          "headers_used": true
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test34_rfc20.txt (5,647 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "File already exists at /Users/quangdao/Documents/opentools/downloads/test34_rfc20.txt (5,647 bytes) and overwrite is disabled",
+        "success": "file_exists"
+      },
+      "accuracy": 1
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 100.0,
+    "run_2": 100.0,
+    "run_3": 100.0
+  }
+}

@@ -1,0 +1,3328 @@
+{
+    "Test-File length": 40,
+    "Q1": {
+      "id": "audio_processing_1",
+      "evaluation_metrics": "search_pattern",
+      "answer": "down",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "down.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_01__afabfa0e_nohash_0.wav",
+            "file_size": 31448,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_01__afabfa0e_nohash_0.wav",
+            "duration": 0.981375,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 4.4754838943481445,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_01__afabfa0e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "down.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "down.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_01__afabfa0e_nohash_0.wav",
+            "file_size": 31448,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_01__afabfa0e_nohash_0.wav",
+            "duration": 0.981375,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 2.4922361373901367,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_01__afabfa0e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "down.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "down.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_01__afabfa0e_nohash_0.wav",
+            "file_size": 31448,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_01__afabfa0e_nohash_0.wav",
+            "duration": 0.981375,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.02413010597229,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_01__afabfa0e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "down.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q2": {
+      "id": "audio_processing_2",
+      "evaluation_metrics": "search_pattern",
+      "answer": "down",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Down.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_02__1fe4c891_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_02__1fe4c891_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.9216501712799072,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_02__1fe4c891_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Down.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Down.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_02__1fe4c891_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_02__1fe4c891_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.0485928058624268,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_02__1fe4c891_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Down.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Down.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_02__1fe4c891_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_02__1fe4c891_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.8477277755737305,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_02__1fe4c891_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Down.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q3": {
+      "id": "audio_processing_3",
+      "evaluation_metrics": "search_pattern",
+      "answer": "down",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "dawn.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_03__099d52ad_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_03__099d52ad_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.2573840618133545,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_03__099d52ad_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "dawn.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "dawn.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_03__099d52ad_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_03__099d52ad_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.0337190628051758,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_03__099d52ad_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "dawn.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "dawn.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_03__099d52ad_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_03__099d52ad_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8700010776519775,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_03__099d52ad_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "dawn.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      }
+    },
+    "Q4": {
+      "id": "audio_processing_4",
+      "evaluation_metrics": "search_pattern",
+      "answer": "down",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "down",
+          "success": true,
+          "metadata": {
+            "file_name": "down_04__c53b335a_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_04__c53b335a_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.3323850631713867,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_04__c53b335a_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "down",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "down",
+          "success": true,
+          "metadata": {
+            "file_name": "down_04__c53b335a_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_04__c53b335a_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.35514497756958,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_04__c53b335a_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "down",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "down",
+          "success": true,
+          "metadata": {
+            "file_name": "down_04__c53b335a_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_04__c53b335a_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.7061271667480469,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_04__c53b335a_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "down",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q5": {
+      "id": "audio_processing_5",
+      "evaluation_metrics": "search_pattern",
+      "answer": "down",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Down.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_05__4bb1244f_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_05__4bb1244f_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8209867477416992,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_05__4bb1244f_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Down.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Down.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_05__4bb1244f_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_05__4bb1244f_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8222582340240479,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_05__4bb1244f_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Down.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Down.",
+          "success": true,
+          "metadata": {
+            "file_name": "down_05__4bb1244f_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/down_05__4bb1244f_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9279851913452148,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/down_05__4bb1244f_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Down.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q6": {
+      "id": "audio_processing_6",
+      "evaluation_metrics": "search_pattern",
+      "answer": "go",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_06__3d6bee47_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_06__3d6bee47_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9402809143066406,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_06__3d6bee47_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Go.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_06__3d6bee47_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_06__3d6bee47_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.1010708808898926,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_06__3d6bee47_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Go.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_06__3d6bee47_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_06__3d6bee47_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9221792221069336,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_06__3d6bee47_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Go.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q7": {
+      "id": "audio_processing_7",
+      "evaluation_metrics": "search_pattern",
+      "answer": "go",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_07__3b852f6f_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_07__3b852f6f_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.0213730335235596,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_07__3b852f6f_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Go.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_07__3b852f6f_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_07__3b852f6f_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.9350619316101074,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_07__3b852f6f_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Go.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_07__3b852f6f_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_07__3b852f6f_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.4479680061340332,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_07__3b852f6f_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Go.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q8": {
+      "id": "audio_processing_8",
+      "evaluation_metrics": "search_pattern",
+      "answer": "go",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go",
+          "success": true,
+          "metadata": {
+            "file_name": "go_08__26e573a9_nohash_1.wav",
+            "file_size": 22336,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_08__26e573a9_nohash_1.wav",
+            "duration": 0.696625,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.2158699035644531,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_08__26e573a9_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Go",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go",
+          "success": true,
+          "metadata": {
+            "file_name": "go_08__26e573a9_nohash_1.wav",
+            "file_size": 22336,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_08__26e573a9_nohash_1.wav",
+            "duration": 0.696625,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.3821051120758057,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_08__26e573a9_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Go",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go",
+          "success": true,
+          "metadata": {
+            "file_name": "go_08__26e573a9_nohash_1.wav",
+            "file_size": 22336,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_08__26e573a9_nohash_1.wav",
+            "duration": 0.696625,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.0187370777130127,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_08__26e573a9_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Go",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q9": {
+      "id": "audio_processing_9",
+      "evaluation_metrics": "search_pattern",
+      "answer": "go",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_09__c4500713_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_09__c4500713_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8926873207092285,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_09__c4500713_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Go.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_09__c4500713_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_09__c4500713_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 2.343500852584839,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_09__c4500713_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Go.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Go.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_09__c4500713_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_09__c4500713_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.050905704498291,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_09__c4500713_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Go.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q10": {
+      "id": "audio_processing_10",
+      "evaluation_metrics": "search_pattern",
+      "answer": "go",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Ciao.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_10__1bb6ed89_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_10__1bb6ed89_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.6744678020477295,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_10__1bb6ed89_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Ciao.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Ciao.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_10__1bb6ed89_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_10__1bb6ed89_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.7885758876800537,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_10__1bb6ed89_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Ciao.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Ciao.",
+          "success": true,
+          "metadata": {
+            "file_name": "go_10__1bb6ed89_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/go_10__1bb6ed89_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.709096908569336,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/go_10__1bb6ed89_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Ciao.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      }
+    },
+    "Q11": {
+      "id": "audio_processing_11",
+      "evaluation_metrics": "search_pattern",
+      "answer": "left",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_11__bb31b82b_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_11__bb31b82b_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.2057521343231201,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_11__bb31b82b_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_11__bb31b82b_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_11__bb31b82b_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 4.038569927215576,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_11__bb31b82b_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_11__bb31b82b_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_11__bb31b82b_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9939920902252197,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_11__bb31b82b_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q12": {
+      "id": "audio_processing_12",
+      "evaluation_metrics": "search_pattern",
+      "answer": "left",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_12__c948d727_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_12__c948d727_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 2.33420991897583,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_12__c948d727_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_12__c948d727_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_12__c948d727_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 4.116741180419922,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_12__c948d727_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_12__c948d727_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_12__c948d727_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.5743951797485352,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_12__c948d727_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q13": {
+      "id": "audio_processing_13",
+      "evaluation_metrics": "search_pattern",
+      "answer": "left",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left.",
+          "success": true,
+          "metadata": {
+            "file_name": "left_13__ea7ca285_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_13__ea7ca285_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.406792163848877,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_13__ea7ca285_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "left.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left.",
+          "success": true,
+          "metadata": {
+            "file_name": "left_13__ea7ca285_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_13__ea7ca285_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.7272932529449463,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_13__ea7ca285_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "left.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left.",
+          "success": true,
+          "metadata": {
+            "file_name": "left_13__ea7ca285_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_13__ea7ca285_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.2017278671264648,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_13__ea7ca285_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "left.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q14": {
+      "id": "audio_processing_14",
+      "evaluation_metrics": "search_pattern",
+      "answer": "left",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_14__9a69672b_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_14__9a69672b_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8484170436859131,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_14__9a69672b_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_14__9a69672b_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_14__9a69672b_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.9057202339172363,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_14__9a69672b_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_14__9a69672b_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_14__9a69672b_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.865462064743042,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_14__9a69672b_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q15": {
+      "id": "audio_processing_15",
+      "evaluation_metrics": "search_pattern",
+      "answer": "left",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_15__1ed557b9_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_15__1ed557b9_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.812197208404541,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_15__1ed557b9_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_15__1ed557b9_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_15__1ed557b9_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.1329538822174072,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_15__1ed557b9_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "left",
+          "success": true,
+          "metadata": {
+            "file_name": "left_15__1ed557b9_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/left_15__1ed557b9_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9034831523895264,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/left_15__1ed557b9_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "left",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q16": {
+      "id": "audio_processing_16",
+      "evaluation_metrics": "search_pattern",
+      "answer": "no",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_16__989a2213_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_16__989a2213_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.234389066696167,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_16__989a2213_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_16__989a2213_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_16__989a2213_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.141496181488037,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_16__989a2213_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_16__989a2213_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_16__989a2213_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.4488887786865234,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_16__989a2213_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q17": {
+      "id": "audio_processing_17",
+      "evaluation_metrics": "search_pattern",
+      "answer": "no",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_17__6f3458b3_nohash_1.wav",
+            "file_size": 28716,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_17__6f3458b3_nohash_1.wav",
+            "duration": 0.896,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8875598907470703,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_17__6f3458b3_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_17__6f3458b3_nohash_1.wav",
+            "file_size": 28716,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_17__6f3458b3_nohash_1.wav",
+            "duration": 0.896,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.228261947631836,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_17__6f3458b3_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_17__6f3458b3_nohash_1.wav",
+            "file_size": 28716,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_17__6f3458b3_nohash_1.wav",
+            "duration": 0.896,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9428658485412598,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_17__6f3458b3_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q18": {
+      "id": "audio_processing_18",
+      "evaluation_metrics": "search_pattern",
+      "answer": "no",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_18__0f3f64d5_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_18__0f3f64d5_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.5819270610809326,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_18__0f3f64d5_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_18__0f3f64d5_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_18__0f3f64d5_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8521518707275391,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_18__0f3f64d5_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_18__0f3f64d5_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_18__0f3f64d5_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.7170722484588623,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_18__0f3f64d5_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q19": {
+      "id": "audio_processing_19",
+      "evaluation_metrics": "search_pattern",
+      "answer": "no",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_19__0cd323ec_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_19__0cd323ec_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 2.4594619274139404,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_19__0cd323ec_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_19__0cd323ec_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_19__0cd323ec_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8514730930328369,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_19__0cd323ec_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No.",
+          "success": true,
+          "metadata": {
+            "file_name": "no_19__0cd323ec_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_19__0cd323ec_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8619332313537598,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_19__0cd323ec_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "No.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q20": {
+      "id": "audio_processing_20",
+      "evaluation_metrics": "search_pattern",
+      "answer": "no",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No",
+          "success": true,
+          "metadata": {
+            "file_name": "no_20__1c3f50ad_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_20__1c3f50ad_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.2650392055511475,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_20__1c3f50ad_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "No",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No",
+          "success": true,
+          "metadata": {
+            "file_name": "no_20__1c3f50ad_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_20__1c3f50ad_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9563047885894775,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_20__1c3f50ad_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "No",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "No",
+          "success": true,
+          "metadata": {
+            "file_name": "no_20__1c3f50ad_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/no_20__1c3f50ad_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.2840650081634521,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/no_20__1c3f50ad_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "No",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q21": {
+      "id": "audio_processing_21",
+      "evaluation_metrics": "search_pattern",
+      "answer": "right",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "right",
+          "success": true,
+          "metadata": {
+            "file_name": "right_21__3c257192_nohash_3.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_21__3c257192_nohash_3.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8094620704650879,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_21__3c257192_nohash_3_for_transcription.wav"
+            ],
+            "transcription": "right",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "right",
+          "success": true,
+          "metadata": {
+            "file_name": "right_21__3c257192_nohash_3.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_21__3c257192_nohash_3.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.4372458457946777,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_21__3c257192_nohash_3_for_transcription.wav"
+            ],
+            "transcription": "right",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "right",
+          "success": true,
+          "metadata": {
+            "file_name": "right_21__3c257192_nohash_3.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_21__3c257192_nohash_3.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.8331239223480225,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_21__3c257192_nohash_3_for_transcription.wav"
+            ],
+            "transcription": "right",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q22": {
+      "id": "audio_processing_22",
+      "evaluation_metrics": "search_pattern",
+      "answer": "right",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Right.",
+          "success": true,
+          "metadata": {
+            "file_name": "right_22__3ed3e49a_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_22__3ed3e49a_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 2.3158111572265625,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_22__3ed3e49a_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Right.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Right.",
+          "success": true,
+          "metadata": {
+            "file_name": "right_22__3ed3e49a_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_22__3ed3e49a_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.585632085800171,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_22__3ed3e49a_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Right.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Right.",
+          "success": true,
+          "metadata": {
+            "file_name": "right_22__3ed3e49a_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_22__3ed3e49a_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.0219228267669678,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_22__3ed3e49a_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Right.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q23": {
+      "id": "audio_processing_23",
+      "evaluation_metrics": "search_pattern",
+      "answer": "right",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "right",
+          "success": true,
+          "metadata": {
+            "file_name": "right_23__8c7c9168_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_23__8c7c9168_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.2695140838623047,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_23__8c7c9168_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "right",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "right",
+          "success": true,
+          "metadata": {
+            "file_name": "right_23__8c7c9168_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_23__8c7c9168_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.5990500450134277,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_23__8c7c9168_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "right",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "right",
+          "success": true,
+          "metadata": {
+            "file_name": "right_23__8c7c9168_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_23__8c7c9168_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.1663191318511963,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_23__8c7c9168_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "right",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q24": {
+      "id": "audio_processing_24",
+      "evaluation_metrics": "search_pattern",
+      "answer": "right",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Right.",
+          "success": true,
+          "metadata": {
+            "file_name": "right_24__a40c62f1_nohash_1.wav",
+            "file_size": 16392,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_24__a40c62f1_nohash_1.wav",
+            "duration": 0.510875,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.0372858047485352,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_24__a40c62f1_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Right.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Right.",
+          "success": true,
+          "metadata": {
+            "file_name": "right_24__a40c62f1_nohash_1.wav",
+            "file_size": 16392,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_24__a40c62f1_nohash_1.wav",
+            "duration": 0.510875,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 2.838679075241089,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_24__a40c62f1_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Right.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Right.",
+          "success": true,
+          "metadata": {
+            "file_name": "right_24__a40c62f1_nohash_1.wav",
+            "file_size": 16392,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_24__a40c62f1_nohash_1.wav",
+            "duration": 0.510875,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.6121509075164795,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_24__a40c62f1_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Right.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q25": {
+      "id": "audio_processing_25",
+      "evaluation_metrics": "search_pattern",
+      "answer": "right",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Right",
+          "success": true,
+          "metadata": {
+            "file_name": "right_25__069ab0d5_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_25__069ab0d5_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9183750152587891,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_25__069ab0d5_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Right",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Right",
+          "success": true,
+          "metadata": {
+            "file_name": "right_25__069ab0d5_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_25__069ab0d5_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.5862250328063965,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_25__069ab0d5_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Right",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Right",
+          "success": true,
+          "metadata": {
+            "file_name": "right_25__069ab0d5_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/right_25__069ab0d5_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.8123672008514404,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/right_25__069ab0d5_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Right",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q26": {
+      "id": "audio_processing_26",
+      "evaluation_metrics": "search_pattern",
+      "answer": "stop",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_26__97f4c236_nohash_3.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_26__97f4c236_nohash_3.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.2246098518371582,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_26__97f4c236_nohash_3_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_26__97f4c236_nohash_3.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_26__97f4c236_nohash_3.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.8286731243133545,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_26__97f4c236_nohash_3_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_26__97f4c236_nohash_3.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_26__97f4c236_nohash_3.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.4292099475860596,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_26__97f4c236_nohash_3_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q27": {
+      "id": "audio_processing_27",
+      "evaluation_metrics": "search_pattern",
+      "answer": "stop",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_27__37d38e44_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_27__37d38e44_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 7.268064022064209,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_27__37d38e44_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_27__37d38e44_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_27__37d38e44_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.2291100025177002,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_27__37d38e44_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_27__37d38e44_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_27__37d38e44_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8684191703796387,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_27__37d38e44_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q28": {
+      "id": "audio_processing_28",
+      "evaluation_metrics": "search_pattern",
+      "answer": "stop",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_28__bed06fac_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_28__bed06fac_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.794226884841919,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_28__bed06fac_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_28__bed06fac_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_28__bed06fac_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9209940433502197,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_28__bed06fac_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_28__bed06fac_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_28__bed06fac_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.1188569068908691,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_28__bed06fac_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q29": {
+      "id": "audio_processing_29",
+      "evaluation_metrics": "search_pattern",
+      "answer": "stop",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_29__b00dff7e_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_29__b00dff7e_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9474358558654785,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_29__b00dff7e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_29__b00dff7e_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_29__b00dff7e_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9503931999206543,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_29__b00dff7e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_29__b00dff7e_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_29__b00dff7e_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.3367359638214111,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_29__b00dff7e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q30": {
+      "id": "audio_processing_30",
+      "evaluation_metrics": "search_pattern",
+      "answer": "stop",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_30__bab36420_nohash_4.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_30__bab36420_nohash_4.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.3196940422058105,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_30__bab36420_nohash_4_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_30__bab36420_nohash_4.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_30__bab36420_nohash_4.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.0385286808013916,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_30__bab36420_nohash_4_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Stop.",
+          "success": true,
+          "metadata": {
+            "file_name": "stop_30__bab36420_nohash_4.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/stop_30__bab36420_nohash_4.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9288430213928223,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/stop_30__bab36420_nohash_4_for_transcription.wav"
+            ],
+            "transcription": "Stop.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q31": {
+      "id": "audio_processing_31",
+      "evaluation_metrics": "search_pattern",
+      "answer": "up",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Up.",
+          "success": true,
+          "metadata": {
+            "file_name": "up_31__9587481f_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_31__9587481f_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8815009593963623,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_31__9587481f_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "Up.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Up.",
+          "success": true,
+          "metadata": {
+            "file_name": "up_31__9587481f_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_31__9587481f_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.7973048686981201,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_31__9587481f_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "Up.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Up.",
+          "success": true,
+          "metadata": {
+            "file_name": "up_31__9587481f_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_31__9587481f_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 2.1741089820861816,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_31__9587481f_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "Up.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q32": {
+      "id": "audio_processing_32",
+      "evaluation_metrics": "search_pattern",
+      "answer": "up",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Oh",
+          "success": true,
+          "metadata": {
+            "file_name": "up_32__6f2c6f7e_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_32__6f2c6f7e_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8686568737030029,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_32__6f2c6f7e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Oh",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Oh",
+          "success": true,
+          "metadata": {
+            "file_name": "up_32__6f2c6f7e_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_32__6f2c6f7e_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8837220668792725,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_32__6f2c6f7e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Oh",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Oh",
+          "success": true,
+          "metadata": {
+            "file_name": "up_32__6f2c6f7e_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_32__6f2c6f7e_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8546309471130371,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_32__6f2c6f7e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Oh",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      }
+    },
+    "Q33": {
+      "id": "audio_processing_33",
+      "evaluation_metrics": "search_pattern",
+      "answer": "up",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Up.",
+          "success": true,
+          "metadata": {
+            "file_name": "up_33__3b852f6f_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_33__3b852f6f_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.3358120918273926,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_33__3b852f6f_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Up.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Up.",
+          "success": true,
+          "metadata": {
+            "file_name": "up_33__3b852f6f_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_33__3b852f6f_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.125464916229248,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_33__3b852f6f_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Up.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Up.",
+          "success": true,
+          "metadata": {
+            "file_name": "up_33__3b852f6f_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_33__3b852f6f_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.323943853378296,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_33__3b852f6f_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Up.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q34": {
+      "id": "audio_processing_34",
+      "evaluation_metrics": "search_pattern",
+      "answer": "up",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "up",
+          "success": true,
+          "metadata": {
+            "file_name": "up_34__75b631ff_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_34__75b631ff_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.5318782329559326,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_34__75b631ff_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "up",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "up",
+          "success": true,
+          "metadata": {
+            "file_name": "up_34__75b631ff_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_34__75b631ff_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.7364330291748047,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_34__75b631ff_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "up",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "up",
+          "success": true,
+          "metadata": {
+            "file_name": "up_34__75b631ff_nohash_2.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_34__75b631ff_nohash_2.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8955240249633789,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_34__75b631ff_nohash_2_for_transcription.wav"
+            ],
+            "transcription": "up",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q35": {
+      "id": "audio_processing_35",
+      "evaluation_metrics": "search_pattern",
+      "answer": "up",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Oh",
+          "success": true,
+          "metadata": {
+            "file_name": "up_35__9e2ce5e3_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_35__9e2ce5e3_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.015805959701538,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_35__9e2ce5e3_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Oh",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Oh",
+          "success": true,
+          "metadata": {
+            "file_name": "up_35__9e2ce5e3_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_35__9e2ce5e3_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.1738359928131104,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_35__9e2ce5e3_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Oh",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Oh",
+          "success": true,
+          "metadata": {
+            "file_name": "up_35__9e2ce5e3_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/up_35__9e2ce5e3_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.2972540855407715,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/up_35__9e2ce5e3_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Oh",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 0
+      }
+    },
+    "Q36": {
+      "id": "audio_processing_36",
+      "evaluation_metrics": "search_pattern",
+      "answer": "yes",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_36__4a1e736b_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_36__4a1e736b_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.0793797969818115,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_36__4a1e736b_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Yes",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_36__4a1e736b_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_36__4a1e736b_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.116603136062622,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_36__4a1e736b_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Yes",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_36__4a1e736b_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_36__4a1e736b_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 3.433323860168457,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_36__4a1e736b_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Yes",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q37": {
+      "id": "audio_processing_37",
+      "evaluation_metrics": "search_pattern",
+      "answer": "yes",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_37__d3f22f0e_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_37__d3f22f0e_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8101248741149902,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_37__d3f22f0e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Yes",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_37__d3f22f0e_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_37__d3f22f0e_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.6444499492645264,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_37__d3f22f0e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Yes",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_37__d3f22f0e_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_37__d3f22f0e_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.023536205291748,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_37__d3f22f0e_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Yes",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q38": {
+      "id": "audio_processing_38",
+      "evaluation_metrics": "search_pattern",
+      "answer": "yes",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes.",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_38__e5afa9b0_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_38__e5afa9b0_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.4824950695037842,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_38__e5afa9b0_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Yes.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes.",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_38__e5afa9b0_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_38__e5afa9b0_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.9737260341644287,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_38__e5afa9b0_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Yes.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes.",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_38__e5afa9b0_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_38__e5afa9b0_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 2.225893974304199,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_38__e5afa9b0_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Yes.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q39": {
+      "id": "audio_processing_39",
+      "evaluation_metrics": "search_pattern",
+      "answer": "yes",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_39__0135f3f2_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_39__0135f3f2_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 3.042975902557373,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_39__0135f3f2_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Yes",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_39__0135f3f2_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_39__0135f3f2_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 0.8540759086608887,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_39__0135f3f2_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Yes",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_39__0135f3f2_nohash_1.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_39__0135f3f2_nohash_1.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.4529471397399902,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_39__0135f3f2_nohash_1_for_transcription.wav"
+            ],
+            "transcription": "Yes",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Q40": {
+      "id": "audio_processing_40",
+      "evaluation_metrics": "search_pattern",
+      "answer": "yes",
+      "run_1": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes.",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_40__c90c0105_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_40__c90c0105_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.1831262111663818,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_40__c90c0105_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Yes.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_2": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes.",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_40__c90c0105_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_40__c90c0105_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 1.1696600914001465,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_40__c90c0105_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Yes.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      },
+      "run_3": {
+        "tool_call_pass": true,
+        "result": {
+          "audio_transcription": "Yes.",
+          "success": true,
+          "metadata": {
+            "file_name": "yes_40__c90c0105_nohash_0.wav",
+            "file_size": 32044,
+            "file_type": ".wav",
+            "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/audio/yes_40__c90c0105_nohash_0.wav",
+            "duration": 1.0,
+            "sample_rate": 16000,
+            "channels": 1,
+            "bitrate": 256,
+            "codec": "pcm_s16le",
+            "processing_time": 2.355769157409668,
+            "output_files": [
+              "/Users/quangdao/Documents/opentools/processed_audio/yes_40__c90c0105_nohash_0_for_transcription.wav"
+            ],
+            "transcription": "Yes.",
+            "word_count": 1,
+            "output_format": "transcription_text"
+          }
+        },
+        "accuracy": 1
+      }
+    },
+    "Final_Accuracy": {
+      "run_1": 90.0,
+      "run_2": 90.0,
+      "run_3": 90.0
+    }
+  }

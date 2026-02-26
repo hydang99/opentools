@@ -1,0 +1,998 @@
+{
+  "Test-File length": 30,
+  "Q1": {
+    "id": "board_title_solver_1",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 7 * 8 in dimension having a total of 56 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 27 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 27 dominoes in the checkerboard to exactly cover all the remaining 54 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "52 over 54",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "52 over 54",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "52 over 54",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": "board_title_solver_2",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 7 * 6 in dimension having a total of 42 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 20 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 20 dominoes in the checkerboard to exactly cover all the remaining 40 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "38 over 40",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "38 over 40",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "38 over 40",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q3": {
+    "id": "board_title_solver_3",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 5 * 7 in dimension having a total of 35 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. One of the squares have been removed from the board in the position of the white coloured cell, as shown in the image. You have 17 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 17 dominoes in the checkerboard to exactly cover all the remaining 34 squares? Answer Yes or No.\nA. No\nB. Yes",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "32 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "32 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "32 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": "board_title_solver_4",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 6 * 9 in dimension having a total of 54 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 26 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 26 dominoes in the checkerboard to exactly cover all the remaining 52 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "52 over 52",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "52 over 52",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "52 over 52",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": "board_title_solver_5",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 4 * 9 in dimension having a total of 36 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 17 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 17 dominoes in the checkerboard to exactly cover all the remaining 34 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "34 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "34 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "34 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q6": {
+    "id": "board_title_solver_6",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 9 * 7 in dimension having a total of 63 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. One of the squares have been removed from the board in the position of the white coloured cell, as shown in the image. You have 31 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 31 dominoes in the checkerboard to exactly cover all the remaining 62 squares? Answer Yes or No.\nA. No\nB. Yes",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "60 over 62",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "60 over 62",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "60 over 62",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": "board_title_solver_7",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 6 * 7 in dimension having a total of 42 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 20 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 20 dominoes in the checkerboard to exactly cover all the remaining 40 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "38 over 40",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "38 over 40",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "38 over 40",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": "board_title_solver_8",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 7 * 7 in dimension having a total of 49 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. One of the squares have been removed from the board in the position of the white coloured cell, as shown in the image. You have 24 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 24 dominoes in the checkerboard to exactly cover all the remaining 48 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "48 over 48",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "48 over 48",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "48 over 48",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q9": {
+    "id": "board_title_solver_9",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 5 * 6 in dimension having a total of 30 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 14 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 14 dominoes in the checkerboard to exactly cover all the remaining 28 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "28 over 28",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "28 over 28",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "28 over 28",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": "board_title_solver_10",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 8 * 7 in dimension having a total of 56 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 27 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 27 dominoes in the checkerboard to exactly cover all the remaining 54 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "52 over 54",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "52 over 54",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "52 over 54",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q11": {
+    "id": "board_title_solver_11",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 6 * 8 in dimension having a total of 48 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 23 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 23 dominoes in the checkerboard to exactly cover all the remaining 46 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "44 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "44 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "44 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q12": {
+    "id": "board_title_solver_12",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 6 * 9 in dimension having a total of 54 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 26 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 26 dominoes in the checkerboard to exactly cover all the remaining 52 squares? Answer Yes or No.\nA. No\nB. Yes",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "52 over 52",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "52 over 52",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "52 over 52",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q13": {
+    "id": "board_title_solver_13",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 8 * 8 in dimension having a total of 64 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 31 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 31 dominoes in the checkerboard to exactly cover all the remaining 62 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "62 over 62",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "62 over 62",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "62 over 62",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q14": {
+    "id": "board_title_solver_14",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 9 * 9 in dimension having a total of 81 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. One of the squares have been removed from the board in the position of the white coloured cell, as shown in the image. You have 40 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 40 dominoes in the checkerboard to exactly cover all the remaining 80 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "78 over 80",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "78 over 80",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "78 over 80",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q15": {
+    "id": "board_title_solver_15",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 7 * 9 in dimension having a total of 63 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. One of the squares have been removed from the board in the position of the white coloured cell, as shown in the image. You have 31 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 31 dominoes in the checkerboard to exactly cover all the remaining 62 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "62 over 62",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "62 over 62",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "62 over 62",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q16": {
+    "id": "board_title_solver_16",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 4 * 5 in dimension having a total of 20 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 9 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 9 dominoes in the checkerboard to exactly cover all the remaining 18 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "18 over 18",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "18 over 18",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "18 over 18",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q17": {
+    "id": "board_title_solver_17",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 7 * 7 in dimension having a total of 49 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. One of the squares have been removed from the board in the position of the white coloured cell, as shown in the image. You have 24 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 24 dominoes in the checkerboard to exactly cover all the remaining 48 squares? Answer Yes or No.\nA. No\nB. Yes",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "46 over 48",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "46 over 48",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "46 over 48",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q18": {
+    "id": "board_title_solver_18",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 5 * 5 in dimension having a total of 25 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. One of the squares have been removed from the board in the position of the white coloured cell, as shown in the image. You have 12 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 12 dominoes in the checkerboard to exactly cover all the remaining 24 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "22 over 24",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "22 over 24",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "22 over 24",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q19": {
+    "id": "board_title_solver_19",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 4 * 5 in dimension having a total of 20 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 9 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 9 dominoes in the checkerboard to exactly cover all the remaining 18 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "18 over 18",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "18 over 18",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "18 over 18",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q20": {
+    "id": "board_title_solver_20",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 6 * 6 in dimension having a total of 36 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 17 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 17 dominoes in the checkerboard to exactly cover all the remaining 34 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "34 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "34 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "34 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q21": {
+    "id": "board_title_solver_21",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 5 * 7 in dimension having a total of 35 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. One of the squares have been removed from the board in the position of the white coloured cell, as shown in the image. You have 17 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 17 dominoes in the checkerboard to exactly cover all the remaining 34 squares? Answer Yes or No.\nA. No\nB. Yes",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "32 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "32 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "32 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q22": {
+    "id": "board_title_solver_22",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 8 * 6 in dimension having a total of 48 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 23 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 23 dominoes in the checkerboard to exactly cover all the remaining 46 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "46 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "46 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "46 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q23": {
+    "id": "board_title_solver_23",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 5 * 6 in dimension having a total of 30 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 14 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 14 dominoes in the checkerboard to exactly cover all the remaining 28 squares? Answer Yes or No.\nA. No\nB. Yes",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "26 over 28",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "26 over 28",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "26 over 28",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q24": {
+    "id": "board_title_solver_24",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 8 * 6 in dimension having a total of 48 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 23 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 23 dominoes in the checkerboard to exactly cover all the remaining 46 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "44 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "44 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "44 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q25": {
+    "id": "board_title_solver_25",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 6 * 8 in dimension having a total of 48 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 23 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 23 dominoes in the checkerboard to exactly cover all the remaining 46 squares? Answer Yes or No.\nA. No\nB. Yes",
+    "answer": "Yes",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "46 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "46 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Yes",
+        "total_match": "46 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q26": {
+    "id": "board_title_solver_26",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 5 * 9 in dimension having a total of 45 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. One of the squares have been removed from the board in the position of the white coloured cell, as shown in the image. You have 22 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 22 dominoes in the checkerboard to exactly cover all the remaining 44 squares? Answer Yes or No.\nA. No\nB. Yes",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "42 over 44",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "42 over 44",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "42 over 44",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q27": {
+    "id": "board_title_solver_27",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 6 * 6 in dimension having a total of 36 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 17 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 17 dominoes in the checkerboard to exactly cover all the remaining 34 squares? Answer Yes or No.\nA. No\nB. Yes",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "32 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "32 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "32 over 34",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q28": {
+    "id": "board_title_solver_28",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 8 * 6 in dimension having a total of 48 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 23 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 23 dominoes in the checkerboard to exactly cover all the remaining 46 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "44 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "44 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "44 over 46",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q29": {
+    "id": "board_title_solver_29",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 7 * 6 in dimension having a total of 42 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 20 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 20 dominoes in the checkerboard to exactly cover all the remaining 40 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "38 over 40",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "38 over 40",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "38 over 40",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q30": {
+    "id": "board_title_solver_30",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe checkerboard shown in the image was originally of 8 * 5 in dimension having a total of 40 squares. It uses two colours of squares, one light yellow and one dark yellow, in a chequered pattern. Two of the squares have been removed from the board in the position of the white coloured cells, as shown in the image. You have 19 dominoes of size 2 * 1. You can use them as is or you can rotate them to use as a 1 * 2 domino. Is it possible to place all the 19 dominoes in the checkerboard to exactly cover all the remaining 38 squares? Answer Yes or No.\nA. Yes\nB. No",
+    "answer": "No",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "36 over 38",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "36 over 38",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "No",
+        "total_match": "36 over 38",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 100.0,
+    "run_2": 100.0,
+    "run_3": 100.0
+  }
+}

@@ -1,0 +1,2908 @@
+{
+  "Test-File length": 100,
+  "Q1": {
+    "id": "calculator_1",
+    "query": "add(2,3)",
+    "answer": 5,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "5",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "5",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "5",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": "calculator_2",
+    "query": "subtract(10,4)",
+    "answer": 6,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q3": {
+    "id": "calculator_3",
+    "query": "multiply(7,6)",
+    "answer": 42,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "42",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "42",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "42",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": "calculator_4",
+    "query": "divide(8,2)",
+    "answer": 4,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": "calculator_5",
+    "query": "power(2,3)",
+    "answer": 8,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q6": {
+    "id": "calculator_6",
+    "query": "sqrt(25)",
+    "answer": 5,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "5",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "5",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "5",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": "calculator_7",
+    "query": "log(100)",
+    "answer": 2,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": "calculator_8",
+    "query": "ln(1)",
+    "answer": 0,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q9": {
+    "id": "calculator_9",
+    "query": "remainder(10,3)",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": "calculator_10",
+    "query": "gcd(9,15)",
+    "answer": 3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q11": {
+    "id": "calculator_11",
+    "query": "lcm(4,6)",
+    "answer": 12,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "12",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "12",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "12",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q12": {
+    "id": "calculator_12",
+    "query": "choose(5,2)",
+    "answer": 10,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "10",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "10",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "10",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q13": {
+    "id": "calculator_13",
+    "query": "permutate(4,2)",
+    "answer": 12,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "12",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "12",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "12",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q14": {
+    "id": "calculator_14",
+    "query": "add(3.5,2)",
+    "answer": 5.5,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "5.5",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "5.5",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "5.5",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q15": {
+    "id": "calculator_15",
+    "query": "remainder(10,3)",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q16": {
+    "id": "calculator_16",
+    "query": "add(7,8)",
+    "answer": 15,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "15",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "15",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "15",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q17": {
+    "id": "calculator_17",
+    "query": "add(-5,12)",
+    "answer": 7,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "7",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "7",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "7",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q18": {
+    "id": "calculator_18",
+    "query": "subtract(0,7)",
+    "answer": -7,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-7",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-7",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-7",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q19": {
+    "id": "calculator_19",
+    "query": "multiply(-3,-4)",
+    "answer": 12,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "12",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "12",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "12",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q20": {
+    "id": "calculator_20",
+    "query": "divide(14,3)",
+    "answer": 4.67,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4.67",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4.67",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4.67",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q21": {
+    "id": "calculator_21",
+    "query": "power(5,0)",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q22": {
+    "id": "calculator_22",
+    "query": "sqrt(81)",
+    "answer": 9,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "9",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "9",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "9",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q23": {
+    "id": "calculator_23",
+    "query": "log(1000)",
+    "answer": 3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q24": {
+    "id": "calculator_24",
+    "query": "ln(2.718281828)",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q25": {
+    "id": "calculator_25",
+    "query": "remainder(53,5)",
+    "answer": 3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q26": {
+    "id": "calculator_26",
+    "query": "gcd(18,24)",
+    "answer": 6,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q27": {
+    "id": "calculator_27",
+    "query": "lcm(7,5)",
+    "answer": 35,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "35",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "35",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "35",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q28": {
+    "id": "calculator_28",
+    "query": "choose(6,0)",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q29": {
+    "id": "calculator_29",
+    "query": "permutate(6,1)",
+    "answer": 6,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q30": {
+    "id": "calculator_30",
+    "query": "add(8,3)",
+    "answer": 11,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "11",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "11",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "11",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q31": {
+    "id": "calculator_31",
+    "query": "gcd(9,15)",
+    "answer": 3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q32": {
+    "id": "calculator_32",
+    "query": "divide(9,3)",
+    "answer": 3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q33": {
+    "id": "calculator_33",
+    "query": "add(1.5,2.5)",
+    "answer": 4.0,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q34": {
+    "id": "calculator_34",
+    "query": "subtract(5.5,2.2)",
+    "answer": 3.3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3.3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3.3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3.3",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q35": {
+    "id": "calculator_35",
+    "query": "multiply(0,12345)",
+    "answer": 0,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q36": {
+    "id": "calculator_36",
+    "query": "divide(9,4)",
+    "answer": 2.25,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2.25",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2.25",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2.25",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q37": {
+    "id": "calculator_37",
+    "query": "power(10,1)",
+    "answer": 10,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "10",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "10",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "10",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q38": {
+    "id": "calculator_38",
+    "query": "sqrt(0)",
+    "answer": 0,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q39": {
+    "id": "calculator_39",
+    "query": "log(1)",
+    "answer": 0,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q40": {
+    "id": "calculator_40",
+    "query": "ln(7.38905609893)",
+    "answer": 2,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q41": {
+    "id": "calculator_41",
+    "query": "add(12345,67890)",
+    "answer": 80235,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "80235",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "80235",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "80235",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q42": {
+    "id": "calculator_42",
+    "query": "subtract(100000,12345)",
+    "answer": 87655,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "87655",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "87655",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "87655",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q43": {
+    "id": "calculator_43",
+    "query": "multiply(123,456)",
+    "answer": 56088,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "56088",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "56088",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "56088",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q44": {
+    "id": "calculator_44",
+    "query": "divide(355,113)",
+    "answer": 3.14,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3.14",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3.14",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3.14",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q45": {
+    "id": "calculator_45",
+    "query": "power(9,3)",
+    "answer": 729,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "729",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "729",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "729",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q46": {
+    "id": "calculator_46",
+    "query": "sqrt(2)",
+    "answer": 1.41,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1.41",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1.41",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1.41",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q47": {
+    "id": "calculator_47",
+    "query": "log(0.001)",
+    "answer": -3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-3",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q48": {
+    "id": "calculator_48",
+    "query": "ln(19)",
+    "answer": 2.94,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2.94",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2.94",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2.94",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q49": {
+    "id": "calculator_49",
+    "query": "remainder(1001,97)",
+    "answer": 31,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "31",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "31",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "31",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q50": {
+    "id": "calculator_50",
+    "query": "gcd(462,1071)",
+    "answer": 21,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "21",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "21",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "21",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q51": {
+    "id": "calculator_51",
+    "query": "lcm(21,6)",
+    "answer": 42,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "42",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "42",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "42",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q52": {
+    "id": "calculator_52",
+    "query": "choose(10,3)",
+    "answer": 120,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "120",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "120",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "120",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q53": {
+    "id": "calculator_53",
+    "query": "permutate(10,3)",
+    "answer": 720,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "720",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "720",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "720",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q54": {
+    "id": "calculator_54",
+    "query": "divide(100,4)",
+    "answer": 25,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "25",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "25",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "25",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q55": {
+    "id": "calculator_55",
+    "query": "lcm(21,6)",
+    "answer": 42,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "42",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "42",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "42",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q56": {
+    "id": "calculator_56",
+    "query": "log(1000)",
+    "answer": 3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q57": {
+    "id": "calculator_57",
+    "query": "multiply(5,12)",
+    "answer": 60,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "60",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "60",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "60",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q58": {
+    "id": "calculator_58",
+    "query": "power(2,10)",
+    "answer": 1024,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1024",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1024",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1024",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q59": {
+    "id": "calculator_59",
+    "query": "gcd(16384,65536)",
+    "answer": 16384,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "16384",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "16384",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "16384",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q60": {
+    "id": "calculator_60",
+    "query": "lcm(48,180)",
+    "answer": 720,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "720",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "720",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "720",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q61": {
+    "id": "calculator_61",
+    "query": "choose(20,2)",
+    "answer": 190,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "190",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "190",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "190",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q62": {
+    "id": "calculator_62",
+    "query": "permutate(15,5)",
+    "answer": 360360,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "360360",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "360360",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "360360",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q63": {
+    "id": "calculator_63",
+    "query": "sqrt(998001)",
+    "answer": 999,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "999",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "999",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "999",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q64": {
+    "id": "calculator_64",
+    "query": "remainder(355,113)",
+    "answer": 16,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "16",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "16",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "16",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q65": {
+    "id": "calculator_65",
+    "query": "remainder(355,113)",
+    "answer": 16,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "16",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "16",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "16",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q66": {
+    "id": "calculator_66",
+    "query": "sqrt(12345)",
+    "answer": 111.11,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "111.11",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "111.11",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "111.11",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q67": {
+    "id": "calculator_67",
+    "query": "log(50000)",
+    "answer": 4.7,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4.7",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4.7",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4.7",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q68": {
+    "id": "calculator_68",
+    "query": "ln(0.5)",
+    "answer": -0.69,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-0.69",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-0.69",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-0.69",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q69": {
+    "id": "calculator_69",
+    "query": "add(1.23456,7.89012)",
+    "answer": 9.12,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "9.12",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "9.12",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "9.12",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q70": {
+    "id": "calculator_70",
+    "query": "subtract(100.001,0.0001)",
+    "answer": 100,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "100",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "100",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "100",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q71": {
+    "id": "calculator_71",
+    "query": "multiply(12.34,56.78)",
+    "answer": 700.67,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "700.67",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "700.67",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "700.67",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q72": {
+    "id": "calculator_72",
+    "query": "divide(22.0,7.0)",
+    "answer": 3.14,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3.14",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3.14",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3.14",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q73": {
+    "id": "calculator_73",
+    "query": "gcd(12345,67890)",
+    "answer": 15,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "15",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "15",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "15",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q74": {
+    "id": "calculator_74",
+    "query": "lcm(123,456)",
+    "answer": 18696,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "18696",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "18696",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "18696",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q75": {
+    "id": "calculator_75",
+    "query": "choose(30,15)",
+    "answer": 155117520,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "155117520",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "155117520",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "155117520",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q76": {
+    "id": "calculator_76",
+    "query": "permutate(20,10)",
+    "answer": 670442572800,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "670442572800",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "670442572800",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "670442572800",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q77": {
+    "id": "calculator_77",
+    "query": "sqrt(15241578750190521)",
+    "answer": 123456789,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "123456789",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "123456789",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "123456789",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q78": {
+    "id": "calculator_78",
+    "query": "gcd(99991,999983)",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q79": {
+    "id": "calculator_79",
+    "query": "remainder(1000000000000,99991)",
+    "answer": 8100,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8100",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8100",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8100",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q80": {
+    "id": "calculator_80",
+    "query": "remainder(-29,7)",
+    "answer": 6,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "6",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q81": {
+    "id": "calculator_81",
+    "query": "gcd(99991,999983)",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q82": {
+    "id": "calculator_82",
+    "query": "lcm(12345,6789)",
+    "answer": 27936735,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "27936735",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "27936735",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "27936735",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q83": {
+    "id": "calculator_83",
+    "query": "power(2,39)",
+    "answer": 549755813888,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "549755813888",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "549755813888",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "549755813888",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q84": {
+    "id": "calculator_84",
+    "query": "sqrt(9999991)",
+    "answer": 3162.28,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3162.28",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3162.28",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "3162.28",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q85": {
+    "id": "calculator_85",
+    "query": "log(1234567890)",
+    "answer": 9.09,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "9.09",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "9.09",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "9.09",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q86": {
+    "id": "calculator_86",
+    "query": "ln(1e-9)",
+    "answer": -20.72,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-20.72",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-20.72",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "-20.72",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q87": {
+    "id": "calculator_87",
+    "query": "choose(100,50)",
+    "answer": 100891344545564193334812497256,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "100891344545564193334812497256",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "100891344545564193334812497256",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "100891344545564193334812497256",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q88": {
+    "id": "calculator_88",
+    "query": "permutate(25,15)",
+    "answer": 4274473667143680000,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4274473667143680000",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4274473667143680000",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4274473667143680000",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q89": {
+    "id": "calculator_89",
+    "query": "remainder(15241578750190521,1234567)",
+    "answer": 7920,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "7920",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "7920",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "7920",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q90": {
+    "id": "calculator_90",
+    "query": "lcm(123456,789012)",
+    "answer": 8117355456,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8117355456",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8117355456",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8117355456",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q91": {
+    "id": "calculator_91",
+    "query": "permutate(20,10)",
+    "answer": 670442572800,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "670442572800",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "670442572800",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "670442572800",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q92": {
+    "id": "calculator_92",
+    "query": "divide(123456789,0.0001)",
+    "answer": 1234567890000.0,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1234567890000",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1234567890000",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1234567890000",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q93": {
+    "id": "calculator_93",
+    "query": "remainder(2147483647,97)",
+    "answer": 65,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "65",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "65",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "65",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q94": {
+    "id": "calculator_94",
+    "query": "gcd(18446744073709551615,4294967295)",
+    "answer": 4294967295,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4294967295",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4294967295",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4294967295",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q95": {
+    "id": "calculator_95",
+    "query": "lcm(123456,789012)",
+    "answer": 8117355456,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8117355456",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8117355456",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "8117355456",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q96": {
+    "id": "calculator_96",
+    "query": "power(9.999,99)",
+    "answer": 9.901483535267289e+98,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "990148353526728900000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "990148353526728900000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "990148353526728900000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q97": {
+    "id": "calculator_97",
+    "query": "sqrt(0.00001234)",
+    "answer": 0.0035,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0.0035",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0.0035",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "0.0035",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q98": {
+    "id": "calculator_98",
+    "query": "log(6.022e23)",
+    "answer": 23.78,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "23.78",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "23.78",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "23.78",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q99": {
+    "id": "calculator_99",
+    "query": "ln(340282366920938463463374607431768211456)",
+    "answer": 88.72,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "88.72",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "88.72",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "88.72",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q100": {
+    "id": "calculator_100",
+    "query": "choose(200,5)",
+    "answer": 2535650040,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2535650040",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2535650040",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "2535650040",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 100.0,
+    "run_2": 100.0,
+    "run_3": 100.0
+  }
+}

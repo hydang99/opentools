@@ -1,0 +1,2158 @@
+{
+  "Test-File length": 36,
+  "Q1": {
+    "id": "chemistry_search_1",
+    "evaluation_metrics": "search_pattern",
+    "query": "aspirin",
+    "answer": "C9H8O4",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'aspirin':\n\n1. **Aspirin** (CID: 2244)\n   - Formula: C9H8O4\n   - Molecular Weight: 180.16 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "aspirin",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aspirin/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.5657267570495605,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:41.394069"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'aspirin':\n\n1. **Aspirin** (CID: 2244)\n   - Formula: C9H8O4\n   - Molecular Weight: 180.16 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "aspirin",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aspirin/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.10972857475280762,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:41.504197"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'aspirin':\n\n1. **Aspirin** (CID: 2244)\n   - Formula: C9H8O4\n   - Molecular Weight: 180.16 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "aspirin",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aspirin/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.10959100723266602,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:41.614175"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": "chemistry_search_2",
+    "evaluation_metrics": "search_pattern",
+    "query": "caffeine",
+    "answer": "C8H10N4O2",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'caffeine':\n\n1. **Caffeine** (CID: 2519)\n   - Formula: C8H10N4O2\n   - Molecular Weight: 194.19 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "caffeine",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/caffeine/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.10164666175842285,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:41.716185"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'caffeine':\n\n1. **Caffeine** (CID: 2519)\n   - Formula: C8H10N4O2\n   - Molecular Weight: 194.19 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "caffeine",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/caffeine/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.10909867286682129,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:41.825585"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'caffeine':\n\n1. **Caffeine** (CID: 2519)\n   - Formula: C8H10N4O2\n   - Molecular Weight: 194.19 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "caffeine",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/caffeine/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.13744020462036133,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:41.963317"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q3": {
+    "id": "chemistry_search_3",
+    "evaluation_metrics": "search_pattern",
+    "query": "water",
+    "answer": "H2O",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'water':\n\n1. **Water** (CID: 962)\n   - Formula: H2O\n   - Molecular Weight: 18.015 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "water",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/water/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.11240315437316895,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:42.076016"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'water':\n\n1. **Water** (CID: 962)\n   - Formula: H2O\n   - Molecular Weight: 18.015 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "water",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/water/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.09699606895446777,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:42.173245"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'water':\n\n1. **Water** (CID: 962)\n   - Formula: H2O\n   - Molecular Weight: 18.015 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "water",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/water/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.10495352745056152,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:42.278431"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": "chemistry_search_4",
+    "evaluation_metrics": "search_pattern",
+    "query": "ethanol",
+    "answer": "C2H6O",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'ethanol':\n\n1. **Ethanol** (CID: 702)\n   - Formula: C2H6O\n   - Molecular Weight: 46.07 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "ethanol",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethanol/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.12007570266723633,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:42.398814"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'ethanol':\n\n1. **Ethanol** (CID: 702)\n   - Formula: C2H6O\n   - Molecular Weight: 46.07 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "ethanol",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethanol/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.11105680465698242,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:42.510144"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'ethanol':\n\n1. **Ethanol** (CID: 702)\n   - Formula: C2H6O\n   - Molecular Weight: 46.07 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "ethanol",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethanol/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.12582039833068848,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:42.636249"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": "chemistry_search_5",
+    "evaluation_metrics": "search_pattern",
+    "query": "glucose",
+    "answer": "C6H12O6",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'glucose':\n\n1. **D-Glucose** (CID: 5793)\n   - Formula: C6H12O6\n   - Molecular Weight: 180.16 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "glucose",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glucose/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.09582114219665527,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:42.732366"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'glucose':\n\n1. **D-Glucose** (CID: 5793)\n   - Formula: C6H12O6\n   - Molecular Weight: 180.16 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "glucose",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glucose/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.10668587684631348,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:42.839323"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": false,
+      "result": {
+        "error": "PubChem API error: PubChem service temporarily unavailable (503)",
+        "success": false,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "glucose",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glucose/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.0,
+          "total_results": 0,
+          "rate_limit_delay": null,
+          "error_type": "pubchem_api_error",
+          "timestamp": "2025-11-27T12:32:42.877071"
+        },
+        "traceback": "Traceback (most recent call last):\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 285, in mcp_search_compounds\n    raise e\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 278, in mcp_search_compounds\n    data, response_time = self._make_request(url)\n                          ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 206, in _make_request\n    raise requests.RequestException(\"PubChem service temporarily unavailable (503)\")\nrequests.exceptions.RequestException: PubChem service temporarily unavailable (503)\n"
+      },
+      "accuracy": 0
+    }
+  },
+  "Q6": {
+    "id": "chemistry_search_6",
+    "evaluation_metrics": "search_pattern",
+    "query": "benzene",
+    "answer": "C6H6",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'benzene':\n\n1. **Benzene** (CID: 241)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "benzene",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/benzene/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.17465615272521973,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:43.055789"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'benzene':\n\n1. **Benzene** (CID: 241)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "benzene",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/benzene/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.11220502853393555,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:43.168315"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'benzene':\n\n1. **Benzene** (CID: 241)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "benzene",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/benzene/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.10382962226867676,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:43.272429"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": "chemistry_search_7",
+    "evaluation_metrics": "search_pattern",
+    "query": "acetaminophen",
+    "answer": "C8H9NO2",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'acetaminophen':\n\n1. **Acetaminophen** (CID: 1983)\n   - Formula: C8H9NO2\n   - Molecular Weight: 151.16 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "acetaminophen",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetaminophen/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.11129212379455566,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:43.384032"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'acetaminophen':\n\n1. **Acetaminophen** (CID: 1983)\n   - Formula: C8H9NO2\n   - Molecular Weight: 151.16 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "acetaminophen",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetaminophen/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.11342358589172363,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:43.497741"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'acetaminophen':\n\n1. **Acetaminophen** (CID: 1983)\n   - Formula: C8H9NO2\n   - Molecular Weight: 151.16 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "acetaminophen",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetaminophen/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.12079930305480957,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:43.618826"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": "chemistry_search_8",
+    "evaluation_metrics": "search_pattern",
+    "query": "ibuprofen",
+    "answer": "C13H18O2",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'ibuprofen':\n\n1. **Ibuprofen, (+-)-** (CID: 3672)\n   - Formula: C13H18O2\n   - Molecular Weight: 206.28 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "ibuprofen",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ibuprofen/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.11335372924804688,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:43.732478"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'ibuprofen':\n\n1. **Ibuprofen, (+-)-** (CID: 3672)\n   - Formula: C13H18O2\n   - Molecular Weight: 206.28 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "ibuprofen",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ibuprofen/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.11489987373352051,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:43.847662"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": false,
+      "result": {
+        "error": "PubChem API error: PubChem service temporarily unavailable (503)",
+        "success": false,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "ibuprofen",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ibuprofen/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.0,
+          "total_results": 0,
+          "rate_limit_delay": null,
+          "error_type": "pubchem_api_error",
+          "timestamp": "2025-11-27T12:32:43.883093"
+        },
+        "traceback": "Traceback (most recent call last):\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 285, in mcp_search_compounds\n    raise e\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 278, in mcp_search_compounds\n    data, response_time = self._make_request(url)\n                          ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 206, in _make_request\n    raise requests.RequestException(\"PubChem service temporarily unavailable (503)\")\nrequests.exceptions.RequestException: PubChem service temporarily unavailable (503)\n"
+      },
+      "accuracy": 0
+    }
+  },
+  "Q9": {
+    "id": "chemistry_search_9",
+    "evaluation_metrics": "search_pattern",
+    "query": "sucrose",
+    "answer": "C12H22O11",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'sucrose':\n\n1. **Sucrose** (CID: 5988)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "sucrose",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucrose/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.18163442611694336,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:44.068659"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'sucrose':\n\n1. **Sucrose** (CID: 5988)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "sucrose",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucrose/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.13235235214233398,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:44.201345"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'sucrose':\n\n1. **Sucrose** (CID: 5988)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "sucrose",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sucrose/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.10745763778686523,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:44.309095"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": "chemistry_search_10",
+    "evaluation_metrics": "search_pattern",
+    "query": "sodium chloride",
+    "answer": "NaCl",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'sodium chloride':\n\n1. **Sodium Chloride** (CID: 5234)\n   - Formula: ClNa\n   - Molecular Weight: 58.44 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "sodium chloride",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20chloride/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.11315512657165527,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:44.422634"
+        }
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'sodium chloride':\n\n1. **Sodium Chloride** (CID: 5234)\n   - Formula: ClNa\n   - Molecular Weight: 58.44 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "sodium chloride",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20chloride/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.1089165210723877,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:44.531857"
+        }
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'sodium chloride':\n\n1. **Sodium Chloride** (CID: 5234)\n   - Formula: ClNa\n   - Molecular Weight: 58.44 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "sodium chloride",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20chloride/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.1105499267578125,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:44.642739"
+        }
+      },
+      "accuracy": 0
+    }
+  },
+  "Q11": {
+    "id": "chemistry_search_11",
+    "evaluation_metrics": "search_pattern",
+    "query": "hydrogen peroxide",
+    "answer": "H2O2",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'hydrogen peroxide':\n\n1. **Hydrogen Peroxide** (CID: 784)\n   - Formula: H2O2\n   - Molecular Weight: 34.015 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "hydrogen peroxide",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/hydrogen%20peroxide/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.11008024215698242,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:44.753141"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'hydrogen peroxide':\n\n1. **Hydrogen Peroxide** (CID: 784)\n   - Formula: H2O2\n   - Molecular Weight: 34.015 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "hydrogen peroxide",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/hydrogen%20peroxide/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.1068732738494873,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:44.860309"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'hydrogen peroxide':\n\n1. **Hydrogen Peroxide** (CID: 784)\n   - Formula: H2O2\n   - Molecular Weight: 34.015 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "hydrogen peroxide",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/hydrogen%20peroxide/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.1098470687866211,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:44.970449"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q12": {
+    "id": "chemistry_search_12",
+    "evaluation_metrics": "search_pattern",
+    "query": "methane",
+    "answer": "CH4",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'methane':\n\n1. **Methane** (CID: 297)\n   - Formula: CH4\n   - Molecular Weight: 16.043 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "methane",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methane/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.12032818794250488,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:45.091082"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'methane':\n\n1. **Methane** (CID: 297)\n   - Formula: CH4\n   - Molecular Weight: 16.043 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "methane",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methane/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.11175990104675293,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:45.203122"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'methane':\n\n1. **Methane** (CID: 297)\n   - Formula: CH4\n   - Molecular Weight: 16.043 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "methane",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methane/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.10796928405761719,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:45.311372"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q13": {
+    "id": "chemistry_search_13",
+    "evaluation_metrics": "search_pattern",
+    "query": "acetic acid",
+    "answer": "C2H4O2",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'acetic acid':\n\n1. **Acetic Acid** (CID: 176)\n   - Formula: C2H4O2\n   - Molecular Weight: 60.05 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "acetic acid",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetic%20acid/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.12542128562927246,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:45.437107"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'acetic acid':\n\n1. **Acetic Acid** (CID: 176)\n   - Formula: C2H4O2\n   - Molecular Weight: 60.05 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "acetic acid",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetic%20acid/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.1259157657623291,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:45.563316"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'acetic acid':\n\n1. **Acetic Acid** (CID: 176)\n   - Formula: C2H4O2\n   - Molecular Weight: 60.05 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "acetic acid",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetic%20acid/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.12151956558227539,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:45.685155"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q14": {
+    "id": "chemistry_search_14",
+    "evaluation_metrics": "search_pattern",
+    "query": "acetone",
+    "answer": "C3H6O",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'acetone':\n\n1. **Acetone** (CID: 180)\n   - Formula: C3H6O\n   - Molecular Weight: 58.08 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "acetone",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetone/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.1092679500579834,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:45.794723"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'acetone':\n\n1. **Acetone** (CID: 180)\n   - Formula: C3H6O\n   - Molecular Weight: 58.08 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "acetone",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetone/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.09824228286743164,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:45.893264"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'acetone':\n\n1. **Acetone** (CID: 180)\n   - Formula: C3H6O\n   - Molecular Weight: 58.08 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "acetone",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetone/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.10998845100402832,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:46.003577"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q15": {
+    "id": "chemistry_search_15",
+    "evaluation_metrics": "search_pattern",
+    "query": "carbon dioxide",
+    "answer": "CO2",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'carbon dioxide':\n\n1. **Carbon Dioxide** (CID: 280)\n   - Formula: CO2\n   - Molecular Weight: 44.009 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "carbon dioxide",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/carbon%20dioxide/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.10930538177490234,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:46.113234"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'carbon dioxide':\n\n1. **Carbon Dioxide** (CID: 280)\n   - Formula: CO2\n   - Molecular Weight: 44.009 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "carbon dioxide",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/carbon%20dioxide/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.14039897918701172,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:46.253944"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'carbon dioxide':\n\n1. **Carbon Dioxide** (CID: 280)\n   - Formula: CO2\n   - Molecular Weight: 44.009 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "carbon dioxide",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/carbon%20dioxide/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.11442446708679199,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:46.368665"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q16": {
+    "id": "chemistry_search_16",
+    "evaluation_metrics": "search_pattern",
+    "query": "ammonia",
+    "answer": "NH3",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'ammonia':\n\n1. **Ammonia** (CID: 222)\n   - Formula: H3N\n   - Molecular Weight: 17.031 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "ammonia",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ammonia/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.29816675186157227,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:46.667138"
+        }
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'ammonia':\n\n1. **Ammonia** (CID: 222)\n   - Formula: H3N\n   - Molecular Weight: 17.031 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "ammonia",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ammonia/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.15239596366882324,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:46.819814"
+        }
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'ammonia':\n\n1. **Ammonia** (CID: 222)\n   - Formula: H3N\n   - Molecular Weight: 17.031 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "name",
+          "query_value": "ammonia",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ammonia/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.12528324127197266,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:46.945413"
+        }
+      },
+      "accuracy": 0
+    }
+  },
+  "Q17": {
+    "id": "chemistry_search_17",
+    "evaluation_metrics": "search_pattern",
+    "query": "C6H6",
+    "answer": "5 compound(s)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 5 compound(s) for query 'C6H6':\n\n1. **Benzene** (CID: 241)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H\n\n2. **Dipropargyl** (CID: 69402)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-3-5-6-4-2/h1-2H,5-6H2\n\n3. **Benzene-D6** (CID: 71601)\n   - Formula: C6H6\n   - Molecular Weight: 84.15 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H/i1D,2D,3D,4D,5D,6D\n\n4. **Divinylacetylene** (CID: 61222)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-3-5-6-4-2/h3-4H,1-2H2\n\n5. **2,4-Hexadiyne** (CID: 137727)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-3-5-6-4-2/h1-2H3\n",
+        "success": true,
+        "metadata": {
+          "query_type": "formula",
+          "query_value": "C6H6",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/formula/C6H6/cids/JSON",
+          "response_time": 2.4017550945281982,
+          "total_results": 5,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:32:54.911297"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 5 compound(s) for query 'C6H6':\n\n1. **Benzene** (CID: 241)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H\n\n2. **Dipropargyl** (CID: 69402)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-3-5-6-4-2/h1-2H,5-6H2\n\n3. **Benzene-D6** (CID: 71601)\n   - Formula: C6H6\n   - Molecular Weight: 84.15 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H/i1D,2D,3D,4D,5D,6D\n\n4. **Divinylacetylene** (CID: 61222)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-3-5-6-4-2/h3-4H,1-2H2\n\n5. **2,4-Hexadiyne** (CID: 137727)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-3-5-6-4-2/h1-2H3\n",
+        "success": true,
+        "metadata": {
+          "query_type": "formula",
+          "query_value": "C6H6",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/formula/C6H6/cids/JSON",
+          "response_time": 2.50823712348938,
+          "total_results": 5,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:03.234710"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 5 compound(s) for query 'C6H6':\n\n1. **Benzene** (CID: 241)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H\n\n2. **Dipropargyl** (CID: 69402)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-3-5-6-4-2/h1-2H,5-6H2\n\n3. **Benzene-D6** (CID: 71601)\n   - Formula: C6H6\n   - Molecular Weight: 84.15 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H/i1D,2D,3D,4D,5D,6D\n\n4. **Divinylacetylene** (CID: 61222)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-3-5-6-4-2/h3-4H,1-2H2\n\n5. **2,4-Hexadiyne** (CID: 137727)\n   - Formula: C6H6\n   - Molecular Weight: 78.11 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C6H6/c1-3-5-6-4-2/h1-2H3\n",
+        "success": true,
+        "metadata": {
+          "query_type": "formula",
+          "query_value": "C6H6",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/formula/C6H6/cids/JSON",
+          "response_time": 2.4977400302886963,
+          "total_results": 5,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:10.974069"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q18": {
+    "id": "chemistry_search_18",
+    "evaluation_metrics": "search_pattern",
+    "query": "C12H22O11",
+    "answer": "5 compound(s)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 5 compound(s) for query 'C12H22O11':\n\n1. **Sucrose** (CID: 5988)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-...\n\n2. **Trehalose** (CID: 7427)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-3-5(15)7(17)9(19)11(21-3)23-12-10(20)8(18)6(16)4(2-14)22-12/h3-20H,1-2H2/t3...\n\n3. **Lactulose** (CID: 11333)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-4-6(16)7(17)8(18)11(21-4)22-9-5(2-14)23-12(20,3-15)10(9)19/h4-11,13-20H,1-3...\n\n4. **Amylodextrin** (CID: 439341)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3...\n\n5. **alpha-D-lactose** (CID: 84571)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3...\n",
+        "success": true,
+        "metadata": {
+          "query_type": "formula",
+          "query_value": "C12H22O11",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/formula/C12H22O11/cids/JSON",
+          "response_time": 2.4369757175445557,
+          "total_results": 5,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:22.878455"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 5 compound(s) for query 'C12H22O11':\n\n1. **Sucrose** (CID: 5988)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-...\n\n2. **Trehalose** (CID: 7427)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-3-5(15)7(17)9(19)11(21-3)23-12-10(20)8(18)6(16)4(2-14)22-12/h3-20H,1-2H2/t3...\n\n3. **Lactulose** (CID: 11333)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-4-6(16)7(17)8(18)11(21-4)22-9-5(2-14)23-12(20,3-15)10(9)19/h4-11,13-20H,1-3...\n\n4. **Amylodextrin** (CID: 439341)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3...\n\n5. **alpha-D-lactose** (CID: 84571)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3...\n",
+        "success": true,
+        "metadata": {
+          "query_type": "formula",
+          "query_value": "C12H22O11",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/formula/C12H22O11/cids/JSON",
+          "response_time": 2.467914581298828,
+          "total_results": 5,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:34.943198"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 5 compound(s) for query 'C12H22O11':\n\n1. **Sucrose** (CID: 5988)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-...\n\n2. **Trehalose** (CID: 7427)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-3-5(15)7(17)9(19)11(21-3)23-12-10(20)8(18)6(16)4(2-14)22-12/h3-20H,1-2H2/t3...\n\n3. **Lactulose** (CID: 11333)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-4-6(16)7(17)8(18)11(21-4)22-9-5(2-14)23-12(20,3-15)10(9)19/h4-11,13-20H,1-3...\n\n4. **Amylodextrin** (CID: 439341)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3...\n\n5. **alpha-D-lactose** (CID: 84571)\n   - Formula: C12H22O11\n   - Molecular Weight: 342.3 g/mol\n   - SMILES: None\n   - InChI: InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3...\n",
+        "success": true,
+        "metadata": {
+          "query_type": "formula",
+          "query_value": "C12H22O11",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/formula/C12H22O11/cids/JSON",
+          "response_time": 2.4560158252716064,
+          "total_results": 5,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:47.552851"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q19": {
+    "id": "chemistry_search_19",
+    "evaluation_metrics": "search_pattern",
+    "query": "CC(=O)OC1=CC=CC=C1C(=O)O",
+    "answer": "C9H8O4",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'CC(=O)OC1=CC=CC=C1C(=O)O':\n\n1. **Aspirin** (CID: 2244)\n   - Formula: C9H8O4\n   - Molecular Weight: 180.16 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "smiles",
+          "query_value": "CC(=O)OC1=CC=CC=C1C(=O)O",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/CC%28%3DO%29OC1%3DCC%3DCC%3DC1C%28%3DO%29O/cids/JSON",
+          "response_time": 0.27895355224609375,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:47.948817"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'CC(=O)OC1=CC=CC=C1C(=O)O':\n\n1. **Aspirin** (CID: 2244)\n   - Formula: C9H8O4\n   - Molecular Weight: 180.16 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "smiles",
+          "query_value": "CC(=O)OC1=CC=CC=C1C(=O)O",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/CC%28%3DO%29OC1%3DCC%3DCC%3DC1C%28%3DO%29O/cids/JSON",
+          "response_time": 0.27939796447753906,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:48.329597"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 1 compound(s) for query 'CC(=O)OC1=CC=CC=C1C(=O)O':\n\n1. **Aspirin** (CID: 2244)\n   - Formula: C9H8O4\n   - Molecular Weight: 180.16 g/mol\n   - SMILES: None\n",
+        "success": true,
+        "metadata": {
+          "query_type": "smiles",
+          "query_value": "CC(=O)OC1=CC=CC=C1C(=O)O",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/CC%28%3DO%29OC1%3DCC%3DCC%3DC1C%28%3DO%29O/cids/JSON",
+          "response_time": 0.28070759773254395,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:48.717747"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q20": {
+    "id": "chemistry_search_20",
+    "evaluation_metrics": "search_pattern",
+    "query": "InChI=1S/H2O/h1H2",
+    "answer": "H2O",
+    "run_1": {
+      "tool_call_pass": false,
+      "result": {
+        "error": "PubChem API error: HTTP 400: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.BadRequest\",\n    \"Message\": \"Missing structure string\",\n    \"Details\": [\n      \"An argument for 'inchi' must be provided in the URL path or POST data\"\n    ]\n  }\n}\n",
+        "success": false,
+        "metadata": {
+          "query_type": "inchi",
+          "query_value": "InChI=1S/H2O/h1H2",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchi/InChI%3D1S/H2O/h1H2/cids/JSON",
+          "response_time": 0.0,
+          "total_results": 0,
+          "rate_limit_delay": null,
+          "error_type": "pubchem_api_error",
+          "timestamp": "2025-11-27T12:33:48.755518"
+        },
+        "traceback": "Traceback (most recent call last):\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 285, in mcp_search_compounds\n    raise e\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 278, in mcp_search_compounds\n    data, response_time = self._make_request(url)\n                          ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 208, in _make_request\n    raise requests.RequestException(f\"HTTP {response.status_code}: {response.text}\")\nrequests.exceptions.RequestException: HTTP 400: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.BadRequest\",\n    \"Message\": \"Missing structure string\",\n    \"Details\": [\n      \"An argument for 'inchi' must be provided in the URL path or POST data\"\n    ]\n  }\n}\n\n"
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": false,
+      "result": {
+        "error": "PubChem API error: HTTP 400: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.BadRequest\",\n    \"Message\": \"Missing structure string\",\n    \"Details\": [\n      \"An argument for 'inchi' must be provided in the URL path or POST data\"\n    ]\n  }\n}\n",
+        "success": false,
+        "metadata": {
+          "query_type": "inchi",
+          "query_value": "InChI=1S/H2O/h1H2",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchi/InChI%3D1S/H2O/h1H2/cids/JSON",
+          "response_time": 0.0,
+          "total_results": 0,
+          "rate_limit_delay": null,
+          "error_type": "pubchem_api_error",
+          "timestamp": "2025-11-27T12:33:48.870351"
+        },
+        "traceback": "Traceback (most recent call last):\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 285, in mcp_search_compounds\n    raise e\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 278, in mcp_search_compounds\n    data, response_time = self._make_request(url)\n                          ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 208, in _make_request\n    raise requests.RequestException(f\"HTTP {response.status_code}: {response.text}\")\nrequests.exceptions.RequestException: HTTP 400: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.BadRequest\",\n    \"Message\": \"Missing structure string\",\n    \"Details\": [\n      \"An argument for 'inchi' must be provided in the URL path or POST data\"\n    ]\n  }\n}\n\n"
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": false,
+      "result": {
+        "error": "PubChem API error: HTTP 400: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.BadRequest\",\n    \"Message\": \"Missing structure string\",\n    \"Details\": [\n      \"An argument for 'inchi' must be provided in the URL path or POST data\"\n    ]\n  }\n}\n",
+        "success": false,
+        "metadata": {
+          "query_type": "inchi",
+          "query_value": "InChI=1S/H2O/h1H2",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchi/InChI%3D1S/H2O/h1H2/cids/JSON",
+          "response_time": 0.0,
+          "total_results": 0,
+          "rate_limit_delay": null,
+          "error_type": "pubchem_api_error",
+          "timestamp": "2025-11-27T12:33:48.981536"
+        },
+        "traceback": "Traceback (most recent call last):\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 285, in mcp_search_compounds\n    raise e\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 278, in mcp_search_compounds\n    data, response_time = self._make_request(url)\n                          ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 208, in _make_request\n    raise requests.RequestException(f\"HTTP {response.status_code}: {response.text}\")\nrequests.exceptions.RequestException: HTTP 400: {\n  \"Fault\": {\n    \"Code\": \"PUGREST.BadRequest\",\n    \"Message\": \"Missing structure string\",\n    \"Details\": [\n      \"An argument for 'inchi' must be provided in the URL path or POST data\"\n    ]\n  }\n}\n\n"
+      },
+      "accuracy": 0
+    }
+  },
+  "Q21": {
+    "id": "chemistry_search_21",
+    "evaluation_metrics": "search_pattern",
+    "answer": "ACETYLSALICYLIC ACID",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 30 synonym(s) for CID 2244:\n\n1. aspirin\n2. ACETYLSALICYLIC ACID\n3. 50-78-2\n4. 2-Acetoxybenzoic acid\n5. 2-(Acetyloxy)benzoic acid\n6. O-Acetylsalicylic acid\n7. Acylpyrin\n8. o-Acetoxybenzoic acid\n9. Acenterine\n10. Acetophen\n11. Ecotrin\n12. Salicylic acid acetate\n13. Acetosalin\n14. Polopiryna\n15. Aspirdrops\n16. o-Carboxyphenyl acetate\n17. Pharmacin\n18. Premaspin\n19. Salcetogen\n20. Aceticyl\n21. Acetonyl\n22. Acidum acetylsalicylicum\n23. Benaspir\n24. Empirin\n25. Endydol\n26. Measurin\n27. Rhodine\n28. Saletin\n29. Temperal\n30. Ecolen",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "2244",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/synonyms/JSON",
+          "response_time": 0.15243268013000488,
+          "total_results": 30,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:49.137605"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 30 synonym(s) for CID 2244:\n\n1. aspirin\n2. ACETYLSALICYLIC ACID\n3. 50-78-2\n4. 2-Acetoxybenzoic acid\n5. 2-(Acetyloxy)benzoic acid\n6. O-Acetylsalicylic acid\n7. Acylpyrin\n8. o-Acetoxybenzoic acid\n9. Acenterine\n10. Acetophen\n11. Ecotrin\n12. Salicylic acid acetate\n13. Acetosalin\n14. Polopiryna\n15. Aspirdrops\n16. o-Carboxyphenyl acetate\n17. Pharmacin\n18. Premaspin\n19. Salcetogen\n20. Aceticyl\n21. Acetonyl\n22. Acidum acetylsalicylicum\n23. Benaspir\n24. Empirin\n25. Endydol\n26. Measurin\n27. Rhodine\n28. Saletin\n29. Temperal\n30. Ecolen",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "2244",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/synonyms/JSON",
+          "response_time": 0.07726073265075684,
+          "total_results": 30,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:49.215341"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 30 synonym(s) for CID 2244:\n\n1. aspirin\n2. ACETYLSALICYLIC ACID\n3. 50-78-2\n4. 2-Acetoxybenzoic acid\n5. 2-(Acetyloxy)benzoic acid\n6. O-Acetylsalicylic acid\n7. Acylpyrin\n8. o-Acetoxybenzoic acid\n9. Acenterine\n10. Acetophen\n11. Ecotrin\n12. Salicylic acid acetate\n13. Acetosalin\n14. Polopiryna\n15. Aspirdrops\n16. o-Carboxyphenyl acetate\n17. Pharmacin\n18. Premaspin\n19. Salcetogen\n20. Aceticyl\n21. Acetonyl\n22. Acidum acetylsalicylicum\n23. Benaspir\n24. Empirin\n25. Endydol\n26. Measurin\n27. Rhodine\n28. Saletin\n29. Temperal\n30. Ecolen",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "2244",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/synonyms/JSON",
+          "response_time": 0.07493209838867188,
+          "total_results": 30,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:49.290739"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q22": {
+    "id": "chemistry_search_22",
+    "evaluation_metrics": "search_pattern",
+    "answer": "caffeine",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 30 synonym(s) for CID 2519:\n\n1. caffeine\n2. 58-08-2\n3. Guaranine\n4. 1,3,7-Trimethylxanthine\n5. Methyltheobromine\n6. Theine\n7. Thein\n8. Cafeina\n9. Caffein\n10. Koffein\n11. Mateina\n12. Alert-pep\n13. Cafipel\n14. Coffeine\n15. Anhydrous caffeine\n16. Refresh'n\n17. Caffedrine\n18. Vivarin\n19. Stim\n20. No-Doz\n21. Cafamil\n22. Cafecon\n23. Caffine\n24. Dexitac\n25. Nodaca\n26. 7-Methyltheophylline\n27. Eldiatric C\n28. Durvitan\n29. Hycomine\n30. Organex",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "2519",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/synonyms/JSON",
+          "response_time": 0.07533144950866699,
+          "total_results": 30,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:49.366493"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 30 synonym(s) for CID 2519:\n\n1. caffeine\n2. 58-08-2\n3. Guaranine\n4. 1,3,7-Trimethylxanthine\n5. Methyltheobromine\n6. Theine\n7. Thein\n8. Cafeina\n9. Caffein\n10. Koffein\n11. Mateina\n12. Alert-pep\n13. Cafipel\n14. Coffeine\n15. Anhydrous caffeine\n16. Refresh'n\n17. Caffedrine\n18. Vivarin\n19. Stim\n20. No-Doz\n21. Cafamil\n22. Cafecon\n23. Caffine\n24. Dexitac\n25. Nodaca\n26. 7-Methyltheophylline\n27. Eldiatric C\n28. Durvitan\n29. Hycomine\n30. Organex",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "2519",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/synonyms/JSON",
+          "response_time": 0.06882715225219727,
+          "total_results": 30,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:49.435704"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 30 synonym(s) for CID 2519:\n\n1. caffeine\n2. 58-08-2\n3. Guaranine\n4. 1,3,7-Trimethylxanthine\n5. Methyltheobromine\n6. Theine\n7. Thein\n8. Cafeina\n9. Caffein\n10. Koffein\n11. Mateina\n12. Alert-pep\n13. Cafipel\n14. Coffeine\n15. Anhydrous caffeine\n16. Refresh'n\n17. Caffedrine\n18. Vivarin\n19. Stim\n20. No-Doz\n21. Cafamil\n22. Cafecon\n23. Caffine\n24. Dexitac\n25. Nodaca\n26. 7-Methyltheophylline\n27. Eldiatric C\n28. Durvitan\n29. Hycomine\n30. Organex",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "2519",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/synonyms/JSON",
+          "response_time": 0.10026001930236816,
+          "total_results": 30,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:49.536371"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q23": {
+    "id": "chemistry_search_23",
+    "evaluation_metrics": "search_pattern",
+    "answer": "ethanol",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 30 synonym(s) for CID 702:\n\n1. ethanol\n2. ethyl alcohol\n3. alcohol\n4. 64-17-5\n5. grain alcohol\n6. Methylcarbinol\n7. Ethyl hydroxide\n8. Ethyl hydrate\n9. Tecsol\n10. Algrain\n11. Anhydrol\n12. EtOH\n13. Hydroxyethane\n14. Alkohol\n15. Jaysol S\n16. Potato alcohol\n17. Absolute ethanol\n18. 1-Hydroxyethane\n19. Ethanol 200 proof\n20. Aethylalkohol\n21. Denatured ethanol\n22. Aethanol\n23. Dehydrated ethanol\n24. Alcool ethylique\n25. etanol\n26. Fermentation alcohol\n27. Tecsol C\n28. Alcool etilico\n29. Alcohol, ethyl\n30. Alcohol, diluted",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "702",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/702/synonyms/JSON",
+          "response_time": 0.17677021026611328,
+          "total_results": 30,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:49.714946"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 30 synonym(s) for CID 702:\n\n1. ethanol\n2. ethyl alcohol\n3. alcohol\n4. 64-17-5\n5. grain alcohol\n6. Methylcarbinol\n7. Ethyl hydroxide\n8. Ethyl hydrate\n9. Tecsol\n10. Algrain\n11. Anhydrol\n12. EtOH\n13. Hydroxyethane\n14. Alkohol\n15. Jaysol S\n16. Potato alcohol\n17. Absolute ethanol\n18. 1-Hydroxyethane\n19. Ethanol 200 proof\n20. Aethylalkohol\n21. Denatured ethanol\n22. Aethanol\n23. Dehydrated ethanol\n24. Alcool ethylique\n25. etanol\n26. Fermentation alcohol\n27. Tecsol C\n28. Alcool etilico\n29. Alcohol, ethyl\n30. Alcohol, diluted",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "702",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/702/synonyms/JSON",
+          "response_time": 0.15169882774353027,
+          "total_results": 30,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:49.870022"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 30 synonym(s) for CID 702:\n\n1. ethanol\n2. ethyl alcohol\n3. alcohol\n4. 64-17-5\n5. grain alcohol\n6. Methylcarbinol\n7. Ethyl hydroxide\n8. Ethyl hydrate\n9. Tecsol\n10. Algrain\n11. Anhydrol\n12. EtOH\n13. Hydroxyethane\n14. Alkohol\n15. Jaysol S\n16. Potato alcohol\n17. Absolute ethanol\n18. 1-Hydroxyethane\n19. Ethanol 200 proof\n20. Aethylalkohol\n21. Denatured ethanol\n22. Aethanol\n23. Dehydrated ethanol\n24. Alcool ethylique\n25. etanol\n26. Fermentation alcohol\n27. Tecsol C\n28. Alcool etilico\n29. Alcohol, ethyl\n30. Alcohol, diluted",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "702",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/702/synonyms/JSON",
+          "response_time": 0.17989206314086914,
+          "total_results": 30,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:50.053443"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q24": {
+    "id": "chemistry_search_24",
+    "evaluation_metrics": "search_pattern",
+    "answer": "water",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 20 synonym(s) for CID 962:\n\n1. water\n2. 7732-18-5\n3. Distilled water\n4. Dihydrogen oxide\n5. Sterile water\n6. Purified water\n7. Water vapor\n8. Water, deionized\n9. oxidane\n10. aqua\n11. Water, purified\n12. Water, mineral\n13. Dihydrogen Monoxide\n14. steam\n15. Deionized water\n16. DHMO\n17. Water, sterile\n18. Water, distilled\n19. Water for injection\n20. Sterile purified water",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "962",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/962/synonyms/JSON",
+          "response_time": 0.1637876033782959,
+          "total_results": 20,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:50.217844"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 20 synonym(s) for CID 962:\n\n1. water\n2. 7732-18-5\n3. Distilled water\n4. Dihydrogen oxide\n5. Sterile water\n6. Purified water\n7. Water vapor\n8. Water, deionized\n9. oxidane\n10. aqua\n11. Water, purified\n12. Water, mineral\n13. Dihydrogen Monoxide\n14. steam\n15. Deionized water\n16. DHMO\n17. Water, sterile\n18. Water, distilled\n19. Water for injection\n20. Sterile purified water",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "962",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/962/synonyms/JSON",
+          "response_time": 0.13364839553833008,
+          "total_results": 20,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:50.351852"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 20 synonym(s) for CID 962:\n\n1. water\n2. 7732-18-5\n3. Distilled water\n4. Dihydrogen oxide\n5. Sterile water\n6. Purified water\n7. Water vapor\n8. Water, deionized\n9. oxidane\n10. aqua\n11. Water, purified\n12. Water, mineral\n13. Dihydrogen Monoxide\n14. steam\n15. Deionized water\n16. DHMO\n17. Water, sterile\n18. Water, distilled\n19. Water for injection\n20. Sterile purified water",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "962",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/962/synonyms/JSON",
+          "response_time": 0.22866344451904297,
+          "total_results": 20,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:50.580886"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q25": {
+    "id": "chemistry_search_25",
+    "evaluation_metrics": "search_pattern",
+    "answer": "benzene",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 20 synonym(s) for CID 241:\n\n1. benzene\n2. benzol\n3. 71-43-2\n4. Cyclohexatriene\n5. benzole\n6. Pyrobenzole\n7. Benzine\n8. Coal naphtha\n9. Pyrobenzol\n10. Benzen\n11. Phene\n12. Phenyl hydride\n13. Mineral naphtha\n14. Bicarburet of hydrogen\n15. Benzolene\n16. Motor benzol\n17. Benzeen\n18. Benzolo\n19. Fenzen\n20. [6]Annulene",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "241",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/241/synonyms/JSON",
+          "response_time": 0.06883502006530762,
+          "total_results": 20,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:50.650057"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 20 synonym(s) for CID 241:\n\n1. benzene\n2. benzol\n3. 71-43-2\n4. Cyclohexatriene\n5. benzole\n6. Pyrobenzole\n7. Benzine\n8. Coal naphtha\n9. Pyrobenzol\n10. Benzen\n11. Phene\n12. Phenyl hydride\n13. Mineral naphtha\n14. Bicarburet of hydrogen\n15. Benzolene\n16. Motor benzol\n17. Benzeen\n18. Benzolo\n19. Fenzen\n20. [6]Annulene",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "241",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/241/synonyms/JSON",
+          "response_time": 0.12494850158691406,
+          "total_results": 20,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:50.775308"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 20 synonym(s) for CID 241:\n\n1. benzene\n2. benzol\n3. 71-43-2\n4. Cyclohexatriene\n5. benzole\n6. Pyrobenzole\n7. Benzine\n8. Coal naphtha\n9. Pyrobenzol\n10. Benzen\n11. Phene\n12. Phenyl hydride\n13. Mineral naphtha\n14. Bicarburet of hydrogen\n15. Benzolene\n16. Motor benzol\n17. Benzeen\n18. Benzolo\n19. Fenzen\n20. [6]Annulene",
+        "success": true,
+        "metadata": {
+          "query_type": "synonyms",
+          "query_value": "241",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/241/synonyms/JSON",
+          "response_time": 0.20500755310058594,
+          "total_results": 20,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:50.980621"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q26": {
+    "id": "chemistry_search_26",
+    "evaluation_metrics": "search_pattern",
+    "answer": "C9H8O4",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 2244:\n\n**MolecularFormula**: C9H8O4\n**MolecularWeight**: 180.16\n**ConnectivitySMILES**: CC(=O)OC1=CC=CC=C1C(=O)O",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "2244",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+          "response_time": 0.21770429611206055,
+          "total_results": 3,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:51.198616"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 2244:\n\n**MolecularFormula**: C9H8O4\n**MolecularWeight**: 180.16\n**ConnectivitySMILES**: CC(=O)OC1=CC=CC=C1C(=O)O",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "2244",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+          "response_time": 0.19799518585205078,
+          "total_results": 3,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:51.396874"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 2244:\n\n**MolecularFormula**: C9H8O4\n**MolecularWeight**: 180.16\n**ConnectivitySMILES**: CC(=O)OC1=CC=CC=C1C(=O)O",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "2244",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+          "response_time": 0.1069180965423584,
+          "total_results": 3,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:51.504034"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q27": {
+    "id": "chemistry_search_27",
+    "evaluation_metrics": "search_pattern",
+    "answer": "C8H10N4O2",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 2519:\n\n**MolecularFormula**: C8H10N4O2\n**MolecularWeight**: 194.19",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "2519",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/property/MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.09051179885864258,
+          "total_results": 2,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:51.594797"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 2519:\n\n**MolecularFormula**: C8H10N4O2\n**MolecularWeight**: 194.19",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "2519",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/property/MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.09769463539123535,
+          "total_results": 2,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:51.692718"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 2519:\n\n**MolecularFormula**: C8H10N4O2\n**MolecularWeight**: 194.19",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "2519",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2519/property/MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.14101648330688477,
+          "total_results": 2,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:51.833962"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q28": {
+    "id": "chemistry_search_28",
+    "evaluation_metrics": "search_pattern",
+    "answer": "C2H6O",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 702:\n\n**MolecularFormula**: C2H6O\n**XLogP**: -0.1\n**TPSA**: 20.2",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "702",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/702/property/MolecularFormula,XLogP,TPSA/JSON",
+          "response_time": 0.1343679428100586,
+          "total_results": 3,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:51.968591"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 702:\n\n**MolecularFormula**: C2H6O\n**XLogP**: -0.1\n**TPSA**: 20.2",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "702",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/702/property/MolecularFormula,XLogP,TPSA/JSON",
+          "response_time": 0.11827349662780762,
+          "total_results": 3,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:52.087101"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 702:\n\n**MolecularFormula**: C2H6O\n**XLogP**: -0.1\n**TPSA**: 20.2",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "702",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/702/property/MolecularFormula,XLogP,TPSA/JSON",
+          "response_time": 0.10956501960754395,
+          "total_results": 3,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:52.196905"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q29": {
+    "id": "chemistry_search_29",
+    "evaluation_metrics": "search_pattern",
+    "answer": "H2O",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 962:\n\n**MolecularFormula**: H2O\n**HBondDonorCount**: 1\n**HBondAcceptorCount**: 1",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "962",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/962/property/MolecularFormula,HBondDonorCount,HBondAcceptorCount/JSON",
+          "response_time": 0.10666561126708984,
+          "total_results": 3,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:52.303824"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 962:\n\n**MolecularFormula**: H2O\n**HBondDonorCount**: 1\n**HBondAcceptorCount**: 1",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "962",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/962/property/MolecularFormula,HBondDonorCount,HBondAcceptorCount/JSON",
+          "response_time": 0.10564517974853516,
+          "total_results": 3,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:52.409733"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 962:\n\n**MolecularFormula**: H2O\n**HBondDonorCount**: 1\n**HBondAcceptorCount**: 1",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "962",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/962/property/MolecularFormula,HBondDonorCount,HBondAcceptorCount/JSON",
+          "response_time": 0.10429167747497559,
+          "total_results": 3,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:52.514269"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q30": {
+    "id": "chemistry_search_30",
+    "evaluation_metrics": "search_pattern",
+    "answer": "C6H6",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 241:\n\n**MolecularFormula**: C6H6\n**MolecularWeight**: 78.11",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "241",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/241/property/MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.08553624153137207,
+          "total_results": 2,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:52.600056"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 241:\n\n**MolecularFormula**: C6H6\n**MolecularWeight**: 78.11",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "241",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/241/property/MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.08523416519165039,
+          "total_results": 2,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:52.685521"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 241:\n\n**MolecularFormula**: C6H6\n**MolecularWeight**: 78.11",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "241",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/241/property/MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.07877731323242188,
+          "total_results": 2,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:52.764528"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q31": {
+    "id": "chemistry_search_31",
+    "evaluation_metrics": "search_pattern",
+    "answer": "C8H9NO2",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 1983:\n\n**MolecularFormula**: C8H9NO2",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "1983",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/1983/property/MolecularFormula/JSON",
+          "response_time": 0.0606837272644043,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:52.825458"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 1983:\n\n**MolecularFormula**: C8H9NO2",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "1983",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/1983/property/MolecularFormula/JSON",
+          "response_time": 0.06381845474243164,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:52.889501"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 1983:\n\n**MolecularFormula**: C8H9NO2",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "1983",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/1983/property/MolecularFormula/JSON",
+          "response_time": 0.07856869697570801,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:52.968297"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q32": {
+    "id": "chemistry_search_32",
+    "evaluation_metrics": "search_pattern",
+    "answer": "C13H18O2",
+    "run_1": {
+      "tool_call_pass": false,
+      "result": {
+        "error": "PubChem API error: PubChem service temporarily unavailable (503)",
+        "success": false,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "3672",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/3672/property/MolecularFormula/JSON",
+          "response_time": 0.0,
+          "total_results": 0,
+          "rate_limit_delay": null,
+          "error_type": "pubchem_api_error",
+          "timestamp": "2025-11-27T12:33:53.004943"
+        },
+        "traceback": "Traceback (most recent call last):\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 585, in mcp_get_compound_properties\n    data, response_time = self._make_request(url)\n                          ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/daoqm/opentools/src/opentools/tools/chemistry_search/tool.py\", line 206, in _make_request\n    raise requests.RequestException(\"PubChem service temporarily unavailable (503)\")\nrequests.exceptions.RequestException: PubChem service temporarily unavailable (503)\n"
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 3672:\n\n**MolecularFormula**: C13H18O2",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "3672",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/3672/property/MolecularFormula/JSON",
+          "response_time": 0.14209580421447754,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:53.148070"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Properties for PubChem CID 3672:\n\n**MolecularFormula**: C13H18O2",
+        "success": true,
+        "metadata": {
+          "query_type": "properties",
+          "query_value": "3672",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/3672/property/MolecularFormula/JSON",
+          "response_time": 0.06922173500061035,
+          "total_results": 1,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:53.217650"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q33": {
+    "id": "chemistry_search_33",
+    "evaluation_metrics": "search_pattern",
+    "answer": "4 compound(s)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 2244 (threshold: 0.9):\n\n1. **Methyl Salicylate** (CID: 4133)\n   - Formula: C8H8O3\n   - Molecular Weight: 152.15 g/mol\n\n2. **Salsalate** (CID: 5161)\n   - Formula: C14H10O5\n   - Molecular Weight: 258.23 g/mol\n\n3. **Phenyl Salicylate** (CID: 8361)\n   - Formula: C13H10O3\n   - Molecular Weight: 214.22 g/mol\n\n4. **Ethyl Salicylate** (CID: 8365)\n   - Formula: C9H10O3\n   - Molecular Weight: 166.17 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "2244",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/2244/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.8191094398498535,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:54.037214"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 2244 (threshold: 0.9):\n\n1. **Methyl Salicylate** (CID: 4133)\n   - Formula: C8H8O3\n   - Molecular Weight: 152.15 g/mol\n\n2. **Salsalate** (CID: 5161)\n   - Formula: C14H10O5\n   - Molecular Weight: 258.23 g/mol\n\n3. **Phenyl Salicylate** (CID: 8361)\n   - Formula: C13H10O3\n   - Molecular Weight: 214.22 g/mol\n\n4. **Ethyl Salicylate** (CID: 8365)\n   - Formula: C9H10O3\n   - Molecular Weight: 166.17 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "2244",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/2244/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.9489469528198242,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:54.986519"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 2244 (threshold: 0.9):\n\n1. **Methyl Salicylate** (CID: 4133)\n   - Formula: C8H8O3\n   - Molecular Weight: 152.15 g/mol\n\n2. **Salsalate** (CID: 5161)\n   - Formula: C14H10O5\n   - Molecular Weight: 258.23 g/mol\n\n3. **Phenyl Salicylate** (CID: 8361)\n   - Formula: C13H10O3\n   - Molecular Weight: 214.22 g/mol\n\n4. **Ethyl Salicylate** (CID: 8365)\n   - Formula: C9H10O3\n   - Molecular Weight: 166.17 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "2244",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/2244/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.9955878257751465,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:55.982447"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q34": {
+    "id": "chemistry_search_34",
+    "evaluation_metrics": "search_pattern",
+    "answer": "4 compound(s)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 2519 (threshold: 0.95):\n\n1. **Theobromine** (CID: 5429)\n   - Formula: C7H8N4O2\n   - Molecular Weight: 180.16 g/mol\n\n2. **Paraxanthine** (CID: 4687)\n   - Formula: C7H8N4O2\n   - Molecular Weight: 180.16 g/mol\n\n3. **Etamiphyllin** (CID: 28329)\n   - Formula: C13H21N5O2\n   - Molecular Weight: 279.34 g/mol\n\n4. **1,3-dimethyl-7-propyl-2,3,6,7-tetrahydro-1H-purine-2,6-dione** (CID: 847168)\n   - Formula: C10H14N4O2\n   - Molecular Weight: 222.24 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "2519",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/2519/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 1.0405559539794922,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:57.023365"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 2519 (threshold: 0.95):\n\n1. **Theobromine** (CID: 5429)\n   - Formula: C7H8N4O2\n   - Molecular Weight: 180.16 g/mol\n\n2. **Paraxanthine** (CID: 4687)\n   - Formula: C7H8N4O2\n   - Molecular Weight: 180.16 g/mol\n\n3. **Etamiphyllin** (CID: 28329)\n   - Formula: C13H21N5O2\n   - Molecular Weight: 279.34 g/mol\n\n4. **1,3-dimethyl-7-propyl-2,3,6,7-tetrahydro-1H-purine-2,6-dione** (CID: 847168)\n   - Formula: C10H14N4O2\n   - Molecular Weight: 222.24 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "2519",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/2519/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.9999675750732422,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:58.023674"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 2519 (threshold: 0.95):\n\n1. **Theobromine** (CID: 5429)\n   - Formula: C7H8N4O2\n   - Molecular Weight: 180.16 g/mol\n\n2. **Paraxanthine** (CID: 4687)\n   - Formula: C7H8N4O2\n   - Molecular Weight: 180.16 g/mol\n\n3. **Etamiphyllin** (CID: 28329)\n   - Formula: C13H21N5O2\n   - Molecular Weight: 279.34 g/mol\n\n4. **1,3-dimethyl-7-propyl-2,3,6,7-tetrahydro-1H-purine-2,6-dione** (CID: 847168)\n   - Formula: C10H14N4O2\n   - Molecular Weight: 222.24 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "2519",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/2519/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 1.0509979724884033,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:33:59.075017"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q35": {
+    "id": "chemistry_search_35",
+    "evaluation_metrics": "search_pattern",
+    "answer": "4 compound(s)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 962 (threshold: 0.9):\n\n1. **Hydroxide** (CID: 961)\n   - Formula: HO-\n   - Molecular Weight: 17.007 g/mol\n\n2. **Deuterium Oxide** (CID: 24602)\n   - Formula: H2O\n   - Molecular Weight: 20.028 g/mol\n\n3. **Tritium oxide** (CID: 104752)\n   - Formula: H2O\n   - Molecular Weight: 22.031 g/mol\n\n4. **Water, sterile filtered** (CID: 22247451)\n   - Formula: H2O\n   - Molecular Weight: 18.015 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "962",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/962/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 1.4838104248046875,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:34:00.559241"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 962 (threshold: 0.9):\n\n1. **Hydroxide** (CID: 961)\n   - Formula: HO-\n   - Molecular Weight: 17.007 g/mol\n\n2. **Deuterium Oxide** (CID: 24602)\n   - Formula: H2O\n   - Molecular Weight: 20.028 g/mol\n\n3. **Tritium oxide** (CID: 104752)\n   - Formula: H2O\n   - Molecular Weight: 22.031 g/mol\n\n4. **Water, sterile filtered** (CID: 22247451)\n   - Formula: H2O\n   - Molecular Weight: 18.015 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "962",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/962/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 2.60811448097229,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:34:03.167777"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 962 (threshold: 0.9):\n\n1. **Hydroxide** (CID: 961)\n   - Formula: HO-\n   - Molecular Weight: 17.007 g/mol\n\n2. **Deuterium Oxide** (CID: 24602)\n   - Formula: H2O\n   - Molecular Weight: 20.028 g/mol\n\n3. **Tritium oxide** (CID: 104752)\n   - Formula: H2O\n   - Molecular Weight: 22.031 g/mol\n\n4. **Water, sterile filtered** (CID: 22247451)\n   - Formula: H2O\n   - Molecular Weight: 18.015 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "962",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/962/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 1.2221832275390625,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:34:04.390372"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q36": {
+    "id": "chemistry_search_36",
+    "evaluation_metrics": "search_pattern",
+    "answer": "4 compound(s)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 241 (threshold: 0.9):\n\n1. **Phenylmercuric Chloride** (CID: 7511)\n   - Formula: C6H5ClHg\n   - Molecular Weight: 313.15 g/mol\n\n2. **Fluorobenzene** (CID: 10008)\n   - Formula: C6H5F\n   - Molecular Weight: 96.1 g/mol\n\n3. **Iodobenzene** (CID: 11575)\n   - Formula: C6H5I\n   - Molecular Weight: 204.01 g/mol\n\n4. **Phenyl phosphorus dichloride** (CID: 12573)\n   - Formula: C6H5Cl2P\n   - Molecular Weight: 178.98 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "241",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/241/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 1.0744154453277588,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:34:05.465161"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 241 (threshold: 0.9):\n\n1. **Phenylmercuric Chloride** (CID: 7511)\n   - Formula: C6H5ClHg\n   - Molecular Weight: 313.15 g/mol\n\n2. **Fluorobenzene** (CID: 10008)\n   - Formula: C6H5F\n   - Molecular Weight: 96.1 g/mol\n\n3. **Iodobenzene** (CID: 11575)\n   - Formula: C6H5I\n   - Molecular Weight: 204.01 g/mol\n\n4. **Phenyl phosphorus dichloride** (CID: 12573)\n   - Formula: C6H5Cl2P\n   - Molecular Weight: 178.98 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "241",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/241/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 0.9580872058868408,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:34:06.423591"
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Found 4 compound(s) similar to CID 241 (threshold: 0.9):\n\n1. **Phenylmercuric Chloride** (CID: 7511)\n   - Formula: C6H5ClHg\n   - Molecular Weight: 313.15 g/mol\n\n2. **Fluorobenzene** (CID: 10008)\n   - Formula: C6H5F\n   - Molecular Weight: 96.1 g/mol\n\n3. **Iodobenzene** (CID: 11575)\n   - Formula: C6H5I\n   - Molecular Weight: 204.01 g/mol\n\n4. **Phenyl phosphorus dichloride** (CID: 12573)\n   - Formula: C6H5Cl2P\n   - Molecular Weight: 178.98 g/mol\n",
+        "success": true,
+        "metadata": {
+          "query_type": "similarity",
+          "query_value": "241",
+          "api_endpoint": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/fastsimilarity_2d/cid/241/property/Title,MolecularFormula,MolecularWeight/JSON",
+          "response_time": 1.1341683864593506,
+          "total_results": 4,
+          "rate_limit_delay": null,
+          "error_type": null,
+          "timestamp": "2025-11-27T12:34:07.558102"
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 88.88888888888889,
+    "run_2": 91.66666666666667,
+    "run_3": 86.11111111111111
+  }
+}

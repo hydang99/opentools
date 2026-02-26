@@ -1,0 +1,1637 @@
+{
+  "Test-File length": 30,
+  "Q1": {
+    "id": "woodslide_solver_1",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 2\nB. 1\nC. 6\nD. 5",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": "woodslide_solver_2",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 5\nB. 2\nC. 4\nD. 3",
+    "answer": 3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:LEFT",
+            "E:UP",
+            "D:RIGHT"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:LEFT",
+            "E:UP",
+            "D:RIGHT"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:LEFT",
+            "E:UP",
+            "D:RIGHT"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q3": {
+    "id": "woodslide_solver_3",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 3\nB. 5\nC. 2\nD. 1",
+    "answer": 5,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:DOWN",
+            "F:RIGHT",
+            "E:RIGHT",
+            "A:DOWN",
+            "A:DOWN"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:DOWN",
+            "F:RIGHT",
+            "E:RIGHT",
+            "A:DOWN",
+            "A:DOWN"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:DOWN",
+            "F:RIGHT",
+            "E:RIGHT",
+            "A:DOWN",
+            "A:DOWN"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": "woodslide_solver_4",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 6\nC. 1\nD. 2",
+    "answer": 2,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": "woodslide_solver_5",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 3\nB. 6\nC. 4\nD. 5",
+    "answer": 4,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:RIGHT",
+            "C:RIGHT",
+            "F:UP",
+            "F:UP"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:RIGHT",
+            "C:RIGHT",
+            "F:UP",
+            "F:UP"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:RIGHT",
+            "C:RIGHT",
+            "F:UP",
+            "F:UP"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q6": {
+    "id": "woodslide_solver_6",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 6\nB. 4\nC. 3\nD. 1",
+    "answer": 4,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "B:DOWN",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "B:DOWN",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "B:DOWN",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": "woodslide_solver_7",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 2\nC. 5\nD. 6",
+    "answer": 5,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:UP",
+            "I:UP",
+            "I:UP",
+            "G:RIGHT",
+            "H:RIGHT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:UP",
+            "I:UP",
+            "I:UP",
+            "G:RIGHT",
+            "H:RIGHT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:UP",
+            "I:UP",
+            "I:UP",
+            "G:RIGHT",
+            "H:RIGHT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": "woodslide_solver_8",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 6\nB. 1\nC. 2\nD. 3",
+    "answer": 2,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT",
+            "E:DOWN"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT",
+            "E:DOWN"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT",
+            "E:DOWN"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q9": {
+    "id": "woodslide_solver_9",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 1\nB. 2\nC. 4\nD. 5",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:RIGHT"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:RIGHT"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:RIGHT"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": "woodslide_solver_10",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 5\nC. 1\nD. 2",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "H:UP"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "H:UP"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "H:UP"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q11": {
+    "id": "woodslide_solver_11",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 5\nB. 2\nC. 1\nD. 3",
+    "answer": 2,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "I:LEFT",
+            "H:DOWN"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "I:LEFT",
+            "H:DOWN"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "I:LEFT",
+            "H:DOWN"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q12": {
+    "id": "woodslide_solver_12",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 1\nC. 3\nD. 2",
+    "answer": 2,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "E:DOWN"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "E:DOWN"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "E:DOWN"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q13": {
+    "id": "woodslide_solver_13",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 2\nB. 1\nC. 6\nD. 3",
+    "answer": 3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "A:RIGHT",
+            "E:UP"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "A:RIGHT",
+            "E:UP"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "A:RIGHT",
+            "E:UP"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q14": {
+    "id": "woodslide_solver_14",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 1\nC. 2\nD. 6",
+    "answer": 4,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "C:LEFT",
+            "D:LEFT",
+            "D:DOWN"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "C:LEFT",
+            "D:LEFT",
+            "D:DOWN"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN",
+            "C:LEFT",
+            "D:LEFT",
+            "D:DOWN"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q15": {
+    "id": "woodslide_solver_15",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 1\nB. 5\nC. 4\nD. 3",
+    "answer": 5,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:LEFT",
+            "A:LEFT",
+            "B:LEFT",
+            "B:LEFT",
+            "D:UP"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:LEFT",
+            "A:LEFT",
+            "B:LEFT",
+            "B:LEFT",
+            "D:UP"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:LEFT",
+            "A:LEFT",
+            "B:LEFT",
+            "B:LEFT",
+            "D:UP"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q16": {
+    "id": "woodslide_solver_16",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 3\nB. 6\nC. 5\nD. 1",
+    "answer": 5,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:RIGHT",
+            "A:RIGHT",
+            "D:UP",
+            "D:UP",
+            "E:LEFT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:RIGHT",
+            "A:RIGHT",
+            "D:UP",
+            "D:UP",
+            "E:LEFT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:RIGHT",
+            "A:RIGHT",
+            "D:UP",
+            "D:UP",
+            "E:LEFT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q17": {
+    "id": "woodslide_solver_17",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 1\nB. 3\nC. 2\nD. 4",
+    "answer": 4,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN",
+            "E:LEFT",
+            "E:LEFT",
+            "C:DOWN"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN",
+            "E:LEFT",
+            "E:LEFT",
+            "C:DOWN"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:DOWN",
+            "E:LEFT",
+            "E:LEFT",
+            "C:DOWN"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q18": {
+    "id": "woodslide_solver_18",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 3\nB. 1\nC. 2\nD. 6",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "E:DOWN"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q19": {
+    "id": "woodslide_solver_19",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 6\nB. 1\nC. 5\nD. 2",
+    "answer": 5,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "F:UP",
+            "G:LEFT",
+            "C:DOWN",
+            "A:RIGHT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "F:UP",
+            "G:LEFT",
+            "C:DOWN",
+            "A:RIGHT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "F:UP",
+            "G:LEFT",
+            "C:DOWN",
+            "A:RIGHT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q20": {
+    "id": "woodslide_solver_20",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 1\nB. 5\nC. 6\nD. 2",
+    "answer": 2,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:LEFT",
+            "E:LEFT"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:LEFT",
+            "E:LEFT"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "D:LEFT",
+            "E:LEFT"
+          ],
+          "total_move": 2
+        },
+        "total_move": 2,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q21": {
+    "id": "woodslide_solver_21",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 2\nB. 3\nC. 1\nD. 4",
+    "answer": 4,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "B:RIGHT",
+            "A:RIGHT",
+            "D:UP"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "B:RIGHT",
+            "A:RIGHT",
+            "D:UP"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:DOWN",
+            "B:RIGHT",
+            "A:RIGHT",
+            "D:UP"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q22": {
+    "id": "woodslide_solver_22",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 5\nC. 2\nD. 1",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:UP"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:UP"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:UP"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q23": {
+    "id": "woodslide_solver_23",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 1\nB. 5\nC. 2\nD. 3",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:RIGHT"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q24": {
+    "id": "woodslide_solver_24",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 3\nB. 6\nC. 2\nD. 4",
+    "answer": 3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "F:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q25": {
+    "id": "woodslide_solver_25",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 6\nB. 5\nC. 2\nD. 1",
+    "answer": 5,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "A:DOWN",
+            "B:LEFT",
+            "D:LEFT",
+            "F:UP"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "A:DOWN",
+            "B:LEFT",
+            "D:LEFT",
+            "F:UP"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "A:DOWN",
+            "A:DOWN",
+            "B:LEFT",
+            "D:LEFT",
+            "F:UP"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q26": {
+    "id": "woodslide_solver_26",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 5\nB. 6\nC. 1\nD. 4",
+    "answer": 1,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:LEFT"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:LEFT"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "G:LEFT"
+          ],
+          "total_move": 1
+        },
+        "total_move": 1,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q27": {
+    "id": "woodslide_solver_27",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 3\nC. 5\nD. 6",
+    "answer": 5,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "A:RIGHT",
+            "B:RIGHT",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "A:RIGHT",
+            "B:RIGHT",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "B:RIGHT",
+            "A:RIGHT",
+            "B:RIGHT",
+            "A:RIGHT",
+            "C:UP"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q28": {
+    "id": "woodslide_solver_28",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 6\nB. 1\nC. 4\nD. 2",
+    "answer": 4,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "D:UP",
+            "D:RIGHT",
+            "B:RIGHT"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "D:UP",
+            "D:RIGHT",
+            "B:RIGHT"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "C:UP",
+            "D:UP",
+            "D:RIGHT",
+            "B:RIGHT"
+          ],
+          "total_move": 4
+        },
+        "total_move": 4,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q29": {
+    "id": "woodslide_solver_29",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 5\nC. 6\nD. 2",
+    "answer": 5,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:DOWN",
+            "G:LEFT",
+            "G:LEFT",
+            "H:LEFT",
+            "H:LEFT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:DOWN",
+            "G:LEFT",
+            "G:LEFT",
+            "H:LEFT",
+            "H:LEFT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:DOWN",
+            "G:LEFT",
+            "G:LEFT",
+            "H:LEFT",
+            "H:LEFT"
+          ],
+          "total_move": 5
+        },
+        "total_move": 5,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q30": {
+    "id": "woodslide_solver_30",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nConsider a sliding block puzzle of grid size 5 * 4 units. It has 9 wooden blocks of varying sizes: one 2 * 2, four 1 * 2, two 2 * 1, and two 1 * 1. The gird also has two empty 1 * 1 spaces. The blocks cannot be removed from the grid, and may only be slid horizontally and vertically within its boundary. A move is defined as selecting a block that is slideable, and moving it by 1 unit either horizontally or vertically, whichever is possible. The image shows the starting and ending configurations of the puzzle grid. The wooden blocks are shown in various shades of brown and the empty spaces are shown in white. What is the minimum number of moves required to reach the ending configuration from the starting configuration?\nA. 4\nB. 2\nC. 3\nD. 6",
+    "answer": 3,
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:LEFT",
+            "G:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:LEFT",
+            "G:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": {
+          "solution": [
+            "F:LEFT",
+            "G:LEFT",
+            "G:LEFT"
+          ],
+          "total_move": 3
+        },
+        "total_move": 3,
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 100.0,
+    "run_2": 100.0,
+    "run_3": 100.0
+  }
+}

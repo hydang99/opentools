@@ -1,0 +1,1492 @@
+{
+  "Test-File length": 10,
+  "Q1": {
+    "id": "pptx_extraction_1",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Project Kickoff\n\n**Content**:\n- Agenda overview\n- Team introductions\n- Timeline\n\n**Speaker Notes**:\nWelcome everyone.\n\n---\n\n## Slide 2\n**Title**: Goals\n\n**Content**:\n- Ship MVP in 6 weeks\n- Collect user feedback\n- Stabilize infra\n\n**Speaker Notes**:\nKeep scope tight.\n\n---\n\n## Slide 3\n**Title**: Next Steps\n\n**Content**:\n- Assign owners\n- Create tickets\n- Daily standup\n\n---\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Project Kickoff\n\n**Content**:\n- Agenda overview\n- Team introductions\n- Timeline\n\n**Speaker Notes**:\nWelcome everyone.\n\n---\n\n## Slide 2\n**Title**: Goals\n\n**Content**:\n- Ship MVP in 6 weeks\n- Collect user feedback\n- Stabilize infra\n\n**Speaker Notes**:\nKeep scope tight.\n\n---\n\n## Slide 3\n**Title**: Next Steps\n\n**Content**:\n- Assign owners\n- Create tickets\n- Daily standup\n\n---\n",
+        "metadata": {
+          "file_name": "01_intro_team.pptx",
+          "file_size": 35706,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/01_intro_team.pptx",
+          "page_count": 3,
+          "processing_time": 0.0061550140380859375,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 206,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Project Kickoff\n\n**Content**:\n- Agenda overview\n- Team introductions\n- Timeline\n\n**Speaker Notes**:\nWelcome everyone.\n\n---\n\n## Slide 2\n**Title**: Goals\n\n**Content**:\n- Ship MVP in 6 weeks\n- Collect user feedback\n- Stabilize infra\n\n**Speaker Notes**:\nKeep scope tight.\n\n---\n\n## Slide 3\n**Title**: Next Steps\n\n**Content**:\n- Assign owners\n- Create tickets\n- Daily standup\n\n---\n",
+        "metadata": {
+          "file_name": "01_intro_team.pptx",
+          "file_size": 35706,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/01_intro_team.pptx",
+          "page_count": 3,
+          "processing_time": 0.005194902420043945,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 206,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Project Kickoff\n\n**Content**:\n- Agenda overview\n- Team introductions\n- Timeline\n\n**Speaker Notes**:\nWelcome everyone.\n\n---\n\n## Slide 2\n**Title**: Goals\n\n**Content**:\n- Ship MVP in 6 weeks\n- Collect user feedback\n- Stabilize infra\n\n**Speaker Notes**:\nKeep scope tight.\n\n---\n\n## Slide 3\n**Title**: Next Steps\n\n**Content**:\n- Assign owners\n- Create tickets\n- Daily standup\n\n---\n",
+        "metadata": {
+          "file_name": "01_intro_team.pptx",
+          "file_size": 35706,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/01_intro_team.pptx",
+          "page_count": 3,
+          "processing_time": 0.004786252975463867,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 206,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": "pptx_extraction_2",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Q4 Marketing Plan\n\n**Content**:\n- Channels: email, social, ads\n- Budget: $50K\n- KPIs: signups\n\n**Speaker Notes**:\nFocus on conversion.\n\n---\n\n## Slide 2\n**Title**: Campaigns\n\n**Content**:\n- Launch promo\n- Referral program\n- Webinar series\n\n---\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Q4 Marketing Plan\n\n**Content**:\n- Channels: email, social, ads\n- Budget: $50K\n- KPIs: signups\n\n**Speaker Notes**:\nFocus on conversion.\n\n---\n\n## Slide 2\n**Title**: Campaigns\n\n**Content**:\n- Launch promo\n- Referral program\n- Webinar series\n\n---\n",
+        "metadata": {
+          "file_name": "02_marketing_plan.pptx",
+          "file_size": 33825,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/02_marketing_plan.pptx",
+          "page_count": 2,
+          "processing_time": 0.00407099723815918,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 145,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Q4 Marketing Plan\n\n**Content**:\n- Channels: email, social, ads\n- Budget: $50K\n- KPIs: signups\n\n**Speaker Notes**:\nFocus on conversion.\n\n---\n\n## Slide 2\n**Title**: Campaigns\n\n**Content**:\n- Launch promo\n- Referral program\n- Webinar series\n\n---\n",
+        "metadata": {
+          "file_name": "02_marketing_plan.pptx",
+          "file_size": 33825,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/02_marketing_plan.pptx",
+          "page_count": 2,
+          "processing_time": 0.0039038658142089844,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 145,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Q4 Marketing Plan\n\n**Content**:\n- Channels: email, social, ads\n- Budget: $50K\n- KPIs: signups\n\n**Speaker Notes**:\nFocus on conversion.\n\n---\n\n## Slide 2\n**Title**: Campaigns\n\n**Content**:\n- Launch promo\n- Referral program\n- Webinar series\n\n---\n",
+        "metadata": {
+          "file_name": "02_marketing_plan.pptx",
+          "file_size": 33825,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/02_marketing_plan.pptx",
+          "page_count": 2,
+          "processing_time": 0.004559993743896484,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 145,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q3": {
+    "id": "pptx_extraction_3",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Monthly Data Report\n\n**Content**:\n- Active users: 12,340\n- DAU/MAU: 22%\n- Churn: 3.1%\n\n**Speaker Notes**:\nCompare with last month.\n\n---\n\n## Slide 2\n**Title**: Insights\n\n**Content**:\n- Onboarding improved\n- Feature X retained users\n- Support tickets down\n\n**Speaker Notes**:\nGood progress.\n\n---\n\n## Slide 3\n**Title**: Actions\n\n**Content**:\n- Double down on Feature X\n- Revise onboarding tips\n- Update FAQ\n\n---\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Monthly Data Report\n\n**Content**:\n- Active users: 12,340\n- DAU/MAU: 22%\n- Churn: 3.1%\n\n**Speaker Notes**:\nCompare with last month.\n\n---\n\n## Slide 2\n**Title**: Insights\n\n**Content**:\n- Onboarding improved\n- Feature X retained users\n- Support tickets down\n\n**Speaker Notes**:\nGood progress.\n\n---\n\n## Slide 3\n**Title**: Actions\n\n**Content**:\n- Double down on Feature X\n- Revise onboarding tips\n- Update FAQ\n\n---\n",
+        "metadata": {
+          "file_name": "03_data_report.pptx",
+          "file_size": 35742,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/03_data_report.pptx",
+          "page_count": 3,
+          "processing_time": 0.0044519901275634766,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 240,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Monthly Data Report\n\n**Content**:\n- Active users: 12,340\n- DAU/MAU: 22%\n- Churn: 3.1%\n\n**Speaker Notes**:\nCompare with last month.\n\n---\n\n## Slide 2\n**Title**: Insights\n\n**Content**:\n- Onboarding improved\n- Feature X retained users\n- Support tickets down\n\n**Speaker Notes**:\nGood progress.\n\n---\n\n## Slide 3\n**Title**: Actions\n\n**Content**:\n- Double down on Feature X\n- Revise onboarding tips\n- Update FAQ\n\n---\n",
+        "metadata": {
+          "file_name": "03_data_report.pptx",
+          "file_size": 35742,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/03_data_report.pptx",
+          "page_count": 3,
+          "processing_time": 0.004873037338256836,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 240,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Monthly Data Report\n\n**Content**:\n- Active users: 12,340\n- DAU/MAU: 22%\n- Churn: 3.1%\n\n**Speaker Notes**:\nCompare with last month.\n\n---\n\n## Slide 2\n**Title**: Insights\n\n**Content**:\n- Onboarding improved\n- Feature X retained users\n- Support tickets down\n\n**Speaker Notes**:\nGood progress.\n\n---\n\n## Slide 3\n**Title**: Actions\n\n**Content**:\n- Double down on Feature X\n- Revise onboarding tips\n- Update FAQ\n\n---\n",
+        "metadata": {
+          "file_name": "03_data_report.pptx",
+          "file_size": 35742,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/03_data_report.pptx",
+          "page_count": 3,
+          "processing_time": 0.005084037780761719,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 240,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": "pptx_extraction_4",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Engineering Updates\n\n**Content**:\n- Release v1.2.0\n- Bug fix backlog -20%\n- CI speed +30%\n\n**Speaker Notes**:\nThanks to build caching.\n\n---\n\n## Slide 2\n**Title**: Roadmap\n\n**Content**:\n- OAuth support\n- Offline mode\n- Perf improvements\n\n---\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Engineering Updates\n\n**Content**:\n- Release v1.2.0\n- Bug fix backlog -20%\n- CI speed +30%\n\n**Speaker Notes**:\nThanks to build caching.\n\n---\n\n## Slide 2\n**Title**: Roadmap\n\n**Content**:\n- OAuth support\n- Offline mode\n- Perf improvements\n\n---\n",
+        "metadata": {
+          "file_name": "04_engineering_updates.pptx",
+          "file_size": 33825,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/04_engineering_updates.pptx",
+          "page_count": 2,
+          "processing_time": 0.0039980411529541016,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 143,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Engineering Updates\n\n**Content**:\n- Release v1.2.0\n- Bug fix backlog -20%\n- CI speed +30%\n\n**Speaker Notes**:\nThanks to build caching.\n\n---\n\n## Slide 2\n**Title**: Roadmap\n\n**Content**:\n- OAuth support\n- Offline mode\n- Perf improvements\n\n---\n",
+        "metadata": {
+          "file_name": "04_engineering_updates.pptx",
+          "file_size": 33825,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/04_engineering_updates.pptx",
+          "page_count": 2,
+          "processing_time": 0.004313945770263672,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 143,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Engineering Updates\n\n**Content**:\n- Release v1.2.0\n- Bug fix backlog -20%\n- CI speed +30%\n\n**Speaker Notes**:\nThanks to build caching.\n\n---\n\n## Slide 2\n**Title**: Roadmap\n\n**Content**:\n- OAuth support\n- Offline mode\n- Perf improvements\n\n---\n",
+        "metadata": {
+          "file_name": "04_engineering_updates.pptx",
+          "file_size": 33825,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/04_engineering_updates.pptx",
+          "page_count": 2,
+          "processing_time": 0.0040509700775146484,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 143,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": "pptx_extraction_5",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Product Brief\n\n**Content**:\n- Problem: slow workflows\n- Solution: smart templates\n- Audience: SMBs\n\n**Speaker Notes**:\nKeep it simple.\n\n---\n\n## Slide 2\n**Title**: Value Props\n\n**Content**:\n- Save time\n- Reduce errors\n- Easy to adopt\n\n---\n\n## Slide 3\n**Title**: Release Plan\n\n**Content**:\n- Private beta\n- Public beta\n- GA\n\n**Speaker Notes**:\nTarget Q2.\n\n---\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Product Brief\n\n**Content**:\n- Problem: slow workflows\n- Solution: smart templates\n- Audience: SMBs\n\n**Speaker Notes**:\nKeep it simple.\n\n---\n\n## Slide 2\n**Title**: Value Props\n\n**Content**:\n- Save time\n- Reduce errors\n- Easy to adopt\n\n---\n\n## Slide 3\n**Title**: Release Plan\n\n**Content**:\n- Private beta\n- Public beta\n- GA\n\n**Speaker Notes**:\nTarget Q2.\n\n---\n",
+        "metadata": {
+          "file_name": "05_product_brief.pptx",
+          "file_size": 35690,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/05_product_brief.pptx",
+          "page_count": 3,
+          "processing_time": 0.006259918212890625,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 189,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Product Brief\n\n**Content**:\n- Problem: slow workflows\n- Solution: smart templates\n- Audience: SMBs\n\n**Speaker Notes**:\nKeep it simple.\n\n---\n\n## Slide 2\n**Title**: Value Props\n\n**Content**:\n- Save time\n- Reduce errors\n- Easy to adopt\n\n---\n\n## Slide 3\n**Title**: Release Plan\n\n**Content**:\n- Private beta\n- Public beta\n- GA\n\n**Speaker Notes**:\nTarget Q2.\n\n---\n",
+        "metadata": {
+          "file_name": "05_product_brief.pptx",
+          "file_size": 35690,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/05_product_brief.pptx",
+          "page_count": 3,
+          "processing_time": 0.004631996154785156,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 189,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Product Brief\n\n**Content**:\n- Problem: slow workflows\n- Solution: smart templates\n- Audience: SMBs\n\n**Speaker Notes**:\nKeep it simple.\n\n---\n\n## Slide 2\n**Title**: Value Props\n\n**Content**:\n- Save time\n- Reduce errors\n- Easy to adopt\n\n---\n\n## Slide 3\n**Title**: Release Plan\n\n**Content**:\n- Private beta\n- Public beta\n- GA\n\n**Speaker Notes**:\nTarget Q2.\n\n---\n",
+        "metadata": {
+          "file_name": "05_product_brief.pptx",
+          "file_size": 35690,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/05_product_brief.pptx",
+          "page_count": 3,
+          "processing_time": 0.00493311882019043,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 189,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q6": {
+    "id": "pptx_extraction_6",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Sales Enablement\n\n**Content**:\n- ICP: 10\u2013200 employees\n- Top objections\n- Pricing tiers\n\n**Speaker Notes**:\nHandle security questions early.\n\n---\n\n## Slide 2\n**Title**: Playbook\n\n**Content**:\n- Discovery call\n- Tailored demo\n- Follow-up email\n\n---\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Sales Enablement\n\n**Content**:\n- ICP: 10\u2013200 employees\n- Top objections\n- Pricing tiers\n\n**Speaker Notes**:\nHandle security questions early.\n\n---\n\n## Slide 2\n**Title**: Playbook\n\n**Content**:\n- Discovery call\n- Tailored demo\n- Follow-up email\n\n---\n",
+        "metadata": {
+          "file_name": "06_sales_enablement.pptx",
+          "file_size": 33835,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/06_sales_enablement.pptx",
+          "page_count": 2,
+          "processing_time": 0.00392603874206543,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 150,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Sales Enablement\n\n**Content**:\n- ICP: 10\u2013200 employees\n- Top objections\n- Pricing tiers\n\n**Speaker Notes**:\nHandle security questions early.\n\n---\n\n## Slide 2\n**Title**: Playbook\n\n**Content**:\n- Discovery call\n- Tailored demo\n- Follow-up email\n\n---\n",
+        "metadata": {
+          "file_name": "06_sales_enablement.pptx",
+          "file_size": 33835,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/06_sales_enablement.pptx",
+          "page_count": 2,
+          "processing_time": 0.004258155822753906,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 150,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Sales Enablement\n\n**Content**:\n- ICP: 10\u2013200 employees\n- Top objections\n- Pricing tiers\n\n**Speaker Notes**:\nHandle security questions early.\n\n---\n\n## Slide 2\n**Title**: Playbook\n\n**Content**:\n- Discovery call\n- Tailored demo\n- Follow-up email\n\n---\n",
+        "metadata": {
+          "file_name": "06_sales_enablement.pptx",
+          "file_size": 33835,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/06_sales_enablement.pptx",
+          "page_count": 2,
+          "processing_time": 0.004144906997680664,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 150,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": "pptx_extraction_7",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Support Review\n\n**Content**:\n- CSAT: 4.6/5\n- Median first reply: 1h\n- Escalations down\n\n**Speaker Notes**:\nGreat work team.\n\n---\n\n## Slide 2\n**Title**: Improvements\n\n**Content**:\n- Self-serve guides\n- Macros for common issues\n- Weekend coverage\n\n---\n\n## Slide 3\n**Title**: Open Items\n\n**Content**:\n- New help center IA\n- Tagging cleanup\n- SLA policy\n\n---\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Support Review\n\n**Content**:\n- CSAT: 4.6/5\n- Median first reply: 1h\n- Escalations down\n\n**Speaker Notes**:\nGreat work team.\n\n---\n\n## Slide 2\n**Title**: Improvements\n\n**Content**:\n- Self-serve guides\n- Macros for common issues\n- Weekend coverage\n\n---\n\n## Slide 3\n**Title**: Open Items\n\n**Content**:\n- New help center IA\n- Tagging cleanup\n- SLA policy\n\n---\n",
+        "metadata": {
+          "file_name": "07_support_review.pptx",
+          "file_size": 34708,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/07_support_review.pptx",
+          "page_count": 3,
+          "processing_time": 0.0050389766693115234,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 207,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Support Review\n\n**Content**:\n- CSAT: 4.6/5\n- Median first reply: 1h\n- Escalations down\n\n**Speaker Notes**:\nGreat work team.\n\n---\n\n## Slide 2\n**Title**: Improvements\n\n**Content**:\n- Self-serve guides\n- Macros for common issues\n- Weekend coverage\n\n---\n\n## Slide 3\n**Title**: Open Items\n\n**Content**:\n- New help center IA\n- Tagging cleanup\n- SLA policy\n\n---\n",
+        "metadata": {
+          "file_name": "07_support_review.pptx",
+          "file_size": 34708,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/07_support_review.pptx",
+          "page_count": 3,
+          "processing_time": 0.0052869319915771484,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 207,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 3\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Support Review\n\n**Content**:\n- CSAT: 4.6/5\n- Median first reply: 1h\n- Escalations down\n\n**Speaker Notes**:\nGreat work team.\n\n---\n\n## Slide 2\n**Title**: Improvements\n\n**Content**:\n- Self-serve guides\n- Macros for common issues\n- Weekend coverage\n\n---\n\n## Slide 3\n**Title**: Open Items\n\n**Content**:\n- New help center IA\n- Tagging cleanup\n- SLA policy\n\n---\n",
+        "metadata": {
+          "file_name": "07_support_review.pptx",
+          "file_size": 34708,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/07_support_review.pptx",
+          "page_count": 3,
+          "processing_time": 0.005384922027587891,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 3,
+          "total_text_length": 207,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 2,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": "pptx_extraction_8",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Security Briefing\n\n**Content**:\n- 2FA required\n- Quarterly audits\n- Vendor review\n\n**Speaker Notes**:\nAdhere to policy.\n\n---\n\n## Slide 2\n**Title**: Practices\n\n**Content**:\n- Least privilege\n- Rotate keys\n- Encrypted backups\n\n---\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Security Briefing\n\n**Content**:\n- 2FA required\n- Quarterly audits\n- Vendor review\n\n**Speaker Notes**:\nAdhere to policy.\n\n---\n\n## Slide 2\n**Title**: Practices\n\n**Content**:\n- Least privilege\n- Rotate keys\n- Encrypted backups\n\n---\n",
+        "metadata": {
+          "file_name": "08_security_briefing.pptx",
+          "file_size": 33817,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/08_security_briefing.pptx",
+          "page_count": 2,
+          "processing_time": 0.004029035568237305,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 131,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Security Briefing\n\n**Content**:\n- 2FA required\n- Quarterly audits\n- Vendor review\n\n**Speaker Notes**:\nAdhere to policy.\n\n---\n\n## Slide 2\n**Title**: Practices\n\n**Content**:\n- Least privilege\n- Rotate keys\n- Encrypted backups\n\n---\n",
+        "metadata": {
+          "file_name": "08_security_briefing.pptx",
+          "file_size": 33817,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/08_security_briefing.pptx",
+          "page_count": 2,
+          "processing_time": 0.004066944122314453,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 131,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Security Briefing\n\n**Content**:\n- 2FA required\n- Quarterly audits\n- Vendor review\n\n**Speaker Notes**:\nAdhere to policy.\n\n---\n\n## Slide 2\n**Title**: Practices\n\n**Content**:\n- Least privilege\n- Rotate keys\n- Encrypted backups\n\n---\n",
+        "metadata": {
+          "file_name": "08_security_briefing.pptx",
+          "file_size": 33817,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/08_security_briefing.pptx",
+          "page_count": 2,
+          "processing_time": 0.003927946090698242,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 131,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q9": {
+    "id": "pptx_extraction_9",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Finance Update\n\n**Content**:\n- Runway: 14 months\n- Burn: $220K/mo\n- ARR: $1.8M\n\n**Speaker Notes**:\nMonitoring CAC.\n\n---\n\n## Slide 2\n**Title**: Forecast\n\n**Content**:\n- ARR +20% by Q4\n- Reduce burn 10%\n- Hiring freeze lift?\n\n---\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Finance Update\n\n**Content**:\n- Runway: 14 months\n- Burn: $220K/mo\n- ARR: $1.8M\n\n**Speaker Notes**:\nMonitoring CAC.\n\n---\n\n## Slide 2\n**Title**: Forecast\n\n**Content**:\n- ARR +20% by Q4\n- Reduce burn 10%\n- Hiring freeze lift?\n\n---\n",
+        "metadata": {
+          "file_name": "09_finance_update.pptx",
+          "file_size": 33830,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/09_finance_update.pptx",
+          "page_count": 2,
+          "processing_time": 0.004002094268798828,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 130,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Finance Update\n\n**Content**:\n- Runway: 14 months\n- Burn: $220K/mo\n- ARR: $1.8M\n\n**Speaker Notes**:\nMonitoring CAC.\n\n---\n\n## Slide 2\n**Title**: Forecast\n\n**Content**:\n- ARR +20% by Q4\n- Reduce burn 10%\n- Hiring freeze lift?\n\n---\n",
+        "metadata": {
+          "file_name": "09_finance_update.pptx",
+          "file_size": 33830,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/09_finance_update.pptx",
+          "page_count": 2,
+          "processing_time": 0.0039031505584716797,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 130,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Finance Update\n\n**Content**:\n- Runway: 14 months\n- Burn: $220K/mo\n- ARR: $1.8M\n\n**Speaker Notes**:\nMonitoring CAC.\n\n---\n\n## Slide 2\n**Title**: Forecast\n\n**Content**:\n- ARR +20% by Q4\n- Reduce burn 10%\n- Hiring freeze lift?\n\n---\n",
+        "metadata": {
+          "file_name": "09_finance_update.pptx",
+          "file_size": 33830,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/09_finance_update.pptx",
+          "page_count": 2,
+          "processing_time": 0.004167079925537109,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 130,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": "pptx_extraction_10",
+    "evaluation_metrics": "exact_match",
+    "answer": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Sprint Retrospective\n\n**Content**:\n- Went well: collaboration\n- To improve: planning\n- Actions: estimate better\n\n**Speaker Notes**:\nKeep retro action items small.\n\n---\n\n## Slide 2\n**Title**: Next Sprint\n\n**Content**:\n- Focus: quality\n- Limit WIP\n- Pair programming\n\n---\n",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Sprint Retrospective\n\n**Content**:\n- Went well: collaboration\n- To improve: planning\n- Actions: estimate better\n\n**Speaker Notes**:\nKeep retro action items small.\n\n---\n\n## Slide 2\n**Title**: Next Sprint\n\n**Content**:\n- Focus: quality\n- Limit WIP\n- Pair programming\n\n---\n",
+        "metadata": {
+          "file_name": "10_retrospective.pptx",
+          "file_size": 33841,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/10_retrospective.pptx",
+          "page_count": 2,
+          "processing_time": 0.003762960433959961,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 172,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Sprint Retrospective\n\n**Content**:\n- Went well: collaboration\n- To improve: planning\n- Actions: estimate better\n\n**Speaker Notes**:\nKeep retro action items small.\n\n---\n\n## Slide 2\n**Title**: Next Sprint\n\n**Content**:\n- Focus: quality\n- Limit WIP\n- Pair programming\n\n---\n",
+        "metadata": {
+          "file_name": "10_retrospective.pptx",
+          "file_size": 33841,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/10_retrospective.pptx",
+          "page_count": 2,
+          "processing_time": 0.0038797855377197266,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 172,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "success": true,
+        "result": "# Presentation Overview\n- **Total Slides**: 2\n- **Slide Size**: 10.0\" \u00d7 7.5\"\n- **Has Speaker Notes**: Yes\n\n## Slide 1\n**Title**: Sprint Retrospective\n\n**Content**:\n- Went well: collaboration\n- To improve: planning\n- Actions: estimate better\n\n**Speaker Notes**:\nKeep retro action items small.\n\n---\n\n## Slide 2\n**Title**: Next Sprint\n\n**Content**:\n- Focus: quality\n- Limit WIP\n- Pair programming\n\n---\n",
+        "metadata": {
+          "file_name": "10_retrospective.pptx",
+          "file_size": 33841,
+          "file_type": ".pptx",
+          "absolute_path": "/Users/quangdao/Documents/opentools/src/opentools/core/../tools/test_file/pptx/10_retrospective.pptx",
+          "page_count": 2,
+          "processing_time": 0.003907203674316406,
+          "extracted_images": [],
+          "extracted_media": [],
+          "output_format": "markdown",
+          "ocr_applied": false,
+          "extracted_text_file_path": null,
+          "slide_count": 2,
+          "total_text_length": 172,
+          "has_speaker_notes": true,
+          "slide_layouts": [
+            {
+              "slide_index": 0,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            },
+            {
+              "slide_index": 1,
+              "layout_name": "Title and Content",
+              "shape_count": 2,
+              "has_title": true,
+              "has_content": true
+            }
+          ],
+          "presentation_size": {
+            "width_inches": 10.0,
+            "height_inches": 7.5
+          },
+          "media_files_count": 0
+        }
+      },
+      "accuracy": 1
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 100.0,
+    "run_2": 100.0,
+    "run_3": 100.0
+  }
+}

@@ -1,0 +1,2768 @@
+{
+  "Test-File length": 46,
+  "Q1": {
+    "id": "browser_interaction_1",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Paris",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The capital city of France is Paris.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"capital city of France\" in Google\n2. The capital city of France is Paris.",
+        "metadata": {
+          "task": "Find the capital city of France and report just the one-word city name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 19.920968055725098,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Paris\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"capital city of France\" in Google\n2. Paris",
+        "metadata": {
+          "task": "Find the capital city of France and report just the one-word city name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.82139801979065,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Paris\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"capital city of France\" in Google\n2. Paris",
+        "metadata": {
+          "task": "Find the capital city of France and report just the one-word city name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 20.302114009857178,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": "browser_interaction_2",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Tokyo",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tokyo\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"capital city of Japan\" in Google\n2. Tokyo",
+        "metadata": {
+          "task": "Find the capital city of Japan. Return only the city name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.58109974861145,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tokyo\n\n**Extracted Content:**\nTokyo",
+        "metadata": {
+          "task": "Find the capital city of Japan. Return only the city name.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 4.6049370765686035,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tokyo\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"capital city of Japan\" in Google\n2. Tokyo",
+        "metadata": {
+          "task": "Find the capital city of Japan. Return only the city name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.707119941711426,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q3": {
+    "id": "browser_interaction_3",
+    "evaluation_metrics": "search_pattern",
+    "answer": "George Orwell",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The novel '1984' was written by George Orwell.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"author of the novel 1984\" in Google\n2. The novel '1984' was written by George Orwell.",
+        "metadata": {
+          "task": "Who wrote the novel 1984? Return only the author's full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 16.29155421257019,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The novel '1984' was written by George Orwell.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"1984 novel author\" in Google\n2. The novel '1984' was written by George Orwell.",
+        "metadata": {
+          "task": "Who wrote the novel 1984? Return only the author's full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.315481185913086,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The novel '1984' was written by George Orwell.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"author of the novel 1984\" in Google\n2. The novel '1984' was written by George Orwell.",
+        "metadata": {
+          "task": "Who wrote the novel 1984? Return only the author's full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 17.925482034683228,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": "browser_interaction_4",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Guido van Rossum",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Guido van Rossum\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Python programming language creator\" in Google\n2. Guido van Rossum",
+        "metadata": {
+          "task": "Who created the Python programming language? Return only the full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.788843154907227,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Guido van Rossum\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Python programming language creator full name\" in Google\n2. Guido van Rossum",
+        "metadata": {
+          "task": "Who created the Python programming language? Return only the full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 12.573206901550293,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Guido van Rossum\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"creator of Python programming language full name\" in Google\n2. Guido van Rossum",
+        "metadata": {
+          "task": "Who created the Python programming language? Return only the full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 12.618869066238403,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": "browser_interaction_5",
+    "evaluation_metrics": "search_pattern",
+    "answer": "1991",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The first release year of the Linux kernel is 1991.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Linux kernel Wikipedia\" in Google\n2. Clicked button with index 31: Linux kernel\n3. The first release year of the Linux kernel is 1991.",
+        "metadata": {
+          "task": "Open Wikipedia for \u201cLinux kernel\u201d and report the first release year as a 4-digit number only.",
+          "execution_successful": true,
+          "steps_taken": 3,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 29.750414848327637,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "1991\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Linux kernel Wikipedia\" in Google\n2. Clicked button with index 31: Linux kernel\n3. 1991",
+        "metadata": {
+          "task": "Open Wikipedia for \u201cLinux kernel\u201d and report the first release year as a 4-digit number only.",
+          "execution_successful": true,
+          "steps_taken": 3,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 26.82836079597473,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The first release year of the Linux kernel is 1991.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Linux kernel Wikipedia\" in Google\n2. Clicked button with index 31: Linux kernel\n3. The first release year of the Linux kernel is 1991.",
+        "metadata": {
+          "task": "Open Wikipedia for \u201cLinux kernel\u201d and report the first release year as a 4-digit number only.",
+          "execution_successful": true,
+          "steps_taken": 3,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 29.676419973373413,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q6": {
+    "id": "browser_interaction_6",
+    "evaluation_metrics": "search_pattern",
+    "answer": "299792458",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "299792458\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"speed of light in vacuum m/s\" in Google\n2. 299792458",
+        "metadata": {
+          "task": "What is the speed of light in vacuum in m/s? Return digits only, no commas or units.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.44908094406128,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "299792458\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"speed of light in vacuum m/s\" in Google\n2. 299792458",
+        "metadata": {
+          "task": "What is the speed of light in vacuum in m/s? Return digits only, no commas or units.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 15.513163805007935,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "299792458\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"speed of light in vacuum in m/s\" in Google\n2. 299792458",
+        "metadata": {
+          "task": "What is the speed of light in vacuum in m/s? Return digits only, no commas or units.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 16.865463972091675,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": "browser_interaction_7",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Au",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The chemical symbol for gold is 'Au'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"chemical symbol for gold\" in Google\n2. The chemical symbol for gold is 'Au'.",
+        "metadata": {
+          "task": "What is the chemical symbol for gold? Return the two-letter symbol only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 16.970531225204468,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The chemical symbol for gold is 'Au'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"chemical symbol for gold\" in Google\n2. The chemical symbol for gold is 'Au'.",
+        "metadata": {
+          "task": "What is the chemical symbol for gold? Return the two-letter symbol only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 12.042788028717041,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The chemical symbol for gold is 'Au'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"chemical symbol for gold\" in Google\n2. The chemical symbol for gold is 'Au'.",
+        "metadata": {
+          "task": "What is the chemical symbol for gold? Return the two-letter symbol only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 16.64966917037964,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": "browser_interaction_8",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Jupiter",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Jupiter\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"largest planet in our solar system\" in Google\n2. Jupiter",
+        "metadata": {
+          "task": "What is the largest planet in our solar system? Return the one-word name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 15.447645902633667,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Jupiter\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"largest planet in our solar system\" in Google\n2. Jupiter",
+        "metadata": {
+          "task": "What is the largest planet in our solar system? Return the one-word name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.396545886993408,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Jupiter\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"largest planet in our solar system\" in Google\n2. Jupiter",
+        "metadata": {
+          "task": "What is the largest planet in our solar system? Return the one-word name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.78348994255066,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q9": {
+    "id": "browser_interaction_9",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Mount Everest",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The highest mountain above sea level is Mount Everest, with a peak at 29,032 feet (8,849 meters).\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"highest mountain above sea level\" in Google\n2. The highest mountain above sea level is Mount Everest, with a peak at 29,032 feet (8,849 meters).",
+        "metadata": {
+          "task": "What is the highest mountain above sea level? Return the common English name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 15.797860145568848,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The highest mountain above sea level is Mount Everest.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"highest mountain above sea level\" in Google\n2. The highest mountain above sea level is Mount Everest.",
+        "metadata": {
+          "task": "What is the highest mountain above sea level? Return the common English name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 16.415390014648438,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The highest mountain above sea level is Mount Everest.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"highest mountain above sea level\" in Google\n2. The highest mountain above sea level is Mount Everest.",
+        "metadata": {
+          "task": "What is the highest mountain above sea level? Return the common English name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.309714078903198,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": "browser_interaction_10",
+    "evaluation_metrics": "search_pattern",
+    "answer": "7",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "7\n\n**Extracted Content:**\n7",
+        "metadata": {
+          "task": "How many continents are there on Earth? Return a single digit.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.41515588760376,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "There are 7 continents on Earth.\n\n**Extracted Content:**\nThere are 7 continents on Earth.",
+        "metadata": {
+          "task": "How many continents are there on Earth? Return a single digit.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.503076076507568,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "There are 7 continents on Earth.\n\n**Extracted Content:**\nThere are 7 continents on Earth.",
+        "metadata": {
+          "task": "How many continents are there on Earth? Return a single digit.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.446412086486816,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q11": {
+    "id": "browser_interaction_11",
+    "evaluation_metrics": "search_pattern",
+    "answer": "https://www.rfc-editor.org/rfc/rfc2616.pdf",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "https://www.rfc-editor.org/rfc/rfc2616.pdf\n\n**Extracted Content:**\nhttps://www.rfc-editor.org/rfc/rfc2616.pdf",
+        "metadata": {
+          "task": "Open https://www.rfc-editor.org/rfc/rfc2616.pdf and report the exact PDF URL only (no extra text).",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://www.rfc-editor.org/rfc/rfc2616.pdf"
+          ],
+          "execution_time": 5.862613916397095,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "https://www.rfc-editor.org/rfc/rfc2616.pdf\n\n**Extracted Content:**\nhttps://www.rfc-editor.org/rfc/rfc2616.pdf",
+        "metadata": {
+          "task": "Open https://www.rfc-editor.org/rfc/rfc2616.pdf and report the exact PDF URL only (no extra text).",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://www.rfc-editor.org/rfc/rfc2616.pdf"
+          ],
+          "execution_time": 5.388329982757568,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "https://www.rfc-editor.org/rfc/rfc2616.pdf\n\n**Extracted Content:**\nhttps://www.rfc-editor.org/rfc/rfc2616.pdf",
+        "metadata": {
+          "task": "Open https://www.rfc-editor.org/rfc/rfc2616.pdf and report the exact PDF URL only (no extra text).",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://www.rfc-editor.org/rfc/rfc2616.pdf"
+          ],
+          "execution_time": 6.170875787734985,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q12": {
+    "id": "browser_interaction_12",
+    "evaluation_metrics": "search_pattern",
+    "answer": "https://arxiv.org/pdf/1706.03762.pdf",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The exact URL for the PDF file 'Attention Is All You Need' is: https://arxiv.org/pdf/1706.03762.pdf. You can download it using this link.\n\n**Extracted Content:**\nThe exact URL for the PDF file 'Attention Is All You Need' is: https://arxiv.org/pdf/1706.03762.pdf. You can download it using this link.",
+        "metadata": {
+          "task": "Open the Attention Is All You Need PDF at https://arxiv.org/pdf/1706.03762.pdf and return the exact URL only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://arxiv.org/pdf/1706.03762.pdf."
+          ],
+          "execution_time": 5.107574224472046,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The exact URL for the PDF document 'Attention Is All You Need' is: https://arxiv.org/pdf/1706.03762.pdf. You can download it using a tool like `curl` or directly through your browser.\n\n**Extracted Content:**\nThe exact URL for the PDF document 'Attention Is All You Need' is: https://arxiv.org/pdf/1706.03762.pdf. You can download it using a tool like `curl` or directly through your browser.",
+        "metadata": {
+          "task": "Open the Attention Is All You Need PDF at https://arxiv.org/pdf/1706.03762.pdf and return the exact URL only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://arxiv.org/pdf/1706.03762.pdf."
+          ],
+          "execution_time": 6.126299858093262,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The exact URL of the PDF file is: https://arxiv.org/pdf/1706.03762.pdf\n\n**Extracted Content:**\nThe exact URL of the PDF file is: https://arxiv.org/pdf/1706.03762.pdf",
+        "metadata": {
+          "task": "Open the Attention Is All You Need PDF at https://arxiv.org/pdf/1706.03762.pdf and return the exact URL only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://arxiv.org/pdf/1706.03762.pdf"
+          ],
+          "execution_time": 5.752237796783447,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q13": {
+    "id": "browser_interaction_13",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Leonardo da Vinci",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Leonardo da Vinci\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Who painted the Mona Lisa?\" in Google\n2. Leonardo da Vinci",
+        "metadata": {
+          "task": "Who painted the Mona Lisa? Return only the full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 16.219197034835815,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Leonardo da Vinci\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Who painted the Mona Lisa?\" in Google\n2. Leonardo da Vinci",
+        "metadata": {
+          "task": "Who painted the Mona Lisa? Return only the full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.363095998764038,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Leonardo da Vinci\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Mona Lisa painter full name\" in Google\n2. Leonardo da Vinci",
+        "metadata": {
+          "task": "Who painted the Mona Lisa? Return only the full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.267460107803345,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q14": {
+    "id": "browser_interaction_14",
+    "evaluation_metrics": "search_pattern",
+    "answer": "100",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The boiling point of water at sea level is 100 degrees Celsius.\n\n**Extracted Content:**\nThe boiling point of water at sea level is 100 degrees Celsius.",
+        "metadata": {
+          "task": "What is the boiling point of water at sea level in Celsius? Return the integer only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 4.44181489944458,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The boiling point of water at sea level is 100 degrees Celsius.\n\n**Extracted Content:**\nThe boiling point of water at sea level is 100 degrees Celsius.",
+        "metadata": {
+          "task": "What is the boiling point of water at sea level in Celsius? Return the integer only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.035505294799805,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "100\n\n**Extracted Content:**\n100",
+        "metadata": {
+          "task": "What is the boiling point of water at sea level in Celsius? Return the integer only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 4.1410911083221436,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q15": {
+    "id": "browser_interaction_15",
+    "evaluation_metrics": "search_pattern",
+    "answer": "404",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "404\n\n**Extracted Content:**\n404",
+        "metadata": {
+          "task": "What HTTP status code indicates Not Found? Return digits only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 7.3144378662109375,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "404\n\n**Extracted Content:**\n404",
+        "metadata": {
+          "task": "What HTTP status code indicates Not Found? Return digits only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 4.647525787353516,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "404\n\n**Extracted Content:**\n404",
+        "metadata": {
+          "task": "What HTTP status code indicates Not Found? Return digits only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.017599821090698,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q16": {
+    "id": "browser_interaction_16",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Domain Name System",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "DNS stands for 'Domain Name System'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"DNS full form\" in Google\n2. DNS stands for 'Domain Name System'.",
+        "metadata": {
+          "task": "What does DNS stand for? Return the full expansion exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.903418064117432,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "DNS stands for 'Domain Name System'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"DNS full form\" in Google\n2. DNS stands for 'Domain Name System'.",
+        "metadata": {
+          "task": "What does DNS stand for? Return the full expansion exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 15.757551908493042,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "DNS stands for 'Domain Name System'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"DNS full form\" in Google\n2. DNS stands for 'Domain Name System'.",
+        "metadata": {
+          "task": "What does DNS stand for? Return the full expansion exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 16.868008852005005,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q17": {
+    "id": "browser_interaction_17",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Tim Berners-Lee",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The inventor of the World Wide Web is Tim Berners-Lee.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"inventor of the World Wide Web\" in Google\n2. The inventor of the World Wide Web is Tim Berners-Lee.",
+        "metadata": {
+          "task": "Who invented the World Wide Web? Return only the full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 19.391759872436523,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The inventor of the World Wide Web is Sir Timothy John Berners-Lee.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"inventor of the World Wide Web full name\" in Google\n2. The inventor of the World Wide Web is Sir Timothy John Berners-Lee.",
+        "metadata": {
+          "task": "Who invented the World Wide Web? Return only the full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 15.109458208084106,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tim Berners-Lee\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"inventor of the World Wide Web full name\" in Google\n2. Tim Berners-Lee",
+        "metadata": {
+          "task": "Who invented the World Wide Web? Return only the full name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.417611122131348,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q18": {
+    "id": "browser_interaction_18",
+    "evaluation_metrics": "search_pattern",
+    "answer": "1976",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Apple Inc. was founded in 1976.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Apple Inc. founding year\" in Google\n2. Apple Inc. was founded in 1976.",
+        "metadata": {
+          "task": "What year was Apple Inc. founded? Return the 4-digit year only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.513417959213257,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Apple Inc. was founded in 1976.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Apple Inc. founding year\" in Google\n2. Apple Inc. was founded in 1976.",
+        "metadata": {
+          "task": "What year was Apple Inc. founded? Return the 4-digit year only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.667750835418701,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Apple Inc. was founded in 1976.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Apple Inc. founding year\" in Google\n2. Apple Inc. was founded in 1976.",
+        "metadata": {
+          "task": "What year was Apple Inc. founded? Return the 4-digit year only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.201545000076294,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q19": {
+    "id": "browser_interaction_19",
+    "evaluation_metrics": "search_pattern",
+    "answer": "DE",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The ISO 3166-1 alpha-2 country code for Germany is 'DE'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"ISO 3166-1 alpha-2 country code for Germany\" in Google\n2. The ISO 3166-1 alpha-2 country code for Germany is 'DE'.",
+        "metadata": {
+          "task": "What is the ISO 3166-1 alpha-2 country code for Germany? Return two letters only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 17.23083996772766,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The ISO 3166-1 alpha-2 country code for Germany is 'DE'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"ISO 3166-1 alpha-2 country code for Germany\" in Google\n2. The ISO 3166-1 alpha-2 country code for Germany is 'DE'.",
+        "metadata": {
+          "task": "What is the ISO 3166-1 alpha-2 country code for Germany? Return two letters only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 22.097698211669922,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The ISO 3166-1 alpha-2 country code for Germany is 'DE'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"ISO 3166-1 alpha-2 country code for Germany\" in Google\n2. The ISO 3166-1 alpha-2 country code for Germany is 'DE'.",
+        "metadata": {
+          "task": "What is the ISO 3166-1 alpha-2 country code for Germany? Return two letters only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.545582056045532,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q20": {
+    "id": "browser_interaction_20",
+    "evaluation_metrics": "search_pattern",
+    "answer": "JPY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "JPY\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Japan ISO currency code\" in Google\n2. JPY",
+        "metadata": {
+          "task": "What is Japan\u2019s ISO currency code? Return three letters only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.206614017486572,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "JPY\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Japan ISO currency code\" in Google\n2. JPY",
+        "metadata": {
+          "task": "What is Japan\u2019s ISO currency code? Return three letters only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.331281900405884,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "JPY\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Japan ISO currency code\" in Google\n2. JPY",
+        "metadata": {
+          "task": "What is Japan\u2019s ISO currency code? Return three letters only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 19.642921209335327,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q21": {
+    "id": "browser_interaction_21",
+    "evaluation_metrics": "search_pattern",
+    "answer": "65",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The ASCII decimal code for the capital letter 'A' is 65.\n\n**Extracted Content:**\nThe ASCII decimal code for the capital letter 'A' is 65.",
+        "metadata": {
+          "task": "What is the ASCII decimal code for capital letter A? Return digits only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.632203578948975,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The ASCII decimal code for the capital letter 'A' is 65.\n\n**Extracted Content:**\nThe ASCII decimal code for the capital letter 'A' is 65.",
+        "metadata": {
+          "task": "What is the ASCII decimal code for capital letter A? Return digits only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.288048028945923,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The ASCII decimal code for the capital letter 'A' is 65.\n\n**Extracted Content:**\nThe ASCII decimal code for the capital letter 'A' is 65.",
+        "metadata": {
+          "task": "What is the ASCII decimal code for capital letter A? Return digits only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.303749084472656,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q22": {
+    "id": "browser_interaction_22",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Water",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The common name for H2O is \"water\".\n\n**Extracted Content:**\nThe common name for H2O is \"water\".",
+        "metadata": {
+          "task": "What is the common name for H2O? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 7.027792930603027,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The common name for H2O is 'Water'.\n\n**Extracted Content:**\nThe common name for H2O is 'Water'.",
+        "metadata": {
+          "task": "What is the common name for H2O? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 6.835713863372803,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The common name for H2O is \"water\".\n\n**Extracted Content:**\nThe common name for H2O is \"water\".",
+        "metadata": {
+          "task": "What is the common name for H2O? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 7.42767596244812,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q23": {
+    "id": "browser_interaction_23",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Sun",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sun\n\n**Extracted Content:**\nSun",
+        "metadata": {
+          "task": "What is the nearest star to Earth? Return one word (use 'Sun').",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.078344821929932,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sun\n\n**Extracted Content:**\nSun",
+        "metadata": {
+          "task": "What is the nearest star to Earth? Return one word (use 'Sun').",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.238286256790161,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sun\n\n**Extracted Content:**\nSun",
+        "metadata": {
+          "task": "What is the nearest star to Earth? Return one word (use 'Sun').",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 6.221456050872803,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q24": {
+    "id": "browser_interaction_24",
+    "evaluation_metrics": "search_pattern",
+    "answer": "8",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "A byte consists of 8 bits.\n\n**Extracted Content:**\nA byte consists of 8 bits.",
+        "metadata": {
+          "task": "How many bits are in a byte? Return a single digit.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.068973064422607,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "A byte consists of 8 bits.\n\n**Extracted Content:**\nA byte consists of 8 bits.",
+        "metadata": {
+          "task": "How many bits are in a byte? Return a single digit.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.319752931594849,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "A byte consists of 8 bits.\n\n**Extracted Content:**\nA byte consists of 8 bits.",
+        "metadata": {
+          "task": "How many bits are in a byte? Return a single digit.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 4.802274942398071,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q25": {
+    "id": "browser_interaction_25",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Graphics Processing Unit",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "GPU stands for 'Graphics Processing Unit'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"GPU full form\" in Google\n2. GPU stands for 'Graphics Processing Unit'.",
+        "metadata": {
+          "task": "What does GPU stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.314846992492676,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "GPU stands for 'Graphics Processing Unit'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"GPU full form\" in Google\n2. GPU stands for 'Graphics Processing Unit'.",
+        "metadata": {
+          "task": "What does GPU stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.010052919387817,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "GPU stands for 'Graphics Processing Unit'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"GPU full form\" in Google\n2. GPU stands for 'Graphics Processing Unit'.",
+        "metadata": {
+          "task": "What does GPU stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 22.190508127212524,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q26": {
+    "id": "browser_interaction_26",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Portuguese",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Portuguese\n\n**Extracted Content:**\nPortuguese",
+        "metadata": {
+          "task": "What is the primary language spoken in Brazil? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.920336008071899,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Portuguese\n\n**Extracted Content:**\nPortuguese",
+        "metadata": {
+          "task": "What is the primary language spoken in Brazil? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 3.9485111236572266,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Portuguese\n\n**Extracted Content:**\nPortuguese",
+        "metadata": {
+          "task": "What is the primary language spoken in Brazil? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 3.9236369132995605,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q27": {
+    "id": "browser_interaction_27",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Pacific Ocean",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The largest ocean on Earth is the Pacific Ocean.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"largest ocean on Earth\" in Google\n2. The largest ocean on Earth is the Pacific Ocean.",
+        "metadata": {
+          "task": "What is the largest ocean on Earth? Return the common English name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.986676931381226,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The largest ocean on Earth is the Pacific Ocean.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"largest ocean on Earth\" in Google\n2. The largest ocean on Earth is the Pacific Ocean.",
+        "metadata": {
+          "task": "What is the largest ocean on Earth? Return the common English name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.239847898483276,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The largest ocean on Earth is the Pacific Ocean.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"largest ocean on Earth\" in Google\n2. The largest ocean on Earth is the Pacific Ocean.",
+        "metadata": {
+          "task": "What is the largest ocean on Earth? Return the common English name.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 17.749889850616455,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q28": {
+    "id": "browser_interaction_28",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Giraffe",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Giraffe\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"tallest living land animal\" in Google\n2. Giraffe",
+        "metadata": {
+          "task": "What is the tallest living land animal? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 15.43885612487793,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Giraffe\n\n**Extracted Content:**\nGiraffe",
+        "metadata": {
+          "task": "What is the tallest living land animal? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 4.68016791343689,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Giraffe\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"tallest living land animal\" in Google\n2. Giraffe",
+        "metadata": {
+          "task": "What is the tallest living land animal? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.544867992401123,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q29": {
+    "id": "browser_interaction_29",
+    "evaluation_metrics": "search_pattern",
+    "answer": "2.71828",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The value of the mathematical constant e rounded to 5 decimal places is 2.71828.\n\n**Extracted Content:**\nThe value of the mathematical constant e rounded to 5 decimal places is 2.71828.",
+        "metadata": {
+          "task": "Give the value of the mathematical constant e rounded to 5 decimal places. Return digits and decimal point only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.3532469272613525,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The value of the mathematical constant e rounded to 5 decimal places is 2.71828.\n\n**Extracted Content:**\nThe value of the mathematical constant e rounded to 5 decimal places is 2.71828.",
+        "metadata": {
+          "task": "Give the value of the mathematical constant e rounded to 5 decimal places. Return digits and decimal point only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.394708156585693,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The value of the mathematical constant e rounded to 5 decimal places is 2.71828.\n\n**Extracted Content:**\nThe value of the mathematical constant e rounded to 5 decimal places is 2.71828.",
+        "metadata": {
+          "task": "Give the value of the mathematical constant e rounded to 5 decimal places. Return digits and decimal point only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 6.296515226364136,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q30": {
+    "id": "browser_interaction_30",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Sahara",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The largest hot desert is the Sahara.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"largest hot desert common name\" in Google\n2. The largest hot desert is the Sahara.",
+        "metadata": {
+          "task": "What is the largest hot desert? Return the common name only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.249811887741089,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The largest hot desert is the Sahara.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"largest hot desert common name\" in Google\n2. The largest hot desert is the Sahara.",
+        "metadata": {
+          "task": "What is the largest hot desert? Return the common name only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 16.924498081207275,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The largest hot desert is the Sahara.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"largest hot desert common name\" in Google\n2. The largest hot desert is the Sahara.",
+        "metadata": {
+          "task": "What is the largest hot desert? Return the common name only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 12.20023798942566,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q31": {
+    "id": "browser_interaction_31",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Neil Armstrong",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Neil Armstrong\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"first human to walk on the Moon full name\" in Google\n2. Neil Armstrong",
+        "metadata": {
+          "task": "Who was the first human to walk on the Moon? Return full name only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.566557884216309,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Neil Alden Armstrong\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"first human to walk on the Moon full name\" in Google\n2. Neil Alden Armstrong",
+        "metadata": {
+          "task": "Who was the first human to walk on the Moon? Return full name only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.362897872924805,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Neil Alden Armstrong\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"first human to walk on the Moon full name\" in Google\n2. Neil Alden Armstrong",
+        "metadata": {
+          "task": "Who was the first human to walk on the Moon? Return full name only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 15.220736026763916,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Q32": {
+    "id": "browser_interaction_32",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Google",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The company that develops the Chrome web browser is Google.\n\n**Extracted Content:**\nThe company that develops the Chrome web browser is Google.",
+        "metadata": {
+          "task": "Which company develops the Chrome web browser? Return the company name only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 6.005734920501709,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Google\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"company that develops Chrome web browser\" in Google\n2. Google",
+        "metadata": {
+          "task": "Which company develops the Chrome web browser? Return the company name only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 12.780977964401245,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Google\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"company that develops Chrome web browser\" in Google\n2. Google",
+        "metadata": {
+          "task": "Which company develops the Chrome web browser? Return the company name only.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 15.050271034240723,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q33": {
+    "id": "browser_interaction_33",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Hypertext Transfer Protocol",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "HTTP stands for 'Hypertext Transfer Protocol'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"HTTP full form\" in Google\n2. HTTP stands for 'Hypertext Transfer Protocol'.",
+        "metadata": {
+          "task": "What does HTTP stand for? Return the full expansion exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.090826034545898,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "HTTP stands for 'HyperText Transfer Protocol'.\n\n**Extracted Content:**\nHTTP stands for 'HyperText Transfer Protocol'.",
+        "metadata": {
+          "task": "What does HTTP stand for? Return the full expansion exactly.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.0283660888671875,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "HTTP stands for Hypertext Transfer Protocol.\n\n**Extracted Content:**\nHTTP stands for Hypertext Transfer Protocol.",
+        "metadata": {
+          "task": "What does HTTP stand for? Return the full expansion exactly.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 4.442587852478027,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q34": {
+    "id": "browser_interaction_34",
+    "evaluation_metrics": "search_pattern",
+    "answer": "101",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The binary representation of the decimal number 5 is 101.\n\n**Extracted Content:**\nThe binary representation of the decimal number 5 is 101.",
+        "metadata": {
+          "task": "Convert decimal 5 to binary. Return digits only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 6.942842960357666,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The binary representation of the decimal number 5 is 101.\n\n**Extracted Content:**\nThe binary representation of the decimal number 5 is 101.",
+        "metadata": {
+          "task": "Convert decimal 5 to binary. Return digits only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 6.788486003875732,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The binary representation of the decimal number 5 is 101.\n\n**Extracted Content:**\nThe binary representation of the decimal number 5 is 101.",
+        "metadata": {
+          "task": "Convert decimal 5 to binary. Return digits only.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 6.190445184707642,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q35": {
+    "id": "browser_interaction_35",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Milky Way",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The galaxy that contains our Solar System is called the Milky Way.\n\n**Extracted Content:**\nThe galaxy that contains our Solar System is called the Milky Way.",
+        "metadata": {
+          "task": "What is the name of the galaxy that contains our Solar System? Return the common English name.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 6.017701864242554,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The galaxy that contains our Solar System is commonly known as the Milky Way Galaxy.\n\n**Extracted Content:**\nThe galaxy that contains our Solar System is commonly known as the Milky Way Galaxy.",
+        "metadata": {
+          "task": "What is the name of the galaxy that contains our Solar System? Return the common English name.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.468010902404785,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The galaxy that contains our Solar System is commonly known as the Milky Way Galaxy.\n\n**Extracted Content:**\nThe galaxy that contains our Solar System is commonly known as the Milky Way Galaxy.",
+        "metadata": {
+          "task": "What is the name of the galaxy that contains our Solar System? Return the common English name.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 7.014784812927246,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q36": {
+    "id": "browser_interaction_36",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Ottawa",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Ottawa\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"capital city of Canada\" in Google\n2. Ottawa",
+        "metadata": {
+          "task": "What is the capital city of Canada? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 36.52746510505676,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Ottawa\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"capital city of Canada\" in Google\n2. Ottawa",
+        "metadata": {
+          "task": "What is the capital city of Canada? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.479848861694336,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The capital city of Canada is Ottawa.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"capital city of Canada\" in Google\n2. The capital city of Canada is Ottawa.",
+        "metadata": {
+          "task": "What is the capital city of Canada? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.264967918395996,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q37": {
+    "id": "browser_interaction_37",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Structured Query Language",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "SQL stands for Structured Query Language.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"What does SQL stand for?\" in Google\n2. SQL stands for Structured Query Language.",
+        "metadata": {
+          "task": "What does SQL stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 15.159566164016724,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "SQL stands for Structured Query Language.\n\n**Extracted Content:**\nSQL stands for Structured Query Language.",
+        "metadata": {
+          "task": "What does SQL stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 7.098545789718628,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "SQL stands for 'Structured Query Language'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"What does SQL stand for?\" in Google\n2. SQL stands for 'Structured Query Language'.",
+        "metadata": {
+          "task": "What does SQL stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 19.21879506111145,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q38": {
+    "id": "browser_interaction_38",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Central Processing Unit",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "CPU stands for 'Central Processing Unit'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"What does CPU stand for?\" in Google\n2. CPU stands for 'Central Processing Unit'.",
+        "metadata": {
+          "task": "What does CPU stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 14.290823936462402,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "CPU stands for 'Central Processing Unit'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"What does CPU stand for?\" in Google\n2. CPU stands for 'Central Processing Unit'.",
+        "metadata": {
+          "task": "What does CPU stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 12.928389072418213,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The full form of 'CPU' is 'Central Processing Unit'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"CPU full form\" in Google\n2. The full form of 'CPU' is 'Central Processing Unit'.",
+        "metadata": {
+          "task": "What does CPU stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 15.679301023483276,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q39": {
+    "id": "browser_interaction_39",
+    "evaluation_metrics": "search_pattern",
+    "answer": "North Atlantic Treaty Organization",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "NATO stands for 'North Atlantic Treaty Organization'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"NATO stands for\" in Google\n2. NATO stands for 'North Atlantic Treaty Organization'.",
+        "metadata": {
+          "task": "What does NATO stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 15.921735763549805,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "NATO stands for 'North Atlantic Treaty Organization'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"NATO stands for\" in Google\n2. NATO stands for 'North Atlantic Treaty Organization'.",
+        "metadata": {
+          "task": "What does NATO stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 27.243267059326172,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "NATO stands for 'North Atlantic Treaty Organization'.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"What does NATO stand for?\" in Google\n2. NATO stands for 'North Atlantic Treaty Organization'.",
+        "metadata": {
+          "task": "What does NATO stand for? Return the full phrase exactly.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 13.674571990966797,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q40": {
+    "id": "browser_interaction_40",
+    "evaluation_metrics": "search_pattern",
+    "answer": "4",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "4\n\n**Extracted Content:**\n4",
+        "metadata": {
+          "task": "How many octets are in an IPv4 address? Return a single digit.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 4.859683036804199,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "An IPv4 address consists of 4 octets.\n\n**Extracted Content:**\nAn IPv4 address consists of 4 octets.",
+        "metadata": {
+          "task": "How many octets are in an IPv4 address? Return a single digit.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 6.508044958114624,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "An IPv4 address consists of 4 octets.\n\n**Extracted Content:**\nAn IPv4 address consists of 4 octets.",
+        "metadata": {
+          "task": "How many octets are in an IPv4 address? Return a single digit.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 5.533209323883057,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q41": {
+    "id": "browser_interaction_41",
+    "evaluation_metrics": "search_pattern",
+    "answer": "1991",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The first release year of Python (programming language) is 1991.\n\n**Extracted Content:**\n1. \ud83d\udd17  Opened new tab #0 with url https://www.wikipedia.org\n2. \u2328\ufe0f  Input Python (programming language) into index 21\n3. Element index changed after action 1 / 2, because page changed.\n4. Clicked button with index 24: Python (programming language)\nGeneral-purpose programming language\n5. The first release year of Python (programming language) is 1991.",
+        "metadata": {
+          "task": "Open Wikipedia for \u201cPython (programming language)\u201d and report the first release year (4 digits only).",
+          "execution_successful": true,
+          "steps_taken": 4,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://www.wikipedia.org"
+          ],
+          "execution_time": 42.012629985809326,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The first release year of Python (programming language) is 1991.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Python (programming language) Wikipedia\" in Google\n2. Clicked button with index 31: Python (programming language)\n3. The first release year of Python (programming language) is 1991.",
+        "metadata": {
+          "task": "Open Wikipedia for \u201cPython (programming language)\u201d and report the first release year (4 digits only).",
+          "execution_successful": true,
+          "steps_taken": 3,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 27.002509832382202,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The first release year of Python (programming language) is 1991.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Python (programming language) Wikipedia\" in Google\n2. Clicked button with index 31: Python (programming language)\n3. The first release year of Python (programming language) is 1991.",
+        "metadata": {
+          "task": "Open Wikipedia for \u201cPython (programming language)\u201d and report the first release year (4 digits only).",
+          "execution_successful": true,
+          "steps_taken": 3,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 29.27640700340271,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q42": {
+    "id": "browser_interaction_42",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Larry Page",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The co-founder of Google alongside Sergey Brin is Larry Page.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"co-founder of Google with Sergey Brin\" in Google\n2. The co-founder of Google alongside Sergey Brin is Larry Page.",
+        "metadata": {
+          "task": "Who is one of the co-founders of Google with Sergey Brin? Return the full name of the other co-founder.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 16.762815952301025,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The co-founder of Google alongside Sergey Brin is Larry Page.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"co-founder of Google with Sergey Brin\" in Google\n2. The co-founder of Google alongside Sergey Brin is Larry Page.",
+        "metadata": {
+          "task": "Who is one of the co-founders of Google with Sergey Brin? Return the full name of the other co-founder.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 12.813384771347046,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The co-founder of Google alongside Sergey Brin is Larry Page.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"Google co-founders\" in Google\n2. The co-founder of Google alongside Sergey Brin is Larry Page.",
+        "metadata": {
+          "task": "Who is one of the co-founders of Google with Sergey Brin? Return the full name of the other co-founder.",
+          "execution_successful": true,
+          "steps_taken": 2,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 21.46300220489502,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q43": {
+    "id": "browser_interaction_43",
+    "evaluation_metrics": "search_pattern",
+    "answer": "HTTP/1.1",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The major HTTP version defined by RFC 2616 is HTTP/1.1.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version\" in Google\n2. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:wikipedia.org\" in Google\n3. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:wikipedia.org\" in Google\n4. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n5. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version\" in Google\n6. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version\" in Google\n7. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version\" in Google\n8. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:bing.com\" in Google\n9. \ud83d\udd17  Opened new tab #8 with url https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol\n10. \ud83d\udd0d  Scrolled to text: RFC 2616\n11. The major HTTP version defined by RFC 2616 is HTTP/1.1.",
+        "metadata": {
+          "task": "Which major HTTP version is defined by RFC 2616? Return the short version string exactly.",
+          "execution_successful": true,
+          "steps_taken": 11,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"
+          ],
+          "execution_time": 110.99186897277832,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": false,
+      "result": {
+        "result": "Browser execution failed or was not completed successfully",
+        "metadata": {
+          "task": "Which major HTTP version is defined by RFC 2616? Return the short version string exactly.",
+          "execution_successful": false,
+          "steps_taken": null,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": null,
+          "error_type": "execution_error",
+          "trace_log_path": null
+        },
+        "success": false
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The major HTTP version defined by RFC 2616 is HTTP/1.1.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version\" in Google\n2. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n3. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n4. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n5. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n6. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n7. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n8. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n9. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n10. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n11. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n12. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n13. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n14. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n15. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:duckduckgo.com\" in Google\n16. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:ietf.org\" in Google\n17. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:duckduckgo.com\" in Google\n18. \ud83d\udd0d  Searched for \"RFC 2616 HTTP version site:bing.com\" in Google\n19. \ud83d\udd17  Opened new tab #18 with url https://www.ietf.org/rfc/rfc2616.txt\n20. The major HTTP version defined by RFC 2616 is HTTP/1.1.",
+        "metadata": {
+          "task": "Which major HTTP version is defined by RFC 2616? Return the short version string exactly.",
+          "execution_successful": true,
+          "steps_taken": 20,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://www.ietf.org/rfc/rfc2616.txt"
+          ],
+          "execution_time": 171.79398703575134,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q44": {
+    "id": "browser_interaction_44",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Nile",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The commonly cited longest river in the world is the Nile River, although there is some debate with the Amazon River also being considered by some measurements.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"longest river in the world\" in Google\n2. \ud83d\udd0d  Searched for \"longest river in the world\" in Google\n3. \ud83d\udd0d  Searched for \"longest river in the world site:bing.com\" in Google\n4. \ud83d\udd0d  Searched for \"longest river in the world site:duckduckgo.com\" in Google\n5. \ud83d\udd17  Opened new tab #4 with url https://www.bing.com\n6. \u2328\ufe0f  Input longest river in the world into index 24\n7. Element index changed after action 1 / 2, because page changed.\n8. Clicked button with index 26: \n9. Page Link: https://www.bing.com/\nQuery: longest river in the world\nExtracted Content:\n```json\n{\n  \"explanation\": \"The webpage provided is a generic search page from Microsoft Bing, which includes various features like Copilot, Images, Videos, Shopping, Maps, News, and more. It also mentions some news headlines and other Bing services. However, it does not contain specific information about the longest river in the world. Therefore, the requested information is not available on this page.\"\n}\n```\n10. \u2328\ufe0f  Input longest river in the world into index 25\n11. Clicked button with index 26: \n12. Page Link: https://www.bing.com/\nQuery: longest river in the world\nExtracted Content:\n```json\n{\n  \"explanation\": \"The webpage provided is a generic search page from Microsoft Bing, which includes various links and features such as Copilot, Images, Videos, Shopping, Maps, News, and more. It does not contain specific information about the longest river in the world. The page is primarily a search interface and does not provide direct content or articles related to geographical information or rivers. Therefore, the requested information about the longest river in the world is not available on this page.\"\n}\n```\n13. \ud83d\udd0d  Searched for \"longest river in the world site:wikipedia.org\" in Google\n14. \ud83d\udd17  Opened new tab #6 with url https://en.wikipedia.org/wiki/List_of_rivers_by_length\n15. The commonly cited longest river in the world is the Nile River, although there is some debate with the Amazon River also being considered by some measurements.",
+        "metadata": {
+          "task": "What is commonly cited as the longest river in the world? Return the river\u2019s common English name.",
+          "execution_successful": true,
+          "steps_taken": 13,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://en.wikipedia.org/wiki/List_of_rivers_by_length",
+            "https://www.bing.com/",
+            "https://www.bing.com"
+          ],
+          "execution_time": 159.81985688209534,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The Nile is commonly cited as the longest river in the world, although there is some debate with the Amazon River.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"longest river in the world\" in Google\n2. \ud83d\udd0d  Searched for \"longest river in the world site:wikipedia.org\" in Google\n3. \ud83d\udd17  Opened new tab #2 with url https://en.wikipedia.org/wiki/List_of_rivers_by_length\n4. Page Link: https://en.wikipedia.org/wiki/List_of_river_systems_by_length\nQuery: longest river in the world\nExtracted Content:\n```json\n{\n  \"explanation\": \"The webpage is a Wikipedia article titled 'List of river systems by length'. It provides a list of the longest river systems on Earth, including those over 1,000 kilometers in length. The article discusses the complexities and challenges in measuring river lengths, such as the identification of the source and mouth, and the scale of measurement. It also highlights the debate over whether the Nile or the Amazon is the world's longest river. The article includes a detailed table listing river systems, their lengths, drainage areas, average discharge, outflow, and countries in the drainage basin. However, the webpage does not explicitly state which river is the longest in the world, as it presents both the Nile and the Amazon as contenders for this title. Therefore, the specific information requested by the query 'longest river in the world' is not definitively available on this page.\"\n}\n```\n5. The Nile is commonly cited as the longest river in the world, although there is some debate with the Amazon River.",
+        "metadata": {
+          "task": "What is commonly cited as the longest river in the world? Return the river\u2019s common English name.",
+          "execution_successful": true,
+          "steps_taken": 5,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://en.wikipedia.org/wiki/List_of_rivers_by_length",
+            "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+          ],
+          "execution_time": 58.768545627593994,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The Nile is commonly cited as the longest river in the world based on traditional measurements, despite some debate with the Amazon River.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"longest river in the world\" in Google\n2. \ud83d\udd0d  Searched for \"longest river in the world\" in Google\n3. \ud83d\udd0d  Searched for \"longest river in the world\" in Google\n4. \ud83d\udd0d  Searched for \"longest river in the world site:duckduckgo.com\" in Google\n5. \ud83d\udd0d  Searched for \"longest river in the world site:bing.com\" in Google\n6. \ud83d\udd17  Opened new tab #5 with url https://en.wikipedia.org/wiki/List_of_rivers_by_length\n7. Page Link: https://en.wikipedia.org/wiki/List_of_river_systems_by_length\nQuery: longest river in the world\nExtracted Content:\n```json\n{\n  \"explanation\": \"The webpage is a Wikipedia article titled 'List of river systems by length'. It provides a list of the longest river systems in the world, including those over 1,000 kilometers in length. The article discusses the complexities and disagreements in measuring river lengths, particularly between the Nile and the Amazon rivers. While the page contains information about the lengths of various river systems, it does not definitively state which river is the longest in the world due to the ongoing debate and differing measurement methods. Therefore, the requested information about the 'longest river in the world' is not explicitly available on this page.\"\n}\n```\n8. The Nile is commonly cited as the longest river in the world based on traditional measurements, despite some debate with the Amazon River.",
+        "metadata": {
+          "task": "What is commonly cited as the longest river in the world? Return the river\u2019s common English name.",
+          "execution_successful": true,
+          "steps_taken": 8,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://en.wikipedia.org/wiki/List_of_rivers_by_length",
+            "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+          ],
+          "execution_time": 89.390545129776,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q45": {
+    "id": "browser_interaction_45",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Canberra",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The capital city of Australia is Canberra.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"capital city of Australia\" in Google\n2. \ud83d\udd0d  Searched for \"capital city of Australia site:britannica.com\" in Google\n3. \ud83d\udd0d  Searched for \"capital city of Australia site:britannica.com\" in Google\n4. \ud83d\udd0d  Searched for \"capital city of Australia\" in Google\n5. \ud83d\udd0d  Searched for \"capital city of Australia site:bing.com\" in Google\n6. \ud83d\udd0d  Searched for \"capital city of Australia site:duckduckgo.com\" in Google\n7. \ud83d\udd0d  Searched for \"capital city of Australia\" in Google\n8. \ud83d\udd0d  Searched for \"capital city of Australia site:bing.com\" in Google\n9. \ud83d\udd17  Opened new tab #8 with url https://www.bing.com\n10. \u2328\ufe0f  Input capital city of Australia into index 24\n11. Element index changed after action 1 / 2, because page changed.\n12. Clicked button with index 29:  - New tab opened - switching to it\n13. Clicked button with index 28: \n14. \ud83d\udd17  Opened new tab #10 with url https://en.wikipedia.org/wiki/Australia\n15. Page Link: https://en.wikipedia.org/wiki/Australia\nQuery: capital city of Australia\nExtracted Content:\n```json\n{\n  \"message\": \"The webpage is a Wikipedia article about Australia. It provides comprehensive information about the country, including its history, geography, government, economy, demographics, and culture. The capital city of Australia is mentioned in the article as Canberra.\"\n}\n```\n16. The capital city of Australia is Canberra.",
+        "metadata": {
+          "task": "What is the capital city of Australia? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 15,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://www.bing.com",
+            "https://en.wikipedia.org/wiki/Australia"
+          ],
+          "execution_time": 135.88338494300842,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The capital city of Australia is Canberra.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"capital city of Australia\" in Google\n2. \ud83d\udd0d  Searched for \"capital city of Australia site:wikipedia.org\" in Google\n3. \ud83d\udd0d  Searched for \"capital city of Australia site:britannica.com\" in Google\n4. \ud83d\udd0d  Searched for \"capital city of Australia\" in Google\n5. \ud83d\udd0d  Searched for \"capital city of Australia site:bing.com\" in Google\n6. \ud83d\udd0d  Searched for \"capital city of Australia\" in Google\n7. \ud83d\udd0d  Searched for \"capital city of Australia\" in Google\n8. \ud83d\udd0d  Searched for \"capital city of Australia site:bing.com\" in Google\n9. \ud83d\udd0d  Searched for \"capital city of Australia site:bing.com\" in Google\n10. \ud83d\udd0d  Searched for \"capital city of Australia site:bing.com\" in Google\n11. \ud83d\udd0d  Searched for \"capital city of Australia\" in Google\n12. \ud83d\udd0d  Searched for \"capital city of Australia site:bing.com\" in Google\n13. \ud83d\udd0d  Searched for \"capital city of Australia site:bing.com\" in Google\n14. \ud83d\udd0d  Searched for \"capital city of Australia site:duckduckgo.com\" in Google\n15. \ud83d\udd17  Opened new tab #14 with url https://en.wikipedia.org/wiki/Australia\n16. The capital city of Australia is Canberra.",
+        "metadata": {
+          "task": "What is the capital city of Australia? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 16,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://en.wikipedia.org/wiki/Australia"
+          ],
+          "execution_time": 132.77515697479248,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Canberra\n\n**Extracted Content:**\nCanberra",
+        "metadata": {
+          "task": "What is the capital city of Australia? Return one word.",
+          "execution_successful": true,
+          "steps_taken": 1,
+          "downloaded_files": [],
+          "visited_urls": [],
+          "execution_time": 4.918870210647583,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q46": {
+    "id": "browser_interaction_46",
+    "evaluation_metrics": "search_pattern",
+    "answer": "Donald J. Trump",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The current president of the United States is Donald Trump, who has been in office since January 20, 2025, according to Wikipedia.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"current president of the United States 2025\" in Google\n2. \ud83d\udd0d  Searched for \"current president of the United States site:wikipedia.org\" in Google\n3. \ud83d\udd17  Opened new tab #2 with url https://en.wikipedia.org/wiki/President_of_the_United_States\n4. The current president of the United States is Donald Trump, who has been in office since January 20, 2025, according to Wikipedia.",
+        "metadata": {
+          "task": "Who is the president of the United States?",
+          "execution_successful": true,
+          "steps_taken": 4,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://en.wikipedia.org/wiki/President_of_the_United_States"
+          ],
+          "execution_time": 36.1676070690155,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The current president of the United States is Donald Trump, who has been in office since January 20, 2025, according to the Wikipedia page for the President of the United States.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"current president of the United States 2025\" in Google\n2. \ud83d\udd0d  Searched for \"current president of the United States 2025\" in Google\n3. \ud83d\udd0d  Searched for \"current president of the United States 2025 site:bing.com\" in Google\n4. \ud83d\udd0d  Searched for \"current president of the United States 2025 site:duckduckgo.com\" in Google\n5. \ud83d\udd17  Opened new tab #4 with url https://www.bing.com\n6. \u2328\ufe0f  Input current president of the United States 2025 into index 24\n7. Element index changed after action 1 / 2, because page changed.\n8. Clicked button with index 25: \n9. Page Link: https://www.bing.com/\nQuery: current president of the United States 2025\nExtracted Content:\n```json\n{\n  \"explanation\": \"The webpage provided is a generic search page from Microsoft Bing, which includes links to various services and trending topics. It does not contain specific information about the current president of the United States in 2025. The query is not addressed by the content of the page, as it primarily lists trending topics and services offered by Bing. Therefore, the requested information is not available on this page.\"\n}\n```\n10. \ud83d\udd0d Scrolled down the page by one page\n11. Page Link: https://www.bing.com/\nQuery: current president of the United States 2025\nExtracted Content:\n```json\n{\n  \"explanation\": \"The webpage provided is a generic search page from Microsoft Bing, which includes links to various services and trending topics. It does not contain specific information about the current president of the United States in 2025. The query is not addressed by the content on this page.\",\n  \"available_information\": {\n    \"page_type\": \"Search engine homepage\",\n    \"content_summary\": [\n      \"Links to Microsoft services such as Copilot, Images, Videos, Shopping, Maps, News, and Microsoft 365 applications.\",\n      \"Trending topics including names of celebrities and current events.\",\n      \"Promotional content for Bing services like Visual Search and Bing Wallpaper app.\"\n    ]\n  }\n}\n```\n12. \ud83d\udd17  Opened new tab #5 with url https://www.duckduckgo.com\n13. \u2328\ufe0f  Input current president of the United States 2025 into index 0\n14. Clicked button with index 9: \n15. \ud83d\udd17  Opened new tab #6 with url https://www.cnn.com\n16. Clicked button with index 2: Agree\n17. \ud83d\udd0d Scrolled down the page by 0.5 pages\n18. \ud83d\udd0d Scrolled down the page by one page\n19. \ud83d\udd0d Scrolled down the page by one page\n20. \ud83d\udd0d Scrolled down the page by one page\n21. \ud83d\udd0d Scrolled down the page by one page\n22. Page Link: https://www.cnn.com/\nQuery: current president of the United States\nExtracted Content:\n```json\n{\n  \"explanation\": \"The webpage provided is a general news page from CNN, which includes various sections such as US, World, Politics, Business, Health, Entertainment, and more. It primarily focuses on news articles, videos, and updates across different topics. However, the specific information about the current president of the United States is not available on this page. The page does not contain any direct mention or article related to the current president.\"\n}\n```\n23. \ud83d\udd17  Opened new tab #7 with url https://www.bbc.com\n24. Page Link: https://www.bbc.com/\nQuery: current president of the United States\nExtracted Content:\n```json\n{\n  \"explanation\": \"The webpage provided is a general news page from the BBC, covering a wide range of topics including world news, US news, sports, business, culture, and more. It does not specifically mention the current president of the United States. The query is specific, but the requested information is not available on this page.\"\n}\n```\n25. Page Link: https://www.bbc.com/\nQuery: current president of the United States\nExtracted Content:\n```json\n{\n  \"explanation\": \"The webpage provided is a general news page from the BBC, covering a wide range of topics including world news, US news, sports, business, culture, and more. It does not specifically mention the current president of the United States. Therefore, the requested information about the current president of the United States is not available on this page.\"\n}\n```\n26. \ud83d\udd17  Opened new tab #8 with url https://en.wikipedia.org/wiki/President_of_the_United_States\n27. The current president of the United States is Donald Trump, who has been in office since January 20, 2025, according to the Wikipedia page for the President of the United States.",
+        "metadata": {
+          "task": "Who is the president of the United States?",
+          "execution_successful": true,
+          "steps_taken": 26,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://www.bing.com/",
+            "https://www.duckduckgo.com",
+            "https://www.bbc.com/",
+            "https://www.bing.com",
+            "https://www.bbc.com",
+            "https://www.cnn.com/",
+            "https://en.wikipedia.org/wiki/President_of_the_United_States",
+            "https://www.cnn.com"
+          ],
+          "execution_time": 350.45973205566406,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The current president of the United States is Donald Trump, who has been in office since January 20, 2025.\n\n**Extracted Content:**\n1. \ud83d\udd0d  Searched for \"current president of the United States 2025\" in Google\n2. \ud83d\udd0d  Searched for \"current president of the United States site:wikipedia.org\" in Google\n3. \ud83d\udd17  Opened new tab #2 with url https://en.wikipedia.org/wiki/President_of_the_United_States\n4. The current president of the United States is Donald Trump, who has been in office since January 20, 2025.",
+        "metadata": {
+          "task": "Who is the president of the United States?",
+          "execution_successful": true,
+          "steps_taken": 4,
+          "downloaded_files": [],
+          "visited_urls": [
+            "https://en.wikipedia.org/wiki/President_of_the_United_States"
+          ],
+          "execution_time": 31.86364984512329,
+          "error_type": null,
+          "trace_log_path": "/Users/quangdao/Documents/opentools/logs/browser_log/trace.log"
+        },
+        "success": true
+      },
+      "accuracy": 0
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 97.82608695652173,
+    "run_2": 91.30434782608695,
+    "run_3": 95.65217391304348
+  }
+}

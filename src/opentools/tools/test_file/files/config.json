@@ -1,0 +1,9 @@
+{
+  "greeting": "hello",
+  "items": [
+    1,
+    2,
+    3
+  ],
+  "note": "Full content should be read."
+}

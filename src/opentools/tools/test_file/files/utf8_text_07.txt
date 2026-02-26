@@ -1,0 +1,3 @@
+This is a simple test file. It should be fully readable by the Plain_Text_Extraction_Tool.
+All content here is the ground truth. Read everything, do not search.
+End of file.

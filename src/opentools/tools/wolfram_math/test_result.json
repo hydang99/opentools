@@ -1,0 +1,5694 @@
+{
+  "Test-File length": 139,
+  "Q1": {
+    "id": 1,
+    "query": "exp(3*x) = 5",
+    "expected_answer": "log(5)/3 and 1/3*i*(2*π*n - i*log(5)) with k is a element of Z",
+    "run_1": {
+      "result": {
+        "result": [
+          "exp(3 x) = 5",
+          "e^(3 x) = 5",
+          "x = log(5)/3",
+          "x = 1/3 i (2 π n - i log(5)), n element Z"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "exp(3 x) = 5",
+          "e^(3 x) = 5",
+          "x = log(5)/3",
+          "x = 1/3 i (2 π n - i log(5)), n element Z"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "exp(3 x) = 5",
+          "e^(3 x) = 5",
+          "x = log(5)/3",
+          "x = 1/3 i (2 π n - i log(5)), n element Z"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": 2,
+    "query": "sin(5*x) = -1/2",
+    "expected_answer": "2*k*pi/5 + 11*pi/30 and 2*k*pi/5 + 7*pi/30 with k is a element of Z",
+    "run_1": {
+      "result": {
+        "result": [
+          "sin(5 x) = -1/2",
+          "5 cos^4(x) sin(x) + 10 (-1) cos^2(x) sin^3(x) + sin^5(x) = -1/2",
+          "sin(x) (2 cos(2 x) + 2 cos(4 x) + 1) = -1/2",
+          "1/2 i e^(-5 i x) - 1/2 i e^(5 i x) = -1/2",
+          "x = 1/30 (12 π n - π), n element Z",
+          "x = 1/30 (12 π n + 7 π), n element Z"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "sin(5 x) = -1/2",
+          "5 cos^4(x) sin(x) + 10 (-1) cos^2(x) sin^3(x) + sin^5(x) = -1/2",
+          "sin(x) (2 cos(2 x) + 2 cos(4 x) + 1) = -1/2",
+          "1/2 i e^(-5 i x) - 1/2 i e^(5 i x) = -1/2",
+          "x = 1/30 (12 π n - π), n element Z",
+          "x = 1/30 (12 π n + 7 π), n element Z"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "sin(5 x) = -1/2",
+          "5 cos^4(x) sin(x) + 10 (-1) cos^2(x) sin^3(x) + sin^5(x) = -1/2",
+          "sin(x) (2 cos(2 x) + 2 cos(4 x) + 1) = -1/2",
+          "1/2 i e^(-5 i x) - 1/2 i e^(5 i x) = -1/2",
+          "x = 1/30 (12 π n - π), n element Z",
+          "x = 1/30 (12 π n + 7 π), n element Z"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q3": {
+    "id": 3,
+    "query": "8*x + 5 = 4",
+    "expected_answer": "-1/8",
+    "run_1": {
+      "result": {
+        "result": [
+          "8 x + 5 = 4",
+          "8 x + 1 = 0",
+          "x = -1/8"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "8 x + 5 = 4",
+          "8 x + 1 = 0",
+          "x = -1/8"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "8 x + 5 = 4",
+          "8 x + 1 = 0",
+          "x = -1/8"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": 4,
+    "query": "log(2, x) = 3",
+    "expected_answer": "8",
+    "run_1": {
+      "result": {
+        "result": [
+          "log(2, x) = 3",
+          "log(x)/log(2) = 3",
+          "log(x) = log(8)",
+          "log(8/x) = 0",
+          "x = 8"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "log(2, x) = 3",
+          "log(x)/log(2) = 3",
+          "log(x) = log(8)",
+          "log(8/x) = 0",
+          "x = 8"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "log(2, x) = 3",
+          "log(x)/log(2) = 3",
+          "log(x) = log(8)",
+          "log(8/x) = 0",
+          "x = 8"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": 5,
+    "query": "5*x^2 + -4*x + 6 = 0",
+    "expected_answer": "2/5 - sqrt(26)*I/5 and 2/5 + sqrt(26)*I/5",
+    "run_1": {
+      "result": {
+        "result": [
+          "5 x^2 - 4 x + 6 = 0",
+          "5 x^2 + 6 = 4 x",
+          "x (5 x - 4) + 6 = 0",
+          "25/26 (x - 2/5)^2 = -1",
+          "x = 2/5 - (i sqrt(26))/5",
+          "x = 2/5 + (i sqrt(26))/5",
+          "4/5",
+          "6/5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "5 x^2 - 4 x + 6 = 0",
+          "5 x^2 + 6 = 4 x",
+          "x (5 x - 4) + 6 = 0",
+          "25/26 (x - 2/5)^2 = -1",
+          "x = 2/5 - (i sqrt(26))/5",
+          "x = 2/5 + (i sqrt(26))/5",
+          "4/5",
+          "6/5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "5 x^2 - 4 x + 6 = 0",
+          "5 x^2 + 6 = 4 x",
+          "x (5 x - 4) + 6 = 0",
+          "25/26 (x - 2/5)^2 = -1",
+          "x = 2/5 - (i sqrt(26))/5",
+          "x = 2/5 + (i sqrt(26))/5",
+          "4/5",
+          "6/5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q6": {
+    "id": 6,
+    "query": "indefinite integral 5*exp(4*x) dx",
+    "expected_answer": "5*exp(4*x)/4 + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral5 exp(4 x) dx = (5 e^(4 x))/4 + constant",
+          "5/4 + 5 x + 10 x^2 + (40 x^3)/3 + (40 x^4)/3 + O(x^5)\n(Taylor series)",
+          "integral_(-∞)^0 5 e^(4 x) dx = 5/4 = 1.25",
+          "integral_0^((i π)/4) 5 e^(4 x) dx = -5/2 = -2.5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral5 exp(4 x) dx = (5 e^(4 x))/4 + constant",
+          "5/4 + 5 x + 10 x^2 + (40 x^3)/3 + (40 x^4)/3 + O(x^5)\n(Taylor series)",
+          "integral_(-∞)^0 5 e^(4 x) dx = 5/4 = 1.25",
+          "integral_0^((i π)/4) 5 e^(4 x) dx = -5/2 = -2.5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral5 exp(4 x) dx = (5 e^(4 x))/4 + constant",
+          "5/4 + 5 x + 10 x^2 + (40 x^3)/3 + (40 x^4)/3 + O(x^5)\n(Taylor series)",
+          "integral_(-∞)^0 5 e^(4 x) dx = 5/4 = 1.25",
+          "integral_0^((i π)/4) 5 e^(4 x) dx = -5/2 = -2.5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": 7,
+    "query": "indefinite integral 1/(x + 4) dx",
+    "expected_answer": "ln(x + 4) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/(x + 4) dx = log(x + 4) + constant\n(assuming a complex-valued logarithm)",
+          "log(4) + x/4 - x^2/32 + x^3/192 - x^4/1024 + O(x^5)\n(Taylor series)",
+          "log(x) + 4/x - 8/x^2 + 64/(3 x^3) + O((1/x)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/(x + 4) dx = log(x + 4) + constant\n(assuming a complex-valued logarithm)",
+          "log(4) + x/4 - x^2/32 + x^3/192 - x^4/1024 + O(x^5)\n(Taylor series)",
+          "log(x) + 4/x - 8/x^2 + 64/(3 x^3) + O((1/x)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/(x + 4) dx = log(x + 4) + constant\n(assuming a complex-valued logarithm)",
+          "log(4) + x/4 - x^2/32 + x^3/192 - x^4/1024 + O(x^5)\n(Taylor series)",
+          "log(x) + 4/x - 8/x^2 + 64/(3 x^3) + O((1/x)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": 8,
+    "query": " integral x^3 dx from 0 to 5",
+    "expected_answer": "625/4",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^5 x^3 dx = 625/4 = 156.25",
+          "left sum | (625 (n - 1)^2)/(4 n^2) = 625/4 - 625/(2 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x^3 dx = x^4/4 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^5 x^3 dx = 625/4 = 156.25",
+          "left sum | (625 (n - 1)^2)/(4 n^2) = 625/4 - 625/(2 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x^3 dx = x^4/4 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^5 x^3 dx = 625/4 = 156.25",
+          "left sum | (625 (n - 1)^2)/(4 n^2) = 625/4 - 625/(2 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x^3 dx = x^4/4 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q9": {
+    "id": 9,
+    "query": " integral cos(3*x) dx from pi/2 to 3*pi/2",
+    "expected_answer": "2/3",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_(π/2)^((3 π)/2) cos(3 x) dx = 2/3≈0.66667",
+          "left sum | (π cot((3 π)/(2 n)))/n = 2/3 - π^2/(2 n^2) + O((1/n)^4)\n(assuming subintervals of equal length)",
+          "integral cos(3 x) dx = 1/3 sin(3 x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_(π/2)^((3 π)/2) cos(3 x) dx = 2/3≈0.66667",
+          "left sum | (π cot((3 π)/(2 n)))/n = 2/3 - π^2/(2 n^2) + O((1/n)^4)\n(assuming subintervals of equal length)",
+          "integral cos(3 x) dx = 1/3 sin(3 x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_(π/2)^((3 π)/2) cos(3 x) dx = 2/3≈0.66667",
+          "left sum | (π cot((3 π)/(2 n)))/n = 2/3 - π^2/(2 n^2) + O((1/n)^4)\n(assuming subintervals of equal length)",
+          "integral cos(3 x) dx = 1/3 sin(3 x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": 10,
+    "query": "indefinite integral 1/(x^2-x+1) dx",
+    "expected_answer": "2/sqrt(3)*arctan((2*x-1)/sqrt(3)) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/(x^2 - x + 1) dx = (2 tan^(-1)((2 x - 1)/sqrt(3)))/sqrt(3) + constant",
+          "(i log(1 - (i (2 x - 1))/sqrt(3)))/sqrt(3) - (i log(1 + (i (2 x - 1))/sqrt(3)))/sqrt(3) + constant",
+          "-π/(3 sqrt(3)) + x + x^2/2 - x^4/4 + O(x^5)\n(Taylor series)",
+          "((2 i log(x + 1/2 (-1 + i sqrt(3))) - i log(3) + π)/(2 sqrt(3)) + 1/3 (x - 1/2 (1 - i sqrt(3))) - (i (x - 1/2 (1 - i sqrt(3)))^2)/(6 sqrt(3)) - 1/27 (x - 1/2 (1 - i sqrt(3)))^3 + (i (x - 1/2 (1 - i sqrt(3)))^4)/(36 sqrt(3)) + 1/135 (x - 1/2 (1 - i sqrt(3)))^5 + O((x - 1/2 (1 - i sqrt(3)))^6)) - (2 π floor((-arg(2 x + i sqrt(3) - 1) - arg(-(2 sqrt(3) x - sqrt(3) + 3 i)/(-2 i x + sqrt(3) + i)) + π)/(2 π)))/sqrt(3)",
+          "((-2 i log(x + 1/2 (-1 - i sqrt(3))) + i log(3) + π)/(2 sqrt(3)) + 1/3 (x - 1/2 (1 + i sqrt(3))) + (i (x - 1/2 (1 + i sqrt(3)))^2)/(6 sqrt(3)) - 1/27 (x - 1/2 (1 + i sqrt(3)))^3 - (i (x - 1/2 (1 + i sqrt(3)))^4)/(36 sqrt(3)) + 1/135 (x - 1/2 (1 + i sqrt(3)))^5 + O((x - 1/2 (1 + i sqrt(3)))^6)) + (2 π floor((-arg(2 x - i sqrt(3) - 1) - arg(-(2 sqrt(3) x - sqrt(3) - 3 i)/(2 i x + sqrt(3) - i)) + π)/(2 π)))/sqrt(3)",
+          "π/sqrt(3) - 1/x - 1/(2 x^2) + O((1/x)^4)\n(Laurent series)",
+          "integral_(-1/2)^∞ 1/(1 - x + x^2) dx = (π + 2 tan^(-1)(2/sqrt(3)))/sqrt(3)≈2.80346",
+          "integral_(-∞)^∞ 1/(1 - x + x^2) dx = (2 π)/sqrt(3)≈3.6276"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/(x^2 - x + 1) dx = (2 tan^(-1)((2 x - 1)/sqrt(3)))/sqrt(3) + constant",
+          "(i log(1 - (i (2 x - 1))/sqrt(3)))/sqrt(3) - (i log(1 + (i (2 x - 1))/sqrt(3)))/sqrt(3) + constant",
+          "-π/(3 sqrt(3)) + x + x^2/2 - x^4/4 + O(x^5)\n(Taylor series)",
+          "((2 i log(x + 1/2 (-1 + i sqrt(3))) - i log(3) + π)/(2 sqrt(3)) + 1/3 (x - 1/2 (1 - i sqrt(3))) - (i (x - 1/2 (1 - i sqrt(3)))^2)/(6 sqrt(3)) - 1/27 (x - 1/2 (1 - i sqrt(3)))^3 + (i (x - 1/2 (1 - i sqrt(3)))^4)/(36 sqrt(3)) + 1/135 (x - 1/2 (1 - i sqrt(3)))^5 + O((x - 1/2 (1 - i sqrt(3)))^6)) - (2 π floor((-arg(2 x + i sqrt(3) - 1) - arg(-(2 sqrt(3) x - sqrt(3) + 3 i)/(-2 i x + sqrt(3) + i)) + π)/(2 π)))/sqrt(3)",
+          "((-2 i log(x + 1/2 (-1 - i sqrt(3))) + i log(3) + π)/(2 sqrt(3)) + 1/3 (x - 1/2 (1 + i sqrt(3))) + (i (x - 1/2 (1 + i sqrt(3)))^2)/(6 sqrt(3)) - 1/27 (x - 1/2 (1 + i sqrt(3)))^3 - (i (x - 1/2 (1 + i sqrt(3)))^4)/(36 sqrt(3)) + 1/135 (x - 1/2 (1 + i sqrt(3)))^5 + O((x - 1/2 (1 + i sqrt(3)))^6)) + (2 π floor((-arg(2 x - i sqrt(3) - 1) - arg(-(2 sqrt(3) x - sqrt(3) - 3 i)/(2 i x + sqrt(3) - i)) + π)/(2 π)))/sqrt(3)",
+          "π/sqrt(3) - 1/x - 1/(2 x^2) + O((1/x)^4)\n(Laurent series)",
+          "integral_(-1/2)^∞ 1/(1 - x + x^2) dx = (π + 2 tan^(-1)(2/sqrt(3)))/sqrt(3)≈2.80346",
+          "integral_(-∞)^∞ 1/(1 - x + x^2) dx = (2 π)/sqrt(3)≈3.6276"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/(x^2 - x + 1) dx = (2 tan^(-1)((2 x - 1)/sqrt(3)))/sqrt(3) + constant",
+          "(i log(1 - (i (2 x - 1))/sqrt(3)))/sqrt(3) - (i log(1 + (i (2 x - 1))/sqrt(3)))/sqrt(3) + constant",
+          "-π/(3 sqrt(3)) + x + x^2/2 - x^4/4 + O(x^5)\n(Taylor series)",
+          "((2 i log(x + 1/2 (-1 + i sqrt(3))) - i log(3) + π)/(2 sqrt(3)) + 1/3 (x - 1/2 (1 - i sqrt(3))) - (i (x - 1/2 (1 - i sqrt(3)))^2)/(6 sqrt(3)) - 1/27 (x - 1/2 (1 - i sqrt(3)))^3 + (i (x - 1/2 (1 - i sqrt(3)))^4)/(36 sqrt(3)) + 1/135 (x - 1/2 (1 - i sqrt(3)))^5 + O((x - 1/2 (1 - i sqrt(3)))^6)) - (2 π floor((-arg(2 x + i sqrt(3) - 1) - arg(-(2 sqrt(3) x - sqrt(3) + 3 i)/(-2 i x + sqrt(3) + i)) + π)/(2 π)))/sqrt(3)",
+          "((-2 i log(x + 1/2 (-1 - i sqrt(3))) + i log(3) + π)/(2 sqrt(3)) + 1/3 (x - 1/2 (1 + i sqrt(3))) + (i (x - 1/2 (1 + i sqrt(3)))^2)/(6 sqrt(3)) - 1/27 (x - 1/2 (1 + i sqrt(3)))^3 - (i (x - 1/2 (1 + i sqrt(3)))^4)/(36 sqrt(3)) + 1/135 (x - 1/2 (1 + i sqrt(3)))^5 + O((x - 1/2 (1 + i sqrt(3)))^6)) + (2 π floor((-arg(2 x - i sqrt(3) - 1) - arg(-(2 sqrt(3) x - sqrt(3) - 3 i)/(2 i x + sqrt(3) - i)) + π)/(2 π)))/sqrt(3)",
+          "π/sqrt(3) - 1/x - 1/(2 x^2) + O((1/x)^4)\n(Laurent series)",
+          "integral_(-1/2)^∞ 1/(1 - x + x^2) dx = (π + 2 tan^(-1)(2/sqrt(3)))/sqrt(3)≈2.80346",
+          "integral_(-∞)^∞ 1/(1 - x + x^2) dx = (2 π)/sqrt(3)≈3.6276"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q11": {
+    "id": 11,
+    "query": "indefinite integral 1/(sqrt(x)*(x+1)) dx",
+    "expected_answer": "2*arctan(sqrt(x)) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/(sqrt(x) (x + 1)) dx = 2 tan^(-1)(sqrt(x)) + constant",
+          "i log(1 - i sqrt(x)) - i log(1 + i sqrt(x)) + constant",
+          "piecewise | -i (2 log(2) - log(x + 1)) + 1/2 i (x + 1) + 3/16 i (x + 1)^2 + 5/48 i (x + 1)^3 + 35/512 i (x + 1)^4 + (63 i (x + 1)^5)/1280 + O((x + 1)^6) | Im(x)<0\ni (log(4) - log(x + 1)) - 1/2 i (x + 1) - 3/16 i (x + 1)^2 - 5/48 i (x + 1)^3 - 35/512 i (x + 1)^4 - (63 i (x + 1)^5)/1280 + O((x + 1)^6) | (otherwise)",
+          "2 sqrt(x) - (2 x^(3/2))/3 + (2 x^(5/2))/5 - (2 x^(7/2))/7 + (2 x^(9/2))/9 + O(x^(11/2))\n(Puiseux series)",
+          "π - 2 sqrt(1/x) + 2/3 (1/x)^(3/2) - 2/5 (1/x)^(5/2) + 2/7 (1/x)^(7/2) + O((1/x)^4)\n(Puiseux series)",
+          "integral_0^∞ 1/(sqrt(x) (1 + x)) dx≈3.14159..."
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/(sqrt(x) (x + 1)) dx = 2 tan^(-1)(sqrt(x)) + constant",
+          "i log(1 - i sqrt(x)) - i log(1 + i sqrt(x)) + constant",
+          "piecewise | -i (2 log(2) - log(x + 1)) + 1/2 i (x + 1) + 3/16 i (x + 1)^2 + 5/48 i (x + 1)^3 + 35/512 i (x + 1)^4 + (63 i (x + 1)^5)/1280 + O((x + 1)^6) | Im(x)<0\ni (log(4) - log(x + 1)) - 1/2 i (x + 1) - 3/16 i (x + 1)^2 - 5/48 i (x + 1)^3 - 35/512 i (x + 1)^4 - (63 i (x + 1)^5)/1280 + O((x + 1)^6) | (otherwise)",
+          "2 sqrt(x) - (2 x^(3/2))/3 + (2 x^(5/2))/5 - (2 x^(7/2))/7 + (2 x^(9/2))/9 + O(x^(11/2))\n(Puiseux series)",
+          "π - 2 sqrt(1/x) + 2/3 (1/x)^(3/2) - 2/5 (1/x)^(5/2) + 2/7 (1/x)^(7/2) + O((1/x)^4)\n(Puiseux series)",
+          "integral_0^∞ 1/(sqrt(x) (1 + x)) dx≈3.14159..."
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/(sqrt(x) (x + 1)) dx = 2 tan^(-1)(sqrt(x)) + constant",
+          "i log(1 - i sqrt(x)) - i log(1 + i sqrt(x)) + constant",
+          "piecewise | -i (2 log(2) - log(x + 1)) + 1/2 i (x + 1) + 3/16 i (x + 1)^2 + 5/48 i (x + 1)^3 + 35/512 i (x + 1)^4 + (63 i (x + 1)^5)/1280 + O((x + 1)^6) | Im(x)<0\ni (log(4) - log(x + 1)) - 1/2 i (x + 1) - 3/16 i (x + 1)^2 - 5/48 i (x + 1)^3 - 35/512 i (x + 1)^4 - (63 i (x + 1)^5)/1280 + O((x + 1)^6) | (otherwise)",
+          "2 sqrt(x) - (2 x^(3/2))/3 + (2 x^(5/2))/5 - (2 x^(7/2))/7 + (2 x^(9/2))/9 + O(x^(11/2))\n(Puiseux series)",
+          "π - 2 sqrt(1/x) + 2/3 (1/x)^(3/2) - 2/5 (1/x)^(5/2) + 2/7 (1/x)^(7/2) + O((1/x)^4)\n(Puiseux series)",
+          "integral_0^∞ 1/(sqrt(x) (1 + x)) dx≈3.14159..."
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q12": {
+    "id": 12,
+    "query": " indefinite integral x*tan^2(x) dx",
+    "expected_answer": "-x^2/2 + x*tan(x) + log(cos(x))+ C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral x tan^2(x) dx = -x^2/2 + x tan(x) + log(cos(x)) + constant\n(assuming a complex-valued logarithm)",
+          "1/2 (-x^2 + 2 x tan(x) + 2 log(cos(x))) + constant",
+          "-x^2/2 + log(cos(x)) + (x sin(x))/cos(x) + constant",
+          "1/2 (2 log(cos(x)) - x^2) + x tan(x) + constant",
+          "x^4/4 + x^6/9 + (17 x^8)/360 + O(x^9)\n(Taylor series)",
+          "π/(2 (x + π/2)) + 1/8 (8 log(x + π/2) - π^2 - 8) + 1/3 π (x + π/2) - 1/3 (x + π/2)^2 - 1/90 π (x + π/2)^3 + O((x + π/2)^4)\n(generalized Puiseux series)",
+          "-π/(2 (x - π/2)) + 1/8 (8 log(π/2 - x) - π^2 - 8) - 1/3 π (x - π/2) - 1/3 (x - π/2)^2 + 1/90 π (x - π/2)^3 + O((x - π/2)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral x tan^2(x) dx = -x^2/2 + x tan(x) + log(cos(x)) + constant\n(assuming a complex-valued logarithm)",
+          "1/2 (-x^2 + 2 x tan(x) + 2 log(cos(x))) + constant",
+          "-x^2/2 + log(cos(x)) + (x sin(x))/cos(x) + constant",
+          "1/2 (2 log(cos(x)) - x^2) + x tan(x) + constant",
+          "x^4/4 + x^6/9 + (17 x^8)/360 + O(x^9)\n(Taylor series)",
+          "π/(2 (x + π/2)) + 1/8 (8 log(x + π/2) - π^2 - 8) + 1/3 π (x + π/2) - 1/3 (x + π/2)^2 - 1/90 π (x + π/2)^3 + O((x + π/2)^4)\n(generalized Puiseux series)",
+          "-π/(2 (x - π/2)) + 1/8 (8 log(π/2 - x) - π^2 - 8) - 1/3 π (x - π/2) - 1/3 (x - π/2)^2 + 1/90 π (x - π/2)^3 + O((x - π/2)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral x tan^2(x) dx = -x^2/2 + x tan(x) + log(cos(x)) + constant\n(assuming a complex-valued logarithm)",
+          "1/2 (-x^2 + 2 x tan(x) + 2 log(cos(x))) + constant",
+          "-x^2/2 + log(cos(x)) + (x sin(x))/cos(x) + constant",
+          "1/2 (2 log(cos(x)) - x^2) + x tan(x) + constant",
+          "x^4/4 + x^6/9 + (17 x^8)/360 + O(x^9)\n(Taylor series)",
+          "π/(2 (x + π/2)) + 1/8 (8 log(x + π/2) - π^2 - 8) + 1/3 π (x + π/2) - 1/3 (x + π/2)^2 - 1/90 π (x + π/2)^3 + O((x + π/2)^4)\n(generalized Puiseux series)",
+          "-π/(2 (x - π/2)) + 1/8 (8 log(π/2 - x) - π^2 - 8) - 1/3 π (x - π/2) - 1/3 (x - π/2)^2 + 1/90 π (x - π/2)^3 + O((x - π/2)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q13": {
+    "id": 13,
+    "query": "indefinite integral dx/(x^2(x^2+25))",
+    "expected_answer": "-1/(25*x) - (1/125) *arctan(x/5) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/(x^2 (x^2 + 25)) dx = -(x tan^(-1)(x/5) + 5)/(125 x) + constant",
+          "-1/(25 x) - 1/125 tan^(-1)(x/5) + constant",
+          "-1/(25 x) - 1/250 i log(1 - (i x)/5) + 1/250 i log(1 + (i x)/5) + constant",
+          "-1/(25 x) - x/625 + x^3/46875 - x^5/1953125 + O(x^6)\n(Laurent series)",
+          "floor(3/4 - arg(x + 5 i)/(2 π)) (π/125 + O((x + 5 i)^2)) + (1/500 (-2 i log(x + 5 i) + 2 i log(10) - π - 4 i) - 1/500 (x + 5 i) + O((x + 5 i)^2))",
+          "floor((π - 2 arg(x - 5 i))/(4 π)) (-π/125 + O((x - 5 i)^2)) + (1/500 (2 i log(x - 5 i) - 2 i log(10) - π + 4 i) - 1/500 (x - 5 i) + O((x - 5 i)^2))",
+          "-π/250 - 1/(3 x^3) + 5/x^5 + O((1/x)^6)\n(Laurent series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/(x^2 (x^2 + 25)) dx = -(x tan^(-1)(x/5) + 5)/(125 x) + constant",
+          "-1/(25 x) - 1/125 tan^(-1)(x/5) + constant",
+          "-1/(25 x) - 1/250 i log(1 - (i x)/5) + 1/250 i log(1 + (i x)/5) + constant",
+          "-1/(25 x) - x/625 + x^3/46875 - x^5/1953125 + O(x^6)\n(Laurent series)",
+          "floor(3/4 - arg(x + 5 i)/(2 π)) (π/125 + O((x + 5 i)^2)) + (1/500 (-2 i log(x + 5 i) + 2 i log(10) - π - 4 i) - 1/500 (x + 5 i) + O((x + 5 i)^2))",
+          "floor((π - 2 arg(x - 5 i))/(4 π)) (-π/125 + O((x - 5 i)^2)) + (1/500 (2 i log(x - 5 i) - 2 i log(10) - π + 4 i) - 1/500 (x - 5 i) + O((x - 5 i)^2))",
+          "-π/250 - 1/(3 x^3) + 5/x^5 + O((1/x)^6)\n(Laurent series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/(x^2 (x^2 + 25)) dx = -(x tan^(-1)(x/5) + 5)/(125 x) + constant",
+          "-1/(25 x) - 1/125 tan^(-1)(x/5) + constant",
+          "-1/(25 x) - 1/250 i log(1 - (i x)/5) + 1/250 i log(1 + (i x)/5) + constant",
+          "-1/(25 x) - x/625 + x^3/46875 - x^5/1953125 + O(x^6)\n(Laurent series)",
+          "floor(3/4 - arg(x + 5 i)/(2 π)) (π/125 + O((x + 5 i)^2)) + (1/500 (-2 i log(x + 5 i) + 2 i log(10) - π - 4 i) - 1/500 (x + 5 i) + O((x + 5 i)^2))",
+          "floor((π - 2 arg(x - 5 i))/(4 π)) (-π/125 + O((x - 5 i)^2)) + (1/500 (2 i log(x - 5 i) - 2 i log(10) - π + 4 i) - 1/500 (x - 5 i) + O((x - 5 i)^2))",
+          "-π/250 - 1/(3 x^3) + 5/x^5 + O((1/x)^6)\n(Laurent series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q14": {
+    "id": 14,
+    "query": "indefinite integral x^2*dx/sqrt(x^2+25)",
+    "expected_answer": "1/2(x*sqrt(x^2+25) - 25*arctanh(x/sqrt(x^2+25))+ C = (x^2 + 25)^(3/2)/3 + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral x^2/sqrt(x^2 + 25) dx = 1/2 (x sqrt(x^2 + 25) - 25 tanh^(-1)(x/sqrt(x^2 + 25))) + constant",
+          "1/2 x sqrt(x^2 + 25) - 25/2 tanh^(-1)(x/sqrt(x^2 + 25)) + constant",
+          "1/2 sqrt(x^2 + 25) x + 25/4 log(1 - x/sqrt(x^2 + 25)) - 25/4 log(x/sqrt(x^2 + 25) + 1) + constant",
+          "x^3/15 - x^5/1250 + (3 x^7)/175000 + O(x^9)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral x^2/sqrt(x^2 + 25) dx = 1/2 (x sqrt(x^2 + 25) - 25 tanh^(-1)(x/sqrt(x^2 + 25))) + constant",
+          "1/2 x sqrt(x^2 + 25) - 25/2 tanh^(-1)(x/sqrt(x^2 + 25)) + constant",
+          "1/2 sqrt(x^2 + 25) x + 25/4 log(1 - x/sqrt(x^2 + 25)) - 25/4 log(x/sqrt(x^2 + 25) + 1) + constant",
+          "x^3/15 - x^5/1250 + (3 x^7)/175000 + O(x^9)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral x^2/sqrt(x^2 + 25) dx = 1/2 (x sqrt(x^2 + 25) - 25 tanh^(-1)(x/sqrt(x^2 + 25))) + constant",
+          "1/2 x sqrt(x^2 + 25) - 25/2 tanh^(-1)(x/sqrt(x^2 + 25)) + constant",
+          "1/2 sqrt(x^2 + 25) x + 25/4 log(1 - x/sqrt(x^2 + 25)) - 25/4 log(x/sqrt(x^2 + 25) + 1) + constant",
+          "x^3/15 - x^5/1250 + (3 x^7)/175000 + O(x^9)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q15": {
+    "id": 15,
+    "query": "indefinite integral x^5*sqrt(2-x^3) dx",
+    "expected_answer": "-(4/9)*(2-x^3)^(3/2) + (2/15)*(2-x^3)^(5/2) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral x^5 sqrt(2 - x^3) dx = -2/45 (2 - x^3)^(3/2) (3 x^3 + 4) + constant",
+          "(2 - x^3)^(3/2) (-(2 x^3)/15 - 8/45) + constant",
+          "-4/45 sqrt(2 - x^3) x^3 - (16 sqrt(2 - x^3))/45 + 2/15 sqrt(2 - x^3) x^6 + constant",
+          "-2/15 (2 - x^3)^(3/2) x^3 - 8/45 (2 - x^3)^(3/2) + constant",
+          "-(16 sqrt(2))/45 + x^6/(3 sqrt(2)) - x^9/(18 sqrt(2)) + O(x^11)\n(Taylor series)",
+          "-(4 (2 - (-2)^(2/3) x)^(3/2) (x + (-2)^(1/3))^(3/2))/(sqrt(3) (x + (-2)^(1/3))^(3/2)) - (11 ((-2)^(2/3) sqrt(3) (2 - (-2)^(2/3) x)^(3/2)) (x + (-2)^(1/3))^(5/2))/(5 (x + (-2)^(1/3))^(3/2)) + (43 (-1)^(1/3) (2 - (-2)^(2/3) x)^(3/2) (x + (-2)^(1/3))^(7/2))/(2 2^(2/3) sqrt(3) (x + (-2)^(1/3))^(3/2)) + O((x + (-2)^(1/3))^(9/2))\n(generalized Puiseux series)",
+          "-(8 (2^(1/3) - x)^(3/2) (x - 2^(1/3))^(3/2))/(sqrt(3) (x - 2^(1/3))^(3/2)) - (22 (2^(2/3) sqrt(3) (2^(1/3) - x)^(3/2)) (x - 2^(1/3))^(5/2))/(5 (x - 2^(1/3))^(3/2)) - (43 (2^(1/3) - x)^(3/2) (x - 2^(1/3))^(7/2))/(2^(2/3) sqrt(3) (x - 2^(1/3))^(3/2)) + O((x - 2^(1/3))^(9/2))\n(generalized Puiseux series)",
+          "-(8 ((-1)^(1/3) x + 2^(1/3))^(3/2) (x - (-1)^(2/3) 2^(1/3))^(3/2))/(sqrt(3) (x - (-1)^(2/3) 2^(1/3))^(3/2)) + (22 (-1)^(1/3) 2^(2/3) sqrt(3) ((-1)^(1/3) x + 2^(1/3))^(3/2) (x - (-1)^(2/3) 2^(1/3))^(5/2))/(5 (x - (-1)^(2/3) 2^(1/3))^(3/2)) - (43 ((-1)^(2/3) ((-1)^(1/3) x + 2^(1/3))^(3/2)) (x - (-1)^(2/3) 2^(1/3))^(7/2))/(2^(2/3) sqrt(3) (x - (-1)^(2/3) 2^(1/3))^(3/2)) + O((x - (-1)^(2/3) 2^(1/3))^(9/2))\n(generalized Puiseux series)",
+          "-(2 (-x^3)^(3/2) x^(15/2))/(15 x^(9/2)) + (2 (-x^3)^(3/2) x^(9/2))/(9 x^(9/2)) + ((-x^3)^(3/2) x^(3/2))/(3 x^(9/2)) - ((-x^3)^(3/2) (1/x)^(3/2))/(3 x^(9/2)) + O((1/x)^(9/2))\n(generalized Puiseux series)",
+          "integral_0^(2^(1/3)) x^5 sqrt(2 - x^3) dx = (16 sqrt(2))/45≈0.502831"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral x^5 sqrt(2 - x^3) dx = -2/45 (2 - x^3)^(3/2) (3 x^3 + 4) + constant",
+          "(2 - x^3)^(3/2) (-(2 x^3)/15 - 8/45) + constant",
+          "-4/45 sqrt(2 - x^3) x^3 - (16 sqrt(2 - x^3))/45 + 2/15 sqrt(2 - x^3) x^6 + constant",
+          "-2/15 (2 - x^3)^(3/2) x^3 - 8/45 (2 - x^3)^(3/2) + constant",
+          "-(16 sqrt(2))/45 + x^6/(3 sqrt(2)) - x^9/(18 sqrt(2)) + O(x^11)\n(Taylor series)",
+          "-(4 (2 - (-2)^(2/3) x)^(3/2) (x + (-2)^(1/3))^(3/2))/(sqrt(3) (x + (-2)^(1/3))^(3/2)) - (11 ((-2)^(2/3) sqrt(3) (2 - (-2)^(2/3) x)^(3/2)) (x + (-2)^(1/3))^(5/2))/(5 (x + (-2)^(1/3))^(3/2)) + (43 (-1)^(1/3) (2 - (-2)^(2/3) x)^(3/2) (x + (-2)^(1/3))^(7/2))/(2 2^(2/3) sqrt(3) (x + (-2)^(1/3))^(3/2)) + O((x + (-2)^(1/3))^(9/2))\n(generalized Puiseux series)",
+          "-(8 (2^(1/3) - x)^(3/2) (x - 2^(1/3))^(3/2))/(sqrt(3) (x - 2^(1/3))^(3/2)) - (22 (2^(2/3) sqrt(3) (2^(1/3) - x)^(3/2)) (x - 2^(1/3))^(5/2))/(5 (x - 2^(1/3))^(3/2)) - (43 (2^(1/3) - x)^(3/2) (x - 2^(1/3))^(7/2))/(2^(2/3) sqrt(3) (x - 2^(1/3))^(3/2)) + O((x - 2^(1/3))^(9/2))\n(generalized Puiseux series)",
+          "-(8 ((-1)^(1/3) x + 2^(1/3))^(3/2) (x - (-1)^(2/3) 2^(1/3))^(3/2))/(sqrt(3) (x - (-1)^(2/3) 2^(1/3))^(3/2)) + (22 (-1)^(1/3) 2^(2/3) sqrt(3) ((-1)^(1/3) x + 2^(1/3))^(3/2) (x - (-1)^(2/3) 2^(1/3))^(5/2))/(5 (x - (-1)^(2/3) 2^(1/3))^(3/2)) - (43 ((-1)^(2/3) ((-1)^(1/3) x + 2^(1/3))^(3/2)) (x - (-1)^(2/3) 2^(1/3))^(7/2))/(2^(2/3) sqrt(3) (x - (-1)^(2/3) 2^(1/3))^(3/2)) + O((x - (-1)^(2/3) 2^(1/3))^(9/2))\n(generalized Puiseux series)",
+          "-(2 (-x^3)^(3/2) x^(15/2))/(15 x^(9/2)) + (2 (-x^3)^(3/2) x^(9/2))/(9 x^(9/2)) + ((-x^3)^(3/2) x^(3/2))/(3 x^(9/2)) - ((-x^3)^(3/2) (1/x)^(3/2))/(3 x^(9/2)) + O((1/x)^(9/2))\n(generalized Puiseux series)",
+          "integral_0^(2^(1/3)) x^5 sqrt(2 - x^3) dx = (16 sqrt(2))/45≈0.502831"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral x^5 sqrt(2 - x^3) dx = -2/45 (2 - x^3)^(3/2) (3 x^3 + 4) + constant",
+          "(2 - x^3)^(3/2) (-(2 x^3)/15 - 8/45) + constant",
+          "-4/45 sqrt(2 - x^3) x^3 - (16 sqrt(2 - x^3))/45 + 2/15 sqrt(2 - x^3) x^6 + constant",
+          "-2/15 (2 - x^3)^(3/2) x^3 - 8/45 (2 - x^3)^(3/2) + constant",
+          "-(16 sqrt(2))/45 + x^6/(3 sqrt(2)) - x^9/(18 sqrt(2)) + O(x^11)\n(Taylor series)",
+          "-(4 (2 - (-2)^(2/3) x)^(3/2) (x + (-2)^(1/3))^(3/2))/(sqrt(3) (x + (-2)^(1/3))^(3/2)) - (11 ((-2)^(2/3) sqrt(3) (2 - (-2)^(2/3) x)^(3/2)) (x + (-2)^(1/3))^(5/2))/(5 (x + (-2)^(1/3))^(3/2)) + (43 (-1)^(1/3) (2 - (-2)^(2/3) x)^(3/2) (x + (-2)^(1/3))^(7/2))/(2 2^(2/3) sqrt(3) (x + (-2)^(1/3))^(3/2)) + O((x + (-2)^(1/3))^(9/2))\n(generalized Puiseux series)",
+          "-(8 (2^(1/3) - x)^(3/2) (x - 2^(1/3))^(3/2))/(sqrt(3) (x - 2^(1/3))^(3/2)) - (22 (2^(2/3) sqrt(3) (2^(1/3) - x)^(3/2)) (x - 2^(1/3))^(5/2))/(5 (x - 2^(1/3))^(3/2)) - (43 (2^(1/3) - x)^(3/2) (x - 2^(1/3))^(7/2))/(2^(2/3) sqrt(3) (x - 2^(1/3))^(3/2)) + O((x - 2^(1/3))^(9/2))\n(generalized Puiseux series)",
+          "-(8 ((-1)^(1/3) x + 2^(1/3))^(3/2) (x - (-1)^(2/3) 2^(1/3))^(3/2))/(sqrt(3) (x - (-1)^(2/3) 2^(1/3))^(3/2)) + (22 (-1)^(1/3) 2^(2/3) sqrt(3) ((-1)^(1/3) x + 2^(1/3))^(3/2) (x - (-1)^(2/3) 2^(1/3))^(5/2))/(5 (x - (-1)^(2/3) 2^(1/3))^(3/2)) - (43 ((-1)^(2/3) ((-1)^(1/3) x + 2^(1/3))^(3/2)) (x - (-1)^(2/3) 2^(1/3))^(7/2))/(2^(2/3) sqrt(3) (x - (-1)^(2/3) 2^(1/3))^(3/2)) + O((x - (-1)^(2/3) 2^(1/3))^(9/2))\n(generalized Puiseux series)",
+          "-(2 (-x^3)^(3/2) x^(15/2))/(15 x^(9/2)) + (2 (-x^3)^(3/2) x^(9/2))/(9 x^(9/2)) + ((-x^3)^(3/2) x^(3/2))/(3 x^(9/2)) - ((-x^3)^(3/2) (1/x)^(3/2))/(3 x^(9/2)) + O((1/x)^(9/2))\n(generalized Puiseux series)",
+          "integral_0^(2^(1/3)) x^5 sqrt(2 - x^3) dx = (16 sqrt(2))/45≈0.502831"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q16": {
+    "id": 16,
+    "query": "indefinite integral dx/(sqrt(25x^2+2)",
+    "expected_answer": "-1/5*(log(sqrt(25x^2+2) - 5x)+ C = (1/5)*ln(5x+sqrt(25*x^2+2)) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/sqrt(25 x^2 + 2) dx = -1/5 log(sqrt(25 x^2 + 2) - 5 x) + constant",
+          "-log(2)/10 + x/sqrt(2) - (25 x^3)/(12 sqrt(2)) + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/sqrt(25 x^2 + 2) dx = -1/5 log(sqrt(25 x^2 + 2) - 5 x) + constant",
+          "-log(2)/10 + x/sqrt(2) - (25 x^3)/(12 sqrt(2)) + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/sqrt(25 x^2 + 2) dx = -1/5 log(sqrt(25 x^2 + 2) - 5 x) + constant",
+          "-log(2)/10 + x/sqrt(2) - (25 x^3)/(12 sqrt(2)) + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q17": {
+    "id": 17,
+    "query": "indefinite integral tan^3(log(x))/x dx",
+    "expected_answer": "(1/2)*tan^2(log(x)) + log(cos(log(x))) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral(tan^3(log(x)))/x dx = 1/2 sec^2(log(x)) + log(cos(log(x))) + constant\n(assuming a complex-valued logarithm)",
+          "1/(2 cos^2(log(x))) + log(cos(log(x))) + constant",
+          "1/2 (sec^2(log(x)) + 2 log(cos(log(x)))) + constant",
+          "1/2 sec^2(log(x)) (2 log(cos(log(x))) cos^2(log(x)) + 1) + constant",
+          "e^(-π)/(2 (x - e^(-π/2))^2) + e^(-π/2)/(2 (x - e^(-π/2))) + 1/24 (24 log(x - e^(-π/2)) + 12 π + 5) - 1/2 e^(π/2) (x - e^(-π/2)) + 7/96 e^π (x - e^(-π/2))^2 + O((x - e^(-π/2))^3)\n(Puiseux series)",
+          "e^π/(2 (x - e^(π/2))^2) + e^(π/2)/(2 (x - e^(π/2))) + 1/24 (24 log(e^(π/2) - x) - 12 π + 5) - 1/2 e^(-π/2) (x - e^(π/2)) + 7/96 e^(-π) (x - e^(π/2))^2 + O((x - e^(π/2))^3)\n(Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral(tan^3(log(x)))/x dx = 1/2 sec^2(log(x)) + log(cos(log(x))) + constant\n(assuming a complex-valued logarithm)",
+          "1/(2 cos^2(log(x))) + log(cos(log(x))) + constant",
+          "1/2 (sec^2(log(x)) + 2 log(cos(log(x)))) + constant",
+          "1/2 sec^2(log(x)) (2 log(cos(log(x))) cos^2(log(x)) + 1) + constant",
+          "e^(-π)/(2 (x - e^(-π/2))^2) + e^(-π/2)/(2 (x - e^(-π/2))) + 1/24 (24 log(x - e^(-π/2)) + 12 π + 5) - 1/2 e^(π/2) (x - e^(-π/2)) + 7/96 e^π (x - e^(-π/2))^2 + O((x - e^(-π/2))^3)\n(Puiseux series)",
+          "e^π/(2 (x - e^(π/2))^2) + e^(π/2)/(2 (x - e^(π/2))) + 1/24 (24 log(e^(π/2) - x) - 12 π + 5) - 1/2 e^(-π/2) (x - e^(π/2)) + 7/96 e^(-π) (x - e^(π/2))^2 + O((x - e^(π/2))^3)\n(Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral(tan^3(log(x)))/x dx = 1/2 sec^2(log(x)) + log(cos(log(x))) + constant\n(assuming a complex-valued logarithm)",
+          "1/(2 cos^2(log(x))) + log(cos(log(x))) + constant",
+          "1/2 (sec^2(log(x)) + 2 log(cos(log(x)))) + constant",
+          "1/2 sec^2(log(x)) (2 log(cos(log(x))) cos^2(log(x)) + 1) + constant",
+          "e^(-π)/(2 (x - e^(-π/2))^2) + e^(-π/2)/(2 (x - e^(-π/2))) + 1/24 (24 log(x - e^(-π/2)) + 12 π + 5) - 1/2 e^(π/2) (x - e^(-π/2)) + 7/96 e^π (x - e^(-π/2))^2 + O((x - e^(-π/2))^3)\n(Puiseux series)",
+          "e^π/(2 (x - e^(π/2))^2) + e^(π/2)/(2 (x - e^(π/2))) + 1/24 (24 log(e^(π/2) - x) - 12 π + 5) - 1/2 e^(-π/2) (x - e^(π/2)) + 7/96 e^(-π) (x - e^(π/2))^2 + O((x - e^(π/2))^3)\n(Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q18": {
+    "id": 18,
+    "query": "integral x*(e^-x+1)/(e^x-1) with x from 0 to infinity ",
+    "expected_answer": "pi^2/3 -1",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^∞ ((1 + e^(-x)) x)/(-1 + e^x) dx = 2.28987"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^∞ ((1 + e^(-x)) x)/(-1 + e^x) dx = 2.28987"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^∞ ((1 + e^(-x)) x)/(-1 + e^x) dx = 2.28987"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q19": {
+    "id": 19,
+    "query": "integral x^5*e^-x*sin(x)  with x from 0 to infinity ",
+    "expected_answer": "-15",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^∞ x^5 e^(-x) sin(x) dx = -15",
+          "integral x^5 e^(-x) sin(x) dx = 1/2 e^(-x) (x (-x^4 + 10 x^2 + 30 x + 30) sin(x) - (x^5 + 5 x^4 + 10 x^3 - 30 x - 30) cos(x)) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^∞ x^5 e^(-x) sin(x) dx = -15",
+          "integral x^5 e^(-x) sin(x) dx = 1/2 e^(-x) (x (-x^4 + 10 x^2 + 30 x + 30) sin(x) - (x^5 + 5 x^4 + 10 x^3 - 30 x - 30) cos(x)) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^∞ x^5 e^(-x) sin(x) dx = -15",
+          "integral x^5 e^(-x) sin(x) dx = 1/2 e^(-x) (x (-x^4 + 10 x^2 + 30 x + 30) sin(x) - (x^5 + 5 x^4 + 10 x^3 - 30 x - 30) cos(x)) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q20": {
+    "id": 20,
+    "query": "integral log(log(x+1/x)/log(x^2-x+17/4))  with x from 1/2 to 2",
+    "expected_answer": "-3*ln(2)/2",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_(1/2)^2 log(log(1/x + x)/log(17/4 - x + x^2)) dx = -1.03972"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_(1/2)^2 log(log(1/x + x)/log(17/4 - x + x^2)) dx = -1.03972"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_(1/2)^2 log(log(1/x + x)/log(17/4 - x + x^2)) dx = -1.03972"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q21": {
+    "id": 21,
+    "query": "integral ((x^3-3x)^3-3*(x^3-3x))/sqrt(x^2-4)  with x from 2 to 5/2",
+    "expected_answer": "(2^9-2^-9)/9 or 56.8887",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_2^(5/2) ((x^3 - 3 x)^3 - 3 (x^3 - 3 x))/sqrt(x^2 - 4) dx = 29127/512≈56.8887",
+          "integral((x^3 - 3 x)^3 - 3 (x^3 - 3 x))/sqrt(x^2 - 4) dx = 1/9 sqrt(x^2 - 4) (x^8 - 7 x^6 + 15 x^4 - 10 x^2 + 1) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_2^(5/2) ((x^3 - 3 x)^3 - 3 (x^3 - 3 x))/sqrt(x^2 - 4) dx = 29127/512≈56.8887",
+          "integral((x^3 - 3 x)^3 - 3 (x^3 - 3 x))/sqrt(x^2 - 4) dx = 1/9 sqrt(x^2 - 4) (x^8 - 7 x^6 + 15 x^4 - 10 x^2 + 1) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_2^(5/2) ((x^3 - 3 x)^3 - 3 (x^3 - 3 x))/sqrt(x^2 - 4) dx = 29127/512≈56.8887",
+          "integral((x^3 - 3 x)^3 - 3 (x^3 - 3 x))/sqrt(x^2 - 4) dx = 1/9 sqrt(x^2 - 4) (x^8 - 7 x^6 + 15 x^4 - 10 x^2 + 1) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q22": {
+    "id": 22,
+    "query": "indefinite integral 1/(x^2+1)^3",
+    "expected_answer": "1/8*((x*(3*x^2+5)/(x^2+1)^2 + 3*arctan(x)) +C ",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/(x^2 + 1)^3 dx = 1/8 ((x (3 x^2 + 5))/(x^2 + 1)^2 + 3 tan^(-1)(x)) + constant",
+          "(5 x)/(8 (x^4 + 2 x^2 + 1)) + (3 x^3)/(8 (x^4 + 2 x^2 + 1)) + 3/8 tan^(-1)(x) + constant",
+          "(5 x)/(8 (x^2 + 1)^2) + (3 x^3)/(8 (x^2 + 1)^2) + 3/8 tan^(-1)(x) + constant",
+          "(x (3 x^2 + 5))/(8 (x^2 + 1)^2) + 3/8 tan^(-1)(x) + constant",
+          "(x (3 x^2 + 5) + 3 (x^2 + 1)^2 tan^(-1)(x))/(8 (x^2 + 1)^2) + constant",
+          "(3 x^4 tan^(-1)(x) + 3 x^3 + 6 x^2 tan^(-1)(x) + 5 x + 3 tan^(-1)(x))/(8 (x^2 + 1)^2) + constant",
+          "(3 x^4 tan^(-1)(x) + 3 x^3 + 6 x^2 tan^(-1)(x) + 5 x + 3 tan^(-1)(x))/(8 (x - i)^2 (x + i)^2) + constant",
+          "x - x^3 + (6 x^5)/5 + O(x^6)\n(Taylor series)",
+          "1/8 ((i/(2 (x + i)^2) + 3/(2 (x + i)) + 1/8 (12 i log(x + i) - 12 i log(2) + 6 π + 7 i) + (5 (x + i))/4 + O((x + i)^2)) - 3 π floor(3/4 - arg(x + i)/(2 π)))",
+          "1/8 ((-i/(2 (x - i)^2) + 3/(2 (x - i)) + 1/8 (-12 i log(x - i) + 12 i log(2) + 6 π - 7 i) + (5 (x - i))/4 + O((x - i)^2)) + 3 π floor((π - 2 arg(x - i))/(4 π)))",
+          "(3 π)/16 - 1/(5 x^5) + O((1/x)^6)\n(Laurent series)",
+          "integral_0^∞ 1/(1 + x^2)^3 dx = (3 π)/16≈0.589049"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/(x^2 + 1)^3 dx = 1/8 ((x (3 x^2 + 5))/(x^2 + 1)^2 + 3 tan^(-1)(x)) + constant",
+          "(5 x)/(8 (x^4 + 2 x^2 + 1)) + (3 x^3)/(8 (x^4 + 2 x^2 + 1)) + 3/8 tan^(-1)(x) + constant",
+          "(5 x)/(8 (x^2 + 1)^2) + (3 x^3)/(8 (x^2 + 1)^2) + 3/8 tan^(-1)(x) + constant",
+          "(x (3 x^2 + 5))/(8 (x^2 + 1)^2) + 3/8 tan^(-1)(x) + constant",
+          "(x (3 x^2 + 5) + 3 (x^2 + 1)^2 tan^(-1)(x))/(8 (x^2 + 1)^2) + constant",
+          "(3 x^4 tan^(-1)(x) + 3 x^3 + 6 x^2 tan^(-1)(x) + 5 x + 3 tan^(-1)(x))/(8 (x^2 + 1)^2) + constant",
+          "(3 x^4 tan^(-1)(x) + 3 x^3 + 6 x^2 tan^(-1)(x) + 5 x + 3 tan^(-1)(x))/(8 (x - i)^2 (x + i)^2) + constant",
+          "x - x^3 + (6 x^5)/5 + O(x^6)\n(Taylor series)",
+          "1/8 ((i/(2 (x + i)^2) + 3/(2 (x + i)) + 1/8 (12 i log(x + i) - 12 i log(2) + 6 π + 7 i) + (5 (x + i))/4 + O((x + i)^2)) - 3 π floor(3/4 - arg(x + i)/(2 π)))",
+          "1/8 ((-i/(2 (x - i)^2) + 3/(2 (x - i)) + 1/8 (-12 i log(x - i) + 12 i log(2) + 6 π - 7 i) + (5 (x - i))/4 + O((x - i)^2)) + 3 π floor((π - 2 arg(x - i))/(4 π)))",
+          "(3 π)/16 - 1/(5 x^5) + O((1/x)^6)\n(Laurent series)",
+          "integral_0^∞ 1/(1 + x^2)^3 dx = (3 π)/16≈0.589049"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/(x^2 + 1)^3 dx = 1/8 ((x (3 x^2 + 5))/(x^2 + 1)^2 + 3 tan^(-1)(x)) + constant",
+          "(5 x)/(8 (x^4 + 2 x^2 + 1)) + (3 x^3)/(8 (x^4 + 2 x^2 + 1)) + 3/8 tan^(-1)(x) + constant",
+          "(5 x)/(8 (x^2 + 1)^2) + (3 x^3)/(8 (x^2 + 1)^2) + 3/8 tan^(-1)(x) + constant",
+          "(x (3 x^2 + 5))/(8 (x^2 + 1)^2) + 3/8 tan^(-1)(x) + constant",
+          "(x (3 x^2 + 5) + 3 (x^2 + 1)^2 tan^(-1)(x))/(8 (x^2 + 1)^2) + constant",
+          "(3 x^4 tan^(-1)(x) + 3 x^3 + 6 x^2 tan^(-1)(x) + 5 x + 3 tan^(-1)(x))/(8 (x^2 + 1)^2) + constant",
+          "(3 x^4 tan^(-1)(x) + 3 x^3 + 6 x^2 tan^(-1)(x) + 5 x + 3 tan^(-1)(x))/(8 (x - i)^2 (x + i)^2) + constant",
+          "x - x^3 + (6 x^5)/5 + O(x^6)\n(Taylor series)",
+          "1/8 ((i/(2 (x + i)^2) + 3/(2 (x + i)) + 1/8 (12 i log(x + i) - 12 i log(2) + 6 π + 7 i) + (5 (x + i))/4 + O((x + i)^2)) - 3 π floor(3/4 - arg(x + i)/(2 π)))",
+          "1/8 ((-i/(2 (x - i)^2) + 3/(2 (x - i)) + 1/8 (-12 i log(x - i) + 12 i log(2) + 6 π - 7 i) + (5 (x - i))/4 + O((x - i)^2)) + 3 π floor((π - 2 arg(x - i))/(4 π)))",
+          "(3 π)/16 - 1/(5 x^5) + O((1/x)^6)\n(Laurent series)",
+          "integral_0^∞ 1/(1 + x^2)^3 dx = (3 π)/16≈0.589049"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q23": {
+    "id": 23,
+    "query": "integral 1/(x^2-2*x*cot(x)+csc^2(x))  from -infinity to infinity",
+    "expected_answer": "pi",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_(-∞)^∞ 1/(x^2 - 2 x cot(x) + csc^2(x)) dx"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_(-∞)^∞ 1/(x^2 - 2 x cot(x) + csc^2(x)) dx"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_(-∞)^∞ 1/(x^2 - 2 x cot(x) + csc^2(x)) dx"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q24": {
+    "id": 24,
+    "query": "integral log(sqrt(3)+tanx) dx from 0 to pi/6",
+    "expected_answer": "pi*log(2)/6",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^(π/6) log(sqrt(3) + tan(x)) dx = 0.362931"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^(π/6) log(sqrt(3) + tan(x)) dx = 0.362931"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^(π/6) log(sqrt(3) + tan(x)) dx = 0.362931"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q25": {
+    "id": 25,
+    "query": "3*x - 7 = 2",
+    "expected_answer": "3",
+    "run_1": {
+      "result": {
+        "result": [
+          "3 x - 7 = 2",
+          "3 x - 9 = 0",
+          "x = 3"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "3 x - 7 = 2",
+          "3 x - 9 = 0",
+          "x = 3"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "3 x - 7 = 2",
+          "3 x - 9 = 0",
+          "x = 3"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q26": {
+    "id": 26,
+    "query": "x^2 - 9 = 0",
+    "expected_answer": "3 and -3",
+    "run_1": {
+      "result": {
+        "result": [
+          "x^2 - 9 = 0",
+          "x^2 = 9",
+          "(x - 3) (x + 3) = 0",
+          "x = -3",
+          "x = 3",
+          "0",
+          "-9"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "x^2 - 9 = 0",
+          "x^2 = 9",
+          "(x - 3) (x + 3) = 0",
+          "x = -3",
+          "x = 3",
+          "0",
+          "-9"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "x^2 - 9 = 0",
+          "x^2 = 9",
+          "(x - 3) (x + 3) = 0",
+          "x = -3",
+          "x = 3",
+          "0",
+          "-9"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q27": {
+    "id": 27,
+    "query": "log(10, x) = 2",
+    "expected_answer": "100",
+    "run_1": {
+      "result": {
+        "result": [
+          "log(10, x) = 2",
+          "log(x)/log(10) = 2",
+          "log(x) = log(100)",
+          "log(x)/(log(2) + log(5)) = 2",
+          "log(100/x) = 0",
+          "x = 100"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "log(10, x) = 2",
+          "log(x)/log(10) = 2",
+          "log(x) = log(100)",
+          "log(x)/(log(2) + log(5)) = 2",
+          "log(100/x) = 0",
+          "x = 100"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "log(10, x) = 2",
+          "log(x)/log(10) = 2",
+          "log(x) = log(100)",
+          "log(x)/(log(2) + log(5)) = 2",
+          "log(100/x) = 0",
+          "x = 100"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q28": {
+    "id": 28,
+    "query": "sqrt(x) = 6",
+    "expected_answer": "36",
+    "run_1": {
+      "result": {
+        "result": [
+          "sqrt(x) = 6",
+          "x = 36"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "sqrt(x) = 6",
+          "x = 36"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "sqrt(x) = 6",
+          "x = 36"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q29": {
+    "id": 29,
+    "query": "indefinite integral 6*x^2 dx",
+    "expected_answer": "2*x^3 + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral6 x^2 dx = 2 x^3 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral6 x^2 dx = 2 x^3 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral6 x^2 dx = 2 x^3 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q30": {
+    "id": 30,
+    "query": "indefinite integral cos(x) dx",
+    "expected_answer": "sin(x) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral cos(x) dx = sin(x) + constant",
+          "1/2 i e^(-i x) - 1/2 i e^(i x) + constant",
+          "x - x^3/6 + x^5/120 + O(x^6)\n(Taylor series)",
+          "integral_0^(π/2) cos(x) dx = 1",
+          "integral_0^(2 π) (cos^2(x))/(2 π) dx = 1/2 = 0.5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral cos(x) dx = sin(x) + constant",
+          "1/2 i e^(-i x) - 1/2 i e^(i x) + constant",
+          "x - x^3/6 + x^5/120 + O(x^6)\n(Taylor series)",
+          "integral_0^(π/2) cos(x) dx = 1",
+          "integral_0^(2 π) (cos^2(x))/(2 π) dx = 1/2 = 0.5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral cos(x) dx = sin(x) + constant",
+          "1/2 i e^(-i x) - 1/2 i e^(i x) + constant",
+          "x - x^3/6 + x^5/120 + O(x^6)\n(Taylor series)",
+          "integral_0^(π/2) cos(x) dx = 1",
+          "integral_0^(2 π) (cos^2(x))/(2 π) dx = 1/2 = 0.5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q31": {
+    "id": 31,
+    "query": "indefinite integral 1/x dx",
+    "expected_answer": "log(x) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/x dx = log(x) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/x dx = log(x) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/x dx = log(x) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q32": {
+    "id": 32,
+    "query": "indefinite integral e^x dx",
+    "expected_answer": "e^x + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral e^x dx = e^x + constant",
+          "1 + x + x^2/2 + x^3/6 + x^4/24 + O(x^5)\n(Taylor series)",
+          "integral_(-∞)^0 e^x dx = 1",
+          "integral_0^(i π) e^x dx = -2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral e^x dx = e^x + constant",
+          "1 + x + x^2/2 + x^3/6 + x^4/24 + O(x^5)\n(Taylor series)",
+          "integral_(-∞)^0 e^x dx = 1",
+          "integral_0^(i π) e^x dx = -2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral e^x dx = e^x + constant",
+          "1 + x + x^2/2 + x^3/6 + x^4/24 + O(x^5)\n(Taylor series)",
+          "integral_(-∞)^0 e^x dx = 1",
+          "integral_0^(i π) e^x dx = -2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q33": {
+    "id": 33,
+    "query": " integral x dx from 0 to 4",
+    "expected_answer": "8",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^4 x dx = 8",
+          "left sum | 8 - 8/n = 8 - 8/n + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x dx = x^2/2 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^4 x dx = 8",
+          "left sum | 8 - 8/n = 8 - 8/n + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x dx = x^2/2 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^4 x dx = 8",
+          "left sum | 8 - 8/n = 8 - 8/n + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x dx = x^2/2 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q34": {
+    "id": 34,
+    "query": " integral sin(x) dx from 0 to pi",
+    "expected_answer": "2",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^π sin(x) dx = 2",
+          "left sum | (π cot(π/(2 n)))/n = 2 - π^2/(6 n^2) + O((1/n)^4)\n(assuming subintervals of equal length)",
+          "integral sin(x) dx = -cos(x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^π sin(x) dx = 2",
+          "left sum | (π cot(π/(2 n)))/n = 2 - π^2/(6 n^2) + O((1/n)^4)\n(assuming subintervals of equal length)",
+          "integral sin(x) dx = -cos(x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^π sin(x) dx = 2",
+          "left sum | (π cot(π/(2 n)))/n = 2 - π^2/(6 n^2) + O((1/n)^4)\n(assuming subintervals of equal length)",
+          "integral sin(x) dx = -cos(x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q35": {
+    "id": 35,
+    "query": "2^x = 8",
+    "expected_answer": "3 and (3 log(2) + 2 i π n)/log(2)",
+    "run_1": {
+      "result": {
+        "result": [
+          "2^x = 8",
+          "x = (3 log(2) + 2 i π n)/log(2), n element Z",
+          "x = 3",
+          "x log_2(2) = log_2(8)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "2^x = 8",
+          "x = (3 log(2) + 2 i π n)/log(2), n element Z",
+          "x = 3",
+          "x log_2(2) = log_2(8)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "2^x = 8",
+          "x = (3 log(2) + 2 i π n)/log(2), n element Z",
+          "x = 3",
+          "x log_2(2) = log_2(8)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q36": {
+    "id": 36,
+    "query": "tan(x) = 0 ( -pi/2 < x < pi/2 )",
+    "expected_answer": "0",
+    "run_1": {
+      "result": {
+        "result": [
+          "{tan(x) = 0, -π/2<x<π/2}",
+          "{sin(2 x)/(cos(2 x) + 1) = 0, -π/2<x<π/2}",
+          "{tan(x) = 0, 2 x<π}",
+          "{sin(x)/cos(x) = 0, -π/2<x<π/2}",
+          "{c_1 element Z ∧ x = π c_1, x<π/2 ∧ x>-π/2}",
+          "x = 0"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "{tan(x) = 0, -π/2<x<π/2}",
+          "{sin(2 x)/(cos(2 x) + 1) = 0, -π/2<x<π/2}",
+          "{tan(x) = 0, 2 x<π}",
+          "{sin(x)/cos(x) = 0, -π/2<x<π/2}",
+          "{c_1 element Z ∧ x = π c_1, x<π/2 ∧ x>-π/2}",
+          "x = 0"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "{tan(x) = 0, -π/2<x<π/2}",
+          "{sin(2 x)/(cos(2 x) + 1) = 0, -π/2<x<π/2}",
+          "{tan(x) = 0, 2 x<π}",
+          "{sin(x)/cos(x) = 0, -π/2<x<π/2}",
+          "{c_1 element Z ∧ x = π c_1, x<π/2 ∧ x>-π/2}",
+          "x = 0"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q37": {
+    "id": 37,
+    "query": "x^2 + 4*x + 4 = 0",
+    "expected_answer": "-2 (double root)",
+    "run_1": {
+      "result": {
+        "result": [
+          "x^2 + 4 x + 4 = 0",
+          "(x + 2)^2 = 0",
+          "x = -2",
+          "-4",
+          "4"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "x^2 + 4 x + 4 = 0",
+          "(x + 2)^2 = 0",
+          "x = -2",
+          "-4",
+          "4"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "x^2 + 4 x + 4 = 0",
+          "(x + 2)^2 = 0",
+          "x = -2",
+          "-4",
+          "4"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q38": {
+    "id": 38,
+    "query": "indefinite integral sec^2(x) dx",
+    "expected_answer": "tan(x) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral sec^2(x) dx = tan(x) + constant",
+          "sin(2 x)/(cos(2 x) + 1) + constant",
+          "sin(x)/cos(x) + constant",
+          "(i (e^(-i x) - e^(i x)))/(e^(-i x) + e^(i x)) + constant",
+          "x + x^3/3 + (2 x^5)/15 + O(x^6)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral sec^2(x) dx = tan(x) + constant",
+          "sin(2 x)/(cos(2 x) + 1) + constant",
+          "sin(x)/cos(x) + constant",
+          "(i (e^(-i x) - e^(i x)))/(e^(-i x) + e^(i x)) + constant",
+          "x + x^3/3 + (2 x^5)/15 + O(x^6)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral sec^2(x) dx = tan(x) + constant",
+          "sin(2 x)/(cos(2 x) + 1) + constant",
+          "sin(x)/cos(x) + constant",
+          "(i (e^(-i x) - e^(i x)))/(e^(-i x) + e^(i x)) + constant",
+          "x + x^3/3 + (2 x^5)/15 + O(x^6)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q39": {
+    "id": 39,
+    "query": " integral 4 dx from -1 to 3",
+    "expected_answer": "16",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_(-1)^3 4dx = 16",
+          "left sum | 16\n(assuming subintervals of equal length)",
+          "integral4dx = 4 x + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_(-1)^3 4dx = 16",
+          "left sum | 16\n(assuming subintervals of equal length)",
+          "integral4dx = 4 x + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_(-1)^3 4dx = 16",
+          "left sum | 16\n(assuming subintervals of equal length)",
+          "integral4dx = 4 x + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q40": {
+    "id": 40,
+    "query": "log(x) = 1",
+    "expected_answer": "e",
+    "run_1": {
+      "result": {
+        "result": [
+          "log(x) = 1",
+          "x = e"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "log(x) = 1",
+          "x = e"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "log(x) = 1",
+          "x = e"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q41": {
+    "id": 41,
+    "query": "x/5 = 7",
+    "expected_answer": "35",
+    "run_1": {
+      "result": {
+        "result": [
+          "x/5 = 7",
+          "x/5 - 7 = 0",
+          "x = 35",
+          "log(5, x) - log(5, 5) = log(5, 7)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "x/5 = 7",
+          "x/5 - 7 = 0",
+          "x = 35",
+          "log(5, x) - log(5, 5) = log(5, 7)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "x/5 = 7",
+          "x/5 - 7 = 0",
+          "x = 35",
+          "log(5, x) - log(5, 5) = log(5, 7)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q42": {
+    "id": 42,
+    "query": "indefinite integral 2*e^(2*x) dx",
+    "expected_answer": "e^(2*x) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral2 e^(2 x) dx = e^(2 x) + constant",
+          "1 + 2 x + 2 x^2 + (4 x^3)/3 + (2 x^4)/3 + O(x^5)\n(Taylor series)",
+          "integral_(-∞)^0 2 e^(2 x) dx = 1",
+          "integral_0^((i π)/2) 2 e^(2 x) dx = -2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral2 e^(2 x) dx = e^(2 x) + constant",
+          "1 + 2 x + 2 x^2 + (4 x^3)/3 + (2 x^4)/3 + O(x^5)\n(Taylor series)",
+          "integral_(-∞)^0 2 e^(2 x) dx = 1",
+          "integral_0^((i π)/2) 2 e^(2 x) dx = -2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral2 e^(2 x) dx = e^(2 x) + constant",
+          "1 + 2 x + 2 x^2 + (4 x^3)/3 + (2 x^4)/3 + O(x^5)\n(Taylor series)",
+          "integral_(-∞)^0 2 e^(2 x) dx = 1",
+          "integral_0^((i π)/2) 2 e^(2 x) dx = -2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q43": {
+    "id": 43,
+    "query": " integral x^2 dx from 0 to 3",
+    "expected_answer": "9",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^3 x^2 dx = 9",
+          "left sum | (9 (n - 1) (2 n - 1))/(2 n^2) = 9 - 27/(2 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x^2 dx = x^3/3 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^3 x^2 dx = 9",
+          "left sum | (9 (n - 1) (2 n - 1))/(2 n^2) = 9 - 27/(2 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x^2 dx = x^3/3 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^3 x^2 dx = 9",
+          "left sum | (9 (n - 1) (2 n - 1))/(2 n^2) = 9 - 27/(2 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x^2 dx = x^3/3 + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q44": {
+    "id": 44,
+    "query": "cos(x) = 1 (0 <= x <= 2*pi)",
+    "expected_answer": "0 and 2*pi",
+    "run_1": {
+      "result": {
+        "result": [
+          "{cos(x) = 1, 0<=x<=2 π}",
+          "{c_1 element Z ∧ (x = 4 π c_1 ∨ x = 4 π c_1 + 2 π), x>=0 ∧ x<=2 π}",
+          "{cos(x) = 1, x<=2 π}",
+          "x = 0",
+          "x = 2 π"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "{cos(x) = 1, 0<=x<=2 π}",
+          "{c_1 element Z ∧ (x = 4 π c_1 ∨ x = 4 π c_1 + 2 π), x>=0 ∧ x<=2 π}",
+          "{cos(x) = 1, x<=2 π}",
+          "x = 0",
+          "x = 2 π"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "{cos(x) = 1, 0<=x<=2 π}",
+          "{c_1 element Z ∧ (x = 4 π c_1 ∨ x = 4 π c_1 + 2 π), x>=0 ∧ x<=2 π}",
+          "{cos(x) = 1, x<=2 π}",
+          "x = 0",
+          "x = 2 π"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q45": {
+    "id": 45,
+    "query": "indefinite integral sin(3*x) dx",
+    "expected_answer": "-cos(3*x)/3 + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral sin(3 x) dx = -1/3 cos(3 x) + constant",
+          "-1/3 cos^3(x) + cos(x) sin^2(x) + constant",
+          "-1/3 cos(x) (2 cos(2 x) - 1) + constant",
+          "-1/6 e^(-3 i x) - 1/6 e^(3 i x) + constant",
+          "cos(x) - (4 cos^3(x))/3 + constant",
+          "-1/3 + (3 x^2)/2 - (9 x^4)/8 + O(x^6)\n(Taylor series)",
+          "integral_0^(π/3) sin(3 x) dx = 2/3≈0.666667",
+          "integral_0^((2 π)/3) (3 sin^2(3 x))/(2 π) dx = 1/2 = 0.5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral sin(3 x) dx = -1/3 cos(3 x) + constant",
+          "-1/3 cos^3(x) + cos(x) sin^2(x) + constant",
+          "-1/3 cos(x) (2 cos(2 x) - 1) + constant",
+          "-1/6 e^(-3 i x) - 1/6 e^(3 i x) + constant",
+          "cos(x) - (4 cos^3(x))/3 + constant",
+          "-1/3 + (3 x^2)/2 - (9 x^4)/8 + O(x^6)\n(Taylor series)",
+          "integral_0^(π/3) sin(3 x) dx = 2/3≈0.666667",
+          "integral_0^((2 π)/3) (3 sin^2(3 x))/(2 π) dx = 1/2 = 0.5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral sin(3 x) dx = -1/3 cos(3 x) + constant",
+          "-1/3 cos^3(x) + cos(x) sin^2(x) + constant",
+          "-1/3 cos(x) (2 cos(2 x) - 1) + constant",
+          "-1/6 e^(-3 i x) - 1/6 e^(3 i x) + constant",
+          "cos(x) - (4 cos^3(x))/3 + constant",
+          "-1/3 + (3 x^2)/2 - (9 x^4)/8 + O(x^6)\n(Taylor series)",
+          "integral_0^(π/3) sin(3 x) dx = 2/3≈0.666667",
+          "integral_0^((2 π)/3) (3 sin^2(3 x))/(2 π) dx = 1/2 = 0.5"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q46": {
+    "id": 46,
+    "query": " integral 1/x dx from 1 to e",
+    "expected_answer": "1",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_1^e 1/x dx = 1",
+          "left sum | polygamma(0, (e n)/(-1 + e)) - polygamma(0, n/(-1 + e)) = (log(e - 1) + log(e/(e - 1))) + (e - 1)^2/(2 e n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral1/x dx = log(x) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_1^e 1/x dx = 1",
+          "left sum | polygamma(0, (e n)/(-1 + e)) - polygamma(0, n/(-1 + e)) = (log(e - 1) + log(e/(e - 1))) + (e - 1)^2/(2 e n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral1/x dx = log(x) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_1^e 1/x dx = 1",
+          "left sum | polygamma(0, (e n)/(-1 + e)) - polygamma(0, n/(-1 + e)) = (log(e - 1) + log(e/(e - 1))) + (e - 1)^2/(2 e n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral1/x dx = log(x) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q47": {
+    "id": 47,
+    "query": "x^2 = 49",
+    "expected_answer": "7 and -7",
+    "run_1": {
+      "result": {
+        "result": [
+          "x^2 = 49",
+          "x^2 - 49 = 0",
+          "x = -7",
+          "x = 7"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "x^2 = 49",
+          "x^2 - 49 = 0",
+          "x = -7",
+          "x = 7"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "x^2 = 49",
+          "x^2 - 49 = 0",
+          "x = -7",
+          "x = 7"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q48": {
+    "id": 48,
+    "query": "5^x = 1",
+    "expected_answer": "0 and (2 i π n)/log(5)",
+    "run_1": {
+      "result": {
+        "result": [
+          "5^x = 1",
+          "x = (2 i π n)/log(5), n element Z",
+          "x = 0",
+          "x log(5, 5) = log(5, 1)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "5^x = 1",
+          "x = (2 i π n)/log(5), n element Z",
+          "x = 0",
+          "x log(5, 5) = log(5, 1)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "5^x = 1",
+          "x = (2 i π n)/log(5), n element Z",
+          "x = 0",
+          "x log(5, 5) = log(5, 1)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q49": {
+    "id": 49,
+    "query": "7 - 4*x = 3",
+    "expected_answer": "1",
+    "run_1": {
+      "result": {
+        "result": [
+          "7 - 4 x = 3",
+          "4 - 4 x = 0",
+          "x = 1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "7 - 4 x = 3",
+          "4 - 4 x = 0",
+          "x = 1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "7 - 4 x = 3",
+          "4 - 4 x = 0",
+          "x = 1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q50": {
+    "id": 50,
+    "query": "e^(2*x) = 10",
+    "expected_answer": "log(10)/2 and 1/2*i*(2*π*n - i*(log(2) + log(5)))",
+    "run_1": {
+      "result": {
+        "result": [
+          "e^(2 x) = 10",
+          "x = log(10)/2",
+          "x = 1/2 i (2 π n - i (log(2) + log(5))), n element Z",
+          "(2 x) log(e) = log(10)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "e^(2 x) = 10",
+          "x = log(10)/2",
+          "x = 1/2 i (2 π n - i (log(2) + log(5))), n element Z",
+          "(2 x) log(e) = log(10)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "e^(2 x) = 10",
+          "x = log(10)/2",
+          "x = 1/2 i (2 π n - i (log(2) + log(5))), n element Z",
+          "(2 x) log(e) = log(10)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q51": {
+    "id": 51,
+    "query": "2*x^2 - 3*x - 2 = 0",
+    "expected_answer": "2 and -1/2",
+    "run_1": {
+      "result": {
+        "result": [
+          "2 x^2 - 3 x - 2 = 0",
+          "2 x^2 = 3 x + 2",
+          "(x - 2) (2 x + 1) = 0",
+          "2 (x - 3/4)^2 - 25/8 = 0",
+          "x = -1/2",
+          "x = 2",
+          "3/2",
+          "-1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "2 x^2 - 3 x - 2 = 0",
+          "2 x^2 = 3 x + 2",
+          "(x - 2) (2 x + 1) = 0",
+          "2 (x - 3/4)^2 - 25/8 = 0",
+          "x = -1/2",
+          "x = 2",
+          "3/2",
+          "-1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "2 x^2 - 3 x - 2 = 0",
+          "2 x^2 = 3 x + 2",
+          "(x - 2) (2 x + 1) = 0",
+          "2 (x - 3/4)^2 - 25/8 = 0",
+          "x = -1/2",
+          "x = 2",
+          "3/2",
+          "-1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q52": {
+    "id": 52,
+    "query": "log(3, x) + log(3, x-2) = 1",
+    "expected_answer": "3",
+    "run_1": {
+      "result": {
+        "result": [
+          "log(3, x) + log(3, x - 2) = 1",
+          "log(x - 2)/log(3) + log(x)/log(3) = 1",
+          "log(x - 2) + log(x) = log(3)",
+          "(log(x - 2) + log(x))/log(3) = 1",
+          "log(3, (x - 2) x) = 1",
+          "log((x - 2) x) = log(3)",
+          "x = 3"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "log(3, x) + log(3, x - 2) = 1",
+          "log(x - 2)/log(3) + log(x)/log(3) = 1",
+          "log(x - 2) + log(x) = log(3)",
+          "(log(x - 2) + log(x))/log(3) = 1",
+          "log(3, (x - 2) x) = 1",
+          "log((x - 2) x) = log(3)",
+          "x = 3"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "log(3, x) + log(3, x - 2) = 1",
+          "log(x - 2)/log(3) + log(x)/log(3) = 1",
+          "log(x - 2) + log(x) = log(3)",
+          "(log(x - 2) + log(x))/log(3) = 1",
+          "log(3, (x - 2) x) = 1",
+          "log((x - 2) x) = log(3)",
+          "x = 3"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q53": {
+    "id": 53,
+    "query": "indefinite integral (2*x+1)/(x^2 + x) dx",
+    "expected_answer": "log(x) + log(x + 1) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral(2 x + 1)/(x^2 + x) dx = log(x) + log(x + 1) + constant\n(assuming a complex-valued logarithm)",
+          "log(x (1 + x)) + constant",
+          "piecewise | -i (π + i log(x + 1)) - (x + 1) - 1/2 (x + 1)^2 - 1/3 (x + 1)^3 - 1/4 (x + 1)^4 - 1/5 (x + 1)^5 + O((x + 1)^6) | Im(x)<0\ni (π - i log(x + 1)) - (x + 1) - 1/2 (x + 1)^2 - 1/3 (x + 1)^3 - 1/4 (x + 1)^4 - 1/5 (x + 1)^5 + O((x + 1)^6) | (otherwise)",
+          "log(x) + x - x^2/2 + x^3/3 - x^4/4 + O(x^5)\n(generalized Puiseux series)",
+          "2 log(x) + 1/x - 1/(2 x^2) + 1/(3 x^3) + O((1/x)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral(2 x + 1)/(x^2 + x) dx = log(x) + log(x + 1) + constant\n(assuming a complex-valued logarithm)",
+          "log(x (1 + x)) + constant",
+          "piecewise | -i (π + i log(x + 1)) - (x + 1) - 1/2 (x + 1)^2 - 1/3 (x + 1)^3 - 1/4 (x + 1)^4 - 1/5 (x + 1)^5 + O((x + 1)^6) | Im(x)<0\ni (π - i log(x + 1)) - (x + 1) - 1/2 (x + 1)^2 - 1/3 (x + 1)^3 - 1/4 (x + 1)^4 - 1/5 (x + 1)^5 + O((x + 1)^6) | (otherwise)",
+          "log(x) + x - x^2/2 + x^3/3 - x^4/4 + O(x^5)\n(generalized Puiseux series)",
+          "2 log(x) + 1/x - 1/(2 x^2) + 1/(3 x^3) + O((1/x)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral(2 x + 1)/(x^2 + x) dx = log(x) + log(x + 1) + constant\n(assuming a complex-valued logarithm)",
+          "log(x (1 + x)) + constant",
+          "piecewise | -i (π + i log(x + 1)) - (x + 1) - 1/2 (x + 1)^2 - 1/3 (x + 1)^3 - 1/4 (x + 1)^4 - 1/5 (x + 1)^5 + O((x + 1)^6) | Im(x)<0\ni (π - i log(x + 1)) - (x + 1) - 1/2 (x + 1)^2 - 1/3 (x + 1)^3 - 1/4 (x + 1)^4 - 1/5 (x + 1)^5 + O((x + 1)^6) | (otherwise)",
+          "log(x) + x - x^2/2 + x^3/3 - x^4/4 + O(x^5)\n(generalized Puiseux series)",
+          "2 log(x) + 1/x - 1/(2 x^2) + 1/(3 x^3) + O((1/x)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q54": {
+    "id": 54,
+    "query": "indefinite integral x*e^(x^2) dx",
+    "expected_answer": "e^(x^2)/2 + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral x e^(x^2) dx = e^(x^2)/2 + constant",
+          "1/2 + x^2/2 + x^4/4 + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral x e^(x^2) dx = e^(x^2)/2 + constant",
+          "1/2 + x^2/2 + x^4/4 + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral x e^(x^2) dx = e^(x^2)/2 + constant",
+          "1/2 + x^2/2 + x^4/4 + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q55": {
+    "id": 55,
+    "query": "indefinite integral x*sin(x) dx",
+    "expected_answer": "-x*cos(x) + sin(x) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral x sin(x) dx = sin(x) - x cos(x) + constant",
+          "-1/2 e^(-i x) x - 1/2 e^(i x) x + 1/2 i e^(-i x) - 1/2 i e^(i x) + constant",
+          "x^3/3 - x^5/30 + x^7/840 + O(x^8)\n(Taylor series)",
+          "integral_0^π x sin(x) dx = π≈3.14159"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral x sin(x) dx = sin(x) - x cos(x) + constant",
+          "-1/2 e^(-i x) x - 1/2 e^(i x) x + 1/2 i e^(-i x) - 1/2 i e^(i x) + constant",
+          "x^3/3 - x^5/30 + x^7/840 + O(x^8)\n(Taylor series)",
+          "integral_0^π x sin(x) dx = π≈3.14159"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral x sin(x) dx = sin(x) - x cos(x) + constant",
+          "-1/2 e^(-i x) x - 1/2 e^(i x) x + 1/2 i e^(-i x) - 1/2 i e^(i x) + constant",
+          "x^3/3 - x^5/30 + x^7/840 + O(x^8)\n(Taylor series)",
+          "integral_0^π x sin(x) dx = π≈3.14159"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q56": {
+    "id": 56,
+    "query": "indefinite integral dx/(x^2 + 4*x + 5)",
+    "expected_answer": " tan^(-1)(x+2) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/(x^2 + 4 x + 5) dx = tan^(-1)(x + 2) + constant",
+          "1/2 i log(1 - i (x + 2)) - 1/2 i log(1 + i (x + 2)) + constant",
+          "(1/4 (2 i log(x + (2 + i)) - 2 i log(2) + π) + 1/4 (x + (2 + i)) - 1/16 i (x + (2 + i))^2 - 1/48 (x + (2 + i))^3 + 1/128 i (x + (2 + i))^4 + 1/320 (x + (2 + i))^5 + O((x + (2 + i))^6)) - π floor(3/4 - arg(x + (2 + i))/(2 π))",
+          "(1/4 (-2 i log(x + (2 - i)) + 2 i log(2) + π) + 1/4 (x + (2 - i)) + 1/16 i (x + (2 - i))^2 - 1/48 (x + (2 - i))^3 - 1/128 i (x + (2 - i))^4 + 1/320 (x + (2 - i))^5 + O((x + (2 - i))^6)) + π floor((π - 2 arg(x + (2 - i)))/(4 π))",
+          "tan^(-1)(2) + x/5 - (2 x^2)/25 + (11 x^3)/375 - (6 x^4)/625 + O(x^5)\n(Taylor series)",
+          "π/2 - 1/x + 2/x^2 - 11/(3 x^3) + O((1/x)^4)\n(Laurent series)",
+          "integral_2^∞ 1/(5 + 4 x + x^2) dx = 1/2 (π - 2 tan^(-1)(4))≈0.244979",
+          "integral_(-∞)^∞ 1/(5 + 4 x + x^2) dx = π≈3.14159"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/(x^2 + 4 x + 5) dx = tan^(-1)(x + 2) + constant",
+          "1/2 i log(1 - i (x + 2)) - 1/2 i log(1 + i (x + 2)) + constant",
+          "(1/4 (2 i log(x + (2 + i)) - 2 i log(2) + π) + 1/4 (x + (2 + i)) - 1/16 i (x + (2 + i))^2 - 1/48 (x + (2 + i))^3 + 1/128 i (x + (2 + i))^4 + 1/320 (x + (2 + i))^5 + O((x + (2 + i))^6)) - π floor(3/4 - arg(x + (2 + i))/(2 π))",
+          "(1/4 (-2 i log(x + (2 - i)) + 2 i log(2) + π) + 1/4 (x + (2 - i)) + 1/16 i (x + (2 - i))^2 - 1/48 (x + (2 - i))^3 - 1/128 i (x + (2 - i))^4 + 1/320 (x + (2 - i))^5 + O((x + (2 - i))^6)) + π floor((π - 2 arg(x + (2 - i)))/(4 π))",
+          "tan^(-1)(2) + x/5 - (2 x^2)/25 + (11 x^3)/375 - (6 x^4)/625 + O(x^5)\n(Taylor series)",
+          "π/2 - 1/x + 2/x^2 - 11/(3 x^3) + O((1/x)^4)\n(Laurent series)",
+          "integral_2^∞ 1/(5 + 4 x + x^2) dx = 1/2 (π - 2 tan^(-1)(4))≈0.244979",
+          "integral_(-∞)^∞ 1/(5 + 4 x + x^2) dx = π≈3.14159"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/(x^2 + 4 x + 5) dx = tan^(-1)(x + 2) + constant",
+          "1/2 i log(1 - i (x + 2)) - 1/2 i log(1 + i (x + 2)) + constant",
+          "(1/4 (2 i log(x + (2 + i)) - 2 i log(2) + π) + 1/4 (x + (2 + i)) - 1/16 i (x + (2 + i))^2 - 1/48 (x + (2 + i))^3 + 1/128 i (x + (2 + i))^4 + 1/320 (x + (2 + i))^5 + O((x + (2 + i))^6)) - π floor(3/4 - arg(x + (2 + i))/(2 π))",
+          "(1/4 (-2 i log(x + (2 - i)) + 2 i log(2) + π) + 1/4 (x + (2 - i)) + 1/16 i (x + (2 - i))^2 - 1/48 (x + (2 - i))^3 - 1/128 i (x + (2 - i))^4 + 1/320 (x + (2 - i))^5 + O((x + (2 - i))^6)) + π floor((π - 2 arg(x + (2 - i)))/(4 π))",
+          "tan^(-1)(2) + x/5 - (2 x^2)/25 + (11 x^3)/375 - (6 x^4)/625 + O(x^5)\n(Taylor series)",
+          "π/2 - 1/x + 2/x^2 - 11/(3 x^3) + O((1/x)^4)\n(Laurent series)",
+          "integral_2^∞ 1/(5 + 4 x + x^2) dx = 1/2 (π - 2 tan^(-1)(4))≈0.244979",
+          "integral_(-∞)^∞ 1/(5 + 4 x + x^2) dx = π≈3.14159"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q57": {
+    "id": 57,
+    "query": "sin(2*x) = sqrt(2)/2 (0 <= x < 2*pi)",
+    "expected_answer": "pi/8, 3*pi/8, 9*pi/8, 11*pi/8",
+    "run_1": {
+      "result": {
+        "result": [
+          "{sin(2 x) = sqrt(2)/2, 0<=x<2 π}",
+          "{sin(2 x) = 1/sqrt(2), x<2 π}",
+          "{2 sin(x) cos(x) = 1/sqrt(2), 0<=x<2 π}",
+          "{c_1 element Z ∧ (x = π c_1 + π/8 ∨ x = π c_1 + (3 π)/8), x>=0 ∧ x<2 π}",
+          "x = π/8",
+          "x = (3 π)/8",
+          "x = (9 π)/8",
+          "x = (11 π)/8"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "{sin(2 x) = sqrt(2)/2, 0<=x<2 π}",
+          "{sin(2 x) = 1/sqrt(2), x<2 π}",
+          "{2 sin(x) cos(x) = 1/sqrt(2), 0<=x<2 π}",
+          "{c_1 element Z ∧ (x = π c_1 + π/8 ∨ x = π c_1 + (3 π)/8), x>=0 ∧ x<2 π}",
+          "x = π/8",
+          "x = (3 π)/8",
+          "x = (9 π)/8",
+          "x = (11 π)/8"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "{sin(2 x) = sqrt(2)/2, 0<=x<2 π}",
+          "{sin(2 x) = 1/sqrt(2), x<2 π}",
+          "{2 sin(x) cos(x) = 1/sqrt(2), 0<=x<2 π}",
+          "{c_1 element Z ∧ (x = π c_1 + π/8 ∨ x = π c_1 + (3 π)/8), x>=0 ∧ x<2 π}",
+          "x = π/8",
+          "x = (3 π)/8",
+          "x = (9 π)/8",
+          "x = (11 π)/8"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q58": {
+    "id": 58,
+    "query": "cot(x) = 1 (0 < x < pi)",
+    "expected_answer": "pi/4",
+    "run_1": {
+      "result": {
+        "result": [
+          "{cot(x) = 1, 0<x<π}",
+          "{-sin(2 x)/(cos(2 x) - 1) = 1, 0<x<π}",
+          "{cot(x) = 1, x<π}",
+          "{cos(x)/sin(x) = 1, 0<x<π}",
+          "{sin(x) = cos(x) ∧ (c_1 not element Z ∨ (x!=2 π c_1 ∧ x!=2 π c_1 + π)), x<π ∧ x>0}",
+          "x = π/4"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "{cot(x) = 1, 0<x<π}",
+          "{-sin(2 x)/(cos(2 x) - 1) = 1, 0<x<π}",
+          "{cot(x) = 1, x<π}",
+          "{cos(x)/sin(x) = 1, 0<x<π}",
+          "{sin(x) = cos(x) ∧ (c_1 not element Z ∨ (x!=2 π c_1 ∧ x!=2 π c_1 + π)), x<π ∧ x>0}",
+          "x = π/4"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "{cot(x) = 1, 0<x<π}",
+          "{-sin(2 x)/(cos(2 x) - 1) = 1, 0<x<π}",
+          "{cot(x) = 1, x<π}",
+          "{cos(x)/sin(x) = 1, 0<x<π}",
+          "{sin(x) = cos(x) ∧ (c_1 not element Z ∨ (x!=2 π c_1 ∧ x!=2 π c_1 + π)), x<π ∧ x>0}",
+          "x = π/4"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q59": {
+    "id": 59,
+    "query": "indefinite integral log(x) dx",
+    "expected_answer": "x*log(x) - x + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral log(x) dx = x (log(x) - 1) + constant\n(assuming a complex-valued logarithm)",
+          "x log(x) - x",
+          "-x + x log(x) + constant",
+          "integral_0^1 log(x) dx = -1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral log(x) dx = x (log(x) - 1) + constant\n(assuming a complex-valued logarithm)",
+          "x log(x) - x",
+          "-x + x log(x) + constant",
+          "integral_0^1 log(x) dx = -1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral log(x) dx = x (log(x) - 1) + constant\n(assuming a complex-valued logarithm)",
+          "x log(x) - x",
+          "-x + x log(x) + constant",
+          "integral_0^1 log(x) dx = -1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q60": {
+    "id": 60,
+    "query": " integral log(x) dx from 1 to e^2",
+    "expected_answer": "e^2 + 1",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_1^(e^2) log(x) dx = 1 + e^2≈8.3891",
+          "integral log(x) dx = x log(x) - x + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_1^(e^2) log(x) dx = 1 + e^2≈8.3891",
+          "integral log(x) dx = x log(x) - x + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_1^(e^2) log(x) dx = 1 + e^2≈8.3891",
+          "integral log(x) dx = x log(x) - x + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q61": {
+    "id": 61,
+    "query": "4^(x+1) = 8",
+    "expected_answer": "1/2 and  (log(2) + 2 i π n)/(2 log(2))",
+    "run_1": {
+      "result": {
+        "result": [
+          "4^(x + 1) = 8",
+          "4^x = 2",
+          "x = 1/2",
+          "x = (log(2) + 2 i π n)/(2 log(2)), n element Z",
+          "(x + 1) log(4, 4) = log(4, 8)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "4^(x + 1) = 8",
+          "4^x = 2",
+          "x = 1/2",
+          "x = (log(2) + 2 i π n)/(2 log(2)), n element Z",
+          "(x + 1) log(4, 4) = log(4, 8)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "4^(x + 1) = 8",
+          "4^x = 2",
+          "x = 1/2",
+          "x = (log(2) + 2 i π n)/(2 log(2)), n element Z",
+          "(x + 1) log(4, 4) = log(4, 8)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q62": {
+    "id": 62,
+    "query": "log(x-1) = 2",
+    "expected_answer": "e^2 + 1",
+    "run_1": {
+      "result": {
+        "result": [
+          "log(x - 1) = 2",
+          "x = 1 + e^2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "log(x - 1) = 2",
+          "x = 1 + e^2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "log(x - 1) = 2",
+          "x = 1 + e^2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q63": {
+    "id": 63,
+    "query": "indefinite integral sec(x)*tan(x) dx",
+    "expected_answer": "sec(x) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral sec(x) tan(x) dx = sec(x) + constant",
+          "(2 cos(x))/(cos(2 x) + 1) + constant",
+          "1/cos(x) + constant",
+          "2/(e^(-i x) + e^(i x)) + constant",
+          "1 + x^2/2 + (5 x^4)/24 + O(x^6)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral sec(x) tan(x) dx = sec(x) + constant",
+          "(2 cos(x))/(cos(2 x) + 1) + constant",
+          "1/cos(x) + constant",
+          "2/(e^(-i x) + e^(i x)) + constant",
+          "1 + x^2/2 + (5 x^4)/24 + O(x^6)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral sec(x) tan(x) dx = sec(x) + constant",
+          "(2 cos(x))/(cos(2 x) + 1) + constant",
+          "1/cos(x) + constant",
+          "2/(e^(-i x) + e^(i x)) + constant",
+          "1 + x^2/2 + (5 x^4)/24 + O(x^6)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q64": {
+    "id": 64,
+    "query": "indefinite integral 1/(x^2 - 9) dx",
+    "expected_answer": "1/6*(log(3 - x) - log(x + 3)) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/(x^2 - 9) dx = 1/6 (log(3 - x) - log(x + 3)) + constant\n(assuming a complex-valued logarithm)",
+          "-1/3 tanh^(-1)(x/3) + constant",
+          "1/6 log(3 - x) + -1/6 log(3 + x) + constant",
+          "log(((3 - x)/(3 + x))^(1/6)) + constant",
+          "1/6 log(6/(x + 3) - 1) + constant",
+          "1/6 (log(6) - log(x + 3)) - (x + 3)/36 - 1/432 (x + 3)^2 - (x + 3)^3/3888 - (x + 3)^4/31104 + O((x + 3)^5)\n(generalized Puiseux series)",
+          "-x/9 - x^3/243 - x^5/3645 + O(x^6)\n(Taylor series)",
+          "1/6 (log(3 - x) - log(6)) - (x - 3)/36 + 1/432 (x - 3)^2 - (x - 3)^3/3888 + (x - 3)^4/31104 + O((x - 3)^5)\n(generalized Puiseux series)",
+          "1/6 (log(-x) - log(x)) - 1/x - 3/x^3 - 81/(5 x^5) + O((1/x)^6)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/(x^2 - 9) dx = 1/6 (log(3 - x) - log(x + 3)) + constant\n(assuming a complex-valued logarithm)",
+          "-1/3 tanh^(-1)(x/3) + constant",
+          "1/6 log(3 - x) + -1/6 log(3 + x) + constant",
+          "log(((3 - x)/(3 + x))^(1/6)) + constant",
+          "1/6 log(6/(x + 3) - 1) + constant",
+          "1/6 (log(6) - log(x + 3)) - (x + 3)/36 - 1/432 (x + 3)^2 - (x + 3)^3/3888 - (x + 3)^4/31104 + O((x + 3)^5)\n(generalized Puiseux series)",
+          "-x/9 - x^3/243 - x^5/3645 + O(x^6)\n(Taylor series)",
+          "1/6 (log(3 - x) - log(6)) - (x - 3)/36 + 1/432 (x - 3)^2 - (x - 3)^3/3888 + (x - 3)^4/31104 + O((x - 3)^5)\n(generalized Puiseux series)",
+          "1/6 (log(-x) - log(x)) - 1/x - 3/x^3 - 81/(5 x^5) + O((1/x)^6)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/(x^2 - 9) dx = 1/6 (log(3 - x) - log(x + 3)) + constant\n(assuming a complex-valued logarithm)",
+          "-1/3 tanh^(-1)(x/3) + constant",
+          "1/6 log(3 - x) + -1/6 log(3 + x) + constant",
+          "log(((3 - x)/(3 + x))^(1/6)) + constant",
+          "1/6 log(6/(x + 3) - 1) + constant",
+          "1/6 (log(6) - log(x + 3)) - (x + 3)/36 - 1/432 (x + 3)^2 - (x + 3)^3/3888 - (x + 3)^4/31104 + O((x + 3)^5)\n(generalized Puiseux series)",
+          "-x/9 - x^3/243 - x^5/3645 + O(x^6)\n(Taylor series)",
+          "1/6 (log(3 - x) - log(6)) - (x - 3)/36 + 1/432 (x - 3)^2 - (x - 3)^3/3888 + (x - 3)^4/31104 + O((x - 3)^5)\n(generalized Puiseux series)",
+          "1/6 (log(-x) - log(x)) - 1/x - 3/x^3 - 81/(5 x^5) + O((1/x)^6)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q65": {
+    "id": 65,
+    "query": "indefinite integral 3*x^2/(x^3 + 1) dx",
+    "expected_answer": "log(x^3 + 1) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral(3 x^2)/(x^3 + 1) dx = log(x^3 + 1) + constant\n(assuming a complex-valued logarithm)",
+          "log(x^2 - x + 1) + log(x + 1)",
+          "log((1 + x) (1 - x + x^2)) + constant",
+          "(log(x + 1) + log(3)) - (x + 1) - 1/6 (x + 1)^2 + 1/36 (x + 1)^4 + O((x + 1)^5)\n(generalized Puiseux series)",
+          "x^3 - x^6/2 + x^9/3 + O(x^11)\n(Taylor series)",
+          "log(1/2 (-3 + 3 i sqrt(3)) (x - (-1)^(1/3))) - (2 (-1)^(5/6) (x - (-1)^(1/3)))/(sqrt(3) + i) + (2 (1 + 3 (-1)^(2/3) - i sqrt(3)) (x - (-1)^(1/3))^2)/(3 (sqrt(3) + i)^2) - (4 ((-1)^(1/3) (-i + 2 (-1)^(1/6) - sqrt(3))) (x - (-1)^(1/3))^3)/(3 (sqrt(3) + i)^3) - (4 (-1 - 9 (-1)^(1/3) + 6 (-1)^(2/3) - i sqrt(3) + 6 (-1)^(1/6) sqrt(3)) (x - (-1)^(1/3))^4)/(9 (sqrt(3) + i)^4) + O((x - (-1)^(1/3))^5)\n(Puiseux series)",
+          "log(1/2 (-3 - 3 i sqrt(3)) (x + (-1)^(2/3))) + (2 (-1)^(1/6) (x + (-1)^(2/3)))/(sqrt(3) + -i) - (2 (-1 + 3 (-1)^(1/3) - i sqrt(3)) (x + (-1)^(2/3))^2)/(3 (sqrt(3) + -i)^2) + (4 (-1)^(1/6) (-1 + 2 (-1)^(1/3) - i sqrt(3)) (x + (-1)^(2/3))^3)/(3 (sqrt(3) + -i)^3) + (4 (1 + 6 (-1)^(1/3) - 9 (-1)^(2/3) - i sqrt(3) + 6 (-1)^(5/6) sqrt(3)) (x + (-1)^(2/3))^4)/(9 (sqrt(3) + -i)^4) + O((x + (-1)^(2/3))^5)\n(Puiseux series)",
+          "3 log(x) + (1/x)^3 - 1/(2 x^6) + 1/(3 x^9) + O((1/x)^11)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral(3 x^2)/(x^3 + 1) dx = log(x^3 + 1) + constant\n(assuming a complex-valued logarithm)",
+          "log(x^2 - x + 1) + log(x + 1)",
+          "log((1 + x) (1 - x + x^2)) + constant",
+          "(log(x + 1) + log(3)) - (x + 1) - 1/6 (x + 1)^2 + 1/36 (x + 1)^4 + O((x + 1)^5)\n(generalized Puiseux series)",
+          "x^3 - x^6/2 + x^9/3 + O(x^11)\n(Taylor series)",
+          "log(1/2 (-3 + 3 i sqrt(3)) (x - (-1)^(1/3))) - (2 (-1)^(5/6) (x - (-1)^(1/3)))/(sqrt(3) + i) + (2 (1 + 3 (-1)^(2/3) - i sqrt(3)) (x - (-1)^(1/3))^2)/(3 (sqrt(3) + i)^2) - (4 ((-1)^(1/3) (-i + 2 (-1)^(1/6) - sqrt(3))) (x - (-1)^(1/3))^3)/(3 (sqrt(3) + i)^3) - (4 (-1 - 9 (-1)^(1/3) + 6 (-1)^(2/3) - i sqrt(3) + 6 (-1)^(1/6) sqrt(3)) (x - (-1)^(1/3))^4)/(9 (sqrt(3) + i)^4) + O((x - (-1)^(1/3))^5)\n(Puiseux series)",
+          "log(1/2 (-3 - 3 i sqrt(3)) (x + (-1)^(2/3))) + (2 (-1)^(1/6) (x + (-1)^(2/3)))/(sqrt(3) + -i) - (2 (-1 + 3 (-1)^(1/3) - i sqrt(3)) (x + (-1)^(2/3))^2)/(3 (sqrt(3) + -i)^2) + (4 (-1)^(1/6) (-1 + 2 (-1)^(1/3) - i sqrt(3)) (x + (-1)^(2/3))^3)/(3 (sqrt(3) + -i)^3) + (4 (1 + 6 (-1)^(1/3) - 9 (-1)^(2/3) - i sqrt(3) + 6 (-1)^(5/6) sqrt(3)) (x + (-1)^(2/3))^4)/(9 (sqrt(3) + -i)^4) + O((x + (-1)^(2/3))^5)\n(Puiseux series)",
+          "3 log(x) + (1/x)^3 - 1/(2 x^6) + 1/(3 x^9) + O((1/x)^11)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral(3 x^2)/(x^3 + 1) dx = log(x^3 + 1) + constant\n(assuming a complex-valued logarithm)",
+          "log(x^2 - x + 1) + log(x + 1)",
+          "log((1 + x) (1 - x + x^2)) + constant",
+          "(log(x + 1) + log(3)) - (x + 1) - 1/6 (x + 1)^2 + 1/36 (x + 1)^4 + O((x + 1)^5)\n(generalized Puiseux series)",
+          "x^3 - x^6/2 + x^9/3 + O(x^11)\n(Taylor series)",
+          "log(1/2 (-3 + 3 i sqrt(3)) (x - (-1)^(1/3))) - (2 (-1)^(5/6) (x - (-1)^(1/3)))/(sqrt(3) + i) + ((sqrt(3) + i) (x - (-1)^(1/3))^2)/(6 (sqrt(3) + -i)) + ((-sqrt(3) + i) (x - (-1)^(1/3))^4)/(36 (sqrt(3) + i)) + O((x - (-1)^(1/3))^5)\n(Puiseux series)",
+          "log(1/2 (-3 - 3 i sqrt(3)) (x + (-1)^(2/3))) + (2 (-1)^(1/6) (x + (-1)^(2/3)))/(sqrt(3) + -i) + ((sqrt(3) + -i) (x + (-1)^(2/3))^2)/(6 (sqrt(3) + i)) + ((-sqrt(3) + -i) (x + (-1)^(2/3))^4)/(36 (sqrt(3) + -i)) + O((x + (-1)^(2/3))^5)\n(Puiseux series)",
+          "3 log(x) + (1/x)^3 - 1/(2 x^6) + 1/(3 x^9) + O((1/x)^11)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q66": {
+    "id": 66,
+    "query": " integral cos(2*x) dx from 0 to pi/4",
+    "expected_answer": "1/2",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^(π/4) cos(2 x) dx = 1/2 = 0.5",
+          "left sum | (π (cot(π/(4 n)) + 1))/(8 n) = 1/2 + π/(8 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral cos(2 x) dx = 1/2 sin(2 x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^(π/4) cos(2 x) dx = 1/2 = 0.5",
+          "left sum | (π (cot(π/(4 n)) + 1))/(8 n) = 1/2 + π/(8 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral cos(2 x) dx = 1/2 sin(2 x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^(π/4) cos(2 x) dx = 1/2 = 0.5",
+          "left sum | (π (cot(π/(4 n)) + 1))/(8 n) = 1/2 + π/(8 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral cos(2 x) dx = 1/2 sin(2 x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q67": {
+    "id": 67,
+    "query": "x*e^x = 2",
+    "expected_answer": "W(2)",
+    "run_1": {
+      "result": {
+        "result": [
+          "x e^x = 2",
+          "x = W(2)",
+          "x = W_n(2), n element Z",
+          "log(x) + x log(e) = log(2)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "x e^x = 2",
+          "x = W(2)",
+          "x = W_n(2), n element Z",
+          "log(x) + x log(e) = log(2)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "x e^x = 2",
+          "x = W(2)",
+          "x = W_n(2), n element Z",
+          "log(x) + x log(e) = log(2)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q68": {
+    "id": 68,
+    "query": "indefinite integral (x^2 + 1)/x^3 dx",
+    "expected_answer": "log(x) - 1/(2*x^2) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral(x^2 + 1)/x^3 dx = log(x) - 1/(2 x^2) + constant\n(assuming a complex-valued logarithm)",
+          "(-1 + 2 x^2 log(x))/(2 x^2) + constant",
+          "log(x) + O((1/x)^2)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral(x^2 + 1)/x^3 dx = log(x) - 1/(2 x^2) + constant\n(assuming a complex-valued logarithm)",
+          "(-1 + 2 x^2 log(x))/(2 x^2) + constant",
+          "log(x) + O((1/x)^2)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral(x^2 + 1)/x^3 dx = log(x) - 1/(2 x^2) + constant\n(assuming a complex-valued logarithm)",
+          "(-1 + 2 x^2 log(x))/(2 x^2) + constant",
+          "log(x) + O((1/x)^2)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q69": {
+    "id": 69,
+    "query": " integral 1/(x+1) dx from 0 to 1",
+    "expected_answer": "log(2)",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^1 1/(x + 1) dx = log(2)≈0.69315",
+          "left sum | polygamma(0, 2 n) - polygamma(0, n) = log(2) + 1/(4 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral1/(x + 1) dx = log(x + 1) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^1 1/(x + 1) dx = log(2)≈0.69315",
+          "left sum | polygamma(0, 2 n) - polygamma(0, n) = log(2) + 1/(4 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral1/(x + 1) dx = log(x + 1) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^1 1/(x + 1) dx = log(2)≈0.69315",
+          "left sum | polygamma(0, 2 n) - polygamma(0, n) = log(2) + 1/(4 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral1/(x + 1) dx = log(x + 1) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q70": {
+    "id": 70,
+    "query": "cosh(x) = 5",
+    "expected_answer": "i*(2*π*n - i*cosh^(-1)(5)) and i*(2*π*n + i*cosh^(-1)(5))",
+    "run_1": {
+      "result": {
+        "result": [
+          "cosh(x) = 5",
+          "e^(-x)/2 + e^x/2 = 5",
+          "x = -cosh^(-1)(5)",
+          "x = cosh^(-1)(5)",
+          "x = i (2 π n - i cosh^(-1)(5)), n element Z",
+          "x = i (2 π n + i cosh^(-1)(5)), n element Z"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "cosh(x) = 5",
+          "e^(-x)/2 + e^x/2 = 5",
+          "x = -cosh^(-1)(5)",
+          "x = cosh^(-1)(5)",
+          "x = i (2 π n - i cosh^(-1)(5)), n element Z",
+          "x = i (2 π n + i cosh^(-1)(5)), n element Z"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "cosh(x) = 5",
+          "e^(-x)/2 + e^x/2 = 5",
+          "x = -cosh^(-1)(5)",
+          "x = cosh^(-1)(5)",
+          "x = i (2 π n - i cosh^(-1)(5)), n element Z",
+          "x = i (2 π n + i cosh^(-1)(5)), n element Z"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q71": {
+    "id": 71,
+    "query": "2*(x-3) = x + 1",
+    "expected_answer": "7",
+    "run_1": {
+      "result": {
+        "result": [
+          "2 (x - 3) = x + 1",
+          "2 x - 6 = x + 1",
+          "x = 7",
+          "x - 7 = 0",
+          "x = 7"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "2 (x - 3) = x + 1",
+          "2 x - 6 = x + 1",
+          "x = 7",
+          "x - 7 = 0",
+          "x = 7"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "2 (x - 3) = x + 1",
+          "2 x - 6 = x + 1",
+          "x = 7",
+          "x - 7 = 0",
+          "x = 7"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q72": {
+    "id": 72,
+    "query": "indefinite integral e^(3*x)*sin(e^(3*x)) dx",
+    "expected_answer": "-cos(e^(3*x))/3 + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral e^(3 x) sin(e^(3 x)) dx = -1/3 cos(e^(3 x)) + constant",
+          "-1/6 e^(-i e^(3 x)) - 1/6 e^(i e^(3 x)) + constant",
+          "-cos(1)/3 + x sin(1) + 3/2 x^2 (sin(1) + cos(1)) + 9/2 x^3 cos(1) + 9/8 x^4 (6 cos(1) - 5 sin(1)) + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral e^(3 x) sin(e^(3 x)) dx = -1/3 cos(e^(3 x)) + constant",
+          "-1/6 e^(-i e^(3 x)) - 1/6 e^(i e^(3 x)) + constant",
+          "-cos(1)/3 + x sin(1) + 3/2 x^2 (sin(1) + cos(1)) + 9/2 x^3 cos(1) + 9/8 x^4 (6 cos(1) - 5 sin(1)) + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral e^(3 x) sin(e^(3 x)) dx = -1/3 cos(e^(3 x)) + constant",
+          "-1/6 e^(-i e^(3 x)) - 1/6 e^(i e^(3 x)) + constant",
+          "-cos(1)/3 + x sin(1) + 3/2 x^2 (sin(1) + cos(1)) + 9/2 x^3 cos(1) + 9/8 x^4 (6 cos(1) - 5 sin(1)) + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q73": {
+    "id": 73,
+    "query": "log(5, 2*x) = 3",
+    "expected_answer": "125/2",
+    "run_1": {
+      "result": {
+        "result": [
+          "log(5, 2 x) = 3",
+          "log(2 x)/log(5) = 3",
+          "log(x) = log(125/2)",
+          "(log(x) + log(2))/log(5) = 3",
+          "x = 125/2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "log(5, 2 x) = 3",
+          "log(2 x)/log(5) = 3",
+          "log(x) = log(125/2)",
+          "(log(x) + log(2))/log(5) = 3",
+          "x = 125/2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "log(5, 2 x) = 3",
+          "log(2 x)/log(5) = 3",
+          "log(x) = log(125/2)",
+          "(log(x) + log(2))/log(5) = 3",
+          "x = 125/2"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q74": {
+    "id": 74,
+    "query": "indefinite integral x^3/(x^2 + 1) dx",
+    "expected_answer": "x^2/2 - 1/2*log(x^2 + 1) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral x^3/(x^2 + 1) dx = 1/2 (x^2 - log(x^2 + 1)) + constant",
+          "1/2 x^2 + -1/2 log(1 + x^2) + constant",
+          "x^4/4 - x^6/6 + x^8/8 + O(x^9)\n(Taylor series)",
+          "1/2 (-1 - log(-2 i (x + i))) - 5/4 i (x + i) + 7/16 (x + i)^2 + 1/48 i (x + i)^3 + 1/128 (x + i)^4 + O((x + i)^5)\n(generalized Puiseux series)",
+          "1/2 (-1 - log(2 i (x - i))) + 5/4 i (x - i) + 7/16 (x - i)^2 - 1/48 i (x - i)^3 + 1/128 (x - i)^4 + O((x - i)^5)\n(generalized Puiseux series)",
+          "x^2/2 - log(x) - 1/(2 x^2) + O((1/x)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral x^3/(x^2 + 1) dx = 1/2 (x^2 - log(x^2 + 1)) + constant",
+          "1/2 x^2 + -1/2 log(1 + x^2) + constant",
+          "x^4/4 - x^6/6 + x^8/8 + O(x^9)\n(Taylor series)",
+          "1/2 (-1 - log(-2 i (x + i))) - 5/4 i (x + i) + 7/16 (x + i)^2 + 1/48 i (x + i)^3 + 1/128 (x + i)^4 + O((x + i)^5)\n(generalized Puiseux series)",
+          "1/2 (-1 - log(2 i (x - i))) + 5/4 i (x - i) + 7/16 (x - i)^2 - 1/48 i (x - i)^3 + 1/128 (x - i)^4 + O((x - i)^5)\n(generalized Puiseux series)",
+          "x^2/2 - log(x) - 1/(2 x^2) + O((1/x)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral x^3/(x^2 + 1) dx = 1/2 (x^2 - log(x^2 + 1)) + constant",
+          "1/2 x^2 + -1/2 log(1 + x^2) + constant",
+          "x^4/4 - x^6/6 + x^8/8 + O(x^9)\n(Taylor series)",
+          "1/2 (-1 - log(-2 i (x + i))) - 5/4 i (x + i) + 7/16 (x + i)^2 + 1/48 i (x + i)^3 + 1/128 (x + i)^4 + O((x + i)^5)\n(generalized Puiseux series)",
+          "1/2 (-1 - log(2 i (x - i))) + 5/4 i (x - i) + 7/16 (x - i)^2 - 1/48 i (x - i)^3 + 1/128 (x - i)^4 + O((x - i)^5)\n(generalized Puiseux series)",
+          "x^2/2 - log(x) - 1/(2 x^2) + O((1/x)^4)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q75": {
+    "id": 75,
+    "query": "indefinite integral x^2*log(x) dx",
+    "expected_answer": "x^3*log(x)/3 - x^3/9 + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral x^2 log(x) dx = 1/9 x^3 (3 log(x) - 1) + constant\n(assuming a complex-valued logarithm)",
+          "x^3 (log(x)/3 - 1/9) + constant",
+          "-1/9 x^3 + 1/3 x^3 log(x) + constant",
+          "1/9 x^3 (-1 + log(x^3)) + constant",
+          "integral_0^1 x^2 log(x) dx≈-0.1111111111111112..."
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral x^2 log(x) dx = 1/9 x^3 (3 log(x) - 1) + constant\n(assuming a complex-valued logarithm)",
+          "x^3 (log(x)/3 - 1/9) + constant",
+          "-1/9 x^3 + 1/3 x^3 log(x) + constant",
+          "1/9 x^3 (-1 + log(x^3)) + constant",
+          "integral_0^1 x^2 log(x) dx≈-0.1111111111111112..."
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral x^2 log(x) dx = 1/9 x^3 (3 log(x) - 1) + constant\n(assuming a complex-valued logarithm)",
+          "x^3 (log(x)/3 - 1/9) + constant",
+          "-1/9 x^3 + 1/3 x^3 log(x) + constant",
+          "1/9 x^3 (-1 + log(x^3)) + constant",
+          "integral_0^1 x^2 log(x) dx≈-0.1111111111111112..."
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q76": {
+    "id": 76,
+    "query": " integral x/(e^x - 1) dx from 0 to infinity",
+    "expected_answer": "pi^2/6",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^∞ x/(e^x - 1) dx = π^2/6≈1.64493",
+          "integral x/(e^x - 1) dx = x log(1 - e^(-x)) - Li_2(e^(-x)) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^∞ x/(e^x - 1) dx = π^2/6≈1.64493",
+          "integral x/(e^x - 1) dx = x log(1 - e^(-x)) - Li_2(e^(-x)) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^∞ x/(e^x - 1) dx = π^2/6≈1.64493",
+          "integral x/(e^x - 1) dx = x log(1 - e^(-x)) - Li_2(e^(-x)) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q77": {
+    "id": 77,
+    "query": "indefinite integral arctan(x) dx",
+    "expected_answer": "x*arctan(x) - 1/2*log(1 + x^2) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral tan^(-1)(x) dx = x tan^(-1)(x) - 1/2 log(x^2 + 1) + constant",
+          "1/2 (2 x tan^(-1)(x) - log(1 + x^2)) + constant",
+          "-1/2 log(x^2 + 1) + 1/2 i x log(1 - i x) - 1/2 i x log(1 + i x) + constant",
+          "x^2/2 - x^4/12 + x^6/30 - x^8/56 + O(x^9)\n(Taylor series)",
+          "floor(((3 π)/2 - arg(x + i))/(2 π)) (i π - π (x + i) + O((x + i)^4)) + (-1/4 i (-2 i log(-2 i (x + i)) + 2 i log(x + i) - 2 i log(2) + π) + 1/4 (2 i log(x + i) - 2 i log(2) + π - 2 i) (x + i) + 1/8 (x + i)^2 - 1/48 i (x + i)^3 + O((x + i)^4))",
+          "floor((π - 2 arg(x - i))/(4 π)) (i π + π (x - i) + O((x - i)^4)) + (1/4 i (2 i log(i (x - i)) - 2 i log(x - i) + 4 i log(2) + π) + 1/4 (-2 i log(x - i) + 2 i log(2) + π + 2 i) (x - i) + 1/8 (x - i)^2 + 1/48 i (x - i)^3 + O((x - i)^4))",
+          "(π x)/2 + (-log(x) - 1) - 1/(6 x^2) + O((1/x)^3)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral tan^(-1)(x) dx = x tan^(-1)(x) - 1/2 log(x^2 + 1) + constant",
+          "1/2 (2 x tan^(-1)(x) - log(1 + x^2)) + constant",
+          "-1/2 log(x^2 + 1) + 1/2 i x log(1 - i x) - 1/2 i x log(1 + i x) + constant",
+          "x^2/2 - x^4/12 + x^6/30 - x^8/56 + O(x^9)\n(Taylor series)",
+          "floor(((3 π)/2 - arg(x + i))/(2 π)) (i π - π (x + i) + O((x + i)^4)) + (-1/4 i (-2 i log(-2 i (x + i)) + 2 i log(x + i) - 2 i log(2) + π) + 1/4 (2 i log(x + i) - 2 i log(2) + π - 2 i) (x + i) + 1/8 (x + i)^2 - 1/48 i (x + i)^3 + O((x + i)^4))",
+          "floor((π/2 - arg(x - i))/(2 π)) (i π + π (x - i) + O((x - i)^4)) + (1/4 i (2 i log(2 i (x - i)) - 2 i log(x - i) + 2 i log(2) + π) + 1/4 (-2 i log(x - i) + 2 i log(2) + π + 2 i) (x - i) + 1/8 (x - i)^2 + 1/48 i (x - i)^3 + O((x - i)^4))",
+          "(π x)/2 + (-log(x) - 1) - 1/(6 x^2) + O((1/x)^3)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral tan^(-1)(x) dx = x tan^(-1)(x) - 1/2 log(x^2 + 1) + constant",
+          "1/2 (2 x tan^(-1)(x) - log(1 + x^2)) + constant",
+          "-1/2 log(x^2 + 1) + 1/2 i x log(1 - i x) - 1/2 i x log(1 + i x) + constant",
+          "x^2/2 - x^4/12 + x^6/30 - x^8/56 + O(x^9)\n(Taylor series)",
+          "floor(((3 π)/2 - arg(x + i))/(2 π)) (i π - π (x + i) + O((x + i)^4)) + (-1/4 i (-2 i log(-2 i (x + i)) + 2 i log(x + i) - 2 i log(2) + π) + 1/4 (2 i log(x + i) - 2 i log(2) + π - 2 i) (x + i) + 1/8 (x + i)^2 - 1/48 i (x + i)^3 + O((x + i)^4))",
+          "floor((π - 2 arg(x - i))/(4 π)) (i π + π (x - i) + O((x - i)^4)) + (1/4 i (2 i log(i (x - i)) - 2 i log(x - i) + 4 i log(2) + π) + 1/4 (-2 i log(x - i) + 2 i log(2) + π + 2 i) (x - i) + 1/8 (x - i)^2 + 1/48 i (x - i)^3 + O((x - i)^4))",
+          "(π x)/2 + (-log(x) - 1) - 1/(6 x^2) + O((1/x)^3)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q78": {
+    "id": 78,
+    "query": " integral -log(x)/(1 + x) dx from 0 to 1",
+    "expected_answer": "pi^2/12 = 0.822467",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^1-log(x)/(1 + x) dx = 0.822467"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^1-log(x)/(1 + x) dx = 0.822467"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^1-log(x)/(1 + x) dx = 0.822467"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q79": {
+    "id": 79,
+    "query": "x^x = 5",
+    "expected_answer": "exp(W(log(5)))",
+    "run_1": {
+      "result": {
+        "result": [
+          "x^x = 5",
+          "x = e^W(log(5))"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "x^x = 5",
+          "x = e^W(log(5))",
+          "x = e^W(log(5) + 2 i π n), i (2 π n - i log(5))!=0, n element Z",
+          "x = e^W_(-1)(log(5) + 2 i π n), i (2 π n - i log(5))!=0, Im(W_(-1)(2 i π n + log(5)))>-π, n element Z",
+          "x = e^W_1(log(5) + 2 i π n), i (2 π n - i log(5))!=0, Im(W_1(2 i π n + log(5)))<=π, n element Z"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "x^x = 5",
+          "x = e^W(log(5))",
+          "x = e^W(log(5) + 2 i π n), i (2 π n - i log(5))!=0, n element Z",
+          "x = e^W_(-1)(log(5) + 2 i π n), i (2 π n - i log(5))!=0, Im(W_(-1)(2 i π n + log(5)))>-π, n element Z",
+          "x = e^W_1(log(5) + 2 i π n), i (2 π n - i log(5))!=0, Im(W_1(2 i π n + log(5)))<=π, n element Z"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q80": {
+    "id": 80,
+    "query": "indefinite integral x^3*e^(x^2) dx",
+    "expected_answer": "(x^2 - 1)*e^(x^2)/2 + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral x^3 e^(x^2) dx = 1/2 e^(x^2) (x^2 - 1) + constant",
+          "1/2 e^(x^2) x^2 - e^(x^2)/2 + constant",
+          "1/2 e^(x^2) (x - 1) (x + 1) + constant",
+          "e^(x^2) (x^2/2 - 1/2) + constant",
+          "-1/2 + x^4/4 + x^6/6 + x^8/16 + O(x^9)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral x^3 e^(x^2) dx = 1/2 e^(x^2) (x^2 - 1) + constant",
+          "1/2 e^(x^2) x^2 - e^(x^2)/2 + constant",
+          "1/2 e^(x^2) (x - 1) (x + 1) + constant",
+          "e^(x^2) (x^2/2 - 1/2) + constant",
+          "-1/2 + x^4/4 + x^6/6 + x^8/16 + O(x^9)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral x^3 e^(x^2) dx = 1/2 e^(x^2) (x^2 - 1) + constant",
+          "1/2 e^(x^2) x^2 - e^(x^2)/2 + constant",
+          "1/2 e^(x^2) (x - 1) (x + 1) + constant",
+          "e^(x^2) (x^2/2 - 1/2) + constant",
+          "-1/2 + x^4/4 + x^6/6 + x^8/16 + O(x^9)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q81": {
+    "id": 81,
+    "query": "indefinite integral log(x)^2 / x dx",
+    "expected_answer": "log(x)^3 / 3 + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral(log^2(x))/x dx = (log^3(x))/3 + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral(log^2(x))/x dx = (log^3(x))/3 + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral(log^2(x))/x dx = (log^3(x))/3 + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q82": {
+    "id": 82,
+    "query": " integral sin(x)/x dx from 0 to infinity",
+    "expected_answer": "pi/2",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^∞ sin(x)/x dx = π/2≈1.5708",
+          "integral sin(x)/x dx = Si(x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^∞ sin(x)/x dx = π/2≈1.5708",
+          "integral sin(x)/x dx = Si(x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^∞ sin(x)/x dx = π/2≈1.5708",
+          "integral sin(x)/x dx = Si(x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q83": {
+    "id": 83,
+    "query": " integral x^x dx from 0 to 1",
+    "expected_answer": "≈ 0.78343",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^1 x^x dx≈0.783431..."
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^1 x^x dx≈0.783431..."
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^1 x^x dx≈0.783431..."
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q84": {
+    "id": 84,
+    "query": "indefinite integral x^4/(x^2 + 1)^2 dx",
+    "expected_answer": "x + x/(2*(x^2+1)) - 3/2*arctan(x) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral x^4/(x^2 + 1)^2 dx = x/(2 x^2 + 2) + x - 3/2 tan^(-1)(x) + constant",
+          "x (1/(2 (x^2 + 1)) + 1) - 3/2 tan^(-1)(x) + constant",
+          "(2 x^3 - 3 x^2 tan^(-1)(x) + 3 x - 3 tan^(-1)(x))/(2 (x^2 + 1)) + constant",
+          "-(3 (x^2 + 1) tan^(-1)(x) - x (2 x^2 + 3))/(2 (x^2 + 1)) + constant",
+          "x^5/5 - (2 x^7)/7 + x^9/3 - (4 x^11)/11 + O(x^13)\n(Taylor series)",
+          "(1/(4 (x + i)) + 1/8 (-6 i log(x + i) + 6 i log(2) - 3 π - 7 i) + (11 (x + i))/16 + O((x + i)^2)) + 3/2 π floor(3/4 - arg(x + i)/(2 π))",
+          "(1/(4 (x - i)) + 1/8 (6 i log(x - i) - 6 i log(2) - 3 π + 7 i) + (11 (x - i))/16 + O((x - i)^2)) - 3/2 π floor((π - 2 arg(x - i))/(4 π))",
+          "x - (3 π)/4 + 2/x + O((1/x)^3)\n(Laurent series)",
+          "integral_0^∞ x^4/(1 + x^2)^2 - 1 dx = -(3 π)/4≈-2.35619"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral x^4/(x^2 + 1)^2 dx = x/(2 x^2 + 2) + x - 3/2 tan^(-1)(x) + constant",
+          "x (1/(2 (x^2 + 1)) + 1) - 3/2 tan^(-1)(x) + constant",
+          "(2 x^3 - 3 x^2 tan^(-1)(x) + 3 x - 3 tan^(-1)(x))/(2 (x^2 + 1)) + constant",
+          "-(3 (x^2 + 1) tan^(-1)(x) - x (2 x^2 + 3))/(2 (x^2 + 1)) + constant",
+          "x^5/5 - (2 x^7)/7 + x^9/3 - (4 x^11)/11 + O(x^13)\n(Taylor series)",
+          "(1/(4 (x + i)) + 1/8 (-6 i log(x + i) + 6 i log(2) - 3 π - 7 i) + (11 (x + i))/16 + O((x + i)^2)) + 3/2 π floor(3/4 - arg(x + i)/(2 π))",
+          "(1/(4 (x - i)) + 1/8 (6 i log(x - i) - 6 i log(2) - 3 π + 7 i) + (11 (x - i))/16 + O((x - i)^2)) - 3/2 π floor((π - 2 arg(x - i))/(4 π))",
+          "x - (3 π)/4 + 2/x + O((1/x)^3)\n(Laurent series)",
+          "integral_0^∞ x^4/(1 + x^2)^2 - 1 dx = -(3 π)/4≈-2.35619"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q85": {
+    "id": 85,
+    "query": "cos(x) = x",
+    "expected_answer": "x ≈ 0.739085",
+    "run_1": {
+      "result": {
+        "result": [
+          "cos(x) = x",
+          "e^(-i x)/2 + e^(i x)/2 = x",
+          "x≈0.739085"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "cos(x) = x",
+          "e^(-i x)/2 + e^(i x)/2 = x",
+          "x≈0.739085"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "cos(x) = x",
+          "e^(-i x)/2 + e^(i x)/2 = x",
+          "x≈0.739085"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q86": {
+    "id": 86,
+    "query": " integral log(sin(x)) dx from 0 to pi/2",
+    "expected_answer": "-pi/2*log(2)",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^(π/2) log(sin(x)) dx = -1/2 π log(2)≈-1.08879",
+          "integral log(sin(x)) dx = 1/2 i (x^2 + Li_2(e^(2 i x))) - x log(1 - e^(2 i x)) + x log(sin(x)) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^(π/2) log(sin(x)) dx = -1/2 π log(2)≈-1.08879",
+          "integral log(sin(x)) dx = 1/2 i (x^2 + Li_2(e^(2 i x))) - x log(1 - e^(2 i x)) + x log(sin(x)) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^(π/2) log(sin(x)) dx = -1/2 π log(2)≈-1.08879",
+          "integral log(sin(x)) dx = 1/2 i (x^2 + Li_2(e^(2 i x))) - x log(1 - e^(2 i x)) + x log(sin(x)) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 0
+    }
+  },
+  "Q87": {
+    "id": 87,
+    "query": "indefinite integral e^(2*x)*cos(3*x) dx",
+    "expected_answer": "e^(2*x)/13*(2*cos(3*x) + 3*sin(3*x)) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral e^(2 x) cos(3 x) dx = 1/13 e^(2 x) (3 sin(3 x) + 2 cos(3 x)) + constant",
+          "e^(2 x) (3/13 sin(3 x) + 2/13 cos(3 x)) + constant",
+          "(1/13 + (3 i)/26) e^((2 - 3 i) x) + (1/13 - (3 i)/26) e^((2 + 3 i) x) + constant",
+          "3/13 e^(2 x) sin(3 x) + 2/13 e^(2 x) cos(3 x) + constant",
+          "2/13 + x + x^2 - (5 x^3)/6 - (23 x^4)/12 + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral e^(2 x) cos(3 x) dx = 1/13 e^(2 x) (3 sin(3 x) + 2 cos(3 x)) + constant",
+          "e^(2 x) (3/13 sin(3 x) + 2/13 cos(3 x)) + constant",
+          "(1/13 + (3 i)/26) e^((2 - 3 i) x) + (1/13 - (3 i)/26) e^((2 + 3 i) x) + constant",
+          "3/13 e^(2 x) sin(3 x) + 2/13 e^(2 x) cos(3 x) + constant",
+          "2/13 + x + x^2 - (5 x^3)/6 - (23 x^4)/12 + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral e^(2 x) cos(3 x) dx = 1/13 e^(2 x) (3 sin(3 x) + 2 cos(3 x)) + constant",
+          "e^(2 x) (3/13 sin(3 x) + 2/13 cos(3 x)) + constant",
+          "(1/13 + (3 i)/26) e^((2 - 3 i) x) + (1/13 - (3 i)/26) e^((2 + 3 i) x) + constant",
+          "3/13 e^(2 x) sin(3 x) + 2/13 e^(2 x) cos(3 x) + constant",
+          "2/13 + x + x^2 - (5 x^3)/6 - (23 x^4)/12 + O(x^5)\n(Taylor series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q88": {
+    "id": 88,
+    "query": "indefinite integral x^2*sin(x) dx",
+    "expected_answer": "-x^2*cos(x) + 2*x*sin(x) + 2*cos(x) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral x^2 sin(x) dx = 2 x sin(x) - (x^2 - 2) cos(x) + constant",
+          "(2 - x^2) cos(x) + 2 x sin(x) + constant",
+          "-1/2 e^(-i x) x^2 - 1/2 e^(i x) x^2 + i e^(-i x) x - i e^(i x) x + e^(-i x) + e^(i x) + constant",
+          "2 cos(x) - cos(x) x^2 + 2 x sin(x) + constant",
+          "2 + x^4/4 - x^6/36 + x^8/960 + O(x^9)\n(Taylor series)",
+          "integral_0^π x^2 sin(x) dx = π^2 - 4≈5.8696"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral x^2 sin(x) dx = 2 x sin(x) - (x^2 - 2) cos(x) + constant",
+          "(2 - x^2) cos(x) + 2 x sin(x) + constant",
+          "-1/2 e^(-i x) x^2 - 1/2 e^(i x) x^2 + i e^(-i x) x - i e^(i x) x + e^(-i x) + e^(i x) + constant",
+          "2 cos(x) - cos(x) x^2 + 2 x sin(x) + constant",
+          "2 + x^4/4 - x^6/36 + x^8/960 + O(x^9)\n(Taylor series)",
+          "integral_0^π x^2 sin(x) dx = π^2 - 4≈5.8696"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral x^2 sin(x) dx = 2 x sin(x) - (x^2 - 2) cos(x) + constant",
+          "(2 - x^2) cos(x) + 2 x sin(x) + constant",
+          "-1/2 e^(-i x) x^2 - 1/2 e^(i x) x^2 + i e^(-i x) x - i e^(i x) x + e^(-i x) + e^(i x) + constant",
+          "2 cos(x) - cos(x) x^2 + 2 x sin(x) + constant",
+          "2 + x^4/4 - x^6/36 + x^8/960 + O(x^9)\n(Taylor series)",
+          "integral_0^π x^2 sin(x) dx = π^2 - 4≈5.8696"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q89": {
+    "id": 89,
+    "query": " integral e^-x*log(x) dx from 0 to infinity",
+    "expected_answer": "-gamma ≈ -0.577216",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^∞ e^(-x) log(x) dx = -0.577216"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^∞ e^(-x) log(x) dx = -0.577216"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^∞ e^(-x) log(x) dx = -0.577216"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q90": {
+    "id": 90,
+    "query": " integral log(x)^2 dx from 0 to 1",
+    "expected_answer": "2",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^1 log^2(x) dx = 2",
+          "integral log^2(x) dx = 2 x + x log^2(x) - 2 x log(x) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^1 log^2(x) dx = 2",
+          "integral log^2(x) dx = 2 x + x log^2(x) - 2 x log(x) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^1 log^2(x) dx = 2",
+          "integral log^2(x) dx = 2 x + x log^2(x) - 2 x log(x) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q91": {
+    "id": 91,
+    "query": "indefinite integral 1/(x^3 + 1) dx",
+    "expected_answer": "1/6*(-log(x^2 - x + 1) + 2*log(x + 1) + 2*sqrt(3)*tan^(-1)((2*x - 1)/sqrt(3))) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/(x^3 + 1) dx = 1/6 (-log(x^2 - x + 1) + 2 log(x + 1) + 2 sqrt(3) tan^(-1)((2 x - 1)/sqrt(3))) + constant\n(assuming a complex-valued logarithm)",
+          "1/6 (2 log(x + 1) - log((x - 1) x + 1) + 2 sqrt(3) tan^(-1)((2 x - 1)/sqrt(3))) + constant",
+          "1/6 (2 log(x + 1) - log(x^2 - x + 1)) + (tan^(-1)((2 x - 1)/sqrt(3)))/sqrt(3) + constant",
+          "-1/6 log(x^2 - x + 1) + 1/3 log(x + 1) + (i log(1 - (i (2 x - 1))/sqrt(3)))/(2 sqrt(3)) - (i log(1 + (i (2 x - 1))/sqrt(3)))/(2 sqrt(3)) + constant",
+          "-1/6 log(x^2 - x + 1) + 1/3 log(x + 1) + (tan^(-1)((2 x - 1)/sqrt(3)))/sqrt(3) + constant",
+          "-3^(-1/2) tan^(-1)(3^(-1/2) - 2 3^(-1/2) x) + 1/3 log(1 + x) + -1/6 log(1 - x + x^2) + constant",
+          "1/6 (2 sqrt(3) tan^(-1)((-1 + 2 x)/sqrt(3)) + log((1 + x)^2) - log(1 - x + x^2)) + constant",
+          "1/18 (6 log(x + 1) - 2 sqrt(3) π - 3 log(3)) + (x + 1)/3 + 1/9 (x + 1)^2 + 1/27 (x + 1)^3 + 1/108 (x + 1)^4 + O((x + 1)^5)\n(generalized Puiseux series)",
+          "-π/(6 sqrt(3)) + x - x^4/4 + x^7/7 + O(x^9)\n(Taylor series)",
+          "1/3 (sqrt(3) π floor((π/2 - arg(x - (-1)^(1/3)))/(2 π)) + (1/4 (-2 log(i sqrt(3) (x - (-1)^(1/3))) - 2 i sqrt(3) log(x - e^((i π)/3)) + 4 log(3 + i sqrt(3)) + i sqrt(3) log(3) - 4 log(2) + sqrt(3) π) + (x - (-1)^(1/3)) + (4 (x - (-1)^(1/3))^2)/(-3 i + sqrt(3))^2 + (4 (3 i + sqrt(3)) (x - (-1)^(1/3))^3)/(3 (-3 i + sqrt(3))^3) + O((x - (-1)^(1/3))^4)))",
+          "1/3 (-sqrt(3) π floor(((3 π)/2 - arg(x + (-1)^(2/3)))/(2 π)) + (1/4 (-2 log(-i sqrt(3) (x + (-1)^(2/3))) + 2 i sqrt(3) log(x + e^((2 i π)/3)) + 4 log(3 - i sqrt(3)) - i sqrt(3) log(3) - 4 log(2) + sqrt(3) π) + (x + (-1)^(2/3)) + (4 (x + (-1)^(2/3))^2)/(3 i + sqrt(3))^2 + (4 (-3 i + sqrt(3)) (x + (-1)^(2/3))^3)/(3 (3 i + sqrt(3))^3) + O((x + (-1)^(2/3))^4)))"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/(x^3 + 1) dx = 1/6 (-log(x^2 - x + 1) + 2 log(x + 1) + 2 sqrt(3) tan^(-1)((2 x - 1)/sqrt(3))) + constant\n(assuming a complex-valued logarithm)",
+          "1/6 (2 log(x + 1) - log((x - 1) x + 1) + 2 sqrt(3) tan^(-1)((2 x - 1)/sqrt(3))) + constant",
+          "1/6 (2 log(x + 1) - log(x^2 - x + 1)) + (tan^(-1)((2 x - 1)/sqrt(3)))/sqrt(3) + constant",
+          "-1/6 log(x^2 - x + 1) + 1/3 log(x + 1) + (i log(1 - (i (2 x - 1))/sqrt(3)))/(2 sqrt(3)) - (i log(1 + (i (2 x - 1))/sqrt(3)))/(2 sqrt(3)) + constant",
+          "-1/6 log(x^2 - x + 1) + 1/3 log(x + 1) + (tan^(-1)((2 x - 1)/sqrt(3)))/sqrt(3) + constant",
+          "-3^(-1/2) tan^(-1)(3^(-1/2) - 2 3^(-1/2) x) + 1/3 log(1 + x) + -1/6 log(1 - x + x^2) + constant",
+          "1/6 (2 sqrt(3) tan^(-1)((-1 + 2 x)/sqrt(3)) + log((1 + x)^2) - log(1 - x + x^2)) + constant",
+          "1/18 (6 log(x + 1) - 2 sqrt(3) π - 3 log(3)) + (x + 1)/3 + 1/9 (x + 1)^2 + 1/27 (x + 1)^3 + 1/108 (x + 1)^4 + O((x + 1)^5)\n(generalized Puiseux series)",
+          "-π/(6 sqrt(3)) + x - x^4/4 + x^7/7 + O(x^9)\n(Taylor series)",
+          "1/3 (sqrt(3) π floor((π/2 - arg(x - (-1)^(1/3)))/(2 π)) + (1/4 (-2 log(i sqrt(3) (x - (-1)^(1/3))) - 2 i sqrt(3) log(x - e^((i π)/3)) + 4 log(3 + i sqrt(3)) + i sqrt(3) log(3) - 4 log(2) + sqrt(3) π) + (x - (-1)^(1/3)) + (4 (x - (-1)^(1/3))^2)/(-3 i + sqrt(3))^2 + (4 (3 i + sqrt(3)) (x - (-1)^(1/3))^3)/(3 (-3 i + sqrt(3))^3) + O((x - (-1)^(1/3))^4)))",
+          "1/3 (-sqrt(3) π floor(((3 π)/2 - arg(x + (-1)^(2/3)))/(2 π)) + (1/4 (-2 log(-i sqrt(3) (x + (-1)^(2/3))) + 2 i sqrt(3) log(x + e^((2 i π)/3)) + 4 log(3 - i sqrt(3)) - i sqrt(3) log(3) - 4 log(2) + sqrt(3) π) + (x + (-1)^(2/3)) + (4 (x + (-1)^(2/3))^2)/(3 i + sqrt(3))^2 + (4 (-3 i + sqrt(3)) (x + (-1)^(2/3))^3)/(3 (3 i + sqrt(3))^3) + O((x + (-1)^(2/3))^4)))"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/(x^3 + 1) dx = 1/6 (-log(x^2 - x + 1) + 2 log(x + 1) + 2 sqrt(3) tan^(-1)((2 x - 1)/sqrt(3))) + constant\n(assuming a complex-valued logarithm)",
+          "1/6 (2 log(x + 1) - log((x - 1) x + 1) + 2 sqrt(3) tan^(-1)((2 x - 1)/sqrt(3))) + constant",
+          "1/6 (2 log(x + 1) - log(x^2 - x + 1)) + (tan^(-1)((2 x - 1)/sqrt(3)))/sqrt(3) + constant",
+          "-1/6 log(x^2 - x + 1) + 1/3 log(x + 1) + (i log(1 - (i (2 x - 1))/sqrt(3)))/(2 sqrt(3)) - (i log(1 + (i (2 x - 1))/sqrt(3)))/(2 sqrt(3)) + constant",
+          "-1/6 log(x^2 - x + 1) + 1/3 log(x + 1) + (tan^(-1)((2 x - 1)/sqrt(3)))/sqrt(3) + constant",
+          "-3^(-1/2) tan^(-1)(3^(-1/2) - 2 3^(-1/2) x) + 1/3 log(1 + x) + -1/6 log(1 - x + x^2) + constant",
+          "1/6 (2 sqrt(3) tan^(-1)((-1 + 2 x)/sqrt(3)) + log((1 + x)^2) - log(1 - x + x^2)) + constant",
+          "1/18 (6 log(x + 1) - 2 sqrt(3) π - 3 log(3)) + (x + 1)/3 + 1/9 (x + 1)^2 + 1/27 (x + 1)^3 + 1/108 (x + 1)^4 + O((x + 1)^5)\n(generalized Puiseux series)",
+          "-π/(6 sqrt(3)) + x - x^4/4 + x^7/7 + O(x^9)\n(Taylor series)",
+          "1/3 (sqrt(3) π floor((π/2 - arg(x - (-1)^(1/3)))/(2 π)) + (1/4 (-2 log(i sqrt(3) (x - (-1)^(1/3))) - 2 i sqrt(3) log(x - e^((i π)/3)) + 4 log(3 + i sqrt(3)) + i sqrt(3) log(3) - 4 log(2) + sqrt(3) π) + (x - (-1)^(1/3)) + (4 (x - (-1)^(1/3))^2)/(-3 i + sqrt(3))^2 + (4 (3 i + sqrt(3)) (x - (-1)^(1/3))^3)/(3 (-3 i + sqrt(3))^3) + O((x - (-1)^(1/3))^4)))",
+          "1/3 (-sqrt(3) π floor(((3 π)/2 - arg(x + (-1)^(2/3)))/(2 π)) + (1/4 (-2 log(-i sqrt(3) (x + (-1)^(2/3))) + 2 i sqrt(3) log(x + e^((2 i π)/3)) + 4 log(3 - i sqrt(3)) - i sqrt(3) log(3) - 4 log(2) + sqrt(3) π) + (x + (-1)^(2/3)) + (4 (x + (-1)^(2/3))^2)/(3 i + sqrt(3))^2 + (4 (-3 i + sqrt(3)) (x + (-1)^(2/3))^3)/(3 (3 i + sqrt(3))^3) + O((x + (-1)^(2/3))^4)))"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q92": {
+    "id": 92,
+    "query": " integral x^2*log(1 + x) dx from 0 to 1",
+    "expected_answer": "2/3*log(2) - 5/18",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^1 x^2 log(1 + x) dx = (2 log(2))/3 - 5/18≈0.18432",
+          "integral x^2 log(1 + x) dx = 1/18 (6 (x^3 + 1) log(x + 1) + x (-2 x^2 + 3 x - 6)) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^1 x^2 log(1 + x) dx = (2 log(2))/3 - 5/18≈0.18432",
+          "integral x^2 log(1 + x) dx = 1/18 (6 (x^3 + 1) log(x + 1) + x (-2 x^2 + 3 x - 6)) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^1 x^2 log(1 + x) dx = (2 log(2))/3 - 5/18≈0.18432",
+          "integral x^2 log(1 + x) dx = 1/18 (6 (x^3 + 1) log(x + 1) + x (-2 x^2 + 3 x - 6)) + constant\n(assuming a complex-valued logarithm)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q93": {
+    "id": 93,
+    "query": "x^3 - x - 1 = 0",
+    "expected_answer": "x ≈ 1.324717957 and -0.66236 - 0.56228*i and -0.66236 + 0.56228*i",
+    "run_1": {
+      "result": {
+        "result": [
+          "x^3 - x - 1 = 0",
+          "x^3 = x + 1",
+          "x^3 - x = 1",
+          "x≈1.3247",
+          "x≈-0.66236 - 0.56228 i",
+          "x≈-0.66236 + 0.56228 i",
+          "0",
+          "1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "x^3 - x - 1 = 0",
+          "x^3 = x + 1",
+          "x^3 - x = 1",
+          "x≈1.3247",
+          "x≈-0.66236 - 0.56228 i",
+          "x≈-0.66236 + 0.56228 i",
+          "0",
+          "1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "x^3 - x - 1 = 0",
+          "x^3 = x + 1",
+          "x^3 - x = 1",
+          "x≈1.3247",
+          "x≈-0.66236 - 0.56228 i",
+          "x≈-0.66236 + 0.56228 i",
+          "0",
+          "1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q94": {
+    "id": 94,
+    "query": " integral x^4*e^-x dx from 0 to infinity",
+    "expected_answer": "24",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^∞ x^4 e^(-x) dx = 24",
+          "integral x^4 e^(-x) dx = e^(-x) (-x^4 - 4 x^3 - 12 x^2 - 24 x - 24) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^∞ x^4 e^(-x) dx = 24",
+          "integral x^4 e^(-x) dx = e^(-x) (-x^4 - 4 x^3 - 12 x^2 - 24 x - 24) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^∞ x^4 e^(-x) dx = 24",
+          "integral x^4 e^(-x) dx = e^(-x) (-x^4 - 4 x^3 - 12 x^2 - 24 x - 24) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q95": {
+    "id": 95,
+    "query": "indefinite integral 1/(1 + cosh(x)) dx",
+    "expected_answer": "tanh(x/2) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/(1 + cosh(x)) dx = tanh(x/2) + constant",
+          "sinh(x)/(cosh(x) + 1) + constant",
+          "sinh(x/2)/cosh(x/2) + constant",
+          "(2 sinh(x/4) cosh(x/4))/(sinh^2(x/4) + cosh^2(x/4)) + constant",
+          "e^(x/2)/(e^(-x/2) + e^(x/2)) - e^(-x/2)/(e^(-x/2) + e^(x/2)) + constant",
+          "x/2 - x^3/24 + x^5/240 + O(x^6)\n(Taylor series)",
+          "integral_0^∞ 1/(1 + cosh(x)) dx = 1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/(1 + cosh(x)) dx = tanh(x/2) + constant",
+          "sinh(x)/(cosh(x) + 1) + constant",
+          "sinh(x/2)/cosh(x/2) + constant",
+          "(2 sinh(x/4) cosh(x/4))/(sinh^2(x/4) + cosh^2(x/4)) + constant",
+          "e^(x/2)/(e^(-x/2) + e^(x/2)) - e^(-x/2)/(e^(-x/2) + e^(x/2)) + constant",
+          "x/2 - x^3/24 + x^5/240 + O(x^6)\n(Taylor series)",
+          "integral_0^∞ 1/(1 + cosh(x)) dx = 1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/(1 + cosh(x)) dx = tanh(x/2) + constant",
+          "sinh(x)/(cosh(x) + 1) + constant",
+          "sinh(x/2)/cosh(x/2) + constant",
+          "(2 sinh(x/4) cosh(x/4))/(sinh^2(x/4) + cosh^2(x/4)) + constant",
+          "e^(x/2)/(e^(-x/2) + e^(x/2)) - e^(-x/2)/(e^(-x/2) + e^(x/2)) + constant",
+          "x/2 - x^3/24 + x^5/240 + O(x^6)\n(Taylor series)",
+          "integral_0^∞ 1/(1 + cosh(x)) dx = 1"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q96": {
+    "id": 96,
+    "query": " integral x*sin(x) dx from 0 to pi/2",
+    "expected_answer": "1",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^(π/2) x sin(x) dx = 1",
+          "left sum | (π^2 (csc^2(π/(4 n)) - 2 n))/(16 n^2) = 1 - π^2/(8 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x sin(x) dx = sin(x) - x cos(x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^(π/2) x sin(x) dx = 1",
+          "left sum | (π^2 (csc^2(π/(4 n)) - 2 n))/(16 n^2) = 1 - π^2/(8 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x sin(x) dx = sin(x) - x cos(x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^(π/2) x sin(x) dx = 1",
+          "left sum | (π^2 (csc^2(π/(4 n)) - 2 n))/(16 n^2) = 1 - π^2/(8 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+          "integral x sin(x) dx = sin(x) - x cos(x) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q97": {
+    "id": 97,
+    "query": " integral sqrt(1 - x^2) dx from 0 to 1",
+    "expected_answer": "pi/4",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral_0^1 sqrt(1 - x^2)dx = π/4≈0.78540",
+          "integral sqrt(1 - x^2)dx = 1/2 x sqrt(1 - x^2) - tan^(-1)(sqrt(1 - x^2)/(x + 1)) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral_0^1 sqrt(1 - x^2)dx = π/4≈0.78540",
+          "integral sqrt(1 - x^2)dx = 1/2 x sqrt(1 - x^2) - tan^(-1)(sqrt(1 - x^2)/(x + 1)) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral_0^1 sqrt(1 - x^2)dx = π/4≈0.78540",
+          "integral sqrt(1 - x^2)dx = 1/2 x sqrt(1 - x^2) - tan^(-1)(sqrt(1 - x^2)/(x + 1)) + constant"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q98": {
+    "id": 98,
+    "query": "indefinite integral 1/(x^2 + 1)^2 dx",
+    "expected_answer": "x/(2*(x^2 + 1)) +  tan^(-1)(x)/2 + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral1/(x^2 + 1)^2 dx = 1/2 (x/(x^2 + 1) + tan^(-1)(x)) + constant",
+          "x/(2 (x^2 + 1)) + 1/2 tan^(-1)(x) + constant",
+          "(x^2 tan^(-1)(x) + x + tan^(-1)(x))/(2 (x^2 + 1)) + constant",
+          "((x^2 + 1) tan^(-1)(x) + x)/(2 (x^2 + 1)) + constant",
+          "(x^2 tan^(-1)(x) + x + tan^(-1)(x))/(2 (x - i) (x + i)) + constant",
+          "x - (2 x^3)/3 + (3 x^5)/5 + O(x^6)\n(Taylor series)",
+          "(1/(4 (x + i)) + 1/8 (2 i log(x + i) - 2 i log(2) + π + i) + (3 (x + i))/16 + O((x + i)^2)) - 1/2 π floor(3/4 - arg(x + i)/(2 π))",
+          "1/2 ((1/(2 (x - i)) + 1/4 (-2 i log(x - i) + i log(4) + π - i) + (3 (x - i))/8 + O((x - i)^2)) + π floor((π - 2 arg(x - i))/(4 π)))",
+          "π/4 - 1/(3 x^3) + 2/(5 x^5) + O((1/x)^6)\n(Laurent series)",
+          "integral_0^∞ 1/(1 + x^2)^2 dx = π/4≈0.785398"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral1/(x^2 + 1)^2 dx = 1/2 (x/(x^2 + 1) + tan^(-1)(x)) + constant",
+          "x/(2 (x^2 + 1)) + 1/2 tan^(-1)(x) + constant",
+          "(x^2 tan^(-1)(x) + x + tan^(-1)(x))/(2 (x^2 + 1)) + constant",
+          "((x^2 + 1) tan^(-1)(x) + x)/(2 (x^2 + 1)) + constant",
+          "(x^2 tan^(-1)(x) + x + tan^(-1)(x))/(2 (x - i) (x + i)) + constant",
+          "x - (2 x^3)/3 + (3 x^5)/5 + O(x^6)\n(Taylor series)",
+          "(1/(4 (x + i)) + 1/8 (2 i log(x + i) - 2 i log(2) + π + i) + (3 (x + i))/16 + O((x + i)^2)) - 1/2 π floor(3/4 - arg(x + i)/(2 π))",
+          "1/2 ((1/(2 (x - i)) + 1/4 (-2 i log(x - i) + i log(4) + π - i) + (3 (x - i))/8 + O((x - i)^2)) + π floor((π - 2 arg(x - i))/(4 π)))",
+          "π/4 - 1/(3 x^3) + 2/(5 x^5) + O((1/x)^6)\n(Laurent series)",
+          "integral_0^∞ 1/(1 + x^2)^2 dx = π/4≈0.785398"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral1/(x^2 + 1)^2 dx = 1/2 (x/(x^2 + 1) + tan^(-1)(x)) + constant",
+          "x/(2 (x^2 + 1)) + 1/2 tan^(-1)(x) + constant",
+          "(x^2 tan^(-1)(x) + x + tan^(-1)(x))/(2 (x^2 + 1)) + constant",
+          "((x^2 + 1) tan^(-1)(x) + x)/(2 (x^2 + 1)) + constant",
+          "(x^2 tan^(-1)(x) + x + tan^(-1)(x))/(2 (x - i) (x + i)) + constant",
+          "x - (2 x^3)/3 + (3 x^5)/5 + O(x^6)\n(Taylor series)",
+          "(1/(4 (x + i)) + 1/8 (2 i log(x + i) - 2 i log(2) + π + i) + (3 (x + i))/16 + O((x + i)^2)) - 1/2 π floor(3/4 - arg(x + i)/(2 π))",
+          "1/2 ((1/(2 (x - i)) + 1/4 (-2 i log(x - i) + i log(4) + π - i) + (3 (x - i))/8 + O((x - i)^2)) + π floor((π - 2 arg(x - i))/(4 π)))",
+          "π/4 - 1/(3 x^3) + 2/(5 x^5) + O((1/x)^6)\n(Laurent series)",
+          "integral_0^∞ 1/(1 + x^2)^2 dx = π/4≈0.785398"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q99": {
+    "id": 99,
+    "query": "indefinite integral sinh(x)/cosh(x) dx",
+    "expected_answer": "log(cosh(x)) + C",
+    "run_1": {
+      "result": {
+        "result": [
+          "integral sinh(x)/cosh(x) dx = log(cosh(x)) + constant",
+          "log(1/2 (e^(-x) + e^x)) + constant",
+          "x^2/2 - x^4/12 + x^6/45 + O(x^7)\n(Taylor series)",
+          "log(-i (x + (i π)/2)) + 1/6 (x + (i π)/2)^2 - 1/180 (x + (i π)/2)^4 + O((x + (i π)/2)^6)\n(generalized Puiseux series)",
+          "log(i (x - (i π)/2)) + 1/6 (x - (i π)/2)^2 - 1/180 (x - (i π)/2)^4 + O((x - (i π)/2)^6)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "integral sinh(x)/cosh(x) dx = log(cosh(x)) + constant",
+          "log(1/2 (e^(-x) + e^x)) + constant",
+          "x^2/2 - x^4/12 + x^6/45 + O(x^7)\n(Taylor series)",
+          "log(-i (x + (i π)/2)) + 1/6 (x + (i π)/2)^2 - 1/180 (x + (i π)/2)^4 + O((x + (i π)/2)^6)\n(generalized Puiseux series)",
+          "log(i (x - (i π)/2)) + 1/6 (x - (i π)/2)^2 - 1/180 (x - (i π)/2)^4 + O((x - (i π)/2)^6)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "integral sinh(x)/cosh(x) dx = log(cosh(x)) + constant",
+          "log(1/2 (e^(-x) + e^x)) + constant",
+          "x^2/2 - x^4/12 + x^6/45 + O(x^7)\n(Taylor series)",
+          "log(-i (x + (i π)/2)) + 1/6 (x + (i π)/2)^2 - 1/180 (x + (i π)/2)^4 + O((x + (i π)/2)^6)\n(generalized Puiseux series)",
+          "log(i (x - (i π)/2)) + 1/6 (x - (i π)/2)^2 - 1/180 (x - (i π)/2)^4 + O((x - (i π)/2)^6)\n(generalized Puiseux series)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q100": {
+    "id": 100,
+    "query": "2^x = x^2 - 1",
+    "expected_answer": "x ≈ -1.198250197, 3, 3.407450522",
+    "run_1": {
+      "result": {
+        "result": [
+          "2^x = x^2 - 1",
+          "2^x + 1 = x^2",
+          "2^x = (x - 1) (x + 1)",
+          "2^x - x^2 = -1",
+          "x≈-1.19825",
+          "x = 3",
+          "x≈3.40745",
+          "x = 3",
+          "x log_2(2) = log_2(x^2 - 1)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "2^x = x^2 - 1",
+          "2^x + 1 = x^2",
+          "2^x = (x - 1) (x + 1)",
+          "2^x - x^2 = -1",
+          "x≈-1.19825",
+          "x = 3",
+          "x≈3.40745",
+          "x = 3",
+          "x log_2(2) = log_2(x^2 - 1)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "2^x = x^2 - 1",
+          "2^x + 1 = x^2",
+          "2^x = (x - 1) (x + 1)",
+          "2^x - x^2 = -1",
+          "x≈-1.19825",
+          "x = 3",
+          "x≈3.40745",
+          "x = 3",
+          "x log_2(2) = log_2(x^2 - 1)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q101": {
+    "id": 101,
+    "query": "Given a+b+c = 1. Calculating A = a^3+b^3+c^3-3(ab+c)(c-1)",
+    "expected_answer": "1",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q102": {
+    "id": 102,
+    "query": "Given x,y,z from [0,2] and x+y+z=3. Find max P = x^3+y^3+z^3 -3xyz",
+    "expected_answer": "9",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q103": {
+    "id": 103,
+    "query": "Given positive real numbers a and b such that a + b = 6. Find the minimum value of S = a^2 + b^2.",
+    "expected_answer": "18",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q104": {
+    "id": 104,
+    "query": "Evaluate the infinite geometric series 1/2 + 1/4 + 1/8 + …",
+    "expected_answer": "1",
+    "run_1": {
+      "result": {
+        "result": [
+          "1/2 + 1/4 + 1/8 + ...",
+          "sum_(n=1)^∞ 2^(-n) = 1",
+          "sum_(n=1)^∞ 2^(-n) converges",
+          "sum_(n=1)^k 2^(-n) = 1 - 2^(-k)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "1/2 + 1/4 + 1/8 + ...",
+          "sum_(n=1)^∞ 2^(-n) = 1",
+          "sum_(n=1)^∞ 2^(-n) converges",
+          "sum_(n=1)^k 2^(-n) = 1 - 2^(-k)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "1/2 + 1/4 + 1/8 + ...",
+          "sum_(n=1)^∞ 2^(-n) = 1",
+          "sum_(n=1)^∞ 2^(-n) converges",
+          "sum_(n=1)^k 2^(-n) = 1 - 2^(-k)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q105": {
+    "id": 105,
+    "query": "The sequence a₁ = 2 and a_{n+1} = 3a_n − 2 (n ≥ 1). Give a closed-form expression for a_n.",
+    "expected_answer": "aₙ = 3^{n−1} + 1",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q106": {
+    "id": 106,
+    "query": "We have an equation (x^2 + a*x + b)*(x^2 + c*x + d)*(x^2 + e*x + f) = 0 with 6 solutions {1,2,3,4,5,6}. Calculating T= a^2 + c^2 + e^2 -2*(b+d+f)?",
+    "expected_answer": "91",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q107": {
+    "id": 107,
+    "query": "Giving equation with a,b >0 and a^2 + b^2 <= 2. What is the min of P = sqrt(a^2+b^2) + 2024/(a+b+2)?",
+    "expected_answer": "506+ sqrt(2)",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q108": {
+    "id": 108,
+    "query": "We have a,b and b will be not equal to 0 and a^2 +b^2 = 4b^2/(sqrt(a^2+b^2)+a) + a*sqrt(a^2+b^2). Calculating P = a^2+b^2 ",
+    "expected_answer": "16",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q109": {
+    "id": 109,
+    "query": "Given x,y,z is positive and sqrt(1+4xy+2x+2y)+2z = 5. Find min P = (x+1)/(2x+1) + (y+1)/(2y+1) +(2z+3)/(4z+2) ",
+    "expected_answer": "13/6",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q110": {
+    "id": 110,
+    "query": "Let x,y is 2 number satisfy xy + sqrt((1+x^2)*(1+y^2)) = 1. Calculating M = (x+sqrt(1+y^2))*(y+sqrt(1+x^2)).",
+    "expected_answer": "1",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q111": {
+    "id": 111,
+    "query": "We have a,b,c, which are positive numbers and a+b+c =3. Find min of P = a/(b^2+1) + b/(c^2+1) + c/(a^2+1).",
+    "expected_answer": "3/2",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q112": {
+    "id": 112,
+    "query": "Giving a,b is positive and a+b<=3. Find min of Q = b - a + 20/a + 7/b",
+    "expected_answer": "16",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q113": {
+    "id": 113,
+    "query": "Find every x,y >0 and integer where 3^x - y^3 = 1",
+    "expected_answer": "(2,2)",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q114": {
+    "id": 114,
+    "query": "Given positive real numbers a and b such that a + b = 4. Find the maximum value of P = a^2 b.",
+    "expected_answer": "256/27",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q115": {
+    "id": 115,
+    "query": "Given positive real numbers x and y with xy = 1. Find the minimum value of S = x + y.",
+    "expected_answer": "2",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q116": {
+    "id": 116,
+    "query": "Given non-negative real numbers a, b, c satisfying a + b + c = 1. Find the maximal value of T = ab + bc + ca.",
+    "expected_answer": "1/3",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q117": {
+    "id": 117,
+    "query": "Given positive real numbers a and b such that a + b = 2. Find the minimum of F = a + 1/a + b + 1/b.",
+    "expected_answer": "4",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q118": {
+    "id": 118,
+    "query": "Given positive real numbers x, y, z with xyz = 1, find the minimum of G = x + y + z.",
+    "expected_answer": "3",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q119": {
+    "id": 119,
+    "query": "Given positive real numbers a, b, c with a + b + c = 6, find the maximum of H = abc.",
+    "expected_answer": "8",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q120": {
+    "id": 120,
+    "query": "Given positive real numbers a, b, c satisfying abc = 1, find the minimum of S = (a + b)(b + c)(c + a).",
+    "expected_answer": "8",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q121": {
+    "id": 121,
+    "query": "Let x and y be positive real numbers with x + y = 1. Find the maximum of Q = x^x y^y.",
+    "expected_answer": "0.5",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q122": {
+    "id": 122,
+    "query": "Let x be a positive real number with x + 1/x = 5. Compute x^2 + 1/x^2.",
+    "expected_answer": "23",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q123": {
+    "id": 123,
+    "query": "Given positive real numbers a, b, c with ab + bc + ca = 3, find the minimum of a + b + c.",
+    "expected_answer": "3",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q124": {
+    "id": 124,
+    "query": "For real x satisfying (x − 2)^2 ≤ 9, find the maximum value of E = 5x − x^2.",
+    "expected_answer": "25/4",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q125": {
+    "id": 125,
+    "query": "Given real numbers a and b with a^2 + b^2 = 13 and ab = 6, compute a^4 + b^4.",
+    "expected_answer": "97",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q126": {
+    "id": 126,
+    "query": "Let x and y be positive reals with x + y = 1. Find the maximum of R = 1/(1 + x) + 1/(1 + y).",
+    "expected_answer": "4/3",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q127": {
+    "id": 127,
+    "query": "Find the minimum of x^2 + y^2 subject to 3x + 4y = 12.",
+    "expected_answer": "144/25",
+    "run_1": {
+      "result": {
+        "result": [
+          "minimize | function | x^2 + y^2\ndomain | 3 x + 4 y = 12",
+          "min{x^2 + y^2|3 x + 4 y = 12} = 144/25 at (x, y) = (36/25, 48/25)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_2": {
+      "result": {
+        "result": [
+          "minimize | function | x^2 + y^2\ndomain | 3 x + 4 y = 12",
+          "min{x^2 + y^2|3 x + 4 y = 12} = 144/25 at (x, y) = (36/25, 48/25)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    },
+    "run_3": {
+      "result": {
+        "result": [
+          "minimize | function | x^2 + y^2\ndomain | 3 x + 4 y = 12",
+          "min{x^2 + y^2|3 x + 4 y = 12} = 144/25 at (x, y) = (36/25, 48/25)"
+        ],
+        "success": true
+      },
+      "tool_call_pass": true,
+      "accuracy": 1
+    }
+  },
+  "Q128": {
+    "id": 128,
+    "query": "Determine all real numbers x satisfying 3^(x−1) + 3^(1−x) ≥ 2.",
+    "expected_answer": "all real numbers",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q129": {
+    "id": 129,
+    "query": "Given positive real numbers x and y with x + y = 2 and xy = 1, compute x^2 y + y^2 x.",
+    "expected_answer": "2",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q130": {
+    "id": 130,
+    "query": "Solve for positive x the inequality ln x + 1 ≥ x.",
+    "expected_answer": "1",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q131": {
+    "id": 131,
+    "query": "Find all integers n such that n^2 + 2n + 19 is a perfect square.",
+    "expected_answer": "none",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q132": {
+    "id": 132,
+    "query": "Given positive real numbers a, b, c with a + b + c = 3, find the minimum of a^2 + b^2 + c^2.",
+    "expected_answer": "3",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q133": {
+    "id": 133,
+    "query": "Solve for real numbers x and y if x^2 + y^2 + 4x − 6y + 13 = 0 and compute x + y.",
+    "expected_answer": "1",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q134": {
+    "id": 134,
+    "query": "Find all real x satisfying |x − 3| + |x + 1| ≤ 5.",
+    "expected_answer": "[-3/2, 7/2]",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q135": {
+    "id": 135,
+    "query": "Solve for positive real a: a^3 + 4 = 3a^2.",
+    "expected_answer": "2",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q136": {
+    "id": 136,
+    "query": "Given positive real numbers x and y with x + y = 5, find the minimum of F = x^2 + 4y.",
+    "expected_answer": "16",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q137": {
+    "id": 137,
+    "query": "Let x, y > 0 with x + y = 1. Find the maximum of P = (1 − x)(1 − y).",
+    "expected_answer": "1/4",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q138": {
+    "id": 138,
+    "query": "Given real numbers satisfying x^2 + y^2 ≤ 1, find the maximum of F = x − 2y.",
+    "expected_answer": "sqrt(5)",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Q139": {
+    "id": 139,
+    "query": "Let the sequence u₁ = 1 and u_{n+1} = (u_n + 2)/2. Find its limit L.",
+    "expected_answer": "2",
+    "run_1": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_2": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    },
+    "run_3": {
+      "result": {
+        "result": "WolframAlpha API cannot parse the input query.",
+        "success": false
+      },
+      "accuracy": 0,
+      "tool_call_pass": false
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 66.18705035971223,
+    "run_2": 64.02877697841727,
+    "run_3": 64.74820143884892
+  }
+}

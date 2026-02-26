@@ -1,0 +1,40 @@
+
+cd hallusion-vd
+bash run_opentools.sh
+cd ..
+cd puzzlevqa
+bash run_opentools.sh
+cd ..
+cd vqav2
+bash run_opentools.sh
+cd ..
+cd gameof24
+bash run_opentools.sh
+cd ..
+cd omni-math
+bash run_opentools.sh
+cd ..
+cd clevr-math
+bash run_opentools.sh
+cd ..
+cd mathvista
+bash run_opentools.sh
+cd ..
+cd gpqa
+bash run_opentools.sh
+cd ..
+cd mmlu-pro
+bash run_opentools.sh
+cd ..
+cd scifibench
+bash run_opentools.sh
+cd.. 
+cd medqa
+bash run_opentools.sh
+cd ..
+cd pathvqa
+bash run_opentools.sh
+cd ..
+cd slake
+bash run_opentools.sh
+

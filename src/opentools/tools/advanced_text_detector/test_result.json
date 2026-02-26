@@ -1,0 +1,2763 @@
+{
+  "Test-File length": 95,
+  "Q1": {
+    "id": "text_detector_1",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "The spring force does negative work, decreasing speed and kinetic energy. Frictionless k m Stop d First touch",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "The spring force does negative work; decreasing speed and kinetic energy: k Frictionless mL d First touch Stop",
+        "success": true
+      },
+      "accuracy": 0.9538271427154541
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "The spring force does negative work; decreasing speed and kinetic energy: k Frictionless mL d First touch Stop",
+        "success": true
+      },
+      "accuracy": 0.9538271427154541
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "The spring force does negative work; decreasing speed and kinetic energy: k Frictionless mL d First touch Stop",
+        "success": true
+      },
+      "accuracy": 0.9538271427154541
+    }
+  },
+  "Q2": {
+    "id": "text_detector_2",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Amy's PizzA MARGHERITA THINNER CRUST WITH FRESH MOZZARELLA & BASIL MADE WITH ORGANIC FLOUR AND TOMATOES KEEP FROZEN FAMILY OWNED SINCE 1988 NET WT 13 OZ (369 g) No GMO",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "THINNER CRUST WFTH FRESH MOELARELLA KASIL 'S MADE FITH ORGATIC FLOUR ATD TOMATOLS Avn pumA IFFIZE FAmi] } OWAFDSACT 19F 6\"9l|",
+        "success": true
+      },
+      "accuracy": 0.5115475654602051
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "THINNER CRUST WFTH FRESH MOELARELLA KASIL 'S MADE FITH ORGATIC FLOUR ATD TOMATOLS Avn pumA IFFIZE FAmi] } OWAFDSACT 19F 6\"9l|",
+        "success": true
+      },
+      "accuracy": 0.5115475654602051
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "THINNER CRUST WFTH FRESH MOELARELLA KASIL 'S MADE FITH ORGATIC FLOUR ATD TOMATOLS Avn pumA IFFIZE FAmi] } OWAFDSACT 19F 6\"9l|",
+        "success": true
+      },
+      "accuracy": 0.5115475654602051
+    }
+  },
+  "Q3": {
+    "id": "text_detector_3",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Martelli Dal 1950 Prosciutto di Parma Disossato",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "MARTELLI PROSCIUTTO DL PARMA",
+        "success": true
+      },
+      "accuracy": 0.7846188545227051
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "MARTELLI PROSCIUTTO DL PARMA",
+        "success": true
+      },
+      "accuracy": 0.7846188545227051
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "MARTELLI PROSCIUTTO DL PARMA",
+        "success": true
+      },
+      "accuracy": 0.7846188545227051
+    }
+  },
+  "Q4": {
+    "id": "text_detector_4",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Kathi Black Forest Cake Mix Simply Add Water, Vegetable Oil, Butter and Sour Cherries Net Wt 15.2 oz (430 g)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Kathi Black Forest Cake Mix 4m NET VO 15?Oz (43001",
+        "success": true
+      },
+      "accuracy": 0.6654609441757202
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Kathi Black Forest Cake Mix 4m NET VO 15?Oz (43001",
+        "success": true
+      },
+      "accuracy": 0.6654609441757202
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Kathi Black Forest Cake Mix 4m NET VO 15?Oz (43001",
+        "success": true
+      },
+      "accuracy": 0.6654609441757202
+    }
+  },
+  "Q5": {
+    "id": "text_detector_5",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Betty Crocker Delights Super Moist Red Velvet Cake Mix There's pudding in the mix! 160 calories per 1/10 package",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Chocker\" Deights SUPER MOIST RED VELVET CAKE MIX Theres pudding the mixl PeBIGE 160 Meckha slesestn NET WT 15.25 02 /432q] Betty_",
+        "success": true
+      },
+      "accuracy": 0.6866186857223511
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Chocker\" Deights SUPER MOIST RED VELVET CAKE MIX Theres pudding the mixl PeBIGE 160 Meckha slesestn NET WT 15.25 02 /432q] Betty_",
+        "success": true
+      },
+      "accuracy": 0.6866186857223511
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Chocker\" Deights SUPER MOIST RED VELVET CAKE MIX Theres pudding the mixl PeBIGE 160 Meckha slesestn NET WT 15.25 02 /432q] Betty_",
+        "success": true
+      },
+      "accuracy": 0.6866186857223511
+    }
+  },
+  "Q6": {
+    "id": "text_detector_6",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Houses per block Stem Leaf 0 5 7 1 0 4 5 2 0 0 1 2 3 3 3 4 6 7 8 9 3 0 1 2 4 6 8",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Houses per block Stem Leaf 0 45 0 0 12 3 3 4 6 7 8 9 0 1 2 4 6 8",
+        "success": true
+      },
+      "accuracy": 0.9827967286109924
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Houses per block Stem Leaf 0 45 0 0 12 3 3 4 6 7 8 9 0 1 2 4 6 8",
+        "success": true
+      },
+      "accuracy": 0.9827967286109924
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Houses per block Stem Leaf 0 45 0 0 12 3 3 4 6 7 8 9 0 1 2 4 6 8",
+        "success": true
+      },
+      "accuracy": 0.9827967286109924
+    }
+  },
+  "Q7": {
+    "id": "text_detector_7",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Pre 100% Grass Fed & Finished Beef New York Strip Steak No Added Hormones No Sub-Therapeutic Antibiotics Non GMO Verified We're different, and proud of it.",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "1ooo Grass Fed & Finished Beef Pre MEw vork Strlp STEAK No Added Hormoncs No Sub-Thcrpcutic Antiblotics We te ritteteu _eadpioudofil ju3-",
+        "success": true
+      },
+      "accuracy": 0.520969808101654
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "1ooo Grass Fed & Finished Beef Pre MEw vork Strlp STEAK No Added Hormoncs No Sub-Thcrpcutic Antiblotics We te ritteteu _eadpioudofil ju3-",
+        "success": true
+      },
+      "accuracy": 0.520969808101654
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "1ooo Grass Fed & Finished Beef Pre MEw vork Strlp STEAK No Added Hormoncs No Sub-Thcrpcutic Antiblotics We te ritteteu _eadpioudofil ju3-",
+        "success": true
+      },
+      "accuracy": 0.520969808101654
+    }
+  },
+  "Q8": {
+    "id": "text_detector_8",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "New York Style Cheesecake by SugarApron.com",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "New York Sizle Cheenecake &y Sugarkproncon",
+        "success": true
+      },
+      "accuracy": 0.6464645266532898
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "New York Sizle Cheenecake &y Sugarkproncon",
+        "success": true
+      },
+      "accuracy": 0.6464645266532898
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "New York Sizle Cheenecake &y Sugarkproncon",
+        "success": true
+      },
+      "accuracy": 0.6464645266532898
+    }
+  },
+  "Q9": {
+    "id": "text_detector_9",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "TEXAS road house",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "TEXAS rad Rouse",
+        "success": true
+      },
+      "accuracy": 0.4648553133010864
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "TEXAS rad Rouse",
+        "success": true
+      },
+      "accuracy": 0.4648553133010864
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "TEXAS rad Rouse",
+        "success": true
+      },
+      "accuracy": 0.4648553133010864
+    }
+  },
+  "Q10": {
+    "id": "text_detector_10",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Reduce your risk of coronavirus infection: Clean hands with soap and water or alcohol\u2011based hand rub Cover nose and mouth when coughing and sneezing with tissue or flexed elbow Avoid close contact with anyone with cold or flu\u2011like symptoms Thoroughly cook meat and eggs No unprotected contact with live wild or farm animals World Health Organization",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Reduce your risk of coronavirus infection: Clean hands with soap and water or alcohol-based hand rub Cover nose and mouth when coughing and sneezing with tissue or flexed elbow Avoid close contact with anyone with cold or flu-like symptoms Thoroughly cook meat and eggs No unprotected contact with live wild or farm animals World Health Organization",
+        "success": true
+      },
+      "accuracy": 0.9995031356811523
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Reduce your risk of coronavirus infection: Clean hands with soap and water or alcohol-based hand rub Cover nose and mouth when coughing and sneezing with tissue or flexed elbow Avoid close contact with anyone with cold or flu-like symptoms Thoroughly cook meat and eggs No unprotected contact with live wild or farm animals World Health Organization",
+        "success": true
+      },
+      "accuracy": 0.9995031356811523
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Reduce your risk of coronavirus infection: Clean hands with soap and water or alcohol-based hand rub Cover nose and mouth when coughing and sneezing with tissue or flexed elbow Avoid close contact with anyone with cold or flu-like symptoms Thoroughly cook meat and eggs No unprotected contact with live wild or farm animals World Health Organization",
+        "success": true
+      },
+      "accuracy": 0.9995031356811523
+    }
+  },
+  "Q11": {
+    "id": "text_detector_11",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "A B C O",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "",
+        "success": true
+      },
+      "accuracy": 0.202497661113739
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "",
+        "success": true
+      },
+      "accuracy": 0.202497661113739
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "",
+        "success": true
+      },
+      "accuracy": 0.202497661113739
+    }
+  },
+  "Q12": {
+    "id": "text_detector_12",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "E F G H J x\u00b0 (x + 20)\u00b0 (x + 5)\u00b0 (x \u2212 5)\u00b0 (x + 10)\u00b0",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "K(x + 20)\" (x + 5)9 E (x - 5)8 (x +10)8 H",
+        "success": true
+      },
+      "accuracy": 0.4082614779472351
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "K(x + 20)\" (x + 5)9 E (x - 5)8 (x +10)8 H",
+        "success": true
+      },
+      "accuracy": 0.4082614779472351
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "K(x + 20)\" (x + 5)9 E (x - 5)8 (x +10)8 H",
+        "success": true
+      },
+      "accuracy": 0.4082614779472351
+    }
+  },
+  "Q13": {
+    "id": "text_detector_13",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Most preferred objects of different categories Percent of People ditch want homer slide mare rebel categories racing afraid grease",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Most preferred objects of different categories 100 80 2 5 40 L 20 { 1 1 9 2 g categories racing afraid grease",
+        "success": true
+      },
+      "accuracy": 0.735609769821167
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Most preferred objects of different categories 100 80 2 5 40 L 20 { 1 1 9 2 g categories racing afraid grease",
+        "success": true
+      },
+      "accuracy": 0.735609769821167
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Most preferred objects of different categories 100 80 2 5 40 L 20 { 1 1 9 2 g categories racing afraid grease",
+        "success": true
+      },
+      "accuracy": 0.735609769821167
+    }
+  },
+  "Q14": {
+    "id": "text_detector_14",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Common water flea Algae Water snail Tilapia Water plant Tadpole Great diving beetle Kingfisher",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Common water flea Algae Water snail Tilapia Water plant Kingfisher Tadpole Great diving beetle",
+        "success": true
+      },
+      "accuracy": 0.9923657178878784
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Common water flea Algae Water snail Tilapia Water plant Kingfisher Tadpole Great diving beetle",
+        "success": true
+      },
+      "accuracy": 0.9923657178878784
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Common water flea Algae Water snail Tilapia Water plant Kingfisher Tadpole Great diving beetle",
+        "success": true
+      },
+      "accuracy": 0.9923657178878784
+    }
+  },
+  "Q15": {
+    "id": "text_detector_15",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Sales statistics for items in different stores Units sold very mill cop dot stores candy cook",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sales statistics for items in different stores 10 stores 8 candy cook 8 6 3 4 2 very mill cop dot",
+        "success": true
+      },
+      "accuracy": 0.916205883026123
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sales statistics for items in different stores 10 stores 8 candy cook 8 6 3 4 2 very mill cop dot",
+        "success": true
+      },
+      "accuracy": 0.916205883026123
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sales statistics for items in different stores 10 stores 8 candy cook 8 6 3 4 2 very mill cop dot",
+        "success": true
+      },
+      "accuracy": 0.916205883026123
+    }
+  },
+  "Q16": {
+    "id": "text_detector_16",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "\u03b1 ALPHA BOROSILICATE GLASS 600 ml 400 300 200 100 APPROX VOL",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "400 0 ALPHAI UOROSILICATE ~oo GLASS Goom4 g 200 0 100",
+        "success": true
+      },
+      "accuracy": 0.6150535941123962
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "400 0 ALPHAI UOROSILICATE ~oo GLASS Goom4 g 200 0 100",
+        "success": true
+      },
+      "accuracy": 0.6150535941123962
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "400 0 ALPHAI UOROSILICATE ~oo GLASS Goom4 g 200 0 100",
+        "success": true
+      },
+      "accuracy": 0.6150535941123962
+    }
+  },
+  "Q17": {
+    "id": "text_detector_17",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Government expenditure on secondary education by country, 1974\u20132014, 2003 Government expenditure per student as a percentage of GDP per capita. Czechia 21.37% Paraguay 12.51% Laos 9.29% (2002) Source: World Bank Our World in Data CC BY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Government expenditure on secondary education by country, 1974-2014, World in Data 2003 Government expenditure per student as percentage of GDP per capita_ Czechia 21.379 Paraguay 12.519 Laos 29% (2002) 10% 159 20% Source_ World Bank CC BY Oul _",
+        "success": true
+      },
+      "accuracy": 0.9812803864479065
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Government expenditure on secondary education by country, 1974-2014, World in Data 2003 Government expenditure per student as percentage of GDP per capita_ Czechia 21.379 Paraguay 12.519 Laos 29% (2002) 10% 159 20% Source_ World Bank CC BY Oul _",
+        "success": true
+      },
+      "accuracy": 0.9812803864479065
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Government expenditure on secondary education by country, 1974-2014, World in Data 2003 Government expenditure per student as percentage of GDP per capita_ Czechia 21.379 Paraguay 12.519 Laos 29% (2002) 10% 159 20% Source_ World Bank CC BY Oul _",
+        "success": true
+      },
+      "accuracy": 0.9812803864479065
+    }
+  },
+  "Q18": {
+    "id": "text_detector_18",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Dark Salmon Periwinkle Gray Tomato",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 100 1 1 1 1 1  8 raris label",
+        "success": true
+      },
+      "accuracy": 0.483325719833374
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 100 1 1 1 1 1  8 raris label",
+        "success": true
+      },
+      "accuracy": 0.483325719833374
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 100 1 1 1 1 1  8 raris label",
+        "success": true
+      },
+      "accuracy": 0.483325719833374
+    }
+  },
+  "Q19": {
+    "id": "text_detector_19",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title xaxis_label yaxis_label Medium Periwinkle Cadet Blue Dark Gray Web Gray Violet Rebecca Purple Hot Pink",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 1 1 Medium Periwinkle Cadet Blue Dark Web Gray Violet Rebecca Purple 100 Hot Pink raris label Gray",
+        "success": true
+      },
+      "accuracy": 0.7915805578231812
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 1 1 Medium Periwinkle Cadet Blue Dark Web Gray Violet Rebecca Purple 100 Hot Pink raris label Gray",
+        "success": true
+      },
+      "accuracy": 0.7915805578231812
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 1 1 Medium Periwinkle Cadet Blue Dark Web Gray Violet Rebecca Purple 100 Hot Pink raris label Gray",
+        "success": true
+      },
+      "accuracy": 0.7915805578231812
+    }
+  },
+  "Q20": {
+    "id": "text_detector_20",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Dark Periwinkle Yellow Olive Drab Deep Sky Blue Black Deep Pink",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Dark Periwinkle Yellow Olive Drab 1 1 Deep Sky Blue Black Deep Pink raris label",
+        "success": true
+      },
+      "accuracy": 0.7555140256881714
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Dark Periwinkle Yellow Olive Drab 1 1 Deep Sky Blue Black Deep Pink raris label",
+        "success": true
+      },
+      "accuracy": 0.7555140256881714
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Dark Periwinkle Yellow Olive Drab 1 1 Deep Sky Blue Black Deep Pink raris label",
+        "success": true
+      },
+      "accuracy": 0.7555140256881714
+    }
+  },
+  "Q21": {
+    "id": "text_detector_21",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Average precipitation in Christchurch, New Zealand Precipitation (mm) Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Average precipitation in Christchurch; New Zealand 70 1 40 1 30 20 10 8 4 $ R $ $ $ + 8 9 Sep",
+        "success": true
+      },
+      "accuracy": 0.8541072607040405
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Average precipitation in Christchurch; New Zealand 70 1 40 1 30 20 10 8 4 $ R $ $ $ + 8 9 Sep",
+        "success": true
+      },
+      "accuracy": 0.8541072607040405
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Average precipitation in Christchurch; New Zealand 70 1 40 1 30 20 10 8 4 $ R $ $ $ + 8 9 Sep",
+        "success": true
+      },
+      "accuracy": 0.8541072607040405
+    }
+  },
+  "Q22": {
+    "id": "text_detector_22",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "oval beads $2/kilogram rectangular beads $3/kilogram star-shaped beads $2/kilogram spherical beads $2/kilogram heart-shaped beads $3/kilogram square beads $2/kilogram flower-shaped beads $2/kilogram",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "oval beads S2lkilogram rectangular beads S3/kilogram star-= ~shaped beads S2lkilogram spherical beads S2lkilogram heart-shaped beads S3/kilogram square beads S2/kilogram flower-shaped beads S2lkilogram",
+        "success": true
+      },
+      "accuracy": 0.7221673130989075
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "oval beads S2lkilogram rectangular beads S3/kilogram star-= ~shaped beads S2lkilogram spherical beads S2lkilogram heart-shaped beads S3/kilogram square beads S2/kilogram flower-shaped beads S2lkilogram",
+        "success": true
+      },
+      "accuracy": 0.7221673130989075
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "oval beads S2lkilogram rectangular beads S3/kilogram star-= ~shaped beads S2lkilogram spherical beads S2lkilogram heart-shaped beads S3/kilogram square beads S2/kilogram flower-shaped beads S2lkilogram",
+        "success": true
+      },
+      "accuracy": 0.7221673130989075
+    }
+  },
+  "Q23": {
+    "id": "text_detector_23",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Average waiting time at the DMV Month Waiting time (minutes) August 17 September 14 October 26 November 17 December 25",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Average waiting time at the DMV Month Waiting time (minutes) August 17 September 14 October 26 November 17 December 25",
+        "success": true
+      },
+      "accuracy": 1.0000001192092896
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Average waiting time at the DMV Month Waiting time (minutes) August 17 September 14 October 26 November 17 December 25",
+        "success": true
+      },
+      "accuracy": 1.0000001192092896
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Average waiting time at the DMV Month Waiting time (minutes) August 17 September 14 October 26 November 17 December 25",
+        "success": true
+      },
+      "accuracy": 1.0000001192092896
+    }
+  },
+  "Q24": {
+    "id": "text_detector_24",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "SPIDER LIFE CYCLE Adult Egg sac Eggs Baby spiderlings Spiderlings",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "SPIDER LIFE CYCLE Egg sac Adult Eggs Spiderlings Baby spiderlings",
+        "success": true
+      },
+      "accuracy": 0.9970638155937195
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "SPIDER LIFE CYCLE Egg sac Adult Eggs Spiderlings Baby spiderlings",
+        "success": true
+      },
+      "accuracy": 0.9970638155937195
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "SPIDER LIFE CYCLE Egg sac Adult Eggs Spiderlings Baby spiderlings",
+        "success": true
+      },
+      "accuracy": 0.9970638155937195
+    }
+  },
+  "Q25": {
+    "id": "text_detector_25",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "ONE WAY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "ONE Way",
+        "success": true
+      },
+      "accuracy": 1.0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "ONE Way",
+        "success": true
+      },
+      "accuracy": 1.0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "ONE Way",
+        "success": true
+      },
+      "accuracy": 1.0
+    }
+  },
+  "Q26": {
+    "id": "text_detector_26",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Large roach Steelhead Predatory insects (Iestids) Roach fry Stickleback fry Tuft-weaving chironomids Cladophora, epiphytic diatoms, Nostoc",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Large roaeh Steelhe:d Roach firy Predatory inseets Sticklebaek fry (lestids) Tuft-weaving chironomids Cladophora. epiphytie diatoms. Nostoe",
+        "success": true
+      },
+      "accuracy": 0.8579435348510742
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Large roaeh Steelhe:d Roach firy Predatory inseets Sticklebaek fry (lestids) Tuft-weaving chironomids Cladophora. epiphytie diatoms. Nostoe",
+        "success": true
+      },
+      "accuracy": 0.8579435348510742
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Large roaeh Steelhe:d Roach firy Predatory inseets Sticklebaek fry (lestids) Tuft-weaving chironomids Cladophora. epiphytie diatoms. Nostoe",
+        "success": true
+      },
+      "accuracy": 0.8579435348510742
+    }
+  },
+  "Q27": {
+    "id": "text_detector_27",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Firebrick Orange",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 1 Firebrick 1 Orange 100 raris label",
+        "success": true
+      },
+      "accuracy": 0.6815163493156433
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 1 Firebrick 1 Orange 100 raris label",
+        "success": true
+      },
+      "accuracy": 0.6815163493156433
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 1 Firebrick 1 Orange 100 raris label",
+        "success": true
+      },
+      "accuracy": 0.6815163493156433
+    }
+  },
+  "Q28": {
+    "id": "text_detector_28",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Sample A Mass of each particle: 40 u Average particle speed: 950 m/s Sample B Mass of each particle: 32 u Average particle speed: 750 m/s",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sample A Sample B Mass of each particle: 40 u Mass of each particle: 32 U Average particle speed: 950 mls Average particle speed: 750 mls",
+        "success": true
+      },
+      "accuracy": 0.9381261467933655
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sample A Sample B Mass of each particle: 40 u Mass of each particle: 32 U Average particle speed: 950 mls Average particle speed: 750 mls",
+        "success": true
+      },
+      "accuracy": 0.9381261467933655
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sample A Sample B Mass of each particle: 40 u Mass of each particle: 32 U Average particle speed: 950 mls Average particle speed: 750 mls",
+        "success": true
+      },
+      "accuracy": 0.9381261467933655
+    }
+  },
+  "Q29": {
+    "id": "text_detector_29",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Share of population using at least basic drinking water source, 2000 Share of the population using at least a basic drinking water service; that is, an improved source within 30 minutes' round trip to collect water. Iceland 100% Hungary 99.96% Turkey 95.49% Cambodia 52.4% Source: WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP) Our World in Data CC BY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Share of population using at least basic drinking water source, 2000 World in Data Share of the population using at Ieast a basic drinking water service; that is, an improved source within 30 minutes' round trip to collect water Iceland 100% Hungary 99.96% Turkey 95.49% cambodia 20% 40% 60% 80% 100% Source: WHOIUNICEF Joint Monitoring Programme for Water Supply; Sanitation and Hygiene (JMP) CC BY Oul _",
+        "success": true
+      },
+      "accuracy": 0.9697916507720947
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Share of population using at least basic drinking water source, 2000 World in Data Share of the population using at Ieast a basic drinking water service; that is, an improved source within 30 minutes' round trip to collect water Iceland 100% Hungary 99.96% Turkey 95.49% cambodia 20% 40% 60% 80% 100% Source: WHOIUNICEF Joint Monitoring Programme for Water Supply; Sanitation and Hygiene (JMP) CC BY Oul _",
+        "success": true
+      },
+      "accuracy": 0.9697916507720947
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Share of population using at least basic drinking water source, 2000 World in Data Share of the population using at Ieast a basic drinking water service; that is, an improved source within 30 minutes' round trip to collect water Iceland 100% Hungary 99.96% Turkey 95.49% cambodia 20% 40% 60% 80% 100% Source: WHOIUNICEF Joint Monitoring Programme for Water Supply; Sanitation and Hygiene (JMP) CC BY Oul _",
+        "success": true
+      },
+      "accuracy": 0.9697916507720947
+    }
+  },
+  "Q30": {
+    "id": "text_detector_30",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title Sky Blue Web Maroon Salmon Dark Olive Dark Seafoam Burlywood",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Sky Blue Web Maroon Salmon Dark Olive Dark Seafoam Burlywood",
+        "success": true
+      },
+      "accuracy": 1.0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Sky Blue Web Maroon Salmon Dark Olive Dark Seafoam Burlywood",
+        "success": true
+      },
+      "accuracy": 1.0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Sky Blue Web Maroon Salmon Dark Olive Dark Seafoam Burlywood",
+        "success": true
+      },
+      "accuracy": 1.0
+    }
+  },
+  "Q31": {
+    "id": "text_detector_31",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Trophic level Terrestrial food chain Aquatic food chain Heterotrophs Tertiary consumer (secondary carnivore) Snake Pelican Secondary consumer (carnivore) Lizard Fish Primary consumer (herbivore) Caterpillar Zooplankton Primary producer (autotroph) Plant Phytoplankton",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Trophic Terrestrial Aquatic level food chain food chain Snake Pelican Tertiary consumer (secondary carnivore) Secondary Fish | {arnuvoee) Lizard Primary Zoo- consumer Caterpillar plankton (herbivore) Primary Phyto- Plant producer plankton (autotroph)",
+        "success": true
+      },
+      "accuracy": 0.945530354976654
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Trophic Terrestrial Aquatic level food chain food chain Snake Pelican Tertiary consumer (secondary carnivore) Secondary Fish | {arnuvoee) Lizard Primary Zoo- consumer Caterpillar plankton (herbivore) Primary Phyto- Plant producer plankton (autotroph)",
+        "success": true
+      },
+      "accuracy": 0.945530354976654
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Trophic Terrestrial Aquatic level food chain food chain Snake Pelican Tertiary consumer (secondary carnivore) Secondary Fish | {arnuvoee) Lizard Primary Zoo- consumer Caterpillar plankton (herbivore) Primary Phyto- Plant producer plankton (autotroph)",
+        "success": true
+      },
+      "accuracy": 0.945530354976654
+    }
+  },
+  "Q32": {
+    "id": "text_detector_32",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Life expectancy at birth in years female male 74.29 69.01 74.74 69.59 75.22 70.15 75.68 70.64 76.13 71.01 76.54 71.27 76.9 71.42 77.2 71.5 77.45 71.53 77.67 71.58 77.84 71.65",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "77.67 77.84 77.45 77.2 76.9 76.54 76.13 75.68 75.22 74.74 74.29 ] 71.42 71-5 71.53 71-58 71.65 71.27 71.01 70.64 70.15 69-59 69.01 2009 2010 2011 201,2 2013 2014 2015 2016 2017 2018 2019 female male Statista 2021 Addirional Informaticn Show source",
+        "success": true
+      },
+      "accuracy": 0.45114389061927795
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "77.67 77.84 77.45 77.2 76.9 76.54 76.13 75.68 75.22 74.74 74.29 ] 71.42 71-5 71.53 71-58 71.65 71.27 71.01 70.64 70.15 69-59 69.01 2009 2010 2011 201,2 2013 2014 2015 2016 2017 2018 2019 female male Statista 2021 Addirional Informaticn Show source",
+        "success": true
+      },
+      "accuracy": 0.45114389061927795
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "77.67 77.84 77.45 77.2 76.9 76.54 76.13 75.68 75.22 74.74 74.29 ] 71.42 71-5 71.53 71-58 71.65 71.27 71.01 70.64 70.15 69-59 69.01 2009 2010 2011 201,2 2013 2014 2015 2016 2017 2018 2019 female male Statista 2021 Addirional Informaticn Show source",
+        "success": true
+      },
+      "accuracy": 0.45114389061927795
+    }
+  },
+  "Q33": {
+    "id": "text_detector_33",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "2 7 5 2 3 4 10 21 ?",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "2 2 10 7 3 21 5 4 2",
+        "success": true
+      },
+      "accuracy": 0.9124650955200195
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "2 2 10 7 3 21 5 4 2",
+        "success": true
+      },
+      "accuracy": 0.9124650955200195
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "2 2 10 7 3 21 5 4 2",
+        "success": true
+      },
+      "accuracy": 0.9124650955200195
+    }
+  },
+  "Q34": {
+    "id": "text_detector_34",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Food Web 4 SEA dolphin seal seagull starfish limpet crab mussel herring plankton algae seaweed not to scale! gills? I don't belong here!",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "to scalel dolphin seal seaguli starfish herring impet mussel crab Food Web algae SEA plankton Se= aweed: gills ? dont belong herel nol",
+        "success": true
+      },
+      "accuracy": 0.883674144744873
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "to scalel dolphin seal seaguli starfish herring impet mussel crab Food Web algae SEA plankton Se= aweed: gills ? dont belong herel nol",
+        "success": true
+      },
+      "accuracy": 0.883674144744873
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "to scalel dolphin seal seaguli starfish herring impet mussel crab Food Web algae SEA plankton Se= aweed: gills ? dont belong herel nol",
+        "success": true
+      },
+      "accuracy": 0.883674144744873
+    }
+  },
+  "Q35": {
+    "id": "text_detector_35",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Average usual weekly hours worked, women 15 years and older, 1995 to 2007 Average usual weekly hours worked on the main job, for women ages 15+. Estimates correspond to total declared employment. This includes part-time and full-time employment, as well as self-employment and dependent employment. Romania Portugal Switzerland Source: OECD Labor Force Statistics (2017) OurWorldInData.org/female-labor-force-participation-key-facts \u2022 CC BY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Average usual weekly hours worked, women 15 years and older; 1995 to Our World in Data 2007 Average usual weekly hours worked on the main job, for women ages 15+_ Estimates correspond to total declared employment: This includes part-time and full-time employment; as well as self-employment and dependent employment 40 Romania Portugal 35 30 Switzerland 25 20 15 10 1995 1996 998 2000 2002 2004 2006 2007 Source: OECD Labor Force Statistics (2017) OurWorldlnData orglfemale-labor-force-participation-key-facts CC BY",
+        "success": true
+      },
+      "accuracy": 0.9276773929595947
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Average usual weekly hours worked, women 15 years and older; 1995 to Our World in Data 2007 Average usual weekly hours worked on the main job, for women ages 15+_ Estimates correspond to total declared employment: This includes part-time and full-time employment; as well as self-employment and dependent employment 40 Romania Portugal 35 30 Switzerland 25 20 15 10 1995 1996 998 2000 2002 2004 2006 2007 Source: OECD Labor Force Statistics (2017) OurWorldlnData orglfemale-labor-force-participation-key-facts CC BY",
+        "success": true
+      },
+      "accuracy": 0.9276773929595947
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Average usual weekly hours worked, women 15 years and older; 1995 to Our World in Data 2007 Average usual weekly hours worked on the main job, for women ages 15+_ Estimates correspond to total declared employment: This includes part-time and full-time employment; as well as self-employment and dependent employment 40 Romania Portugal 35 30 Switzerland 25 20 15 10 1995 1996 998 2000 2002 2004 2006 2007 Source: OECD Labor Force Statistics (2017) OurWorldlnData orglfemale-labor-force-participation-key-facts CC BY",
+        "success": true
+      },
+      "accuracy": 0.9276773929595947
+    }
+  },
+  "Q36": {
+    "id": "text_detector_36",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Model Performance Acc Pretrain Loss ICL SFT SFT 1/2 SFT 1/4 SFT 1/8 RFT k=100 RFT k=25 RFT k=6 RFT U13B LLaMA-7B LLaMA2-7B LLaMA-13B LLaMA2-13B LLaMA-33B LLaMA-65B LLaMA2-70B Figure 1: The key findings of scaling relationship on learning math reasoning ability with LLMs.",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Model Performance LLaMA2-70B 60 LLaMA-65B_ LLaMA-33B 50 LLaMA2-13B LLaMA-13B 40 LLaMA2-7B g ICL LLaMA-7B SFT 30 SFT 1/2 SFT 1/4 SFT 1/8 20 RFT k=100 RFT k=25 RFT k=6 RFT U13B 10 1.80 1.75 1.70 1.65 1.60 1.55 1.50 Pretrain Loss Figure l: The findings of scaling relationship on learning math reasoning ability with LLMs. key",
+        "success": true
+      },
+      "accuracy": 0.9383023381233215
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Model Performance LLaMA2-70B 60 LLaMA-65B_ LLaMA-33B 50 LLaMA2-13B LLaMA-13B 40 LLaMA2-7B g ICL LLaMA-7B SFT 30 SFT 1/2 SFT 1/4 SFT 1/8 20 RFT k=100 RFT k=25 RFT k=6 RFT U13B 10 1.80 1.75 1.70 1.65 1.60 1.55 1.50 Pretrain Loss Figure l: The findings of scaling relationship on learning math reasoning ability with LLMs. key",
+        "success": true
+      },
+      "accuracy": 0.9383023381233215
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Model Performance LLaMA2-70B 60 LLaMA-65B_ LLaMA-33B 50 LLaMA2-13B LLaMA-13B 40 LLaMA2-7B g ICL LLaMA-7B SFT 30 SFT 1/2 SFT 1/4 SFT 1/8 20 RFT k=100 RFT k=25 RFT k=6 RFT U13B 10 1.80 1.75 1.70 1.65 1.60 1.55 1.50 Pretrain Loss Figure l: The findings of scaling relationship on learning math reasoning ability with LLMs. key",
+        "success": true
+      },
+      "accuracy": 0.9383023381233215
+    }
+  },
+  "Q37": {
+    "id": "text_detector_37",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Price Quantity demanded Quantity supplied $250 14,400 1,200 $430 11,300 5,700 $610 8,200 10,200 $790 5,100 14,700 $970 2,000 19,200",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Price Quantity demanded Quantity supplied 8250 14,400 1,200 5430 11,300 5,700 5610 8,200 10,200 5790 5,100 14,700 5970 2,000 19,200",
+        "success": true
+      },
+      "accuracy": 0.9008539915084839
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Price Quantity demanded Quantity supplied 8250 14,400 1,200 5430 11,300 5,700 5610 8,200 10,200 5790 5,100 14,700 5970 2,000 19,200",
+        "success": true
+      },
+      "accuracy": 0.9008539915084839
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Price Quantity demanded Quantity supplied 8250 14,400 1,200 5430 11,300 5,700 5610 8,200 10,200 5790 5,100 14,700 5970 2,000 19,200",
+        "success": true
+      },
+      "accuracy": 0.9008539915084839
+    }
+  },
+  "Q38": {
+    "id": "text_detector_38",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Demand (in billion U.S. dollars) 2014 105.4 91.9 53.9 25.8 32.1 25.6 2019* 107.2 107.8 61.4 41.3 42.9 29 Computing Wireless Consumer Automotive Industrial Wired Communications",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "400 1 23.6 300 32  4133 25-8 614 53.9 L 200 107.8 91-9 100 105.4 107.2 201 4 2019* Computing Wireless Consumer Automotive Industrial Wired Communications Statizza 2021 Aadirional Informarion Show source",
+        "success": true
+      },
+      "accuracy": 0.5451995134353638
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "400 1 23.6 300 32  4133 25-8 614 53.9 L 200 107.8 91-9 100 105.4 107.2 201 4 2019* Computing Wireless Consumer Automotive Industrial Wired Communications Statizza 2021 Aadirional Informarion Show source",
+        "success": true
+      },
+      "accuracy": 0.5451995134353638
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "400 1 23.6 300 32  4133 25-8 614 53.9 L 200 107.8 91-9 100 105.4 107.2 201 4 2019* Computing Wireless Consumer Automotive Industrial Wired Communications Statizza 2021 Aadirional Informarion Show source",
+        "success": true
+      },
+      "accuracy": 0.5451995134353638
+    }
+  },
+  "Q39": {
+    "id": "text_detector_39",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Most Dissatisfied With Country Direction Dissatisfied 78% Satisfied 20% DK 2% PEW RESEARCH CENTER Q2.",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Most Dissatisfied With Country Direction Dissatisfied 78% Satisfied 20% 29/0 PEW RESEARCH CENTER Q2",
+        "success": true
+      },
+      "accuracy": 0.9564286470413208
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Most Dissatisfied With Country Direction Dissatisfied 78% Satisfied 20% 29/0 PEW RESEARCH CENTER Q2",
+        "success": true
+      },
+      "accuracy": 0.9564286470413208
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Most Dissatisfied With Country Direction Dissatisfied 78% Satisfied 20% 29/0 PEW RESEARCH CENTER Q2",
+        "success": true
+      },
+      "accuracy": 0.9564286470413208
+    }
+  },
+  "Q40": {
+    "id": "text_detector_40",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of different algorithms Accuracy icy irony",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms 10 1 icy irony",
+        "success": true
+      },
+      "accuracy": 0.968611478805542
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms 10 1 icy irony",
+        "success": true
+      },
+      "accuracy": 0.968611478805542
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms 10 1 icy irony",
+        "success": true
+      },
+      "accuracy": 0.968611478805542
+    }
+  },
+  "Q41": {
+    "id": "text_detector_41",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Brain Teaser for IQ Test blue circle + red square = 5 yellow triangle + yellow triangle = 8 blue circle + yellow triangle = 7 red square = ?",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Brain Teaser for IQ Test =/5 7  8",
+        "success": true
+      },
+      "accuracy": 0.7201184034347534
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Brain Teaser for IQ Test =/5 7  8",
+        "success": true
+      },
+      "accuracy": 0.7201184034347534
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Brain Teaser for IQ Test =/5 7  8",
+        "success": true
+      },
+      "accuracy": 0.7201184034347534
+    }
+  },
+  "Q42": {
+    "id": "text_detector_42",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title virus vigor ruling ninety calf flower toilet Values tin ace",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title virus vigor ruling ninety calf flower toilet ace 10 Values",
+        "success": true
+      },
+      "accuracy": 0.9585833549499512
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title virus vigor ruling ninety calf flower toilet ace 10 Values",
+        "success": true
+      },
+      "accuracy": 0.9585833549499512
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title virus vigor ruling ninety calf flower toilet ace 10 Values",
+        "success": true
+      },
+      "accuracy": 0.9585833549499512
+    }
+  },
+  "Q43": {
+    "id": "text_detector_43",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Many broadleaf plants may be identified by looking at the shape of the cotyledons or true leaves. Oblong Spatulate Lanceolate Hastate Sagittate Heart-shaped Elliptic Linear Ovate Orbicular Lobed Kidney-shaped",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Many broadleaf   plants may be   identified by looking at the shape of the cotyledons or true leaves Oblong Spatulate Lanceolate Hastate Sagittate Heart-shaped Elliptic Linear Ovate Orbicular Lobed Kidney-shaped",
+        "success": true
+      },
+      "accuracy": 0.9955781698226929
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Many broadleaf   plants may be   identified by looking at the shape of the cotyledons or true leaves Oblong Spatulate Lanceolate Hastate Sagittate Heart-shaped Elliptic Linear Ovate Orbicular Lobed Kidney-shaped",
+        "success": true
+      },
+      "accuracy": 0.9955781698226929
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Many broadleaf   plants may be   identified by looking at the shape of the cotyledons or true leaves Oblong Spatulate Lanceolate Hastate Sagittate Heart-shaped Elliptic Linear Ovate Orbicular Lobed Kidney-shaped",
+        "success": true
+      },
+      "accuracy": 0.9955781698226929
+    }
+  },
+  "Q44": {
+    "id": "text_detector_44",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Dark Violet Hot Pink Medium Mint Dark Cyan Yellow Green",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Dark Violet 1 Hot Pink Medium Mint 2 Dark Cyan Yellow Green 100 raxis label",
+        "success": true
+      },
+      "accuracy": 0.8201466798782349
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Dark Violet 1 Hot Pink Medium Mint 2 Dark Cyan Yellow Green 100 raxis label",
+        "success": true
+      },
+      "accuracy": 0.8201466798782349
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Dark Violet 1 Hot Pink Medium Mint 2 Dark Cyan Yellow Green 100 raxis label",
+        "success": true
+      },
+      "accuracy": 0.8201466798782349
+    }
+  },
+  "Q45": {
+    "id": "text_detector_45",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title bull wish heap Values",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 3 { 2 10 Values",
+        "success": true
+      },
+      "accuracy": 0.4103752672672272
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 3 { 2 10 Values",
+        "success": true
+      },
+      "accuracy": 0.4103752672672272
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 3 { 2 10 Values",
+        "success": true
+      },
+      "accuracy": 0.4103752672672272
+    }
+  },
+  "Q46": {
+    "id": "text_detector_46",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Scheduled teaching time that teachers are in the classroom, 2002 to 2016 Percentage of time officially allocated to schooling that a teacher is in the classroom. Egypt 93.45% (2002) Tunisia 89.89% (2009) Madagascar 58.09% Mozambique 44% (2012) Source: Teaching time lost - World Development Report (2018) CC BY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Scheduled teaching time that teachers are in the classroom; 2002 to 2016 World in Data Percentage of time officially allocated to schooling that teacher in the classroom In some cases estimates correspond to selected regions and are therefore not necessarily nationally representative (see source for details) Egypt 93.4590 (2002) Tunisia 89.89% (2009) Madagascar 58.09% Mozambique 44% (2012) 20% 40% 60% 80% Source: Teaching time lost- Word Development Report (2018) CC BY Oul _",
+        "success": true
+      },
+      "accuracy": 0.9739189743995667
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Scheduled teaching time that teachers are in the classroom; 2002 to 2016 World in Data Percentage of time officially allocated to schooling that teacher in the classroom In some cases estimates correspond to selected regions and are therefore not necessarily nationally representative (see source for details) Egypt 93.4590 (2002) Tunisia 89.89% (2009) Madagascar 58.09% Mozambique 44% (2012) 20% 40% 60% 80% Source: Teaching time lost- Word Development Report (2018) CC BY Oul _",
+        "success": true
+      },
+      "accuracy": 0.9739189743995667
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Scheduled teaching time that teachers are in the classroom; 2002 to 2016 World in Data Percentage of time officially allocated to schooling that teacher in the classroom In some cases estimates correspond to selected regions and are therefore not necessarily nationally representative (see source for details) Egypt 93.4590 (2002) Tunisia 89.89% (2009) Madagascar 58.09% Mozambique 44% (2012) 20% 40% 60% 80% Source: Teaching time lost- Word Development Report (2018) CC BY Oul _",
+        "success": true
+      },
+      "accuracy": 0.9739189743995667
+    }
+  },
+  "Q47": {
+    "id": "text_detector_47",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Deaths from natural disasters as a share of total deaths, 2014 Ecuador 0.02% China 0.02% Ireland <0.01% Armenia 0% Israel 0% Source: Institute for Health Metrics and Evaluation (IHME), Global Burden of Disease OurWorldInData.org/natural-disasters \u2022 CC BY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Deaths natural disasters as a share of total deaths, 2014 World in Data Ecuador 0.02% China 02% Ireland <0.0196 Armenia 0% Israel 0% 005% 0.01% 0.015% 0.02% Source_ Institute for Health Metrics and Evaluation (IHME), Globa Burden of Disease OurWorldlnData orglnatural-disasters CC BY from Oul _",
+        "success": true
+      },
+      "accuracy": 0.9694125652313232
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Deaths natural disasters as a share of total deaths, 2014 World in Data Ecuador 0.02% China 02% Ireland <0.0196 Armenia 0% Israel 0% 005% 0.01% 0.015% 0.02% Source_ Institute for Health Metrics and Evaluation (IHME), Globa Burden of Disease OurWorldlnData orglnatural-disasters CC BY from Oul _",
+        "success": true
+      },
+      "accuracy": 0.9694125652313232
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Deaths natural disasters as a share of total deaths, 2014 World in Data Ecuador 0.02% China 02% Ireland <0.0196 Armenia 0% Israel 0% 005% 0.01% 0.015% 0.02% Source_ Institute for Health Metrics and Evaluation (IHME), Globa Burden of Disease OurWorldlnData orglnatural-disasters CC BY from Oul _",
+        "success": true
+      },
+      "accuracy": 0.9694125652313232
+    }
+  },
+  "Q48": {
+    "id": "text_detector_48",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "acuminate acute cuspidate emarginate Mucronate obcordate obtuse truncate",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "acuminate acute cuspidate emarginate Mucronatc obcordate obtuse truncate",
+        "success": true
+      },
+      "accuracy": 0.9751070141792297
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "acuminate acute cuspidate emarginate Mucronatc obcordate obtuse truncate",
+        "success": true
+      },
+      "accuracy": 0.9751070141792297
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "acuminate acute cuspidate emarginate Mucronatc obcordate obtuse truncate",
+        "success": true
+      },
+      "accuracy": 0.9751070141792297
+    }
+  },
+  "Q49": {
+    "id": "text_detector_49",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Amount Manny spent on lunch Day Amount spent Tuesday $10 Wednesday $2 Thursday $7 Friday $9 Saturday $8",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Amount Manny spent on lunch Day Amount spent Tuesday S10 Wednesday 52 Thursday Friday 59 Saturday $8",
+        "success": true
+      },
+      "accuracy": 0.9226270914077759
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Amount Manny spent on lunch Day Amount spent Tuesday S10 Wednesday 52 Thursday Friday 59 Saturday $8",
+        "success": true
+      },
+      "accuracy": 0.9226270914077759
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Amount Manny spent on lunch Day Amount spent Tuesday S10 Wednesday 52 Thursday Friday 59 Saturday $8",
+        "success": true
+      },
+      "accuracy": 0.9226270914077759
+    }
+  },
+  "Q50": {
+    "id": "text_detector_50",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "alternate opposite whorled",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "opposite whorled alternate",
+        "success": true
+      },
+      "accuracy": 0.9662817120552063
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "opposite whorled alternate",
+        "success": true
+      },
+      "accuracy": 0.9662817120552063
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "opposite whorled alternate",
+        "success": true
+      },
+      "accuracy": 0.9662817120552063
+    }
+  },
+  "Q51": {
+    "id": "text_detector_51",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Trophic level Terrestrial food chain Aquatic food chain Heterotrophs Tertiary consumer (secondary carnivore) Snake Pelican Secondary consumer (carnivore) Lizard Fish Primary consumer (herbivore) Caterpillar Zooplankton Primary producer (autotroph) Plant Phytoplankton",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Trophic Terrestrial Aquatic level food chain food chain Snake Pelican Tertiary consumer (secondary carnivore) Secondary Fish | {arnuvoee) Lizard Primary Zoo- consumer Caterpillar plankton (herbivore) Primary Phyto- Plant producer plankton (autotroph)",
+        "success": true
+      },
+      "accuracy": 0.945530354976654
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Trophic Terrestrial Aquatic level food chain food chain Snake Pelican Tertiary consumer (secondary carnivore) Secondary Fish | {arnuvoee) Lizard Primary Zoo- consumer Caterpillar plankton (herbivore) Primary Phyto- Plant producer plankton (autotroph)",
+        "success": true
+      },
+      "accuracy": 0.945530354976654
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Trophic Terrestrial Aquatic level food chain food chain Snake Pelican Tertiary consumer (secondary carnivore) Secondary Fish | {arnuvoee) Lizard Primary Zoo- consumer Caterpillar plankton (herbivore) Primary Phyto- Plant producer plankton (autotroph)",
+        "success": true
+      },
+      "accuracy": 0.945530354976654
+    }
+  },
+  "Q52": {
+    "id": "text_detector_52",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of different algorithms Accuracy bronze spray cab",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms 10 1 bronze spray cab",
+        "success": true
+      },
+      "accuracy": 0.9620305299758911
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms 10 1 bronze spray cab",
+        "success": true
+      },
+      "accuracy": 0.9620305299758911
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms 10 1 bronze spray cab",
+        "success": true
+      },
+      "accuracy": 0.9620305299758911
+    }
+  },
+  "Q53": {
+    "id": "text_detector_53",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Number of counterfeits in thousands Banknotes Coins 2014 63 46 2015 95.5 46 2016 82.2 33 2017 72.9 32.5 2018 58 33.1 2019 55.2 42.1",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "100 ] 55.2 1 42.1 32.5 33.1 2014 2015 2016 2017 2018 2019 Banknotes Coins Statizza 2021 Aadirional Informarion Show source",
+        "success": true
+      },
+      "accuracy": 0.6547994613647461
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "100 ] 55.2 1 42.1 32.5 33.1 2014 2015 2016 2017 2018 2019 Banknotes Coins Statizza 2021 Aadirional Informarion Show source",
+        "success": true
+      },
+      "accuracy": 0.6547994613647461
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "100 ] 55.2 1 42.1 32.5 33.1 2014 2015 2016 2017 2018 2019 Banknotes Coins Statizza 2021 Aadirional Informarion Show source",
+        "success": true
+      },
+      "accuracy": 0.6547994613647461
+    }
+  },
+  "Q54": {
+    "id": "text_detector_54",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Trade statistics of Hong Kong with developing economies in Latin America Trade with economies of Latin America & Caribbean (%) Year Merchandise exports Merchandise imports 2008 1.3 0.7 2009 1.05 0.9 2010 1.25 0.82 2011 1.4 0.87",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Trade statistics of Hong Kong with developing economies in Latin America 1 1 1 Merchandise exports 6 Merchandise imports 0.6 | 0.4 1 1 8 8 1 1 Year",
+        "success": true
+      },
+      "accuracy": 0.9541996121406555
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Trade statistics of Hong Kong with developing economies in Latin America 1 1 1 Merchandise exports 6 Merchandise imports 0.6 | 0.4 1 1 8 8 1 1 Year",
+        "success": true
+      },
+      "accuracy": 0.9541996121406555
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Trade statistics of Hong Kong with developing economies in Latin America 1 1 1 Merchandise exports 6 Merchandise imports 0.6 | 0.4 1 1 8 8 1 1 Year",
+        "success": true
+      },
+      "accuracy": 0.9541996121406555
+    }
+  },
+  "Q55": {
+    "id": "text_detector_55",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "89% of Cell Owners Used Their Phones During Their Most Recent Social Activity with Others Did at least one of these activities below 89% Read a message such as text or email 61 Took a photo or video 58 Sent a message such as a text or email 52 Received an incoming call 52 Checked to see if you've received any alerts 41 Placed a call 33 Used an app 29 Searched or browsed the web 25 Source: Pew Research Center American Trends Panel survey, May 30\u2013June 30, 2014. N=3,042 cell users",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "89% of Cell Owners Used Their Phones During Their Most Recent Social Activity with Others of cel owners whodid the following using their cellphone during their most recent social gathering Did at least one ofthese activties below 8930 Read messagesuch astext email Tcok photo video Senta messagesuch 82 text or email Received an incomingcall Checked see ifycuve received any alertz Placed call Used an app Searched or browzed the web Soutce Pew Reseaich Center American Trends Panelsurvey, May 30-June 30,2014, N=3,042 cel Usets PEW RESEARCH CENTER",
+        "success": true
+      },
+      "accuracy": 0.865216851234436
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "89% of Cell Owners Used Their Phones During Their Most Recent Social Activity with Others of cel owners whodid the following using their cellphone during their most recent social gathering Did at least one ofthese activties below 8930 Read messagesuch astext email Tcok photo video Senta messagesuch 82 text or email Received an incomingcall Checked see ifycuve received any alertz Placed call Used an app Searched or browzed the web Soutce Pew Reseaich Center American Trends Panelsurvey, May 30-June 30,2014, N=3,042 cel Usets PEW RESEARCH CENTER",
+        "success": true
+      },
+      "accuracy": 0.865216851234436
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "89% of Cell Owners Used Their Phones During Their Most Recent Social Activity with Others of cel owners whodid the following using their cellphone during their most recent social gathering Did at least one ofthese activties below 8930 Read messagesuch astext email Tcok photo video Senta messagesuch 82 text or email Received an incomingcall Checked see ifycuve received any alertz Placed call Used an app Searched or browzed the web Soutce Pew Reseaich Center American Trends Panelsurvey, May 30-June 30,2014, N=3,042 cel Usets PEW RESEARCH CENTER",
+        "success": true
+      },
+      "accuracy": 0.865216851234436
+    }
+  },
+  "Q56": {
+    "id": "text_detector_56",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Hot Pink Navy Blue Indigo Sky Blue Magenta Web Gray Chartreuse",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Hot Pink Navy Blue Indigo Sky Blue Magenta Web Gray Chartreuse 3 1 raxis label",
+        "success": true
+      },
+      "accuracy": 0.8247706890106201
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Hot Pink Navy Blue Indigo Sky Blue Magenta Web Gray Chartreuse 3 1 raxis label",
+        "success": true
+      },
+      "accuracy": 0.8247706890106201
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Hot Pink Navy Blue Indigo Sky Blue Magenta Web Gray Chartreuse 3 1 raxis label",
+        "success": true
+      },
+      "accuracy": 0.8247706890106201
+    }
+  },
+  "Q57": {
+    "id": "text_detector_57",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "pepper $4 per kg cumin $3 per kg turmeric $3 per kg cinnamon $3 per kg paprika $2 per kg",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "pepper 54 per kg cumin 53 per kg turmeric 53 per kg cinnamon 53 per kg paprika S2 per kg",
+        "success": true
+      },
+      "accuracy": 0.9018813371658325
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "pepper 54 per kg cumin 53 per kg turmeric 53 per kg cinnamon 53 per kg paprika S2 per kg",
+        "success": true
+      },
+      "accuracy": 0.9018813371658325
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "pepper 54 per kg cumin 53 per kg turmeric 53 per kg cinnamon 53 per kg paprika S2 per kg",
+        "success": true
+      },
+      "accuracy": 0.9018813371658325
+    }
+  },
+  "Q58": {
+    "id": "text_detector_58",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "CAN YOU FIND THE MISSING TERM? 6 9 15 8 12 20 4 6 ?",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "CANVOUFINDTHBMISSINO TERM? 6 9 15 8 12120 4",
+        "success": true
+      },
+      "accuracy": 0.5991337299346924
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "CANVOUFINDTHBMISSINO TERM? 6 9 15 8 12120 4",
+        "success": true
+      },
+      "accuracy": 0.5991337299346924
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "CANVOUFINDTHBMISSINO TERM? 6 9 15 8 12120 4",
+        "success": true
+      },
+      "accuracy": 0.5991337299346924
+    }
+  },
+  "Q59": {
+    "id": "text_detector_59",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Science articles read Name Number of science articles Kimberly 8 Valeria 6 Sophia 5 Brad 7 Lorenzo 9",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Science articles read Name Number of science articles Kimberly Valeria Sophia Brad Lorenzo",
+        "success": true
+      },
+      "accuracy": 0.9482511281967163
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Science articles read Name Number of science articles Kimberly Valeria Sophia Brad Lorenzo",
+        "success": true
+      },
+      "accuracy": 0.9482511281967163
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Science articles read Name Number of science articles Kimberly Valeria Sophia Brad Lorenzo",
+        "success": true
+      },
+      "accuracy": 0.9482511281967163
+    }
+  },
+  "Q60": {
+    "id": "text_detector_60",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Sample A Mass of each particle: 44 u Average particle speed: 1,400 m/s Sample B Mass of each particle: 46 u Average particle speed: 1,400 m/s",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sample A Sample B Mass of each particle: 44 u Mass of each particle: 46 u Average particle speed: 1,400 mls Average particle speed: 1,400 mls",
+        "success": true
+      },
+      "accuracy": 0.9427943229675293
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sample A Sample B Mass of each particle: 44 u Mass of each particle: 46 u Average particle speed: 1,400 mls Average particle speed: 1,400 mls",
+        "success": true
+      },
+      "accuracy": 0.9427943229675293
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sample A Sample B Mass of each particle: 44 u Mass of each particle: 46 u Average particle speed: 1,400 mls Average particle speed: 1,400 mls",
+        "success": true
+      },
+      "accuracy": 0.9427943229675293
+    }
+  },
+  "Q61": {
+    "id": "text_detector_61",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "LEAF BASES Oblique Cordate Sagittate Hastate Stem-clasping Decurrent",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "LEAF BASES Oblique Cordate Sagittate Hastate Stem-clasping Decurrent",
+        "success": true
+      },
+      "accuracy": 1.0000001192092896
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "LEAF BASES Oblique Cordate Sagittate Hastate Stem-clasping Decurrent",
+        "success": true
+      },
+      "accuracy": 1.0000001192092896
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "LEAF BASES Oblique Cordate Sagittate Hastate Stem-clasping Decurrent",
+        "success": true
+      },
+      "accuracy": 1.0000001192092896
+    }
+  },
+  "Q62": {
+    "id": "text_detector_62",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Sun \u2192 Grass \u2192 Grasshopper \u2192 Mouse \u2192 Owl",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sun Grass Grasshopper Mouse Owl",
+        "success": true
+      },
+      "accuracy": 0.8207682371139526
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sun Grass Grasshopper Mouse Owl",
+        "success": true
+      },
+      "accuracy": 0.8207682371139526
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Sun Grass Grasshopper Mouse Owl",
+        "success": true
+      },
+      "accuracy": 0.8207682371139526
+    }
+  },
+  "Q63": {
+    "id": "text_detector_63",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Birds per flock Stem Leaf 1 2 3 2 0 1 4 7 3 5 8 8 9 4 4 9 5 0 1 2 9 9 6 3 4 5 6 9 7 1 7",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Birds per flock Stem | Leaf 2 3 0 1 47 5 8 8 9 4 9 0 1 2 9 3 4 5 6 9",
+        "success": true
+      },
+      "accuracy": 0.9852629899978638
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Birds per flock Stem | Leaf 2 3 0 1 47 5 8 8 9 4 9 0 1 2 9 3 4 5 6 9",
+        "success": true
+      },
+      "accuracy": 0.9852629899978638
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Birds per flock Stem | Leaf 2 3 0 1 47 5 8 8 9 4 9 0 1 2 9 3 4 5 6 9",
+        "success": true
+      },
+      "accuracy": 0.9852629899978638
+    }
+  },
+  "Q64": {
+    "id": "text_detector_64",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Which Shape is missing? Please choose an answer: A) B) C) D) E) F)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Which Shape is missing? Please choose an answer: A) B) ^ C)V D) 1 E) F) 2",
+        "success": true
+      },
+      "accuracy": 0.9678084850311279
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Which Shape is missing? Please choose an answer: A) B) ^ C)V D) 1 E) F) 2",
+        "success": true
+      },
+      "accuracy": 0.9678084850311279
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Which Shape is missing? Please choose an answer: A) B) ^ C)V D) 1 E) F) 2",
+        "success": true
+      },
+      "accuracy": 0.9678084850311279
+    }
+  },
+  "Q65": {
+    "id": "text_detector_65",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Forest Green Midnight Blue Saddle Brown Dark Turquoise Light Seafoam Dark Salmon",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Forest Green Midnight Blue 1 Saddle Brown  2 Dark Turquoise Light Seafoam Dark Salmon raris label",
+        "success": true
+      },
+      "accuracy": 0.8522728085517883
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Forest Green Midnight Blue 1 Saddle Brown  2 Dark Turquoise Light Seafoam Dark Salmon raris label",
+        "success": true
+      },
+      "accuracy": 0.8522728085517883
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Forest Green Midnight Blue 1 Saddle Brown  2 Dark Turquoise Light Seafoam Dark Salmon raris label",
+        "success": true
+      },
+      "accuracy": 0.8522728085517883
+    }
+  },
+  "Q66": {
+    "id": "text_detector_66",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of algorithms on different datasets Accuracy datasets desert debt bee saw wool liver blade boost",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of algorithms on different datasets 10 datasets desert debt bee saw wool 7 liver blade boost",
+        "success": true
+      },
+      "accuracy": 0.9857125282287598
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of algorithms on different datasets 10 datasets desert debt bee saw wool 7 liver blade boost",
+        "success": true
+      },
+      "accuracy": 0.9857125282287598
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of algorithms on different datasets 10 datasets desert debt bee saw wool 7 liver blade boost",
+        "success": true
+      },
+      "accuracy": 0.9857125282287598
+    }
+  },
+  "Q67": {
+    "id": "text_detector_67",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Navy Blue Rebecca Purple Web Green Dark Seafoam Dark Violet Dark Slate Yellow",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Navy Blue Rebecca Purple 1 Web Green Dark Seafoam 2 Dark Violet Dark Slate Yellow raxis label",
+        "success": true
+      },
+      "accuracy": 0.8207197189331055
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Navy Blue Rebecca Purple 1 Web Green Dark Seafoam 2 Dark Violet Dark Slate Yellow raxis label",
+        "success": true
+      },
+      "accuracy": 0.8207197189331055
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Navy Blue Rebecca Purple 1 Web Green Dark Seafoam 2 Dark Violet Dark Slate Yellow raxis label",
+        "success": true
+      },
+      "accuracy": 0.8207197189331055
+    }
+  },
+  "Q68": {
+    "id": "text_detector_68",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title fusion lawn afraid Values",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 10 ! fusion lawn afraid",
+        "success": true
+      },
+      "accuracy": 0.8442766666412354
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 10 ! fusion lawn afraid",
+        "success": true
+      },
+      "accuracy": 0.8442766666412354
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 10 ! fusion lawn afraid",
+        "success": true
+      },
+      "accuracy": 0.8442766666412354
+    }
+  },
+  "Q69": {
+    "id": "text_detector_69",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of algorithms on different datasets Accuracy datasets arrest breed potato deputy flag blast",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of algorithms on different datasets 16 datasets arrest 14 breed 12 potato 10 1 deputy blast flag",
+        "success": true
+      },
+      "accuracy": 0.9612886309623718
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of algorithms on different datasets 16 datasets arrest 14 breed 12 potato 10 1 deputy blast flag",
+        "success": true
+      },
+      "accuracy": 0.9612886309623718
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of algorithms on different datasets 16 datasets arrest 14 breed 12 potato 10 1 deputy blast flag",
+        "success": true
+      },
+      "accuracy": 0.9612886309623718
+    }
+  },
+  "Q70": {
+    "id": "text_detector_70",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "English Followed by Mandarin Mandarin Followed by English Influence Scores Sequences Figure 26: Influence scores for English-Mandarin sequences with reversed order on the 52 billion parameter model. For the english_to_mandarin query, the top influential sequences mostly have English statements followed by Mandarin translations. Reordering sequences to have Mandarin followed by English significantly reduced influence scores, despite having identical content. This trend is consistent with different model sizes.",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "0.20 English Followed by Mandarin Mandarin Followed by English I 0.15 0.10  0.05 0.00 Sequences Figure 26: Influence scores for English-Mandarin sequences with reversed order on the 52 billion parameter model. For the english_to_mandarin query, the top influential sequences mostly have English statements followed by Mandarin translations  Reordering sequences to have Mandarin followed by English significantly reduced influence scores, despite having identical content. This trend is consistent with different model sizes.",
+        "success": true
+      },
+      "accuracy": 0.9752791523933411
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "0.20 English Followed by Mandarin Mandarin Followed by English I 0.15 0.10  0.05 0.00 Sequences Figure 26: Influence scores for English-Mandarin sequences with reversed order on the 52 billion parameter model. For the english_to_mandarin query, the top influential sequences mostly have English statements followed by Mandarin translations  Reordering sequences to have Mandarin followed by English significantly reduced influence scores, despite having identical content. This trend is consistent with different model sizes.",
+        "success": true
+      },
+      "accuracy": 0.9752791523933411
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "0.20 English Followed by Mandarin Mandarin Followed by English I 0.15 0.10  0.05 0.00 Sequences Figure 26: Influence scores for English-Mandarin sequences with reversed order on the 52 billion parameter model. For the english_to_mandarin query, the top influential sequences mostly have English statements followed by Mandarin translations  Reordering sequences to have Mandarin followed by English significantly reduced influence scores, despite having identical content. This trend is consistent with different model sizes.",
+        "success": true
+      },
+      "accuracy": 0.9752791523933411
+    }
+  },
+  "Q71": {
+    "id": "text_detector_71",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Burlywood Light Sky Blue",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 9 2 [ E 1 xaxis label",
+        "success": true
+      },
+      "accuracy": 0.6636996269226074
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 9 2 [ E 1 xaxis label",
+        "success": true
+      },
+      "accuracy": 0.6636996269226074
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title 9 2 [ E 1 xaxis label",
+        "success": true
+      },
+      "accuracy": 0.6636996269226074
+    }
+  },
+  "Q72": {
+    "id": "text_detector_72",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title Values loop leaf razor domain see silk nod border mare",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 25 20 leaf razor 15 domain see 1 10 silk nod border mare loop",
+        "success": true
+      },
+      "accuracy": 0.8279966711997986
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 25 20 leaf razor 15 domain see 1 10 silk nod border mare loop",
+        "success": true
+      },
+      "accuracy": 0.8279966711997986
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 25 20 leaf razor 15 domain see 1 10 silk nod border mare loop",
+        "success": true
+      },
+      "accuracy": 0.8279966711997986
+    }
+  },
+  "Q73": {
+    "id": "text_detector_73",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title Values saw sodium silk outset tunnel",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 10 1 8 1 # 3 1",
+        "success": true
+      },
+      "accuracy": 0.23564893007278442
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 10 1 8 1 # 3 1",
+        "success": true
+      },
+      "accuracy": 0.23564893007278442
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title 10 1 8 1 # 3 1",
+        "success": true
+      },
+      "accuracy": 0.23564893007278442
+    }
+  },
+  "Q74": {
+    "id": "text_detector_74",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Baseball runs scored last season Runs scored Frequency 0 8 1 0 2 7 3 14 4 10",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Baseball runs scored last season Runs scored Frequency 14 10",
+        "success": true
+      },
+      "accuracy": 0.9444753527641296
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Baseball runs scored last season Runs scored Frequency 14 10",
+        "success": true
+      },
+      "accuracy": 0.9444753527641296
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Baseball runs scored last season Runs scored Frequency 14 10",
+        "success": true
+      },
+      "accuracy": 0.9444753527641296
+    }
+  },
+  "Q75": {
+    "id": "text_detector_75",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of different algorithms Accuracy fifty secure magic",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms 10 1 fifty secure magic",
+        "success": true
+      },
+      "accuracy": 0.9659366607666016
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms 10 1 fifty secure magic",
+        "success": true
+      },
+      "accuracy": 0.9659366607666016
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms 10 1 fifty secure magic",
+        "success": true
+      },
+      "accuracy": 0.9659366607666016
+    }
+  },
+  "Q76": {
+    "id": "text_detector_76",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of different algorithms Accuracy screw thesis turtle agony heap poems poison",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms screw thesis turtle agony heap poems poison Accuracy",
+        "success": true
+      },
+      "accuracy": 0.9866465330123901
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms screw thesis turtle agony heap poems poison Accuracy",
+        "success": true
+      },
+      "accuracy": 0.9866465330123901
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms screw thesis turtle agony heap poems poison Accuracy",
+        "success": true
+      },
+      "accuracy": 0.9866465330123901
+    }
+  },
+  "Q77": {
+    "id": "text_detector_77",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Cornflower Medium Blue",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Cornflower 3 1 Mediun Blue raxis [abel",
+        "success": true
+      },
+      "accuracy": 0.6931698322296143
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Cornflower 3 1 Mediun Blue raxis [abel",
+        "success": true
+      },
+      "accuracy": 0.6931698322296143
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Cornflower 3 1 Mediun Blue raxis [abel",
+        "success": true
+      },
+      "accuracy": 0.6931698322296143
+    }
+  },
+  "Q78": {
+    "id": "text_detector_78",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Miles hiked Day Number of miles Thursday 6 Friday 5 Saturday 3 Sunday 8 Monday 10 Tuesday 2",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Miles hiked Day Number of miles Thursday Friday Saturday Sunday Monday 10 Tuesday",
+        "success": true
+      },
+      "accuracy": 0.9418332576751709
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Miles hiked Day Number of miles Thursday Friday Saturday Sunday Monday 10 Tuesday",
+        "success": true
+      },
+      "accuracy": 0.9418332576751709
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Miles hiked Day Number of miles Thursday Friday Saturday Sunday Monday 10 Tuesday",
+        "success": true
+      },
+      "accuracy": 0.9418332576751709
+    }
+  },
+  "Q79": {
+    "id": "text_detector_79",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Most preferred objects of different categories Percent of People categories drawn nerve lake split burst pen",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Most preferred objects of different categories 100 1 lake split burst categories drawn nerve pen",
+        "success": true
+      },
+      "accuracy": 0.8616008758544922
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Most preferred objects of different categories 100 1 lake split burst categories drawn nerve pen",
+        "success": true
+      },
+      "accuracy": 0.8616008758544922
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Most preferred objects of different categories 100 1 lake split burst categories drawn nerve pen",
+        "success": true
+      },
+      "accuracy": 0.8616008758544922
+    }
+  },
+  "Q80": {
+    "id": "text_detector_80",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title twist priest fringe pan curse 0 2 4 6 8 10 Values",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title twist priest fringe pan curse 10 Values",
+        "success": true
+      },
+      "accuracy": 0.9681046009063721
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title twist priest fringe pan curse 10 Values",
+        "success": true
+      },
+      "accuracy": 0.9681046009063721
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Title twist priest fringe pan curse 10 Values",
+        "success": true
+      },
+      "accuracy": 0.9681046009063721
+    }
+  },
+  "Q81": {
+    "id": "text_detector_81",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "starting point Object 3 4 5 2 6 1 0 7 Directions Fig. Q4",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "starting Object 3 2 Directions Q4 point Fig:",
+        "success": true
+      },
+      "accuracy": 0.8993427753448486
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "starting Object 3 2 Directions Q4 point Fig:",
+        "success": true
+      },
+      "accuracy": 0.8993427753448486
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "starting Object 3 2 Directions Q4 point Fig:",
+        "success": true
+      },
+      "accuracy": 0.8993427753448486
+    }
+  },
+  "Q82": {
+    "id": "text_detector_82",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "3:15",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "3:",
+        "success": true
+      },
+      "accuracy": 0.6042718291282654
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "3:",
+        "success": true
+      },
+      "accuracy": 0.6042718291282654
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "3:",
+        "success": true
+      },
+      "accuracy": 0.6042718291282654
+    }
+  },
+  "Q83": {
+    "id": "text_detector_83",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of algorithms on different datasets 10 8 6 4 2 0 Accuracy clergy scar datasets niece pie",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of algorithms on different datasets 10 datasets niece pie 1 clergy scar",
+        "success": true
+      },
+      "accuracy": 0.9763116836547852
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of algorithms on different datasets 10 datasets niece pie 1 clergy scar",
+        "success": true
+      },
+      "accuracy": 0.9763116836547852
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of algorithms on different datasets 10 datasets niece pie 1 clergy scar",
+        "success": true
+      },
+      "accuracy": 0.9763116836547852
+    }
+  },
+  "Q84": {
+    "id": "text_detector_84",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Solvent volume: 25 mL Solution A Solvent volume: 25 mL Solution B",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Solvent volume: 25 mL Solvent volume: 25 mL Solution Solution",
+        "success": true
+      },
+      "accuracy": 0.9525052309036255
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Solvent volume: 25 mL Solvent volume: 25 mL Solution Solution",
+        "success": true
+      },
+      "accuracy": 0.9525052309036255
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Solvent volume: 25 mL Solvent volume: 25 mL Solution Solution",
+        "success": true
+      },
+      "accuracy": 0.9525052309036255
+    }
+  },
+  "Q85": {
+    "id": "text_detector_85",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "FOREST FOOD WEB Blue Jay Deer Tick Deer Red Squirrel Deer Mouse Fiery Searcher Beetle Carpenter Ant Gypsy Moth Caterpillar Red Oak",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "FOOD Blule Jay Der Tick Ciery Surorr Geul= Carppnict Red Sqquirrel Dver Mouze Gypsy Math Caterplllar",
+        "success": true
+      },
+      "accuracy": 0.5021373629570007
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "FOOD Blule Jay Der Tick Ciery Surorr Geul= Carppnict Red Sqquirrel Dver Mouze Gypsy Math Caterplllar",
+        "success": true
+      },
+      "accuracy": 0.5021373629570007
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "FOOD Blule Jay Der Tick Ciery Surorr Geul= Carppnict Red Sqquirrel Dver Mouze Gypsy Math Caterplllar",
+        "success": true
+      },
+      "accuracy": 0.5021373629570007
+    }
+  },
+  "Q86": {
+    "id": "text_detector_86",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title Deep Sky Blue Lime Green Dark Cyan Burlywood Light Salmon Salmon Green Sky Blue 0 20 40 60 80 yaxis_label xaxis_label",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Deep Sky Blue Lime Green Dark Cyan 1 Burlywood 2 Light Salmon Salmon Green Sky Blue raxis label",
+        "success": true
+      },
+      "accuracy": 0.9321998357772827
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Deep Sky Blue Lime Green Dark Cyan 1 Burlywood 2 Light Salmon Salmon Green Sky Blue raxis label",
+        "success": true
+      },
+      "accuracy": 0.9321998357772827
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "title Deep Sky Blue Lime Green Dark Cyan 1 Burlywood 2 Light Salmon Salmon Green Sky Blue raxis label",
+        "success": true
+      },
+      "accuracy": 0.9321998357772827
+    }
+  },
+  "Q87": {
+    "id": "text_detector_87",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "pasta with white sauce $15 mushroom pizza $11 grilled steak $13 pasta with meat sauce $12",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "pasta with white sauce S15 mushroom pizza S11 grilled steak S13 pasta with meat sauce S12",
+        "success": true
+      },
+      "accuracy": 0.7578203678131104
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "pasta with white sauce S15 mushroom pizza S11 grilled steak S13 pasta with meat sauce S12",
+        "success": true
+      },
+      "accuracy": 0.7578203678131104
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "pasta with white sauce S15 mushroom pizza S11 grilled steak S13 pasta with meat sauce S12",
+        "success": true
+      },
+      "accuracy": 0.7578203678131104
+    }
+  },
+  "Q88": {
+    "id": "text_detector_88",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "concern to climate change experts. Predict the relative increase in water vapour in the atmosphere based on a temperature rises of 2.0 K, assuming that the relative humidity remains constant. (The present global mean temperature is 290 K, and the equilibrium vapour pressure of water at that temperature is 0.0189 bar.)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "concern to climate change experts. Predict the relative increase in water vapour in the atmosphere based on a temperature rises of 2.0 K, assuming that the relative humidity remains constant: (The present global mean temperature is 290 K, and the equilibrium vapour pressure of water at that temperature is 0.0189 bar.)",
+        "success": true
+      },
+      "accuracy": 0.998779296875
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "concern to climate change experts. Predict the relative increase in water vapour in the atmosphere based on a temperature rises of 2.0 K, assuming that the relative humidity remains constant: (The present global mean temperature is 290 K, and the equilibrium vapour pressure of water at that temperature is 0.0189 bar.)",
+        "success": true
+      },
+      "accuracy": 0.998779296875
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "concern to climate change experts. Predict the relative increase in water vapour in the atmosphere based on a temperature rises of 2.0 K, assuming that the relative humidity remains constant: (The present global mean temperature is 290 K, and the equilibrium vapour pressure of water at that temperature is 0.0189 bar.)",
+        "success": true
+      },
+      "accuracy": 0.998779296875
+    }
+  },
+  "Q89": {
+    "id": "text_detector_89",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Red buttons per bag Stem Leaf 1 1 2 5 3 2 4 8 5 3 6 6 7 5 7 8 4 7 8",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Red buttons per bag Stem Leaf 3 6 47 8",
+        "success": true
+      },
+      "accuracy": 0.928828239440918
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Red buttons per bag Stem Leaf 3 6 47 8",
+        "success": true
+      },
+      "accuracy": 0.928828239440918
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Red buttons per bag Stem Leaf 3 6 47 8",
+        "success": true
+      },
+      "accuracy": 0.928828239440918
+    }
+  },
+  "Q90": {
+    "id": "text_detector_90",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Push-up competition (number of push-ups) Stem Leaf 4 8 5 5 6 6 3 6 7 7 7 1 3 3 5 5 7 7 8",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Push-up competition (number Of push-ups) Stem Leaf 5 6 3 6 7 7 1335778",
+        "success": true
+      },
+      "accuracy": 0.9646682739257812
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Push-up competition (number Of push-ups) Stem Leaf 5 6 3 6 7 7 1335778",
+        "success": true
+      },
+      "accuracy": 0.9646682739257812
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Push-up competition (number Of push-ups) Stem Leaf 5 6 3 6 7 7 1335778",
+        "success": true
+      },
+      "accuracy": 0.9646682739257812
+    }
+  },
+  "Q91": {
+    "id": "text_detector_91",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "cuneate obluse cordate truncate oblique",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "cuneale obluse cordale truncale oblique",
+        "success": true
+      },
+      "accuracy": 0.9142374992370605
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "cuneale obluse cordale truncale oblique",
+        "success": true
+      },
+      "accuracy": 0.9142374992370605
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "cuneale obluse cordale truncale oblique",
+        "success": true
+      },
+      "accuracy": 0.9142374992370605
+    }
+  },
+  "Q92": {
+    "id": "text_detector_92",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "entire doubly serrate undulate serrulate dentate sinuate serrate crenate incised \u00a9 E.M. Armstrong 2002",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "entire doubly serrate undulate serrulate dentate sinuate serrate crenate incised EM: Armstrong 2002",
+        "success": true
+      },
+      "accuracy": 0.9696907997131348
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "entire doubly serrate undulate serrulate dentate sinuate serrate crenate incised EM: Armstrong 2002",
+        "success": true
+      },
+      "accuracy": 0.9696907997131348
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "entire doubly serrate undulate serrulate dentate sinuate serrate crenate incised EM: Armstrong 2002",
+        "success": true
+      },
+      "accuracy": 0.9696907997131348
+    }
+  },
+  "Q93": {
+    "id": "text_detector_93",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "spelt rolls $8/kilogram hamburger buns $7/kilogram rye rolls $6/kilogram wheat rolls $8/kilogram English muffins $8/kilogram tortillas $8/kilogram",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "spelt rolls S8/kilogram hamburger buns S7/kilogram rye rolls S6/kilogram wheat rolls S8/kilogram English muffins S8/kilogram tortillas SS/kilogram",
+        "success": true
+      },
+      "accuracy": 0.8510045409202576
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "spelt rolls S8/kilogram hamburger buns S7/kilogram rye rolls S6/kilogram wheat rolls S8/kilogram English muffins S8/kilogram tortillas SS/kilogram",
+        "success": true
+      },
+      "accuracy": 0.8510045409202576
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "spelt rolls S8/kilogram hamburger buns S7/kilogram rye rolls S6/kilogram wheat rolls S8/kilogram English muffins S8/kilogram tortillas SS/kilogram",
+        "success": true
+      },
+      "accuracy": 0.8510045409202576
+    }
+  },
+  "Q94": {
+    "id": "text_detector_94",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of different algorithms heel desert pine globe par 0 2 4 6 8 10 Accuracy",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms heel desert pine globe par 10 Accuracy",
+        "success": true
+      },
+      "accuracy": 0.9846517443656921
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms heel desert pine globe par 10 Accuracy",
+        "success": true
+      },
+      "accuracy": 0.9846517443656921
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "Accuracy of different algorithms heel desert pine globe par 10 Accuracy",
+        "success": true
+      },
+      "accuracy": 0.9846517443656921
+    }
+  },
+  "Q95": {
+    "id": "text_detector_95",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "primary consumers solar energy secondary consumers producers decomposers",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "primary consumers solar energy secondary consumers K producers decomposers",
+        "success": true
+      },
+      "accuracy": 0.9658344984054565
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "primary consumers solar energy secondary consumers K producers decomposers",
+        "success": true
+      },
+      "accuracy": 0.9658344984054565
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "content": "primary consumers solar energy secondary consumers K producers decomposers",
+        "success": true
+      },
+      "accuracy": 0.9658344984054565
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 83.54158257183276,
+    "run_2": 83.54158257183276,
+    "run_3": 83.54158257183276
+  }
+}

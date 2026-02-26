@@ -1,0 +1,908 @@
+{
+  "Test-File length": 30,
+  "Q1": {
+    "id": "calendar_calculation_1",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a non-leap year. Which day of the week was on August 2 of the previous year?\nA. Monday\nB. Sunday\nC. Saturday\nD. Thursday",
+    "answer": "Sunday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q2": {
+    "id": "calendar_calculation_2",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. Which day of the week was on March 1 of that year?\nA. Thursday\nB. Sunday\nC. Wednesday\nD. Friday",
+    "answer": "Friday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q3": {
+    "id": "calendar_calculation_3",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. Which day of the week was on May 31 of that year?\nA. Monday\nB. Wednesday\nC. Tuesday\nD. Thursday",
+    "answer": "Wednesday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q4": {
+    "id": "calendar_calculation_4",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a non-leap year. Which day of the week was on June 12 of the previous year?\nA. Sunday\nB. Wednesday\nC. Thursday\nD. Saturday",
+    "answer": "Saturday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Saturday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Saturday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Saturday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q5": {
+    "id": "calendar_calculation_5",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. Which day of the week was on July 5 of that year?\nA. Tuesday\nB. Friday\nC. Wednesday\nD. Saturday",
+    "answer": "Tuesday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q6": {
+    "id": "calendar_calculation_6",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. Which day of the week was on January 25 of that year?\nA. Friday\nB. Sunday\nC. Saturday\nD. Monday",
+    "answer": "Friday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q7": {
+    "id": "calendar_calculation_7",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The next year was a non-leap year. Which day of the week was on November 9 of the next year?\nA. Thursday\nB. Wednesday\nC. Sunday\nD. Tuesday",
+    "answer": "Wednesday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q8": {
+    "id": "calendar_calculation_8",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a non-leap year. Which day of the week was on November 17 of the previous year?\nA. Tuesday\nB. Sunday\nC. Friday\nD. Thursday",
+    "answer": "Sunday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q9": {
+    "id": "calendar_calculation_9",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular leap year. The next year was a non-leap year. Which day of the week was on January 11 of the next year?\nA. Monday\nB. Saturday\nC. Thursday\nD. Wednesday",
+    "answer": "Wednesday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q10": {
+    "id": "calendar_calculation_10",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The next year was a non-leap year. Which day of the week was on April 11 of the next year?\nA. Wednesday\nB. Saturday\nC. Sunday\nD. Thursday",
+    "answer": "Wednesday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q11": {
+    "id": "calendar_calculation_11",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a non-leap year. Which day of the week was on August 29 of the previous year?\nA. Wednesday\nB. Saturday\nC. Thursday\nD. Tuesday",
+    "answer": "Tuesday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q12": {
+    "id": "calendar_calculation_12",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a leap year. Which day of the week was on January 16 of the previous year?\nA. Saturday\nB. Friday\nC. Thursday\nD. Wednesday",
+    "answer": "Friday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q13": {
+    "id": "calendar_calculation_13",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. Which day of the week was on March 28 of that year?\nA. Thursday\nB. Friday\nC. Monday\nD. Sunday",
+    "answer": "Friday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q14": {
+    "id": "calendar_calculation_14",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular leap year. The previous year was a non-leap year. Which day of the week was on May 8 of the previous year?\nA. Friday\nB. Saturday\nC. Wednesday\nD. Sunday",
+    "answer": "Wednesday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q15": {
+    "id": "calendar_calculation_15",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a non-leap year. Which day of the week was on October 12 of the previous year?\nA. Thursday\nB. Sunday\nC. Wednesday\nD. Monday",
+    "answer": "Thursday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Thursday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Thursday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Thursday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q16": {
+    "id": "calendar_calculation_16",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular leap year. The next year was a non-leap year. Which day of the week was on July 20 of the next year?\nA. Tuesday\nB. Wednesday\nC. Saturday\nD. Monday",
+    "answer": "Saturday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Saturday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Saturday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Saturday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q17": {
+    "id": "calendar_calculation_17",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a non-leap year. Which day of the week was on December 24 of the previous year?\nA. Wednesday\nB. Monday\nC. Friday\nD. Thursday",
+    "answer": "Monday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q18": {
+    "id": "calendar_calculation_18",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. Which day of the week was on September 19 of that year?\nA. Monday\nB. Tuesday\nC. Sunday\nD. Saturday",
+    "answer": "Tuesday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q19": {
+    "id": "calendar_calculation_19",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a non-leap year. Which day of the week was on November 27 of the previous year?\nA. Friday\nB. Monday\nC. Thursday\nD. Tuesday",
+    "answer": "Monday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q20": {
+    "id": "calendar_calculation_20",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a non-leap year. Which day of the week was on May 27 of the previous year?\nA. Tuesday\nB. Friday\nC. Wednesday\nD. Monday",
+    "answer": "Monday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q21": {
+    "id": "calendar_calculation_21",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular leap year. The previous year was a non-leap year. Which day of the week was on October 29 of the previous year?\nA. Tuesday\nB. Saturday\nC. Monday\nD. Friday",
+    "answer": "Monday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q22": {
+    "id": "calendar_calculation_22",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The next year was a non-leap year. Which day of the week was on April 10 of the next year?\nA. Wednesday\nB. Sunday\nC. Saturday\nD. Thursday",
+    "answer": "Wednesday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Wednesday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q23": {
+    "id": "calendar_calculation_23",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The next year was a non-leap year. Which day of the week was on April 16 of the next year?\nA. Monday\nB. Tuesday\nC. Saturday\nD. Sunday",
+    "answer": "Monday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Monday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q24": {
+    "id": "calendar_calculation_24",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a leap year. Which day of the week was on September 17 of the previous year?\nA. Friday\nB. Sunday\nC. Wednesday\nD. Tuesday",
+    "answer": "Tuesday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q25": {
+    "id": "calendar_calculation_25",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a non-leap year. Which day of the week was on February 21 of the previous year?\nA. Wednesday\nB. Sunday\nC. Saturday\nD. Friday",
+    "answer": "Friday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Friday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q26": {
+    "id": "calendar_calculation_26",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The next year was a non-leap year. Which day of the week was on July 26 of the next year?\nA. Saturday\nB. Thursday\nC. Friday\nD. Monday",
+    "answer": "Thursday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Thursday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Thursday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Thursday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q27": {
+    "id": "calendar_calculation_27",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular leap year. The previous year was a non-leap year. Which day of the week was on October 14 of the previous year?\nA. Sunday\nB. Wednesday\nC. Thursday\nD. Tuesday",
+    "answer": "Thursday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Thursday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Thursday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Thursday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q28": {
+    "id": "calendar_calculation_28",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular leap year. The previous year was a non-leap year. Which day of the week was on August 25 of the previous year?\nA. Monday\nB. Saturday\nC. Sunday\nD. Wednesday",
+    "answer": "Sunday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q29": {
+    "id": "calendar_calculation_29",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular leap year. The previous year was a non-leap year. Which day of the week was on July 5 of the previous year?\nA. Thursday\nB. Sunday\nC. Tuesday\nD. Saturday",
+    "answer": "Tuesday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Tuesday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Q30": {
+    "id": "calendar_calculation_30",
+    "evaluation_metrics": "exact_match",
+    "query": "You'll be given an image, a question, and some choices. You have to select the correct one. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of ABCD.\nThe image shows the calendar of a month of a particular non-leap year. The previous year was a leap year. Which day of the week was on March 8 of the previous year?\nA. Saturday\nB. Monday\nC. Sunday\nD. Thursday",
+    "answer": "Sunday",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sunday",
+        "success": true
+      },
+      "accuracy": 1
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 100.0,
+    "run_2": 100.0,
+    "run_3": 100.0
+  }
+}

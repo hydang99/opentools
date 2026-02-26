@@ -1,0 +1,4765 @@
+{
+  "Test-File length": 95,
+  "Q1": {
+    "id": "text_detector_1",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "The spring force does negative work, decreasing speed and kinetic energy. Frictionless k m Stop d First touch",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The spring force does negative work, decreasing speed and kinetic energy.\n\nk\n\nFrictionless\n\nm\n\nStop\n\nFirst touch\n\nd",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 2847,
+          "total_completion_tokens": 28,
+          "total_tokens": 2875,
+          "call_count": 1,
+          "average_tokens_per_call": 2875.0
+        }
+      },
+      "accuracy": 0.9850451350212097
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The spring force does negative work, decreasing speed and kinetic energy.\n\nk\n\nFrictionless\n\nm\n\nStop\n\nFirst touch\n\nd",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 5694,
+          "total_completion_tokens": 56,
+          "total_tokens": 5750,
+          "call_count": 2,
+          "average_tokens_per_call": 2875.0
+        }
+      },
+      "accuracy": 0.9850451350212097
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The spring force does negative work, decreasing speed and kinetic energy. \n\nk\n\nFrictionless\n\nm\n\nStop\n\nFirst touch\n\nd",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 8541,
+          "total_completion_tokens": 85,
+          "total_tokens": 8626,
+          "call_count": 3,
+          "average_tokens_per_call": 2875.3333333333335
+        }
+      },
+      "accuracy": 0.9850451350212097
+    }
+  },
+  "Q2": {
+    "id": "text_detector_2",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Amy's PizzA MARGHERITA THINNER CRUST WITH FRESH MOZZARELLA & BASIL MADE WITH ORGANIC FLOUR AND TOMATOES KEEP FROZEN FAMILY OWNED SINCE 1988 NET WT 13 OZ (369 g) No GMO",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n**Amy's**\n**Thinner Crust with Fresh Mozzarella & Basil**\n**Made with Organic Flour and Tomatoes**\n**Pizza Margherita**\n**Net Wt 13 oz (369g)**\n**Keep Frozen**\n**Family Owned Since 1988**\n**No GMOs**",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 11388,
+          "total_completion_tokens": 155,
+          "total_tokens": 11543,
+          "call_count": 4,
+          "average_tokens_per_call": 2885.75
+        }
+      },
+      "accuracy": 0.8855141997337341
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n**Amy's**\n**Thinner Crust with Fresh Mozzarella & Basil**\n**Made with Organic Flour and Tomatoes**\n**Pizza Margherita**\n\n**Net Wt 13 oz (369g)**\n\n**Family Owned Since 1988**\n**Keep Frozen**\n**No GMOs**",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 14235,
+          "total_completion_tokens": 225,
+          "total_tokens": 14460,
+          "call_count": 5,
+          "average_tokens_per_call": 2892.0
+        }
+      },
+      "accuracy": 0.8814752101898193
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n**Amy's**\n**THINNER CRUST WITH FRESH MOZZARELLA & BASIL**\n**MADE WITH ORGANIC FLOUR AND TOMATOES**\n**PIZZA MARGHERITA**\n**NET WT 13 OZ (369g)**\n**KEEP FROZEN**\n**FAMILY OWNED SINCE 1988**\n**NO GMOs**",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 17082,
+          "total_completion_tokens": 311,
+          "total_tokens": 17393,
+          "call_count": 6,
+          "average_tokens_per_call": 2898.8333333333335
+        }
+      },
+      "accuracy": 0.8855141997337341
+    }
+  },
+  "Q3": {
+    "id": "text_detector_3",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Martelli Dal 1950 Prosciutto di Parma Disossato",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image reads:\n\n**MARTELLI**\n**PROSCIUTTO DI PARMA**\n**DISOSSATO**\n**DAL 1969**",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 19929,
+          "total_completion_tokens": 345,
+          "total_tokens": 20274,
+          "call_count": 7,
+          "average_tokens_per_call": 2896.285714285714
+        }
+      },
+      "accuracy": 0.7502713203430176
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n**MARTELLI**\n**PROSCIUTTO DI PARMA**\n**DISOSSATO**\n**DAL 1960**",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 22776,
+          "total_completion_tokens": 379,
+          "total_tokens": 23155,
+          "call_count": 8,
+          "average_tokens_per_call": 2894.375
+        }
+      },
+      "accuracy": 0.7760414481163025
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image reads:\n\n**MARTELLI**\n**PROSCIUTTO DI PARMA**\n**DISOSSATO**\n**DAL 1960**",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 25623,
+          "total_completion_tokens": 413,
+          "total_tokens": 26036,
+          "call_count": 9,
+          "average_tokens_per_call": 2892.8888888888887
+        }
+      },
+      "accuracy": 0.7959010601043701
+    }
+  },
+  "Q4": {
+    "id": "text_detector_4",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Kathi Black Forest Cake Mix Simply Add Water, Vegetable Oil, Butter and Sour Cherries Net Wt 15.2 oz (430 g)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Kathi  \nBlack Forest Cake Mix  \nSimply Add: Water, Vegetable Oil, Butter and Sour Cherries  \nNET WT 15.2 OZ (430g)  \n(Germany)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 28470,
+          "total_completion_tokens": 451,
+          "total_tokens": 28921,
+          "call_count": 10,
+          "average_tokens_per_call": 2892.1
+        }
+      },
+      "accuracy": 0.9669374823570251
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Kathi  \nBlack Forest Cake Mix  \nSimply Add: Water, Vegetable Oil, Butter and Sour Cherries  \nNET WT 15.2 OZ (430g)  \n(Germany)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 31317,
+          "total_completion_tokens": 489,
+          "total_tokens": 31806,
+          "call_count": 11,
+          "average_tokens_per_call": 2891.4545454545455
+        }
+      },
+      "accuracy": 0.9669374823570251
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Kathi  \nBlack Forest Cake Mix  \nSimply Add: Water, Vegetable Oil, Butter and Sour Cherries  \nNET WT 15.2 OZ (430g)  \n(Germany)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 34164,
+          "total_completion_tokens": 527,
+          "total_tokens": 34691,
+          "call_count": 12,
+          "average_tokens_per_call": 2890.9166666666665
+        }
+      },
+      "accuracy": 0.9669374823570251
+    }
+  },
+  "Q5": {
+    "id": "text_detector_5",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Betty Crocker Delights Super Moist Red Velvet Cake Mix There's pudding in the mix! 160 calories per 1/10 package",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Betty Crocker\nDelights\nSUPER MOIST\nRED VELVET\nCAKE MIX\nThere's pudding in the mix!\n\nNET WT 15.25 OZ (432g)\n\nPER 1/10 PACKAGE\n160 CALORIES\n3.5g FAT\nSAT FAT 1g\nSODIUM 360mg\n18 SUGARS\n\nSERVING SUGGESTION",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 37011,
+          "total_completion_tokens": 608,
+          "total_tokens": 37619,
+          "call_count": 13,
+          "average_tokens_per_call": 2893.769230769231
+        }
+      },
+      "accuracy": 0.9549098610877991
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Betty Crocker  \nDelights  \nSUPER MOIST  \nRED VELVET  \nCAKE MIX  \nThere's pudding in the mix!  \n\nPER 1/10 PACKAGE  \n160 CALORIES  \n3.5g FAT  \n340mg SODIUM  \n18g SUGARS  \n\nNET WT 15.25 OZ (432g)  ",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 39858,
+          "total_completion_tokens": 679,
+          "total_tokens": 40537,
+          "call_count": 14,
+          "average_tokens_per_call": 2895.5
+        }
+      },
+      "accuracy": 0.9609010219573975
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Betty Crocker\nDelights\nSUPER MOIST\nRED VELVET\nCAKE MIX\nThere's pudding in the mix!\n\nNET WT 15.25 OZ (432g)\n\nPER 1/10 PACKAGE\n160 CALORIES\n3g SAT FAT\n360mg SODIUM\n18g SUGARS\n\nSERVING SUGGESTION",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 42705,
+          "total_completion_tokens": 753,
+          "total_tokens": 43458,
+          "call_count": 15,
+          "average_tokens_per_call": 2897.2
+        }
+      },
+      "accuracy": 0.9512948989868164
+    }
+  },
+  "Q6": {
+    "id": "text_detector_6",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Houses per block Stem Leaf 0 5 7 1 0 4 5 2 0 0 1 2 3 3 3 4 6 7 8 9 3 0 1 2 4 6 8",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\nHouses per block\nStem  Leaf\n0     5 7\n1     0 4 5\n2     0 0 1 2 3 3 4 6 7 8 9\n3     0 1 2 4 6 8\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 45552,
+          "total_completion_tokens": 831,
+          "total_tokens": 46383,
+          "call_count": 16,
+          "average_tokens_per_call": 2898.9375
+        }
+      },
+      "accuracy": 0.8566457629203796
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n**Houses per block**\n\nStem | Leaf  \n0    | 57  \n1    | 045  \n2    | 00123346789  \n3    | 012468  ",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 48399,
+          "total_completion_tokens": 879,
+          "total_tokens": 49278,
+          "call_count": 17,
+          "average_tokens_per_call": 2898.705882352941
+        }
+      },
+      "accuracy": 0.8345029354095459
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\nHouses per block\nStem  Leaf\n0     5 7\n1     0 4 5\n2     0 0 1 2 3 3 4 6 7 8 9\n3     0 1 2 4 6 8\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 51246,
+          "total_completion_tokens": 957,
+          "total_tokens": 52203,
+          "call_count": 18,
+          "average_tokens_per_call": 2900.1666666666665
+        }
+      },
+      "accuracy": 0.8566457629203796
+    }
+  },
+  "Q7": {
+    "id": "text_detector_7",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Pre 100% Grass Fed & Finished Beef New York Strip Steak No Added Hormones No Sub-Therapeutic Antibiotics Non GMO Verified We're different, and proud of it.",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n**Pre**\n100% Grass Fed & Finished Beef  \nNEW YORK STRIP STEAK  \nNo Added Hormones  \nNo Sub-Therapeutic Antibiotics  \nNon-GMO Project Verified  \n\n\"We're different... and proud of it.\"  \n*We are the ranchers.  Nothing added.*  \n\n**30% less fat than USDA data for beef.**  \n*P*",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 54093,
+          "total_completion_tokens": 1043,
+          "total_tokens": 55136,
+          "call_count": 19,
+          "average_tokens_per_call": 2901.8947368421054
+        }
+      },
+      "accuracy": 0.7667484283447266
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n**Pre**\n100% Grass Fed & Finished Beef  \nNEW YORK STRIP STEAK  \nNo Added Hormones  \nNo Sub-Therapeutic Antibiotics  \nNon-GMO Project Verified  \n\n\"We're different... and proud of it.\"  \n*We are the ranchers. This is our beef.*  \n\n**30% less fat than USDA data for beef.**  \n*P*",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 56940,
+          "total_completion_tokens": 1130,
+          "total_tokens": 58070,
+          "call_count": 20,
+          "average_tokens_per_call": 2903.5
+        }
+      },
+      "accuracy": 0.7575778961181641
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n**Pre**\n100% Grass Fed & Finished Beef  \nNEW YORK STRIP STEAK  \nNo Added Hormones  \nNo Sub-Therapeutic Antibiotics  \nNon-GMO Project Verified  \n\n\"We're different... and proud of it.\"  \n*We are the ranchers.  Nothing added.*  \n\n**30% less fat than USDA Choice**  \n*P*  \n*1.5 lb*",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 59787,
+          "total_completion_tokens": 1220,
+          "total_tokens": 61007,
+          "call_count": 21,
+          "average_tokens_per_call": 2905.095238095238
+        }
+      },
+      "accuracy": 0.7518035173416138
+    }
+  },
+  "Q8": {
+    "id": "text_detector_8",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "New York Style Cheesecake by SugarApron.com",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "New York Style  \nCheesecake  \nby SugarApron.com",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 62634,
+          "total_completion_tokens": 1234,
+          "total_tokens": 63868,
+          "call_count": 22,
+          "average_tokens_per_call": 2903.090909090909
+        }
+      },
+      "accuracy": 1.0000001192092896
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "New York Style Cheesecake  \nby SugarApron.com",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 65481,
+          "total_completion_tokens": 1246,
+          "total_tokens": 66727,
+          "call_count": 23,
+          "average_tokens_per_call": 2901.1739130434785
+        }
+      },
+      "accuracy": 1.0000001192092896
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "New York Style  \nCheesecake  \nby SugarApron.com",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 68328,
+          "total_completion_tokens": 1260,
+          "total_tokens": 69588,
+          "call_count": 24,
+          "average_tokens_per_call": 2899.5
+        }
+      },
+      "accuracy": 1.0000001192092896
+    }
+  },
+  "Q9": {
+    "id": "text_detector_9",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "TEXAS road house",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Texas Roadhouse\" \n\nThere are also images of a Texas flag and a U.S. flag on the building.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 71175,
+          "total_completion_tokens": 1293,
+          "total_tokens": 72468,
+          "call_count": 25,
+          "average_tokens_per_call": 2898.72
+        }
+      },
+      "accuracy": 0.6073951125144958
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Texas Roadhouse\" \n\nIt also includes the Texas flag and the American flag.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 74022,
+          "total_completion_tokens": 1319,
+          "total_tokens": 75341,
+          "call_count": 26,
+          "average_tokens_per_call": 2897.730769230769
+        }
+      },
+      "accuracy": 0.5753690004348755
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Texas Roadhouse\" \n\nIt also includes the Texas flag and the American flag.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 76869,
+          "total_completion_tokens": 1345,
+          "total_tokens": 78214,
+          "call_count": 27,
+          "average_tokens_per_call": 2896.814814814815
+        }
+      },
+      "accuracy": 0.5753690004348755
+    }
+  },
+  "Q10": {
+    "id": "text_detector_10",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Reduce your risk of coronavirus infection: Clean hands with soap and water or alcohol\u2011based hand rub Cover nose and mouth when coughing and sneezing with tissue or flexed elbow Avoid close contact with anyone with cold or flu\u2011like symptoms Thoroughly cook meat and eggs No unprotected contact with live wild or farm animals World Health Organization",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the text from the image:\n\n**Reduce your risk of coronavirus infection:**\n\n- Clean hands with soap and water or alcohol-based hand rub\n- Cover nose and mouth when coughing and sneezing with tissue or flexed elbow\n- Avoid close contact with anyone with cold or flu-like symptoms\n- Thoroughly cook meat and eggs\n- No unprotected contact with live wild or farm animals\n\n**World Health Organization**",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 79716,
+          "total_completion_tokens": 1433,
+          "total_tokens": 81149,
+          "call_count": 28,
+          "average_tokens_per_call": 2898.1785714285716
+        }
+      },
+      "accuracy": 0.7432883977890015
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the text extracted from the image:\n\n\"Reduce your risk of coronavirus infection:\n- Clean hands with soap and water or alcohol-based hand rub\n- Cover nose and mouth when coughing and sneezing with tissue or flexed elbow\n- Avoid close contact with anyone with cold or flu-like symptoms\n- Thoroughly cook meat and eggs\n- No unprotected contact with live wild or farm animals\" \n\n(World Health Organization logo)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 82563,
+          "total_completion_tokens": 1522,
+          "total_tokens": 84085,
+          "call_count": 29,
+          "average_tokens_per_call": 2899.4827586206898
+        }
+      },
+      "accuracy": 0.7472997307777405
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the text extracted from the image:\n\n\"Reduce your risk of coronavirus infection:\n- Clean hands with soap and water or alcohol-based hand rub\n- Cover nose and mouth when coughing and sneezing with tissue or flexed elbow\n- Avoid close contact with anyone with cold or flu-like symptoms\n- Thoroughly cook meat and eggs\n- No unprotected contact with live wild or farm animals\"\n\n(World Health Organization logo)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 85410,
+          "total_completion_tokens": 1610,
+          "total_tokens": 87020,
+          "call_count": 30,
+          "average_tokens_per_call": 2900.6666666666665
+        }
+      },
+      "accuracy": 0.7472997307777405
+    }
+  },
+  "Q11": {
+    "id": "text_detector_11",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "A B C O",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The image contains the following text:\n\n- A\n- B\n- C\n- O\n\nIt appears to represent a geometric figure, likely a triangle with points labeled A, B, C, and O.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 88257,
+          "total_completion_tokens": 1653,
+          "total_tokens": 89910,
+          "call_count": 31,
+          "average_tokens_per_call": 2900.3225806451615
+        }
+      },
+      "accuracy": 0.3529083728790283
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The image contains the following text:\n\n- A\n- B\n- C\n- O\n\nIt appears to represent a geometric figure, likely a triangle with points labeled A, B, C, and O.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 91104,
+          "total_completion_tokens": 1696,
+          "total_tokens": 92800,
+          "call_count": 32,
+          "average_tokens_per_call": 2900.0
+        }
+      },
+      "accuracy": 0.3529083728790283
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"A\nO\nB\nC\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 93951,
+          "total_completion_tokens": 1713,
+          "total_tokens": 95664,
+          "call_count": 33,
+          "average_tokens_per_call": 2898.909090909091
+        }
+      },
+      "accuracy": 0.5107650756835938
+    }
+  },
+  "Q12": {
+    "id": "text_detector_12",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "E F G H J x\u00b0 (x + 20)\u00b0 (x + 5)\u00b0 (x \u2212 5)\u00b0 (x + 10)\u00b0",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n- F\n- G\n- E\n- H\n- J\n- (x + 20)\u00b0\n- (x + 5)\u00b0\n- (x - 5)\u00b0\n- (x + 10)\u00b0",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 96798,
+          "total_completion_tokens": 1769,
+          "total_tokens": 98567,
+          "call_count": 34,
+          "average_tokens_per_call": 2899.029411764706
+        }
+      },
+      "accuracy": 0.773525595664978
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n- F\n- G\n- E\n- H\n- J\n- (x + 20)\u00b0\n- (x + 5)\u00b0\n- (x - 5)\u00b0\n- (x + 10)\u00b0",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 99645,
+          "total_completion_tokens": 1825,
+          "total_tokens": 101470,
+          "call_count": 35,
+          "average_tokens_per_call": 2899.1428571428573
+        }
+      },
+      "accuracy": 0.773525595664978
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n- F\n- G\n- E\n- H\n- J\n- \\( x \\)\n- \\( (x + 20)^\\circ \\)\n- \\( (x + 5)^\\circ \\)\n- \\( (x - 5)^\\circ \\)\n- \\( (x + 10)^\\circ \\)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 102492,
+          "total_completion_tokens": 1902,
+          "total_tokens": 104394,
+          "call_count": 36,
+          "average_tokens_per_call": 2899.8333333333335
+        }
+      },
+      "accuracy": 0.4114491939544678
+    }
+  },
+  "Q13": {
+    "id": "text_detector_13",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Most preferred objects of different categories Percent of People ditch want homer slide mare rebel categories racing afraid grease",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n- Most preferred objects of different categories\n- Percent of People\n- Categories: racing, afraid\n- Objects: ditch, want, homer, slide, mare, rebel\n- Values: (not visible in the image)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 105339,
+          "total_completion_tokens": 1956,
+          "total_tokens": 107295,
+          "call_count": 37,
+          "average_tokens_per_call": 2899.864864864865
+        }
+      },
+      "accuracy": 0.6512678861618042
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is as follows:\n\n- Title: Most preferred objects of different categories\n- Y-axis: Percent of People\n- X-axis: Categories\n- Categories: \n  - racing\n  - afraid\n  - grease\n- Objects:\n  - ditch\n  - want\n  - homer\n  - slide\n  - mare\n  - rebel",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 108186,
+          "total_completion_tokens": 2033,
+          "total_tokens": 110219,
+          "call_count": 38,
+          "average_tokens_per_call": 2900.5
+        }
+      },
+      "accuracy": 0.6690641641616821
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n- Most preferred objects of different categories\n- Percent of People\n- Categories: racing, afraid\n- Objects: ditch, want, homer, slide, mare, rebel\n- Values: (not visible in the image)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 111033,
+          "total_completion_tokens": 2087,
+          "total_tokens": 113120,
+          "call_count": 39,
+          "average_tokens_per_call": 2900.5128205128203
+        }
+      },
+      "accuracy": 0.6512678861618042
+    }
+  },
+  "Q14": {
+    "id": "text_detector_14",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Common water flea Algae Water snail Tilapia Water plant Tadpole Great diving beetle Kingfisher",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Common water flea\n- Algae\n- Water snail\n- Tilapia\n- Water plant\n- Tadpole\n- Kingfisher\n- Great diving beetle",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 113880,
+          "total_completion_tokens": 2132,
+          "total_tokens": 116012,
+          "call_count": 40,
+          "average_tokens_per_call": 2900.3
+        }
+      },
+      "accuracy": 0.8048372268676758
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Common water flea\n- Algae\n- Water snail\n- Tilapia\n- Water plant\n- Tadpole\n- Kingfisher\n- Great diving beetle",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 116727,
+          "total_completion_tokens": 2177,
+          "total_tokens": 118904,
+          "call_count": 41,
+          "average_tokens_per_call": 2900.0975609756097
+        }
+      },
+      "accuracy": 0.8048372268676758
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Common water flea\n- Algae\n- Water snail\n- Tilapia\n- Water plant\n- Kingfisher\n- Tadpole\n- Great diving beetle",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 119574,
+          "total_completion_tokens": 2222,
+          "total_tokens": 121796,
+          "call_count": 42,
+          "average_tokens_per_call": 2899.904761904762
+        }
+      },
+      "accuracy": 0.8020541071891785
+    }
+  },
+  "Q15": {
+    "id": "text_detector_15",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Sales statistics for items in different stores Units sold very mill cop dot stores candy cook",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sales statistics for items in different stores\n\nUnits sold\n\n- very\n- mill\n- cop\n- dot\n\n(candy in blue, cook in orange)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 122421,
+          "total_completion_tokens": 2255,
+          "total_tokens": 124676,
+          "call_count": 43,
+          "average_tokens_per_call": 2899.4418604651164
+        }
+      },
+      "accuracy": 0.9196854829788208
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Sales statistics for items in different stores\n\nUnits sold\n\nstores\n- candy\n- cook\n\nvery\nmill\ncop\ndot\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 125268,
+          "total_completion_tokens": 2291,
+          "total_tokens": 127559,
+          "call_count": 44,
+          "average_tokens_per_call": 2899.068181818182
+        }
+      },
+      "accuracy": 0.7104002833366394
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sales statistics for items in different stores\n\nUnits sold\n\n- candy (blue)\n- cook (orange)\n\nvery\nmill\ncop\ndot",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 128115,
+          "total_completion_tokens": 2320,
+          "total_tokens": 130435,
+          "call_count": 45,
+          "average_tokens_per_call": 2898.5555555555557
+        }
+      },
+      "accuracy": 0.930167555809021
+    }
+  },
+  "Q16": {
+    "id": "text_detector_16",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "\u03b1 ALPHA BOROSILICATE GLASS 600 ml 400 300 200 100 APPROX VOL",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\n\u03b1 ALPHA\nBOROSILICATE GLASS\n600 ml\n200\n300\n400\nAPPROX VOL\n100\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 130962,
+          "total_completion_tokens": 2360,
+          "total_tokens": 133322,
+          "call_count": 46,
+          "average_tokens_per_call": 2898.304347826087
+        }
+      },
+      "accuracy": 0.818855345249176
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\n\u03b1 ALPHA\nBOROSILICATE GLASS\n600 ml\n200\n300\n400\nAPPROX. VOL.\n100\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 133809,
+          "total_completion_tokens": 2401,
+          "total_tokens": 136210,
+          "call_count": 47,
+          "average_tokens_per_call": 2898.0851063829787
+        }
+      },
+      "accuracy": 0.8025698065757751
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\n\u03b1 ALPHA\nBOROSILICATE GLASS\n600 ml\n200\n300\n400\nAPPROX VOL\n100\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 136656,
+          "total_completion_tokens": 2441,
+          "total_tokens": 139097,
+          "call_count": 48,
+          "average_tokens_per_call": 2897.8541666666665
+        }
+      },
+      "accuracy": 0.818855345249176
+    }
+  },
+  "Q17": {
+    "id": "text_detector_17",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Government expenditure on secondary education by country, 1974\u20132014, 2003 Government expenditure per student as a percentage of GDP per capita. Czechia 21.37% Paraguay 12.51% Laos 9.29% (2002) Source: World Bank Our World in Data CC BY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Government expenditure on secondary education by country, 1974-2014, 2003\n\nCzechia 21.37%\nParaguay 12.51%\nLaos 9.29% (2002)\n\nSource: World Bank\nCC BY\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 139503,
+          "total_completion_tokens": 2506,
+          "total_tokens": 142009,
+          "call_count": 49,
+          "average_tokens_per_call": 2898.1428571428573
+        }
+      },
+      "accuracy": 0.852449893951416
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Government expenditure on secondary education by country, 1974-2014, 2003\n\nCzechia 21.37%\nParaguay 12.51%\nLaos 9.29% (2002)\n\nSource: World Bank\nCC BY\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 142350,
+          "total_completion_tokens": 2570,
+          "total_tokens": 144920,
+          "call_count": 50,
+          "average_tokens_per_call": 2898.4
+        }
+      },
+      "accuracy": 0.851976752281189
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Government expenditure on secondary education by country, 1974-2014, 2003\n\nCzechia 21.37%\nParaguay 12.51%\nLaos 9.29% (2002)\n\nSource: World Bank\nCC BY\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 145197,
+          "total_completion_tokens": 2634,
+          "total_tokens": 147831,
+          "call_count": 51,
+          "average_tokens_per_call": 2898.6470588235293
+        }
+      },
+      "accuracy": 0.851976752281189
+    }
+  },
+  "Q18": {
+    "id": "text_detector_18",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Dark Salmon Periwinkle Gray Tomato",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\nDark Salmon\nPeriwinkle\nGray\nTomato\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 148044,
+          "total_completion_tokens": 2669,
+          "total_tokens": 150713,
+          "call_count": 52,
+          "average_tokens_per_call": 2898.326923076923
+        }
+      },
+      "accuracy": 0.7871301174163818
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\nDark Salmon\nPeriwinkle\nGray\nTomato\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 150891,
+          "total_completion_tokens": 2704,
+          "total_tokens": 153595,
+          "call_count": 53,
+          "average_tokens_per_call": 2898.0188679245284
+        }
+      },
+      "accuracy": 0.7871301174163818
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\nDark Salmon\nPeriwinkle\nGray\nTomato\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 153738,
+          "total_completion_tokens": 2739,
+          "total_tokens": 156477,
+          "call_count": 54,
+          "average_tokens_per_call": 2897.722222222222
+        }
+      },
+      "accuracy": 0.7871301174163818
+    }
+  },
+  "Q19": {
+    "id": "text_detector_19",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title xaxis_label yaxis_label Medium Periwinkle Cadet Blue Dark Gray Web Gray Violet Rebecca Purple Hot Pink",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nxaxis label\nyaxis label\nMedium Periwinkle\nCadet Blue\nDark Gray\nWeb Gray\nViolet\nRebecca Purple\nHot Pink\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 156585,
+          "total_completion_tokens": 2786,
+          "total_tokens": 159371,
+          "call_count": 55,
+          "average_tokens_per_call": 2897.6545454545453
+        }
+      },
+      "accuracy": 0.8217357397079468
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nxaxis label\nyaxis label\nMedium Periwinkle\nCadet Blue\nDark Gray\nWeb Gray\nViolet\nRebecca Purple\nHot Pink\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 159432,
+          "total_completion_tokens": 2833,
+          "total_tokens": 162265,
+          "call_count": 56,
+          "average_tokens_per_call": 2897.589285714286
+        }
+      },
+      "accuracy": 0.8217357397079468
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nxaxis label\nyaxis label\nMedium Periwinkle\nCadet Blue\nDark Gray\nWeb Gray\nViolet\nRebecca Purple\nHot Pink\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 162279,
+          "total_completion_tokens": 2880,
+          "total_tokens": 165159,
+          "call_count": 57,
+          "average_tokens_per_call": 2897.5263157894738
+        }
+      },
+      "accuracy": 0.8217357397079468
+    }
+  },
+  "Q20": {
+    "id": "text_detector_20",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Dark Periwinkle Yellow Olive Drab Deep Sky Blue Black Deep Pink",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\nDark Periwinkle\nYellow\nOlive Drab\nDeep Sky Blue\nBlack\nDeep Pink\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 165126,
+          "total_completion_tokens": 2924,
+          "total_tokens": 168050,
+          "call_count": 58,
+          "average_tokens_per_call": 2897.4137931034484
+        }
+      },
+      "accuracy": 0.739844024181366
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\nDark Periwinkle\nYellow\nOlive Drab\nDeep Sky Blue\nBlack\nDeep Pink\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 167973,
+          "total_completion_tokens": 2968,
+          "total_tokens": 170941,
+          "call_count": 59,
+          "average_tokens_per_call": 2897.3050847457625
+        }
+      },
+      "accuracy": 0.739844024181366
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\nDark Periwinkle\nYellow\nOlive Drab\nDeep Sky Blue\nBlack\nDeep Pink\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 170820,
+          "total_completion_tokens": 3012,
+          "total_tokens": 173832,
+          "call_count": 60,
+          "average_tokens_per_call": 2897.2
+        }
+      },
+      "accuracy": 0.739844024181366
+    }
+  },
+  "Q21": {
+    "id": "text_detector_21",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Average precipitation in Christchurch, New Zealand Precipitation (mm) Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Average precipitation in Christchurch, New Zealand\n\n- Jan\n- Feb\n- Mar\n- Apr\n- May\n- Jun\n- Jul\n- Aug\n- Sep\n- Oct\n- Nov\n- Dec\n\nPrecipitation (mm)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 173667,
+          "total_completion_tokens": 3063,
+          "total_tokens": 176730,
+          "call_count": 61,
+          "average_tokens_per_call": 2897.2131147540986
+        }
+      },
+      "accuracy": 0.956558108329773
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Average precipitation in Christchurch, New Zealand\n\n- Jan\n- Feb\n- Mar\n- Apr\n- May\n- Jun\n- Jul\n- Aug\n- Sep\n- Oct\n- Nov\n- Dec\n\nPrecipitation (mm)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 176514,
+          "total_completion_tokens": 3114,
+          "total_tokens": 179628,
+          "call_count": 62,
+          "average_tokens_per_call": 2897.2258064516127
+        }
+      },
+      "accuracy": 0.956558108329773
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Average precipitation in Christchurch, New Zealand\n\n- Jan\n- Feb\n- Mar\n- Apr\n- May\n- Jun\n- Jul\n- Aug\n- Sep\n- Oct\n- Nov\n- Dec\n\nPrecipitation (mm)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 179361,
+          "total_completion_tokens": 3165,
+          "total_tokens": 182526,
+          "call_count": 63,
+          "average_tokens_per_call": 2897.2380952380954
+        }
+      },
+      "accuracy": 0.956558108329773
+    }
+  },
+  "Q22": {
+    "id": "text_detector_22",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "oval beads $2/kilogram rectangular beads $3/kilogram star-shaped beads $2/kilogram spherical beads $2/kilogram heart-shaped beads $3/kilogram square beads $2/kilogram flower-shaped beads $2/kilogram",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- oval beads: $2/kilogram\n- rectangular beads: $3/kilogram\n- star-shaped beads: $2/kilogram\n- spherical beads: $2/kilogram\n- heart-shaped beads: $3/kilogram\n- square beads: $2/kilogram\n- flower-shaped beads: $2/kilogram",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 182208,
+          "total_completion_tokens": 3247,
+          "total_tokens": 185455,
+          "call_count": 64,
+          "average_tokens_per_call": 2897.734375
+        }
+      },
+      "accuracy": 0.8730953931808472
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- oval beads: $2/kilogram\n- rectangular beads: $3/kilogram\n- star-shaped beads: $2/kilogram\n- spherical beads: $2/kilogram\n- heart-shaped beads: $3/kilogram\n- square beads: $2/kilogram\n- flower-shaped beads: $2/kilogram",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 185055,
+          "total_completion_tokens": 3329,
+          "total_tokens": 188384,
+          "call_count": 65,
+          "average_tokens_per_call": 2898.2153846153847
+        }
+      },
+      "accuracy": 0.8730953931808472
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- oval beads: $2/kilogram\n- rectangular beads: $3/kilogram\n- star-shaped beads: $2/kilogram\n- spherical beads: $2/kilogram\n- heart-shaped beads: $3/kilogram\n- square beads: $2/kilogram\n- flower-shaped beads: $2/kilogram",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 187902,
+          "total_completion_tokens": 3411,
+          "total_tokens": 191313,
+          "call_count": 66,
+          "average_tokens_per_call": 2898.681818181818
+        }
+      },
+      "accuracy": 0.8730953931808472
+    }
+  },
+  "Q23": {
+    "id": "text_detector_23",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Average waiting time at the DMV Month Waiting time (minutes) August 17 September 14 October 26 November 17 December 25",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "**Average waiting time at the DMV**\n\n| Month      | Waiting time (minutes) |\n|------------|-------------------------|\n| August     | 17                      |\n| September  | 14                      |\n| October    | 26                      |\n| November   | 17                      |\n| December   | 25                      |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 190749,
+          "total_completion_tokens": 3476,
+          "total_tokens": 194225,
+          "call_count": 67,
+          "average_tokens_per_call": 2898.8805970149256
+        }
+      },
+      "accuracy": 0.814003586769104
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "**Average waiting time at the DMV**\n\n| Month      | Waiting time (minutes) |\n|------------|------------------------|\n| August     | 17                     |\n| September  | 14                     |\n| October    | 26                     |\n| November   | 17                     |\n| December   | 25                     |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 193596,
+          "total_completion_tokens": 3541,
+          "total_tokens": 197137,
+          "call_count": 68,
+          "average_tokens_per_call": 2899.073529411765
+        }
+      },
+      "accuracy": 0.816349446773529
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "**Average waiting time at the DMV**\n\n| Month      | Waiting time (minutes) |\n|------------|-------------------------|\n| August     | 17                      |\n| September  | 14                      |\n| October    | 26                      |\n| November   | 17                      |\n| December   | 25                      |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 196443,
+          "total_completion_tokens": 3606,
+          "total_tokens": 200049,
+          "call_count": 69,
+          "average_tokens_per_call": 2899.2608695652175
+        }
+      },
+      "accuracy": 0.814003586769104
+    }
+  },
+  "Q24": {
+    "id": "text_detector_24",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "SPIDER LIFE CYCLE Adult Egg sac Eggs Baby spiderlings Spiderlings",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "SPIDER LIFE CYCLE\n\n- Adult\n- Egg sac\n- Eggs\n- Spiderlings\n- Baby spiderlings",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 199290,
+          "total_completion_tokens": 3631,
+          "total_tokens": 202921,
+          "call_count": 70,
+          "average_tokens_per_call": 2898.8714285714286
+        }
+      },
+      "accuracy": 0.9185855984687805
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "SPIDER LIFE CYCLE\n\n- Adult\n- Egg sac\n- Eggs\n- Spiderlings\n- Baby spiderlings",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 202137,
+          "total_completion_tokens": 3656,
+          "total_tokens": 205793,
+          "call_count": 71,
+          "average_tokens_per_call": 2898.492957746479
+        }
+      },
+      "accuracy": 0.9185855984687805
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "SPIDER LIFE CYCLE\n\n- Adult\n- Egg sac\n- Eggs\n- Spiderlings\n- Baby spiderlings",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 204984,
+          "total_completion_tokens": 3681,
+          "total_tokens": 208665,
+          "call_count": 72,
+          "average_tokens_per_call": 2898.125
+        }
+      },
+      "accuracy": 0.9185855984687805
+    }
+  },
+  "Q25": {
+    "id": "text_detector_25",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "ONE WAY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"ONE WAY\" \n\nwith an arrow pointing to the left.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 207831,
+          "total_completion_tokens": 3703,
+          "total_tokens": 211534,
+          "call_count": 73,
+          "average_tokens_per_call": 2897.72602739726
+        }
+      },
+      "accuracy": 0.34745079278945923
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text in the image reads: \"ONE WAY\" with an arrow pointing to the left.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 210678,
+          "total_completion_tokens": 3723,
+          "total_tokens": 214401,
+          "call_count": 74,
+          "average_tokens_per_call": 2897.310810810811
+        }
+      },
+      "accuracy": 0.37229785323143005
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"ONE WAY\" \n\nwith an arrow pointing to the left.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 213525,
+          "total_completion_tokens": 3745,
+          "total_tokens": 217270,
+          "call_count": 75,
+          "average_tokens_per_call": 2896.9333333333334
+        }
+      },
+      "accuracy": 0.34745079278945923
+    }
+  },
+  "Q26": {
+    "id": "text_detector_26",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Large roach Steelhead Predatory insects (Iestids) Roach fry Stickleback fry Tuft-weaving chironomids Cladophora, epiphytic diatoms, Nostoc",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Large roach\n- Steelhead\n- Predatory insects (lestids)\n- Roach fry\n- Stickleback fry\n- Tuft-weaving chironomids\n- Cladophora, epiphytic diatoms, Nostoc",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 216372,
+          "total_completion_tokens": 3806,
+          "total_tokens": 220178,
+          "call_count": 76,
+          "average_tokens_per_call": 2897.0789473684213
+        }
+      },
+      "accuracy": 0.8664655685424805
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Large roach\n- Steelhead\n- Predatory insects (lestids)\n- Roach fry\n- Stickleback fry\n- Tuft-weaving chironomids\n- Cladophora, epiphytic diatoms, Nostoc",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 219219,
+          "total_completion_tokens": 3867,
+          "total_tokens": 223086,
+          "call_count": 77,
+          "average_tokens_per_call": 2897.220779220779
+        }
+      },
+      "accuracy": 0.8664655685424805
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Large roach\n- Steelhead\n- Predatory insects (lestids)\n- Roach fry\n- Stickleback fry\n- Tuft-weaving chironomids\n- Cladophora, epiphytic diatoms, Nostoc",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 222066,
+          "total_completion_tokens": 3928,
+          "total_tokens": 225994,
+          "call_count": 78,
+          "average_tokens_per_call": 2897.358974358974
+        }
+      },
+      "accuracy": 0.8664655685424805
+    }
+  },
+  "Q27": {
+    "id": "text_detector_27",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Firebrick Orange",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\nFirebrick\nOrange\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 224913,
+          "total_completion_tokens": 3956,
+          "total_tokens": 228869,
+          "call_count": 79,
+          "average_tokens_per_call": 2897.0759493670885
+        }
+      },
+      "accuracy": 0.8063315153121948
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\ntitle\nyaxis_label\nxaxis_label\nFirebrick\nOrange\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 227760,
+          "total_completion_tokens": 3983,
+          "total_tokens": 231743,
+          "call_count": 80,
+          "average_tokens_per_call": 2896.7875
+        }
+      },
+      "accuracy": 0.7938692569732666
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\nFirebrick\nOrange\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 230607,
+          "total_completion_tokens": 4011,
+          "total_tokens": 234618,
+          "call_count": 81,
+          "average_tokens_per_call": 2896.5185185185187
+        }
+      },
+      "accuracy": 0.8063315153121948
+    }
+  },
+  "Q28": {
+    "id": "text_detector_28",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Sample A Mass of each particle: 40 u Average particle speed: 950 m/s Sample B Mass of each particle: 32 u Average particle speed: 750 m/s",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sample A  \nMass of each particle: 40 u  \nAverage particle speed: 950 m/s  \n\nSample B  \nMass of each particle: 32 u  \nAverage particle speed: 750 m/s  ",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 233454,
+          "total_completion_tokens": 4054,
+          "total_tokens": 237508,
+          "call_count": 82,
+          "average_tokens_per_call": 2896.439024390244
+        }
+      },
+      "accuracy": 1.0
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "**Sample A**  \nMass of each particle: 40 u  \nAverage particle speed: 950 m/s  \n\n**Sample B**  \nMass of each particle: 32 u  \nAverage particle speed: 750 m/s  ",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 236301,
+          "total_completion_tokens": 4101,
+          "total_tokens": 240402,
+          "call_count": 83,
+          "average_tokens_per_call": 2896.409638554217
+        }
+      },
+      "accuracy": 0.9808257818222046
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "**Sample A**  \nMass of each particle: 40 u  \nAverage particle speed: 950 m/s  \n\n**Sample B**  \nMass of each particle: 32 u  \nAverage particle speed: 750 m/s  ",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 239148,
+          "total_completion_tokens": 4148,
+          "total_tokens": 243296,
+          "call_count": 84,
+          "average_tokens_per_call": 2896.3809523809523
+        }
+      },
+      "accuracy": 0.9808257818222046
+    }
+  },
+  "Q29": {
+    "id": "text_detector_29",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Share of population using at least basic drinking water source, 2000 Share of the population using at least a basic drinking water service; that is, an improved source within 30 minutes' round trip to collect water. Iceland 100% Hungary 99.96% Turkey 95.49% Cambodia 52.4% Source: WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP) Our World in Data CC BY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Share of population using at least basic drinking water source, 2000\n\n- Iceland 100%\n- Hungary 99.6%\n- Turkey 95.49%\n- Cambodia 52.4%\n\nSource: WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP)\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 241995,
+          "total_completion_tokens": 4221,
+          "total_tokens": 246216,
+          "call_count": 85,
+          "average_tokens_per_call": 2896.6588235294116
+        }
+      },
+      "accuracy": 0.8808203339576721
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Share of population using at least basic drinking water source, 2000\n\nIceland 100%\nHungary 99.6%\nTurkey 95.49%\nCambodia 52.4%\n\nSource: WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP)\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 244842,
+          "total_completion_tokens": 4293,
+          "total_tokens": 249135,
+          "call_count": 86,
+          "average_tokens_per_call": 2896.9186046511627
+        }
+      },
+      "accuracy": 0.8810510039329529
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Share of population using at least basic drinking water source, 2000\n\nIceland 100%\nHungary 99.6%\nTurkey 95.49%\nCambodia 52.4%\n\nSource: WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (JMP)\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 247689,
+          "total_completion_tokens": 4365,
+          "total_tokens": 252054,
+          "call_count": 87,
+          "average_tokens_per_call": 2897.1724137931033
+        }
+      },
+      "accuracy": 0.8810510039329529
+    }
+  },
+  "Q30": {
+    "id": "text_detector_30",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title Sky Blue Web Maroon Salmon Dark Olive Dark Seafoam Burlywood",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- title\n- Sky Blue\n- Web Maroon\n- Salmon\n- Dark Olive\n- Dark Seafoam\n- Burlywood",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 250536,
+          "total_completion_tokens": 4402,
+          "total_tokens": 254938,
+          "call_count": 88,
+          "average_tokens_per_call": 2897.0227272727275
+        }
+      },
+      "accuracy": 0.8056095242500305
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n- title\n- Sky Blue\n- Web Maroon\n- Salmon\n- Dark Olive\n- Dark Seafoam\n- Burlywood",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 253383,
+          "total_completion_tokens": 4438,
+          "total_tokens": 257821,
+          "call_count": 89,
+          "average_tokens_per_call": 2896.8651685393256
+        }
+      },
+      "accuracy": 0.7861510515213013
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- title\n- Sky Blue\n- Web Maroon\n- Salmon\n- Dark Olive\n- Dark Seafoam\n- Burlywood",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 256230,
+          "total_completion_tokens": 4475,
+          "total_tokens": 260705,
+          "call_count": 90,
+          "average_tokens_per_call": 2896.722222222222
+        }
+      },
+      "accuracy": 0.8056095242500305
+    }
+  },
+  "Q31": {
+    "id": "text_detector_31",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Trophic level Terrestrial food chain Aquatic food chain Heterotrophs Tertiary consumer (secondary carnivore) Snake Pelican Secondary consumer (carnivore) Lizard Fish Primary consumer (herbivore) Caterpillar Zooplankton Primary producer (autotroph) Plant Phytoplankton",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n**Trophic level**\n\n**Heterotrophs**\n\n- **Tertiary consumer (secondary carnivore)**\n  - Snake\n  - Pelican\n\n- **Secondary consumer (primary carnivore)**\n  - Lizard\n  - Fish\n\n- **Primary consumer (herbivore)**\n  - Caterpillar\n  - Zooplankton\n\n- **Primary producer (autotroph)**\n  - Plant\n  - Phytoplankton",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 259077,
+          "total_completion_tokens": 4582,
+          "total_tokens": 263659,
+          "call_count": 91,
+          "average_tokens_per_call": 2897.3516483516482
+        }
+      },
+      "accuracy": 0.7706599831581116
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n**Trophic level**\n\n**Heterotrophs**\n\n- **Tertiary consumer (secondary carnivore)**\n  - Snake\n  - Pelican\n\n- **Secondary consumer (primary carnivore)**\n  - Lizard\n  - Fish\n\n- **Primary consumer (herbivore)**\n  - Caterpillar\n  - Zooplankton\n\n- **Primary producer (autotroph)**\n  - Plant\n  - Phytoplankton",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 261924,
+          "total_completion_tokens": 4689,
+          "total_tokens": 266613,
+          "call_count": 92,
+          "average_tokens_per_call": 2897.967391304348
+        }
+      },
+      "accuracy": 0.7706599831581116
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n**Trophic level**\n\n**Heterotrophs**\n\n- **Tertiary consumer (secondary carnivore)**\n  - Snake\n  - Pelican\n\n- **Secondary consumer (primary carnivore)**\n  - Lizard\n  - Fish\n\n- **Primary consumer (herbivore)**\n  - Caterpillar\n  - Zooplankton\n\n- **Primary producer (autotroph)**\n  - Plant\n  - Phytoplankton",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 264771,
+          "total_completion_tokens": 4796,
+          "total_tokens": 269567,
+          "call_count": 93,
+          "average_tokens_per_call": 2898.569892473118
+        }
+      },
+      "accuracy": 0.7706599831581116
+    }
+  },
+  "Q32": {
+    "id": "text_detector_32",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Life expectancy at birth in years female male 74.29 69.01 74.74 69.59 75.22 70.15 75.68 70.64 76.13 71.01 76.54 71.27 76.9 71.42 77.2 71.5 77.45 71.53 77.67 71.58 77.84 71.65",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is as follows:\n\n- Life expectancy at birth in years\n- Female: \n  - 2009: 74.29\n  - 2010: 74.74\n  - 2011: 75.13\n  - 2012: 75.61\n  - 2013: 76.13\n  - 2014: 76.31\n  - 2015: 76.67\n  - 2016: 77.22\n  - 2017: 77.54\n  - 2018: 77.67\n  - 2019: 77.84\n- Male:\n  - 2009: 69.91\n  - 2010: 69.59\n  - 2011: 70.21\n  - 2012: 70.51\n  - 2013: 70.83\n  - 2014: 71.15\n  - 2015: 71.53\n  - 2016: 71.87\n  - 2017: 71.38\n  - 2018: 71.65\n- Statista 2021\n- Additional Information\n- Show source",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 267618,
+          "total_completion_tokens": 5067,
+          "total_tokens": 272685,
+          "call_count": 94,
+          "average_tokens_per_call": 2900.904255319149
+        }
+      },
+      "accuracy": 0.6230647563934326
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is as follows:\n\n- Life expectancy at birth in years\n- Female: \n  - 2009: 74.29\n  - 2010: 74.74\n  - 2011: 75.13\n  - 2012: 75.61\n  - 2013: 76.13\n  - 2014: 76.31\n  - 2015: 76.67\n  - 2016: 77.22\n  - 2017: 77.47\n  - 2018: 77.67\n  - 2019: 77.84\n- Male:\n  - 2009: 69.91\n  - 2010: 70.17\n  - 2011: 70.42\n  - 2012: 70.51\n  - 2013: 70.71\n  - 2014: 70.83\n  - 2015: 71.35\n  - 2016: 71.58\n  - 2017: 71.65\n  - 2018: 71.37\n  - 2019: 71.65\n\n- Statista 2021\n- Additional Information\n- Show source",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 270465,
+          "total_completion_tokens": 5349,
+          "total_tokens": 275814,
+          "call_count": 95,
+          "average_tokens_per_call": 2903.305263157895
+        }
+      },
+      "accuracy": 0.6395471096038818
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is as follows:\n\n- Life expectancy at birth in years\n- Female: \n  - 2009: 74.29\n  - 2010: 74.74\n  - 2011: 76.13\n  - 2012: 76.31\n  - 2013: 76.67\n  - 2014: 77.22\n  - 2015: 77.47\n  - 2016: 77.67\n  - 2017: 77.84\n  - 2018: 77.67\n  - 2019: 77.84\n- Male:\n  - 2009: 69.91\n  - 2010: 69.59\n  - 2011: 71.27\n  - 2012: 71.41\n  - 2013: 71.51\n  - 2014: 71.65\n  - 2015: 71.83\n  - 2016: 71.38\n  - 2017: 71.57\n  - 2018: 71.65\n  - 2019: 71.65\n- Statista 2021",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 273312,
+          "total_completion_tokens": 5623,
+          "total_tokens": 278935,
+          "call_count": 96,
+          "average_tokens_per_call": 2905.5729166666665
+        }
+      },
+      "accuracy": 0.5887776613235474
+    }
+  },
+  "Q33": {
+    "id": "text_detector_33",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "2 7 5 2 3 4 10 21 ?",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\n2\n2\n7\n3\n5\n4\n10\n21\n?\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 276159,
+          "total_completion_tokens": 5652,
+          "total_tokens": 281811,
+          "call_count": 97,
+          "average_tokens_per_call": 2905.2680412371133
+        }
+      },
+      "accuracy": 0.466677188873291
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\n2\n2\n7\n3\n5\n4\n10\n21\n?\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 279006,
+          "total_completion_tokens": 5681,
+          "total_tokens": 284687,
+          "call_count": 98,
+          "average_tokens_per_call": 2904.969387755102
+        }
+      },
+      "accuracy": 0.466677188873291
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\n2\n2\n\n2\n7\n3\n\n10\n21\n\n?\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 281853,
+          "total_completion_tokens": 5708,
+          "total_tokens": 287561,
+          "call_count": 99,
+          "average_tokens_per_call": 2904.656565656566
+        }
+      },
+      "accuracy": 0.46272188425064087
+    }
+  },
+  "Q34": {
+    "id": "text_detector_34",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Food Web 4 SEA dolphin seal seagull starfish limpet crab mussel herring plankton algae seaweed not to scale! gills? I don't belong here!",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Food Web 4 SEA\n- dolphin\n- herring\n- seal\n- seagull\n- crab\n- mussel\n- plankton\n- algae\n- seaweed\n- starfish\n- limpet\n- gills?! I don't belong here!\n- not to scale!",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 284700,
+          "total_completion_tokens": 5780,
+          "total_tokens": 290480,
+          "call_count": 100,
+          "average_tokens_per_call": 2904.8
+        }
+      },
+      "accuracy": 0.8221395015716553
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n- dolphin\n- seal\n- seagull\n- starfish\n- herring\n- crab\n- mussel\n- plankton\n- algae\n- seaweed\n- limpet\n- \"not to scale!\"\n- \"gills?! I don't belong here!\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 287547,
+          "total_completion_tokens": 5847,
+          "total_tokens": 293394,
+          "call_count": 101,
+          "average_tokens_per_call": 2904.891089108911
+        }
+      },
+      "accuracy": 0.8162686824798584
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n```\nnot to scale!\n\nFood Web 4 SEA\n\ndolphin\nseal\nseagull\nstarfish\nherring\ncrab\nlimpet\nmussel\nplankton\nalgae\nseaweed\n\ngills?! I don't belong here!\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 290394,
+          "total_completion_tokens": 5914,
+          "total_tokens": 296308,
+          "call_count": 102,
+          "average_tokens_per_call": 2904.9803921568628
+        }
+      },
+      "accuracy": 0.6886929273605347
+    }
+  },
+  "Q35": {
+    "id": "text_detector_35",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Average usual weekly hours worked, women 15 years and older, 1995 to 2007 Average usual weekly hours worked on the main job, for women ages 15+. Estimates correspond to total declared employment. This includes part-time and full-time employment, as well as self-employment and dependent employment. Romania Portugal Switzerland Source: OECD Labor Force Statistics (2017) OurWorldInData.org/female-labor-force-participation-key-facts \u2022 CC BY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Average usual weekly hours worked, women 15 years and older, 1995 to 2007\nAverage usual weekly hours worked on the main job, for women ages 15+. Estimates correspond to total declared employment. This includes part-time and full-time employment, as well as self-employment and dependent employment.\n\nSource: OECD Labor Force Statistics (2017)\nOurWorldInData.org/female-labor-force-participation-key-facts \u2022 CC BY\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 293241,
+          "total_completion_tokens": 6018,
+          "total_tokens": 299259,
+          "call_count": 103,
+          "average_tokens_per_call": 2905.4271844660193
+        }
+      },
+      "accuracy": 0.8117157220840454
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Average usual weekly hours worked, women 15 years and older, 1995 to 2007\nAverage usual weekly hours worked on the main job, for women ages 15+. Estimates correspond to total declared employment. This includes part-time and full-time employment, as well as self-employment and dependent employment.\n\nSource: OECD Labor Force Statistics (2017)\nOurWorldInData.org/female-labor-force-participation-key-facts \u2022 CC BY\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 296088,
+          "total_completion_tokens": 6122,
+          "total_tokens": 302210,
+          "call_count": 104,
+          "average_tokens_per_call": 2905.8653846153848
+        }
+      },
+      "accuracy": 0.8117157220840454
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Average usual weekly hours worked, women 15 years and older, 1995 to 2007\nAverage usual weekly hours worked on the main job, for women ages 15+. Estimates correspond to total declared employment. This includes part-time and full-time employment, as well as self-employment and dependent employment.\n\nSource: OECD Labor Force Statistics (2017)\nOurWorldInData.org/female-labor-force-participation-key-facts \u2022 CC BY\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 298935,
+          "total_completion_tokens": 6226,
+          "total_tokens": 305161,
+          "call_count": 105,
+          "average_tokens_per_call": 2906.295238095238
+        }
+      },
+      "accuracy": 0.8117157220840454
+    }
+  },
+  "Q36": {
+    "id": "text_detector_36",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Model Performance Acc Pretrain Loss ICL SFT SFT 1/2 SFT 1/4 SFT 1/8 RFT k=100 RFT k=25 RFT k=6 RFT U13B LLaMA-7B LLaMA2-7B LLaMA-13B LLaMA2-13B LLaMA-33B LLaMA-65B LLaMA2-70B Figure 1: The key findings of scaling relationship on learning math reasoning ability with LLMs.",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Figure 1: The key findings of scaling relationship on learning math reasoning ability with LLMs.\" \n\nThe legend includes:\n\n- ICL\n- SFT\n- SFT 1/2\n- SFT 1/4\n- SFT 1/8\n- RFT k=100\n- RFT k=25\n- RFT k=5\n- RFT k=1\n\nThe graph shows various model performances with different pretrain losses.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 301782,
+          "total_completion_tokens": 6333,
+          "total_tokens": 308115,
+          "call_count": 106,
+          "average_tokens_per_call": 2906.745283018868
+        }
+      },
+      "accuracy": 0.7817137241363525
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Figure 1: The key findings of scaling relationship on learning math reasoning ability with LLMs.\" \n\nThe legend includes:\n\n- ICL\n- SFT\n- SFT 1/2\n- SFT 1/4\n- SFT 1/8\n- RFT k=100\n- RFT k=25\n- RFT k=10\n- RFT k=5\n- RFT k=1\n\nThe graph shows various model performances with different pretrain losses.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 304629,
+          "total_completion_tokens": 6447,
+          "total_tokens": 311076,
+          "call_count": 107,
+          "average_tokens_per_call": 2907.2523364485983
+        }
+      },
+      "accuracy": 0.7759124040603638
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Figure 1: The key findings of scaling relationship on learning math reasoning ability with LLMs.\" \n\nThe legend includes the following labels:\n- ICL\n- SFT\n- SFT 1/2\n- SFT 1/4\n- SFT 1/8\n- RFT k=100\n- RFT k=25\n- RFT k=5\n- RFT k=1\n\nThere are also various lines and markers indicating model performance and pretrain loss values.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 307476,
+          "total_completion_tokens": 6561,
+          "total_tokens": 314037,
+          "call_count": 108,
+          "average_tokens_per_call": 2907.75
+        }
+      },
+      "accuracy": 0.6698340177536011
+    }
+  },
+  "Q37": {
+    "id": "text_detector_37",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Price Quantity demanded Quantity supplied $250 14,400 1,200 $430 11,300 5,700 $610 8,200 10,200 $790 5,100 14,700 $970 2,000 19,200",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n| Price | Quantity demanded | Quantity supplied |\n|-------|-------------------|------------------|\n| $250  | 14,400            | 1,200            |\n| $430  | 11,300            | 5,700            |\n| $610  | 8,200             | 10,200           |\n| $790  | 5,100             | 14,700           |\n| $970  | 2,000             | 19,200           |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 310323,
+          "total_completion_tokens": 6674,
+          "total_tokens": 316997,
+          "call_count": 109,
+          "average_tokens_per_call": 2908.229357798165
+        }
+      },
+      "accuracy": 0.7213934063911438
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n| Price | Quantity demanded | Quantity supplied |\n|-------|-------------------|------------------|\n| $250  | 14,400            | 1,200            |\n| $430  | 11,300            | 5,700            |\n| $610  | 8,200             | 10,200           |\n| $790  | 5,100             | 14,700           |\n| $970  | 2,000             | 19,200           |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 313170,
+          "total_completion_tokens": 6787,
+          "total_tokens": 319957,
+          "call_count": 110,
+          "average_tokens_per_call": 2908.7
+        }
+      },
+      "accuracy": 0.7213934063911438
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n| Price | Quantity demanded | Quantity supplied |\n|-------|-------------------|------------------|\n| $250  | 14,400            | 1,200            |\n| $430  | 11,300            | 5,700            |\n| $610  | 8,200             | 10,200           |\n| $790  | 5,100             | 14,700           |\n| $970  | 2,000             | 19,200           |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 316017,
+          "total_completion_tokens": 6900,
+          "total_tokens": 322917,
+          "call_count": 111,
+          "average_tokens_per_call": 2909.162162162162
+        }
+      },
+      "accuracy": 0.7213934063911438
+    }
+  },
+  "Q38": {
+    "id": "text_detector_38",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Demand (in billion U.S. dollars) 2014 105.4 91.9 53.9 25.8 32.1 25.6 2019* 107.2 107.8 61.4 41.3 42.9 29 Computing Wireless Consumer Automotive Industrial Wired Communications",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is as follows:\n\n- **2014**\n  - Computing: 25.6\n  - Wireless: 32.1\n  - Consumer: 25.8\n  - Automotive: 53.9\n  - Industrial: 101.4\n  - Wired Communications: 90.5\n\n- **2019**\n  - Computing: 29\n  - Wireless: 42.9\n  - Consumer: 41.3\n  - Automotive: 107.8\n  - Industrial: 107.2\n  - Wired Communications: 107.2\n\n- **Source:** Statista 2021",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 318864,
+          "total_completion_tokens": 7038,
+          "total_tokens": 325902,
+          "call_count": 112,
+          "average_tokens_per_call": 2909.839285714286
+        }
+      },
+      "accuracy": 0.49592694640159607
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is as follows:\n\n- **Dollars in billion U.S. dollars**\n- **2014**\n  - Computing: 25.6\n  - Wireless: 32.1\n  - Consumer: 25.8\n  - Automotive: 53.9\n  - Industrial: 101.9\n  - Wired Communications: 29\n- **2019**\n  - Computing: 42.9\n  - Wireless: 41.3\n  - Consumer: 29\n  - Automotive: 107.8\n  - Industrial: 107.2\n  - Wired Communications: 29\n\n- **Statista 2021**",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 321711,
+          "total_completion_tokens": 7182,
+          "total_tokens": 328893,
+          "call_count": 113,
+          "average_tokens_per_call": 2910.5575221238937
+        }
+      },
+      "accuracy": 0.6739344596862793
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is as follows:\n\n- **Demand in billion U.S. dollars**\n- **2014**\n  - Computing: 25.6\n  - Wireless: 32.1\n  - Consumer: 25.8\n  - Automotive: 53.9\n  - Industrial: 101.4\n  - Wired Communications: 90.5\n\n- **2019**\n  - Computing: 29\n  - Wireless: 42.9\n  - Consumer: 41.3\n  - Automotive: 107.8\n  - Industrial: 107.2\n  - Wired Communications: 107.2\n\n- **Statista 2021**",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 324558,
+          "total_completion_tokens": 7329,
+          "total_tokens": 331887,
+          "call_count": 114,
+          "average_tokens_per_call": 2911.2894736842104
+        }
+      },
+      "accuracy": 0.7564097046852112
+    }
+  },
+  "Q39": {
+    "id": "text_detector_39",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Most Dissatisfied With Country Direction Dissatisfied 78% Satisfied 20% DK 2% PEW RESEARCH CENTER Q2.",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Most Dissatisfied With Country Direction\n\nDissatisfied 78%\nSatisfied 20%\nDK 2%",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 327405,
+          "total_completion_tokens": 7351,
+          "total_tokens": 334756,
+          "call_count": 115,
+          "average_tokens_per_call": 2910.9217391304346
+        }
+      },
+      "accuracy": 0.8934656977653503
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Most Dissatisfied With Country Direction\n\nDissatisfied 78%\nSatisfied 20%\nDK 2% \n\nPEW RESEARCH CENTER Q2.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 330252,
+          "total_completion_tokens": 7382,
+          "total_tokens": 337634,
+          "call_count": 116,
+          "average_tokens_per_call": 2910.637931034483
+        }
+      },
+      "accuracy": 1.0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Most Dissatisfied With Country Direction\n\nDissatisfied 78%\nSatisfied 20%\nDK 2%",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 333099,
+          "total_completion_tokens": 7404,
+          "total_tokens": 340503,
+          "call_count": 117,
+          "average_tokens_per_call": 2910.2820512820513
+        }
+      },
+      "accuracy": 0.8934656977653503
+    }
+  },
+  "Q40": {
+    "id": "text_detector_40",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of different algorithms Accuracy icy irony",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Accuracy of different algorithms\n\nicy\nirony\n\nAccuracy\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 335946,
+          "total_completion_tokens": 7425,
+          "total_tokens": 343371,
+          "call_count": 118,
+          "average_tokens_per_call": 2909.923728813559
+        }
+      },
+      "accuracy": 0.8168730139732361
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Accuracy of different algorithms\n\nicy\nAccuracy: 2\n\nirony\nAccuracy: 9\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 338793,
+          "total_completion_tokens": 7454,
+          "total_tokens": 346247,
+          "call_count": 119,
+          "average_tokens_per_call": 2909.638655462185
+        }
+      },
+      "accuracy": 0.8002679347991943
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Accuracy of different algorithms\n\nicy\nirony\n\nAccuracy\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 341640,
+          "total_completion_tokens": 7475,
+          "total_tokens": 349115,
+          "call_count": 120,
+          "average_tokens_per_call": 2909.2916666666665
+        }
+      },
+      "accuracy": 0.8168730139732361
+    }
+  },
+  "Q41": {
+    "id": "text_detector_41",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Brain Teaser for IQ Test blue circle + red square = 5 yellow triangle + yellow triangle = 8 blue circle + yellow triangle = 7 red square = ?",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the text extracted from the image:\n\n\"Brain Teaser for IQ Test\n\nBlue Circle + Red Square = 5\n\nYellow Triangle + Yellow Triangle = 8\n\nBlue Circle + Yellow Triangle = 7\n\n= ?\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 344487,
+          "total_completion_tokens": 7524,
+          "total_tokens": 352011,
+          "call_count": 121,
+          "average_tokens_per_call": 2909.181818181818
+        }
+      },
+      "accuracy": 0.8372520804405212
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the text extracted from the image:\n\n\"Brain Teaser for IQ Test\n\nBlue Circle + Red Square = 5\n\nYellow Triangle + Yellow Triangle = 8\n\nBlue Circle + Yellow Triangle = 7\n\n=?\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 347334,
+          "total_completion_tokens": 7573,
+          "total_tokens": 354907,
+          "call_count": 122,
+          "average_tokens_per_call": 2909.0737704918033
+        }
+      },
+      "accuracy": 0.8372520804405212
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the text extracted from the image:\n\n\"Brain Teaser for IQ Test\n\nBlue Circle + Red Square = 5\n\nYellow Triangle + Yellow Triangle = 8\n\nBlue Circle + Yellow Triangle = 7\n\n= ?\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 350181,
+          "total_completion_tokens": 7622,
+          "total_tokens": 357803,
+          "call_count": 123,
+          "average_tokens_per_call": 2908.967479674797
+        }
+      },
+      "accuracy": 0.8372520804405212
+    }
+  },
+  "Q42": {
+    "id": "text_detector_42",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title virus vigor ruling ninety calf flower toilet Values tin ace",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nTitle\nvirus\nvigor\nruling\nninety\ncalf\nflower\ntoilet\nValues\ntin\nace\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 353028,
+          "total_completion_tokens": 7661,
+          "total_tokens": 360689,
+          "call_count": 124,
+          "average_tokens_per_call": 2908.782258064516
+        }
+      },
+      "accuracy": 0.7116373777389526
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nTitle\nvirus\nvigor\nruling\nninety\ncalf\nflower\ntoilet\nValues\ntin\nace\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 355875,
+          "total_completion_tokens": 7700,
+          "total_tokens": 363575,
+          "call_count": 125,
+          "average_tokens_per_call": 2908.6
+        }
+      },
+      "accuracy": 0.7116373777389526
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\nTitle\nvirus\nvigor\nruling\nninety\ncalf\nflower\ntoilet\nValues\ntin\nace\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 358722,
+          "total_completion_tokens": 7740,
+          "total_tokens": 366462,
+          "call_count": 126,
+          "average_tokens_per_call": 2908.4285714285716
+        }
+      },
+      "accuracy": 0.7530100345611572
+    }
+  },
+  "Q43": {
+    "id": "text_detector_43",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Many broadleaf plants may be identified by looking at the shape of the cotyledons or true leaves. Oblong Spatulate Lanceolate Hastate Sagittate Heart-shaped Elliptic Linear Ovate Orbicular Lobed Kidney-shaped",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Many broadleaf plants may be identified by looking at the shape of the cotyledons or true leaves.\n\n- Oblong\n- Spatulate\n- Lanceolate\n- Hastate\n- Sagittate\n- Heart-shaped\n- Elliptic\n- Linear\n- Ovate\n- Orbicular\n- Lobed\n- Kidney-shaped",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 361569,
+          "total_completion_tokens": 7811,
+          "total_tokens": 369380,
+          "call_count": 127,
+          "average_tokens_per_call": 2908.503937007874
+        }
+      },
+      "accuracy": 0.969559907913208
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Many broadleaf plants may be identified by looking at the shape of the cotyledons or true leaves.\n\n- Oblong\n- Spatulate\n- Lanceolate\n- Hastate\n- Sagittate\n- Heart-shaped\n- Elliptic\n- Linear\n- Ovate\n- Orbicular\n- Lobed\n- Kidney-shaped",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 364416,
+          "total_completion_tokens": 7882,
+          "total_tokens": 372298,
+          "call_count": 128,
+          "average_tokens_per_call": 2908.578125
+        }
+      },
+      "accuracy": 0.969559907913208
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Many broadleaf plants may be identified by looking at the shape of the cotyledons or true leaves.\n\n- Oblong\n- Spatulate\n- Lanceolate\n- Hastate\n- Sagittate\n- Heart-shaped\n- Elliptic\n- Linear\n- Ovate\n- Orbicular\n- Lobed\n- Kidney-shaped",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 367263,
+          "total_completion_tokens": 7953,
+          "total_tokens": 375216,
+          "call_count": 129,
+          "average_tokens_per_call": 2908.6511627906975
+        }
+      },
+      "accuracy": 0.969559907913208
+    }
+  },
+  "Q44": {
+    "id": "text_detector_44",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Dark Violet Hot Pink Medium Mint Dark Cyan Yellow Green",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis label\nxaxis label\n\nDark Violet\nHot Pink\nMedium Mint\nDark Cyan\nYellow Green\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 370110,
+          "total_completion_tokens": 7991,
+          "total_tokens": 378101,
+          "call_count": 130,
+          "average_tokens_per_call": 2908.4692307692308
+        }
+      },
+      "accuracy": 0.8280422687530518
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\n\nyaxis label\nxaxis label\n\nDark Violet\nHot Pink\nMedium Mint\nDark Cyan\nYellow Green\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 372957,
+          "total_completion_tokens": 8029,
+          "total_tokens": 380986,
+          "call_count": 131,
+          "average_tokens_per_call": 2908.290076335878
+        }
+      },
+      "accuracy": 0.8280422687530518
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis label\nxaxis label\nDark Violet\nHot Pink\nMedium Mint\nDark Cyan\nYellow Green\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 375804,
+          "total_completion_tokens": 8067,
+          "total_tokens": 383871,
+          "call_count": 132,
+          "average_tokens_per_call": 2908.1136363636365
+        }
+      },
+      "accuracy": 0.8280422687530518
+    }
+  },
+  "Q45": {
+    "id": "text_detector_45",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title bull wish heap Values",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nTitle\nValues\nbull\nwish\nheap\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 378651,
+          "total_completion_tokens": 8089,
+          "total_tokens": 386740,
+          "call_count": 133,
+          "average_tokens_per_call": 2907.8195488721803
+        }
+      },
+      "accuracy": 0.679710865020752
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nTitle\nValues\nbull\nwish\nheap\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 381498,
+          "total_completion_tokens": 8111,
+          "total_tokens": 389609,
+          "call_count": 134,
+          "average_tokens_per_call": 2907.5298507462685
+        }
+      },
+      "accuracy": 0.679710865020752
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nTitle\nValues\nbull\nwish\nheap\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 384345,
+          "total_completion_tokens": 8133,
+          "total_tokens": 392478,
+          "call_count": 135,
+          "average_tokens_per_call": 2907.2444444444445
+        }
+      },
+      "accuracy": 0.679710865020752
+    }
+  },
+  "Q46": {
+    "id": "text_detector_46",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Scheduled teaching time that teachers are in the classroom, 2002 to 2016 Percentage of time officially allocated to schooling that a teacher is in the classroom. Egypt 93.45% (2002) Tunisia 89.89% (2009) Madagascar 58.09% Mozambique 44% (2012) Source: Teaching time lost - World Development Report (2018) CC BY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Scheduled teaching time that teachers are in the classroom, 2002 to 2016\n\n- Egypt 93.45% (2002)\n- Tunisia 89.89% (2012)\n- Madagascar 58.09% (2012)\n- Mozambique 44% (2012)\n\nSource: Teaching time lost - World Development Report (2018)\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 387192,
+          "total_completion_tokens": 8217,
+          "total_tokens": 395409,
+          "call_count": 136,
+          "average_tokens_per_call": 2907.419117647059
+        }
+      },
+      "accuracy": 0.8190770745277405
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Scheduled teaching time that teachers are in the classroom, 2002 to 2016\n\n- Egypt 93.45% (2002)\n- Tunisia 89.89% (2012)\n- Madagascar 58.09% (2012)\n- Mozambique 44% (2012)\n\nSource: Teaching time lost - World Development Report (2018)\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 390039,
+          "total_completion_tokens": 8301,
+          "total_tokens": 398340,
+          "call_count": 137,
+          "average_tokens_per_call": 2907.5912408759123
+        }
+      },
+      "accuracy": 0.8190770745277405
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Scheduled teaching time that teachers are in the classroom, 2002 to 2016\n\n- Egypt 93.45% (2002)\n- Tunisia 89.89% (2016)\n- Madagascar 58.09% (2016)\n- Mozambique 44% (2012)\n\nSource: Teaching time lost - World Development Report (2018)\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 392886,
+          "total_completion_tokens": 8385,
+          "total_tokens": 401271,
+          "call_count": 138,
+          "average_tokens_per_call": 2907.7608695652175
+        }
+      },
+      "accuracy": 0.817574143409729
+    }
+  },
+  "Q47": {
+    "id": "text_detector_47",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Deaths from natural disasters as a share of total deaths, 2014 Ecuador 0.02% China 0.02% Ireland <0.01% Armenia 0% Israel 0% Source: Institute for Health Metrics and Evaluation (IHME), Global Burden of Disease OurWorldInData.org/natural-disasters \u2022 CC BY",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Deaths from natural disasters as a share of total deaths, 2014\n\nEcuador 0.02%\nChina 0.02%\nIreland <0.01%\nArmenia 0%\nIsrael 0%\n\nSource: Institute for Health Metrics and Evaluation (IHME), Global Burden of Disease\nOurWorldInData.org/natural-disasters - CC BY\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 395733,
+          "total_completion_tokens": 8471,
+          "total_tokens": 404204,
+          "call_count": 139,
+          "average_tokens_per_call": 2907.9424460431655
+        }
+      },
+      "accuracy": 0.77476567029953
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Deaths from natural disasters as a share of total deaths, 2014\n\nEcuador 0.02%\nChina 0.02%\nIreland <0.01%\nArmenia 0%\nIsrael 0%\n\nSource: Institute for Health Metrics and Evaluation (IHME), Global Burden of Disease\nOurWorldInData.org/natural-disasters - CC BY\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 398580,
+          "total_completion_tokens": 8555,
+          "total_tokens": 407135,
+          "call_count": 140,
+          "average_tokens_per_call": 2908.1071428571427
+        }
+      },
+      "accuracy": 0.7745229601860046
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n\"Deaths from natural disasters as a share of total deaths, 2014\n\nEcuador 0.02%\nChina 0.02%\nIreland <0.01%\nArmenia 0%\nIsrael 0%\n\nSource: Institute for Health Metrics and Evaluation (IHME), Global Burden of Disease\n\nOurWorldInData.org/natural-disasters - CC BY\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 401427,
+          "total_completion_tokens": 8641,
+          "total_tokens": 410068,
+          "call_count": 141,
+          "average_tokens_per_call": 2908.2836879432625
+        }
+      },
+      "accuracy": 0.77476567029953
+    }
+  },
+  "Q48": {
+    "id": "text_detector_48",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "acuminate acute cuspidate emarginate Mucronate obcordate obtuse truncate",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n- acuminate\n- acute\n- cuspidate\n- emarginate\n- mucronate\n- obcordate\n- obtuse\n- truncate",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 404274,
+          "total_completion_tokens": 8684,
+          "total_tokens": 412958,
+          "call_count": 142,
+          "average_tokens_per_call": 2908.154929577465
+        }
+      },
+      "accuracy": 0.6674985885620117
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n- acuminate\n- acute\n- cuspidate\n- emarginate\n- mucronate\n- obcordate\n- obtuse\n- truncate",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 407121,
+          "total_completion_tokens": 8727,
+          "total_tokens": 415848,
+          "call_count": 143,
+          "average_tokens_per_call": 2908.027972027972
+        }
+      },
+      "accuracy": 0.6674985885620117
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n- acuminate\n- acute\n- cuspidate\n- emarginate\n- mucronate\n- obcordate\n- obtuse\n- truncate",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 409968,
+          "total_completion_tokens": 8768,
+          "total_tokens": 418736,
+          "call_count": 144,
+          "average_tokens_per_call": 2907.8888888888887
+        }
+      },
+      "accuracy": 0.666765570640564
+    }
+  },
+  "Q49": {
+    "id": "text_detector_49",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Amount Manny spent on lunch Day Amount spent Tuesday $10 Wednesday $2 Thursday $7 Friday $9 Saturday $8",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n**Amount Manny spent on lunch**\n\n| Day       | Amount spent |\n|-----------|--------------|\n| Tuesday   | $10          |\n| Wednesday | $2           |\n| Thursday  | $7           |\n| Friday    | $9           |\n| Saturday  | $8           |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 412815,
+          "total_completion_tokens": 8836,
+          "total_tokens": 421651,
+          "call_count": 145,
+          "average_tokens_per_call": 2907.937931034483
+        }
+      },
+      "accuracy": 0.7735389471054077
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n**Amount Manny spent on lunch**\n\n| Day       | Amount spent |\n|-----------|--------------|\n| Tuesday   | $10          |\n| Wednesday | $2           |\n| Thursday  | $7           |\n| Friday    | $9           |\n| Saturday  | $8           |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 415662,
+          "total_completion_tokens": 8904,
+          "total_tokens": 424566,
+          "call_count": 146,
+          "average_tokens_per_call": 2907.986301369863
+        }
+      },
+      "accuracy": 0.7735389471054077
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n**Amount Manny spent on lunch**\n\n| Day       | Amount spent |\n|-----------|--------------|\n| Tuesday   | $10          |\n| Wednesday | $2           |\n| Thursday  | $7           |\n| Friday    | $9           |\n| Saturday  | $8           |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 418509,
+          "total_completion_tokens": 8972,
+          "total_tokens": 427481,
+          "call_count": 147,
+          "average_tokens_per_call": 2908.0340136054424
+        }
+      },
+      "accuracy": 0.7735389471054077
+    }
+  },
+  "Q50": {
+    "id": "text_detector_50",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "alternate opposite whorled",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n- alternate\n- opposite\n- whorled",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 421356,
+          "total_completion_tokens": 8991,
+          "total_tokens": 430347,
+          "call_count": 148,
+          "average_tokens_per_call": 2907.75
+        }
+      },
+      "accuracy": 0.6774909496307373
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n- alternate\n- opposite\n- whorled",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 424203,
+          "total_completion_tokens": 9010,
+          "total_tokens": 433213,
+          "call_count": 149,
+          "average_tokens_per_call": 2907.469798657718
+        }
+      },
+      "accuracy": 0.6774909496307373
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n- alternate\n- opposite\n- whorled",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 427050,
+          "total_completion_tokens": 9028,
+          "total_tokens": 436078,
+          "call_count": 150,
+          "average_tokens_per_call": 2907.1866666666665
+        }
+      },
+      "accuracy": 0.7212059497833252
+    }
+  },
+  "Q51": {
+    "id": "text_detector_51",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Trophic level Terrestrial food chain Aquatic food chain Heterotrophs Tertiary consumer (secondary carnivore) Snake Pelican Secondary consumer (carnivore) Lizard Fish Primary consumer (herbivore) Caterpillar Zooplankton Primary producer (autotroph) Plant Phytoplankton",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n**Trophic level**\n\n- **Tertiary consumer (secondary carnivore)**\n  - Snake\n  - Pelican\n\n- **Secondary consumer (primary carnivore)**\n  - Lizard\n  - Fish\n\n- **Primary consumer (herbivore)**\n  - Caterpillar\n  - Zooplankton\n\n- **Primary producer (autotroph)**\n  - Plant\n  - Phytoplankton\n\n**Heterotrophs**",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 429897,
+          "total_completion_tokens": 9136,
+          "total_tokens": 439033,
+          "call_count": 151,
+          "average_tokens_per_call": 2907.5033112582782
+        }
+      },
+      "accuracy": 0.7833449244499207
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n**Trophic level**\n\n- **Tertiary consumer (secondary carnivore)**\n  - Snake\n  - Pelican\n\n- **Secondary consumer (primary carnivore)**\n  - Lizard\n  - Fish\n\n- **Primary consumer (herbivore)**\n  - Caterpillar\n  - Zooplankton\n\n- **Primary producer (autotroph)**\n  - Plant\n  - Phytoplankton\n\n**Heterotrophs**",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 432744,
+          "total_completion_tokens": 9244,
+          "total_tokens": 441988,
+          "call_count": 152,
+          "average_tokens_per_call": 2907.815789473684
+        }
+      },
+      "accuracy": 0.7833449244499207
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n**Trophic level**\n\n- **Tertiary consumer (secondary carnivore)**\n  - Snake\n  - Pelican\n\n- **Secondary consumer (primary carnivore)**\n  - Lizard\n  - Fish\n\n- **Primary consumer (herbivore)**\n  - Caterpillar\n  - Zooplankton\n\n- **Primary producer (autotroph)**\n  - Plant\n  - Phytoplankton",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 435591,
+          "total_completion_tokens": 9344,
+          "total_tokens": 444935,
+          "call_count": 153,
+          "average_tokens_per_call": 2908.0718954248364
+        }
+      },
+      "accuracy": 0.7736092209815979
+    }
+  },
+  "Q52": {
+    "id": "text_detector_52",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of different algorithms Accuracy bronze spray cab",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Accuracy of different algorithms\n\nAccuracy\n\nbronze\nspray\ncab\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 438438,
+          "total_completion_tokens": 9368,
+          "total_tokens": 447806,
+          "call_count": 154,
+          "average_tokens_per_call": 2907.8311688311687
+        }
+      },
+      "accuracy": 0.7582654356956482
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Accuracy of different algorithms\n\nAccuracy\n\nbronze\nspray\ncab\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 441285,
+          "total_completion_tokens": 9392,
+          "total_tokens": 450677,
+          "call_count": 155,
+          "average_tokens_per_call": 2907.5935483870967
+        }
+      },
+      "accuracy": 0.7582654356956482
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Accuracy of different algorithms\n\nAccuracy\n\nbronze\nspray\ncab\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 444132,
+          "total_completion_tokens": 9416,
+          "total_tokens": 453548,
+          "call_count": 156,
+          "average_tokens_per_call": 2907.358974358974
+        }
+      },
+      "accuracy": 0.7582654356956482
+    }
+  },
+  "Q53": {
+    "id": "text_detector_53",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Number of counterfeits in thousands Banknotes Coins 2014 63 46 2015 95.5 46 2016 82.2 33 2017 72.9 32.5 2018 58 33.1 2019 55.2 42.1",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is as follows:\n\n- 2014: Banknotes 63, Coins 46\n- 2015: Banknotes 95.5, Coins 46\n- 2016: Banknotes 82.2, Coins 33\n- 2017: Banknotes 72.9, Coins 32.5\n- 2018: Banknotes 58, Coins 33.1\n- 2019: Banknotes 42.1, Coins 42.1\n\nSource: Statista 2021",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 446979,
+          "total_completion_tokens": 9532,
+          "total_tokens": 456511,
+          "call_count": 157,
+          "average_tokens_per_call": 2907.7133757961783
+        }
+      },
+      "accuracy": 0.5472351312637329
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is as follows:\n\n- Title: Number of conversions in thousands\n- Years: 2014, 2015, 2016, 2017, 2018, 2019\n- Values:\n  - 2014: Banknotes 63, Coins 46\n  - 2015: Banknotes 95.5, Coins 46\n  - 2016: Banknotes 82.2, Coins 33\n  - 2017: Banknotes 72.9, Coins 32.5\n  - 2018: Banknotes 58, Coins 33.1\n  - 2019: Banknotes 42.1, Coins 42.1\n\n- Source: Statista 2021",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 449826,
+          "total_completion_tokens": 9694,
+          "total_tokens": 459520,
+          "call_count": 158,
+          "average_tokens_per_call": 2908.3544303797466
+        }
+      },
+      "accuracy": 0.5586657524108887
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is as follows:\n\n- Title: Number of conversions in thousands\n- Years: 2014, 2015, 2016, 2017, 2018, 2019\n- Values:\n  - 2014: Banknotes 63, Coins 46\n  - 2015: Banknotes 95.5, Coins 46\n  - 2016: Banknotes 82.2, Coins 33\n  - 2017: Banknotes 72.9, Coins 32.5\n  - 2018: Banknotes 58, Coins 33.1\n  - 2019: Banknotes 42.1, Coins 42.1\n\n- Source: Statista 2021",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 452673,
+          "total_completion_tokens": 9856,
+          "total_tokens": 462529,
+          "call_count": 159,
+          "average_tokens_per_call": 2908.987421383648
+        }
+      },
+      "accuracy": 0.5586657524108887
+    }
+  },
+  "Q54": {
+    "id": "text_detector_54",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Trade statistics of Hong Kong with developing economies in Latin America Trade with economies of Latin America & Caribbean (%) Year Merchandise exports Merchandise imports 2008 1.3 0.7 2009 1.05 0.9 2010 1.25 0.82 2011 1.4 0.87",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Trade statistics of Hong Kong with developing economies in Latin America\n\nTrade with economies of Latin America & Caribbean (%)\n\nYear\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 455520,
+          "total_completion_tokens": 9890,
+          "total_tokens": 465410,
+          "call_count": 160,
+          "average_tokens_per_call": 2908.8125
+        }
+      },
+      "accuracy": 0.680557131767273
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Trade statistics of Hong Kong with developing economies in Latin America\n\nTrade with economies of Latin America & Caribbean (%)\n\nYear\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 458367,
+          "total_completion_tokens": 9924,
+          "total_tokens": 468291,
+          "call_count": 161,
+          "average_tokens_per_call": 2908.639751552795
+        }
+      },
+      "accuracy": 0.680557131767273
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Trade statistics of Hong Kong with developing economies in Latin America\n\nTrade with economies of Latin America & Caribbean (%)\n\nYear\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 461214,
+          "total_completion_tokens": 9958,
+          "total_tokens": 471172,
+          "call_count": 162,
+          "average_tokens_per_call": 2908.4691358024693
+        }
+      },
+      "accuracy": 0.680557131767273
+    }
+  },
+  "Q55": {
+    "id": "text_detector_55",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "89% of Cell Owners Used Their Phones During Their Most Recent Social Activity with Others Did at least one of these activities below 89% Read a message such as text or email 61 Took a photo or video 58 Sent a message such as a text or email 52 Received an incoming call 52 Checked to see if you've received any alerts 41 Placed a call 33 Used an app 29 Searched or browsed the web 25 Source: Pew Research Center American Trends Panel survey, May 30\u2013June 30, 2014. N=3,042 cell users",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n\"89% of Cell Owners Used Their Phones During Their Most Recent Social Activity with Others\n\n% of cell owners who did the following using their cellphone during their most recent social gathering:\n\n- Did at least one of these activities below: 89%\n- Sent or received a text message: 62%\n- Took a photo or video: 58%\n- Used a social media site or app: 52%\n- Received an incoming call: 46%\n- Sent or received any text alerts: 31%\n- Used a messaging app: 29%\n- Used a dating app: 25%\n- Searched or browsed the web: 20%\n\nSource: Pew Research Center American Trends Panel survey, May 30-June 30, 2014. N=3,042 cell owners.\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 464061,
+          "total_completion_tokens": 10130,
+          "total_tokens": 474191,
+          "call_count": 163,
+          "average_tokens_per_call": 2909.147239263804
+        }
+      },
+      "accuracy": 0.8789255023002625
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n\"89% of Cell Owners Used Their Phones During Their Most Recent Social Activity with Others\n\n% of cell owners who did the following using their cellphone during their most recent social gathering:\n\n- Did at least one of these activities below: 89%\n- Sent a message such as a text or email: 62%\n- Took a photo or video: 58%\n- Posted to a social media site: 52%\n- Received an incoming call: 46%\n- Used a search engine: 36%\n- Sent or received any texts or alerts: 31%\n- Used an app: 29%\n- Searched or browsed the web: 25%\n\nSource: Pew Research Center American Trends Panel survey, May 30\u2013June 30, 2014. N=3,042 cell owners.\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 466908,
+          "total_completion_tokens": 10304,
+          "total_tokens": 477212,
+          "call_count": 164,
+          "average_tokens_per_call": 2909.829268292683
+        }
+      },
+      "accuracy": 0.882687509059906
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n\"89% of Cell Owners Used Their Phones During Their Most Recent Social Activity with Others\n\n% of cell owners who did the following using their cellphone during their most recent social gathering:\n\n- Did at least one of these activities below: 89%\n- Sent or received a text or email: 58%\n- Took a photo or video: 52%\n- Used a social media site: 51%\n- Received an incoming call: 46%\n- Used the internet to search any alerts or events: 32%\n- Used an app: 29%\n- Searched or browsed the web: 25%\n\nSource: Pew Research Center American Trends Panel survey, May 30\u2013June 30, 2014. N=3,042 cell owners.\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 469755,
+          "total_completion_tokens": 10468,
+          "total_tokens": 480223,
+          "call_count": 165,
+          "average_tokens_per_call": 2910.4424242424243
+        }
+      },
+      "accuracy": 0.8874765038490295
+    }
+  },
+  "Q56": {
+    "id": "text_detector_56",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Hot Pink Navy Blue Indigo Sky Blue Magenta Web Gray Chartreuse",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nxaxis_label\nyaxis_label\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 472602,
+          "total_completion_tokens": 10491,
+          "total_tokens": 483093,
+          "call_count": 166,
+          "average_tokens_per_call": 2910.1987951807228
+        }
+      },
+      "accuracy": 0.6506574153900146
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nxaxis_label\nyaxis_label\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 475449,
+          "total_completion_tokens": 10514,
+          "total_tokens": 485963,
+          "call_count": 167,
+          "average_tokens_per_call": 2909.9580838323354
+        }
+      },
+      "accuracy": 0.6506574153900146
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nxaxis label\nyaxis label\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 478296,
+          "total_completion_tokens": 10537,
+          "total_tokens": 488833,
+          "call_count": 168,
+          "average_tokens_per_call": 2909.720238095238
+        }
+      },
+      "accuracy": 0.6746345162391663
+    }
+  },
+  "Q57": {
+    "id": "text_detector_57",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "pepper $4 per kg cumin $3 per kg turmeric $3 per kg cinnamon $3 per kg paprika $2 per kg",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- pepper: $4 per kg\n- cumin: $3 per kg\n- turmeric: $3 per kg\n- cinnamon: $3 per kg\n- paprika: $2 per kg",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 481143,
+          "total_completion_tokens": 10586,
+          "total_tokens": 491729,
+          "call_count": 169,
+          "average_tokens_per_call": 2909.639053254438
+        }
+      },
+      "accuracy": 0.9097309112548828
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- pepper: $4 per kg\n- cumin: $3 per kg\n- turmeric: $3 per kg\n- cinnamon: $3 per kg\n- paprika: $2 per kg",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 483990,
+          "total_completion_tokens": 10635,
+          "total_tokens": 494625,
+          "call_count": 170,
+          "average_tokens_per_call": 2909.5588235294117
+        }
+      },
+      "accuracy": 0.9097309112548828
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- pepper: $4 per kg\n- cumin: $3 per kg\n- turmeric: $3 per kg\n- cinnamon: $3 per kg\n- paprika: $2 per kg",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 486837,
+          "total_completion_tokens": 10684,
+          "total_tokens": 497521,
+          "call_count": 171,
+          "average_tokens_per_call": 2909.4795321637425
+        }
+      },
+      "accuracy": 0.9097309112548828
+    }
+  },
+  "Q58": {
+    "id": "text_detector_58",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "CAN YOU FIND THE MISSING TERM? 6 9 15 8 12 20 4 6 ?",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"CAN YOU FIND THE MISSING TERM?\"\n\n6  9  15  \n8  12  20  \n4  6  ?",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 489684,
+          "total_completion_tokens": 10723,
+          "total_tokens": 500407,
+          "call_count": 172,
+          "average_tokens_per_call": 2909.343023255814
+        }
+      },
+      "accuracy": 0.7505190372467041
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"CAN YOU FIND THE MISSING TERM?\"\n\n6  9  15  \n8  12  20  \n4  6  ?",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 492531,
+          "total_completion_tokens": 10762,
+          "total_tokens": 503293,
+          "call_count": 173,
+          "average_tokens_per_call": 2909.208092485549
+        }
+      },
+      "accuracy": 0.7505190372467041
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"CAN YOU FIND THE MISSING TERM?\"\n\n6  9  15  \n8  12  20  \n4  6  ?",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 495378,
+          "total_completion_tokens": 10801,
+          "total_tokens": 506179,
+          "call_count": 174,
+          "average_tokens_per_call": 2909.074712643678
+        }
+      },
+      "accuracy": 0.7505190372467041
+    }
+  },
+  "Q59": {
+    "id": "text_detector_59",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Science articles read Name Number of science articles Kimberly 8 Valeria 6 Sophia 5 Brad 7 Lorenzo 9",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n**Science articles read**\n\n| Name      | Number of science articles |\n|-----------|----------------------------|\n| Kimberly  | 8                          |\n| Valeria   | 6                          |\n| Sophia    | 5                          |\n| Brad      | 7                          |\n| Lorenzo   | 9                          |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 498225,
+          "total_completion_tokens": 10872,
+          "total_tokens": 509097,
+          "call_count": 175,
+          "average_tokens_per_call": 2909.1257142857144
+        }
+      },
+      "accuracy": 0.726543664932251
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n**Science articles read**\n\n| Name      | Number of science articles |\n|-----------|----------------------------|\n| Kimberly  | 8                          |\n| Valeria   | 6                          |\n| Sophia    | 5                          |\n| Brad      | 7                          |\n| Lorenzo   | 9                          |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 501072,
+          "total_completion_tokens": 10943,
+          "total_tokens": 512015,
+          "call_count": 176,
+          "average_tokens_per_call": 2909.1761363636365
+        }
+      },
+      "accuracy": 0.726543664932251
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "**Science articles read**\n\n| Name      | Number of science articles |\n|-----------|----------------------------|\n| Kimberly  | 8                          |\n| Valeria   | 6                          |\n| Sophia    | 5                          |\n| Brad      | 7                          |\n| Lorenzo   | 9                          |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 503919,
+          "total_completion_tokens": 11005,
+          "total_tokens": 514924,
+          "call_count": 177,
+          "average_tokens_per_call": 2909.175141242938
+        }
+      },
+      "accuracy": 0.8088855743408203
+    }
+  },
+  "Q60": {
+    "id": "text_detector_60",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Sample A Mass of each particle: 44 u Average particle speed: 1,400 m/s Sample B Mass of each particle: 46 u Average particle speed: 1,400 m/s",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sample A  \nMass of each particle: 44 u  \nAverage particle speed: 1,400 m/s  \n\nSample B  \nMass of each particle: 46 u  \nAverage particle speed: 1,400 m/s  ",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 506766,
+          "total_completion_tokens": 11052,
+          "total_tokens": 517818,
+          "call_count": 178,
+          "average_tokens_per_call": 2909.0898876404494
+        }
+      },
+      "accuracy": 1.0000001192092896
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "**Sample A**  \nMass of each particle: 44 u  \nAverage particle speed: 1,400 m/s  \n\n**Sample B**  \nMass of each particle: 46 u  \nAverage particle speed: 1,400 m/s  ",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 509613,
+          "total_completion_tokens": 11103,
+          "total_tokens": 520716,
+          "call_count": 179,
+          "average_tokens_per_call": 2909.027932960894
+        }
+      },
+      "accuracy": 0.9823808670043945
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "**Sample A**  \nMass of each particle: 44 u  \nAverage particle speed: 1,400 m/s  \n\n**Sample B**  \nMass of each particle: 46 u  \nAverage particle speed: 1,400 m/s  ",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 512460,
+          "total_completion_tokens": 11154,
+          "total_tokens": 523614,
+          "call_count": 180,
+          "average_tokens_per_call": 2908.9666666666667
+        }
+      },
+      "accuracy": 0.9823808670043945
+    }
+  },
+  "Q61": {
+    "id": "text_detector_61",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "LEAF BASES Oblique Cordate Sagittate Hastate Stem-clasping Decurrent",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "LEAF BASES\n\n- Oblique\n- Cordate\n- Sagittate\n- Hastate\n- Stem-clasping\n- Decurrent",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 515307,
+          "total_completion_tokens": 11186,
+          "total_tokens": 526493,
+          "call_count": 181,
+          "average_tokens_per_call": 2908.8011049723755
+        }
+      },
+      "accuracy": 0.9110019207000732
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "LEAF BASES\n\n- Oblique\n- Cordate\n- Sagittate\n- Hastate\n- Stem-clasping\n- Decurrent",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 518154,
+          "total_completion_tokens": 11218,
+          "total_tokens": 529372,
+          "call_count": 182,
+          "average_tokens_per_call": 2908.6373626373625
+        }
+      },
+      "accuracy": 0.9110019207000732
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "LEAF BASES\n\n- Oblique\n- Cordate\n- Sagittate\n- Hastate\n- Stem-clasping\n- Decurrent",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 521001,
+          "total_completion_tokens": 11250,
+          "total_tokens": 532251,
+          "call_count": 183,
+          "average_tokens_per_call": 2908.4754098360654
+        }
+      },
+      "accuracy": 0.9110019207000732
+    }
+  },
+  "Q62": {
+    "id": "text_detector_62",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Sun \u2192 Grass \u2192 Grasshopper \u2192 Mouse \u2192 Owl",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n- Sun\n- Grass\n- Grasshopper\n- Mouse\n- Owl\n\nThere are arrows indicating a flow from one item to the next.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 523848,
+          "total_completion_tokens": 11291,
+          "total_tokens": 535139,
+          "call_count": 184,
+          "average_tokens_per_call": 2908.3641304347825
+        }
+      },
+      "accuracy": 0.5170305967330933
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n- Sun\n- Grass\n- Grasshopper\n- Mouse\n- Owl\n\nThere are arrows indicating a flow from one item to the next.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 526695,
+          "total_completion_tokens": 11332,
+          "total_tokens": 538027,
+          "call_count": 185,
+          "average_tokens_per_call": 2908.254054054054
+        }
+      },
+      "accuracy": 0.5170305967330933
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n- Sun\n- Grass\n- Grasshopper\n- Mouse\n- Owl\n\nThere are arrows indicating a flow from one item to the next.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 529542,
+          "total_completion_tokens": 11373,
+          "total_tokens": 540915,
+          "call_count": 186,
+          "average_tokens_per_call": 2908.1451612903224
+        }
+      },
+      "accuracy": 0.5170305967330933
+    }
+  },
+  "Q63": {
+    "id": "text_detector_63",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Birds per flock Stem Leaf 1 2 3 2 0 1 4 7 3 5 8 8 9 4 4 9 5 0 1 2 9 9 6 3 4 5 6 9 7 1 7",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\nBirds per flock\nStem  Leaf\n1     2 3\n2     0 1 4 7\n3     5 8 8 9\n4     4 9\n5     0 1 2 9 9\n6     3 4 5 6 9\n7     1 7\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 532389,
+          "total_completion_tokens": 11464,
+          "total_tokens": 543853,
+          "call_count": 187,
+          "average_tokens_per_call": 2908.304812834225
+        }
+      },
+      "accuracy": 0.8573563098907471
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\nBirds per flock\nStem | Leaf\n1    | 2 3\n2    | 0 1 4 7\n3    | 5 8 8 9\n4    | 4 9\n5    | 0 1 2 9 9\n6    | 3 4 5 6 9\n7    | 1 7\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 535236,
+          "total_completion_tokens": 11562,
+          "total_tokens": 546798,
+          "call_count": 188,
+          "average_tokens_per_call": 2908.5
+        }
+      },
+      "accuracy": 0.8227256536483765
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\nBirds per flock\nStem  Leaf\n1     2 3\n2     0 1 4 7\n3     5 8 8 9\n4     4 9\n5     0 1 2 9 9\n6     3 4 5 6 9\n7     1 7\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 538083,
+          "total_completion_tokens": 11653,
+          "total_tokens": 549736,
+          "call_count": 189,
+          "average_tokens_per_call": 2908.6560846560847
+        }
+      },
+      "accuracy": 0.8573563098907471
+    }
+  },
+  "Q64": {
+    "id": "text_detector_64",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Which Shape is missing? Please choose an answer: A) B) C) D) E) F)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n---\n\n**Which Shape is missing?**\n\n**Please choose an answer:**\n\nA)  \nB)  \nC)  \nD)  \nE)  \nF)  \n\n---",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 540930,
+          "total_completion_tokens": 11699,
+          "total_tokens": 552629,
+          "call_count": 190,
+          "average_tokens_per_call": 2908.573684210526
+        }
+      },
+      "accuracy": 0.7204635143280029
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n---\n\n**Which Shape is missing?**\n\n**Please choose an answer:**\n\nA)  \nB)  \nC)  \nD)  \nE)  \nF)  \n\n---",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 543777,
+          "total_completion_tokens": 11745,
+          "total_tokens": 555522,
+          "call_count": 191,
+          "average_tokens_per_call": 2908.4921465968587
+        }
+      },
+      "accuracy": 0.7204635143280029
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Sure! Here\u2019s the extracted text from the image:\n\n---\n\n**Which Shape is missing?**\n\n**Please choose an answer:**\n\nA)  \nB)  \nC)  \nD)  \nE)  \nF)  \n\n---",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 546624,
+          "total_completion_tokens": 11791,
+          "total_tokens": 558415,
+          "call_count": 192,
+          "average_tokens_per_call": 2908.4114583333335
+        }
+      },
+      "accuracy": 0.7204635143280029
+    }
+  },
+  "Q65": {
+    "id": "text_detector_65",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Forest Green Midnight Blue Saddle Brown Dark Turquoise Light Seafoam Dark Salmon",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nForest Green\nMidnight Blue\nSaddle Brown\nDark Turquoise\nLight Seafoam\nDark Salmon\nxaxis_label\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 549471,
+          "total_completion_tokens": 11836,
+          "total_tokens": 561307,
+          "call_count": 193,
+          "average_tokens_per_call": 2908.3264248704663
+        }
+      },
+      "accuracy": 0.7842922806739807
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nForest Green\nMidnight Blue\nSaddle Brown\nDark Turquoise\nLight Seafoam\nDark Salmon\nxaxis_label\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 552318,
+          "total_completion_tokens": 11881,
+          "total_tokens": 564199,
+          "call_count": 194,
+          "average_tokens_per_call": 2908.242268041237
+        }
+      },
+      "accuracy": 0.7842922806739807
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nForest Green\nMidnight Blue\nSaddle Brown\nDark Turquoise\nLight Seafoam\nDark Salmon\nxaxis_label\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 555165,
+          "total_completion_tokens": 11926,
+          "total_tokens": 567091,
+          "call_count": 195,
+          "average_tokens_per_call": 2908.1589743589743
+        }
+      },
+      "accuracy": 0.7842922806739807
+    }
+  },
+  "Q66": {
+    "id": "text_detector_66",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of algorithms on different datasets Accuracy datasets desert debt bee saw wool liver blade boost",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nAccuracy of algorithms on different datasets\n\ndatasets\ndesert\ndebt\nbee\nsaw\nwool\n\nAccuracy\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 558012,
+          "total_completion_tokens": 11963,
+          "total_tokens": 569975,
+          "call_count": 196,
+          "average_tokens_per_call": 2908.035714285714
+        }
+      },
+      "accuracy": 0.69547438621521
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nAccuracy of algorithms on different datasets\n\ndatasets\ndesert\ndebt\nbee\nsaw\nwool\n\nAccuracy\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 560859,
+          "total_completion_tokens": 12000,
+          "total_tokens": 572859,
+          "call_count": 197,
+          "average_tokens_per_call": 2907.9137055837564
+        }
+      },
+      "accuracy": 0.69547438621521
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nAccuracy of algorithms on different datasets\n\ndatasets\ndesert\ndebt\nbee\nsaw\nwool\n\nAccuracy\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 563706,
+          "total_completion_tokens": 12037,
+          "total_tokens": 575743,
+          "call_count": 198,
+          "average_tokens_per_call": 2907.7929292929293
+        }
+      },
+      "accuracy": 0.69547438621521
+    }
+  },
+  "Q67": {
+    "id": "text_detector_67",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Navy Blue Rebecca Purple Web Green Dark Seafoam Dark Violet Dark Slate Yellow",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\n\nNavy Blue\nRebecca Purple\nWeb Green\nDark Seafoam\nDark Violet\nDark Slate\nYellow\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 566553,
+          "total_completion_tokens": 12082,
+          "total_tokens": 578635,
+          "call_count": 199,
+          "average_tokens_per_call": 2907.713567839196
+        }
+      },
+      "accuracy": 0.7391434907913208
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\n\nNavy Blue\nRebecca Purple\nWeb Green\nDark Seafoam\nDark Violet\nDark Slate\nYellow\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 569400,
+          "total_completion_tokens": 12127,
+          "total_tokens": 581527,
+          "call_count": 200,
+          "average_tokens_per_call": 2907.635
+        }
+      },
+      "accuracy": 0.7391434907913208
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\nNavy Blue\nRebecca Purple\nWeb Green\nDark Seafoam\nDark Violet\nDark Slate\nYellow\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 572247,
+          "total_completion_tokens": 12172,
+          "total_tokens": 584419,
+          "call_count": 201,
+          "average_tokens_per_call": 2907.557213930348
+        }
+      },
+      "accuracy": 0.7391434907913208
+    }
+  },
+  "Q68": {
+    "id": "text_detector_68",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title fusion lawn afraid Values",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n- Title\n- Values\n- fusion\n- lawn\n- afraid",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 575094,
+          "total_completion_tokens": 12195,
+          "total_tokens": 587289,
+          "call_count": 202,
+          "average_tokens_per_call": 2907.371287128713
+        }
+      },
+      "accuracy": 0.6537940502166748
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nTitle\nValues\nfusion\nlawn\nafraid\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 577941,
+          "total_completion_tokens": 12219,
+          "total_tokens": 590160,
+          "call_count": 203,
+          "average_tokens_per_call": 2907.192118226601
+        }
+      },
+      "accuracy": 0.6311630010604858
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n- Title\n- Values\n- fusion\n- lawn\n- afraid",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 580788,
+          "total_completion_tokens": 12242,
+          "total_tokens": 593030,
+          "call_count": 204,
+          "average_tokens_per_call": 2907.0098039215686
+        }
+      },
+      "accuracy": 0.6537940502166748
+    }
+  },
+  "Q69": {
+    "id": "text_detector_69",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of algorithms on different datasets Accuracy datasets arrest breed potato deputy flag blast",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n- Title: Accuracy of algorithms on different datasets\n- Datasets:\n  - arrest\n  - breed\n  - potato\n- Y-axis label: Accuracy\n- X-axis labels: deputy, flag, blast",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 583635,
+          "total_completion_tokens": 12294,
+          "total_tokens": 595929,
+          "call_count": 205,
+          "average_tokens_per_call": 2906.970731707317
+        }
+      },
+      "accuracy": 0.6587057113647461
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Accuracy of algorithms on different datasets\n\ndatasets\narrest\nbreed\npotato\n\nAccuracy\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 586482,
+          "total_completion_tokens": 12322,
+          "total_tokens": 598804,
+          "call_count": 206,
+          "average_tokens_per_call": 2906.8155339805826
+        }
+      },
+      "accuracy": 0.6181999444961548
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Accuracy of algorithms on different datasets\n\ndatasets\narrest\nbreed\npotato\n\nAccuracy\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 589329,
+          "total_completion_tokens": 12351,
+          "total_tokens": 601680,
+          "call_count": 207,
+          "average_tokens_per_call": 2906.6666666666665
+        }
+      },
+      "accuracy": 0.614855945110321
+    }
+  },
+  "Q70": {
+    "id": "text_detector_70",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "English Followed by Mandarin Mandarin Followed by English Influence Scores Sequences Figure 26: Influence scores for English-Mandarin sequences with reversed order on the 52 billion parameter model. For the english_to_mandarin query, the top influential sequences mostly have English statements followed by Mandarin translations. Reordering sequences to have Mandarin followed by English significantly reduced influence scores, despite having identical content. This trend is consistent with different model sizes.",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n\"Figure 26: Influence scores for English-Mandarin sequences with reversed order on the 52 billion parameter model. For the english_to_mandarin query, the top influential sequences mostly have English statements followed by Mandarin translations. Reordering sequences to have Mandarin followed by English significantly reduced influence scores, despite having identical content. This trend is consistent with different model sizes.\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 592176,
+          "total_completion_tokens": 12435,
+          "total_tokens": 604611,
+          "call_count": 208,
+          "average_tokens_per_call": 2906.783653846154
+        }
+      },
+      "accuracy": 0.9291787147521973
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n\"Figure 26: Influence scores for English-Mandarin sequences with reversed order on the 52 billion parameter model. For the english_to_mandarin query, the top influential sequences mostly have English statements followed by Mandarin translations. Reordering sequences to have Mandarin followed by English significantly reduced influence scores, despite having identical content. This trend is consistent with different model sizes.\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 595023,
+          "total_completion_tokens": 12519,
+          "total_tokens": 607542,
+          "call_count": 209,
+          "average_tokens_per_call": 2906.8995215311006
+        }
+      },
+      "accuracy": 0.9291787147521973
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n\"Figure 26: Influence scores for English-Mandarin sequences with reversed order on the 52 billion parameter model. For the english_to_mandarin query, the top influential sequences mostly have English statements followed by Mandarin translations. Reordering sequences to have Mandarin followed by English significantly reduced influence scores, despite having identical content. This trend is consistent with different model sizes.\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 597870,
+          "total_completion_tokens": 12603,
+          "total_tokens": 610473,
+          "call_count": 210,
+          "average_tokens_per_call": 2907.0142857142855
+        }
+      },
+      "accuracy": 0.9291787147521973
+    }
+  },
+  "Q71": {
+    "id": "text_detector_71",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Burlywood Light Sky Blue",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\n```\n",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 600717,
+          "total_completion_tokens": 12627,
+          "total_tokens": 613344,
+          "call_count": 211,
+          "average_tokens_per_call": 2906.8436018957345
+        }
+      },
+      "accuracy": 0.6539990901947021
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\n```\n",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 603564,
+          "total_completion_tokens": 12651,
+          "total_tokens": 616215,
+          "call_count": 212,
+          "average_tokens_per_call": 2906.6745283018868
+        }
+      },
+      "accuracy": 0.6539990901947021
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\n```\n",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 606411,
+          "total_completion_tokens": 12675,
+          "total_tokens": 619086,
+          "call_count": 213,
+          "average_tokens_per_call": 2906.507042253521
+        }
+      },
+      "accuracy": 0.6539990901947021
+    }
+  },
+  "Q72": {
+    "id": "text_detector_72",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title Values loop leaf razor domain see silk nod border mare",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Title\n- Values\n- silk\n- nod\n- border\n- mare\n- loop\n- leaf\n- razor\n- domain\n- see",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 609258,
+          "total_completion_tokens": 12717,
+          "total_tokens": 621975,
+          "call_count": 214,
+          "average_tokens_per_call": 2906.42523364486
+        }
+      },
+      "accuracy": 0.8249300718307495
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Title\n- Values\n- silk\n- nod\n- border\n- mare\n\nLegend:\n- loop\n- leaf\n- razor\n- domain\n- see",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 612105,
+          "total_completion_tokens": 12761,
+          "total_tokens": 624866,
+          "call_count": 215,
+          "average_tokens_per_call": 2906.353488372093
+        }
+      },
+      "accuracy": 0.7845239639282227
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Title\n- Values\n- loop\n- leaf\n- razor\n- domain\n- see\n- silk\n- nod\n- border\n- mare",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 614952,
+          "total_completion_tokens": 12803,
+          "total_tokens": 627755,
+          "call_count": 216,
+          "average_tokens_per_call": 2906.2731481481483
+        }
+      },
+      "accuracy": 0.8228521347045898
+    }
+  },
+  "Q73": {
+    "id": "text_detector_73",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title Values saw sodium silk outset tunnel",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nTitle\nValues\nsaw\nsodium\nsilk\noutset\ntunnel\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 617799,
+          "total_completion_tokens": 12834,
+          "total_tokens": 630633,
+          "call_count": 217,
+          "average_tokens_per_call": 2906.1428571428573
+        }
+      },
+      "accuracy": 0.7644869089126587
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\nTitle\nValues\nsaw\nsodium\nsilk\noutset\ntunnel\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 620646,
+          "total_completion_tokens": 12866,
+          "total_tokens": 633512,
+          "call_count": 218,
+          "average_tokens_per_call": 2906.0183486238534
+        }
+      },
+      "accuracy": 0.7974886894226074
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\nTitle\nValues\nsaw\nsodium\nsilk\noutset\ntunnel\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 623493,
+          "total_completion_tokens": 12898,
+          "total_tokens": 636391,
+          "call_count": 219,
+          "average_tokens_per_call": 2905.89497716895
+        }
+      },
+      "accuracy": 0.7974886894226074
+    }
+  },
+  "Q74": {
+    "id": "text_detector_74",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Baseball runs scored last season Runs scored Frequency 0 8 1 0 2 7 3 14 4 10",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n**Baseball runs scored last season**\n\n| Runs scored | Frequency |\n|-------------|-----------|\n| 0           | 8         |\n| 1           | 0         |\n| 2           | 7         |\n| 3           | 14        |\n| 4           | 10        |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 626340,
+          "total_completion_tokens": 12972,
+          "total_tokens": 639312,
+          "call_count": 220,
+          "average_tokens_per_call": 2905.9636363636364
+        }
+      },
+      "accuracy": 0.7644768357276917
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n**Baseball runs scored last season**\n\n| Runs scored | Frequency |\n|-------------|-----------|\n| 0           | 8         |\n| 1           | 0         |\n| 2           | 7         |\n| 3           | 14        |\n| 4           | 10        |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 629187,
+          "total_completion_tokens": 13046,
+          "total_tokens": 642233,
+          "call_count": 221,
+          "average_tokens_per_call": 2906.031674208145
+        }
+      },
+      "accuracy": 0.7644768357276917
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Baseball runs scored last season\n\n| Runs scored | Frequency |\n|-------------|-----------|\n| 0           | 8         |\n| 1           | 0         |\n| 2           | 7         |\n| 3           | 14        |\n| 4           | 10        |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 632034,
+          "total_completion_tokens": 13110,
+          "total_tokens": 645144,
+          "call_count": 222,
+          "average_tokens_per_call": 2906.054054054054
+        }
+      },
+      "accuracy": 0.9029779434204102
+    }
+  },
+  "Q75": {
+    "id": "text_detector_75",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of different algorithms Accuracy fifty secure magic",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Accuracy of different algorithms\n\nAccuracy\n\nfifty\nsecure\nmagic\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 634881,
+          "total_completion_tokens": 13134,
+          "total_tokens": 648015,
+          "call_count": 223,
+          "average_tokens_per_call": 2905.896860986547
+        }
+      },
+      "accuracy": 0.7291791439056396
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nAccuracy of different algorithms\nfifty\nsecure\nmagic\nAccuracy\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 637728,
+          "total_completion_tokens": 13160,
+          "total_tokens": 650888,
+          "call_count": 224,
+          "average_tokens_per_call": 2905.75
+        }
+      },
+      "accuracy": 0.7065778970718384
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Accuracy of different algorithms\n\nAccuracy\n\nfifty\nsecure\nmagic\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 640575,
+          "total_completion_tokens": 13184,
+          "total_tokens": 653759,
+          "call_count": 225,
+          "average_tokens_per_call": 2905.5955555555556
+        }
+      },
+      "accuracy": 0.7291791439056396
+    }
+  },
+  "Q76": {
+    "id": "text_detector_76",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of different algorithms Accuracy screw thesis turtle agony heap poems poison",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n**Accuracy of different algorithms**\n\n- screw\n- thesis\n- turtle\n- agony\n- heap\n- poems\n- poison\n\n**Accuracy** (scale from 0 to 10)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 643422,
+          "total_completion_tokens": 13233,
+          "total_tokens": 656655,
+          "call_count": 226,
+          "average_tokens_per_call": 2905.5530973451328
+        }
+      },
+      "accuracy": 0.7519809007644653
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n```\nAccuracy of different algorithms\nscrew\nthesis\nturtle\nagony\nheap\npoems\npoison\n```\n\nThe accuracy values are represented by the length of the bars, but specific numerical values are not provided in the text.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 646269,
+          "total_completion_tokens": 13293,
+          "total_tokens": 659562,
+          "call_count": 227,
+          "average_tokens_per_call": 2905.5594713656387
+        }
+      },
+      "accuracy": 0.7272753715515137
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n```\nAccuracy of different algorithms\nscrew\nthesis\nturtle\nagony\nheap\npoems\npoison\n\nAccuracy\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 649116,
+          "total_completion_tokens": 13331,
+          "total_tokens": 662447,
+          "call_count": 228,
+          "average_tokens_per_call": 2905.469298245614
+        }
+      },
+      "accuracy": 0.8171373605728149
+    }
+  },
+  "Q77": {
+    "id": "text_detector_77",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title yaxis_label xaxis_label Cornflower Medium Blue",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nCornflower\nMedium Blue\nxaxis_label\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 651963,
+          "total_completion_tokens": 13360,
+          "total_tokens": 665323,
+          "call_count": 229,
+          "average_tokens_per_call": 2905.3406113537117
+        }
+      },
+      "accuracy": 0.8054792881011963
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nCornflower\nMedium Blue\nxaxis_label\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 654810,
+          "total_completion_tokens": 13389,
+          "total_tokens": 668199,
+          "call_count": 230,
+          "average_tokens_per_call": 2905.2130434782607
+        }
+      },
+      "accuracy": 0.8054792881011963
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nCornflower\nMedium Blue\nxaxis_label\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 657657,
+          "total_completion_tokens": 13418,
+          "total_tokens": 671075,
+          "call_count": 231,
+          "average_tokens_per_call": 2905.08658008658
+        }
+      },
+      "accuracy": 0.8054792881011963
+    }
+  },
+  "Q78": {
+    "id": "text_detector_78",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Miles hiked Day Number of miles Thursday 6 Friday 5 Saturday 3 Sunday 8 Monday 10 Tuesday 2",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Miles hiked\n\n| Day       | Number of miles |\n|-----------|------------------|\n| Thursday  | 6                |\n| Friday    | 5                |\n| Saturday  | 3                |\n| Sunday    | 8                |\n| Monday    | 10               |\n| Tuesday   | 2                |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 660504,
+          "total_completion_tokens": 13485,
+          "total_tokens": 673989,
+          "call_count": 232,
+          "average_tokens_per_call": 2905.125
+        }
+      },
+      "accuracy": 0.8130559921264648
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Miles hiked\n\n| Day       | Number of miles |\n|-----------|------------------|\n| Thursday  | 6                |\n| Friday    | 5                |\n| Saturday  | 3                |\n| Sunday    | 8                |\n| Monday    | 10               |\n| Tuesday   | 2                |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 663351,
+          "total_completion_tokens": 13552,
+          "total_tokens": 676903,
+          "call_count": 233,
+          "average_tokens_per_call": 2905.1630901287554
+        }
+      },
+      "accuracy": 0.8130559921264648
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Miles hiked\n\n| Day       | Number of miles |\n|-----------|------------------|\n| Thursday  | 6                |\n| Friday    | 5                |\n| Saturday  | 3                |\n| Sunday    | 8                |\n| Monday    | 10               |\n| Tuesday   | 2                |",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 666198,
+          "total_completion_tokens": 13619,
+          "total_tokens": 679817,
+          "call_count": 234,
+          "average_tokens_per_call": 2905.2008547008545
+        }
+      },
+      "accuracy": 0.8130559921264648
+    }
+  },
+  "Q79": {
+    "id": "text_detector_79",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Most preferred objects of different categories Percent of People categories drawn nerve lake split burst pen",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Most preferred objects of different categories\n\nPercent of People\n\ncategories\nlake\nsplit\nburst\npen\n\ndrawn\nnerve\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 669045,
+          "total_completion_tokens": 13655,
+          "total_tokens": 682700,
+          "call_count": 235,
+          "average_tokens_per_call": 2905.1063829787236
+        }
+      },
+      "accuracy": 0.8086411356925964
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is as follows:\n\n**Most preferred objects of different categories**\n\n- Percent of People\n- Categories: lake, split, burst, pen\n- Drawn (blue) and Nerve (orange)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 671892,
+          "total_completion_tokens": 13701,
+          "total_tokens": 685593,
+          "call_count": 236,
+          "average_tokens_per_call": 2905.0550847457625
+        }
+      },
+      "accuracy": 0.7254428863525391
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Most preferred objects of different categories\n\nPercent of People\n\ncategories\nlake\nsplit\nburst\npen\n\ndrawn\nnerve\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 674739,
+          "total_completion_tokens": 13737,
+          "total_tokens": 688476,
+          "call_count": 237,
+          "average_tokens_per_call": 2904.9620253164558
+        }
+      },
+      "accuracy": 0.8086411356925964
+    }
+  },
+  "Q80": {
+    "id": "text_detector_80",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Title twist priest fringe pan curse 0 2 4 6 8 10 Values",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nTitle\ntwist\npriest\nfringe\npan\ncurse\nValues\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 677586,
+          "total_completion_tokens": 13766,
+          "total_tokens": 691352,
+          "call_count": 238,
+          "average_tokens_per_call": 2904.840336134454
+        }
+      },
+      "accuracy": 0.7437024116516113
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nTitle\ntwist\npriest\nfringe\npan\ncurse\nValues\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 680433,
+          "total_completion_tokens": 13795,
+          "total_tokens": 694228,
+          "call_count": 239,
+          "average_tokens_per_call": 2904.7196652719667
+        }
+      },
+      "accuracy": 0.7437024116516113
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nTitle\ntwist\npriest\nfringe\npan\ncurse\nValues\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 683280,
+          "total_completion_tokens": 13824,
+          "total_tokens": 697104,
+          "call_count": 240,
+          "average_tokens_per_call": 2904.6
+        }
+      },
+      "accuracy": 0.7437024116516113
+    }
+  },
+  "Q81": {
+    "id": "text_detector_81",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "starting point Object 3 4 5 2 6 1 0 7 Directions Fig. Q4",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n\"starting point\nObject\n\nDirections\n0\n1\n2\n3\n4\n5\n6\n7\n\nFig. Q4\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 686127,
+          "total_completion_tokens": 13863,
+          "total_tokens": 699990,
+          "call_count": 241,
+          "average_tokens_per_call": 2904.5228215767634
+        }
+      },
+      "accuracy": 0.8592016696929932
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n\"starting point\nObject\nDirections\n0\n1\n2\n3\n4\n5\n6\n7\nFig. Q4\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 688974,
+          "total_completion_tokens": 13902,
+          "total_tokens": 702876,
+          "call_count": 242,
+          "average_tokens_per_call": 2904.4462809917354
+        }
+      },
+      "accuracy": 0.8592016696929932
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n\"starting point\nObject\nDirections\n0\n1\n2\n3\n4\n5\n6\n7\n\nFig. Q4\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 691821,
+          "total_completion_tokens": 13941,
+          "total_tokens": 705762,
+          "call_count": 243,
+          "average_tokens_per_call": 2904.3703703703704
+        }
+      },
+      "accuracy": 0.8592016696929932
+    }
+  },
+  "Q82": {
+    "id": "text_detector_82",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "3:15",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is \"3:15\".",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 694668,
+          "total_completion_tokens": 13953,
+          "total_tokens": 708621,
+          "call_count": 244,
+          "average_tokens_per_call": 2904.184426229508
+        }
+      },
+      "accuracy": 0.5870044827461243
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is \"3:15\".",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 697515,
+          "total_completion_tokens": 13965,
+          "total_tokens": 711480,
+          "call_count": 245,
+          "average_tokens_per_call": 2904.0
+        }
+      },
+      "accuracy": 0.5870044827461243
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is \"3:15\".",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 700362,
+          "total_completion_tokens": 13977,
+          "total_tokens": 714339,
+          "call_count": 246,
+          "average_tokens_per_call": 2903.817073170732
+        }
+      },
+      "accuracy": 0.5870044827461243
+    }
+  },
+  "Q83": {
+    "id": "text_detector_83",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of algorithms on different datasets 10 8 6 4 2 0 Accuracy clergy scar datasets niece pie",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Accuracy of algorithms on different datasets\n\ndatasets\nniece\npie\n\nAccuracy\" \n\nThe bars represent values for \"clergy\" and \"scar.\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 703209,
+          "total_completion_tokens": 14017,
+          "total_tokens": 717226,
+          "call_count": 247,
+          "average_tokens_per_call": 2903.748987854251
+        }
+      },
+      "accuracy": 0.6395285129547119
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Accuracy of algorithms on different datasets\n\ndatasets\nniece\npie\n\nAccuracy\" \n\nAnd the bar values are labeled as \"clergy\" and \"scar.\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 706056,
+          "total_completion_tokens": 14058,
+          "total_tokens": 720114,
+          "call_count": 248,
+          "average_tokens_per_call": 2903.685483870968
+        }
+      },
+      "accuracy": 0.6498880386352539
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n\"Accuracy of algorithms on different datasets\n\ndatasets\nniece\npie\n\nAccuracy\" \n\nThe bars represent \"clergy\" and \"scar\" with corresponding accuracy values.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 708903,
+          "total_completion_tokens": 14100,
+          "total_tokens": 723003,
+          "call_count": 249,
+          "average_tokens_per_call": 2903.626506024096
+        }
+      },
+      "accuracy": 0.6589164733886719
+    }
+  },
+  "Q84": {
+    "id": "text_detector_84",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Solvent volume: 25 mL Solution A Solvent volume: 25 mL Solution B",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Solution A\nSolvent volume: 25 mL\n\nSolution B\nSolvent volume: 25 mL\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 711750,
+          "total_completion_tokens": 14134,
+          "total_tokens": 725884,
+          "call_count": 250,
+          "average_tokens_per_call": 2903.536
+        }
+      },
+      "accuracy": 0.7508095502853394
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Solution A\nSolvent volume: 25 mL\n\nSolution B\nSolvent volume: 25 mL\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 714597,
+          "total_completion_tokens": 14168,
+          "total_tokens": 728765,
+          "call_count": 251,
+          "average_tokens_per_call": 2903.4462151394423
+        }
+      },
+      "accuracy": 0.7508095502853394
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n\"Solution A\nSolvent volume: 25 mL\n\nSolution B\nSolvent volume: 25 mL\"",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 717444,
+          "total_completion_tokens": 14202,
+          "total_tokens": 731646,
+          "call_count": 252,
+          "average_tokens_per_call": 2903.3571428571427
+        }
+      },
+      "accuracy": 0.7508095502853394
+    }
+  },
+  "Q85": {
+    "id": "text_detector_85",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "FOREST FOOD WEB Blue Jay Deer Tick Deer Red Squirrel Deer Mouse Fiery Searcher Beetle Carpenter Ant Gypsy Moth Caterpillar Red Oak",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Deer Tick\n- Red Squirrel\n- Deer Mouse\n- Gypsy Moth Caterpillar\n- Fiery Searcher Beetle\n- Carpenter Ant\n- Blue Jay\n- Deer\n- Red Oak",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 720291,
+          "total_completion_tokens": 14255,
+          "total_tokens": 734546,
+          "call_count": 253,
+          "average_tokens_per_call": 2903.3438735177865
+        }
+      },
+      "accuracy": 0.7884272336959839
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Deer Tick\n- Red Squirrel\n- Deer Mouse\n- Gypsy Moth Caterpillar\n- Fiery Searcher Beetle\n- Carpenter Ant\n- Blue Jay\n- Deer\n- Red Oak",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 723138,
+          "total_completion_tokens": 14308,
+          "total_tokens": 737446,
+          "call_count": 254,
+          "average_tokens_per_call": 2903.3307086614172
+        }
+      },
+      "accuracy": 0.7884272336959839
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- Deer Tick\n- Red Squirrel\n- Deer Mouse\n- Gypsy Moth Caterpillar\n- Fiery Searcher Beetle\n- Carpenter Ant\n- Blue Jay\n- Deer\n- Red Oak",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 725985,
+          "total_completion_tokens": 14361,
+          "total_tokens": 740346,
+          "call_count": 255,
+          "average_tokens_per_call": 2903.3176470588237
+        }
+      },
+      "accuracy": 0.7884272336959839
+    }
+  },
+  "Q86": {
+    "id": "text_detector_86",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "title Deep Sky Blue Lime Green Dark Cyan Burlywood Light Salmon Salmon Green Sky Blue 0 20 40 60 80 yaxis_label xaxis_label",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\n\nyaxis_label\nDeep Sky Blue\nLime Green\nDark Cyan\nBurlywood\nLight Salmon\nSalmon\nGreen\nSky Blue\n\nxaxis_label\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 728832,
+          "total_completion_tokens": 14409,
+          "total_tokens": 743241,
+          "call_count": 256,
+          "average_tokens_per_call": 2903.28515625
+        }
+      },
+      "accuracy": 0.761932373046875
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\nyaxis_label\nxaxis_label\nDeep Sky Blue\nLime Green\nDark Cyan\nBurlywood\nLight Salmon\nSalmon\nGreen\nSky Blue\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 731679,
+          "total_completion_tokens": 14457,
+          "total_tokens": 746136,
+          "call_count": 257,
+          "average_tokens_per_call": 2903.2529182879375
+        }
+      },
+      "accuracy": 0.7607521414756775
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\ntitle\n\nyaxis_label\nDeep Sky Blue\nLime Green\nDark Cyan\nBurlywood\nLight Salmon\nSalmon\nGreen\nSky Blue\n\nxaxis_label\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 734526,
+          "total_completion_tokens": 14505,
+          "total_tokens": 749031,
+          "call_count": 258,
+          "average_tokens_per_call": 2903.220930232558
+        }
+      },
+      "accuracy": 0.761932373046875
+    }
+  },
+  "Q87": {
+    "id": "text_detector_87",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "pasta with white sauce $15 mushroom pizza $11 grilled steak $13 pasta with meat sauce $12",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n- pasta with white sauce $15\n- mushroom pizza $11\n- grilled steak $13\n- pasta with meat sauce $12",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 737373,
+          "total_completion_tokens": 14542,
+          "total_tokens": 751915,
+          "call_count": 259,
+          "average_tokens_per_call": 2903.1467181467183
+        }
+      },
+      "accuracy": 0.8654305934906006
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n- pasta with white sauce $15\n- mushroom pizza $11\n- grilled steak $13\n- pasta with meat sauce $12",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 740220,
+          "total_completion_tokens": 14579,
+          "total_tokens": 754799,
+          "call_count": 260,
+          "average_tokens_per_call": 2903.0730769230768
+        }
+      },
+      "accuracy": 0.8654305934906006
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here\u2019s the extracted text from the image:\n\n- pasta with white sauce $15\n- mushroom pizza $11\n- grilled steak $13\n- pasta with meat sauce $12",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 743067,
+          "total_completion_tokens": 14616,
+          "total_tokens": 757683,
+          "call_count": 261,
+          "average_tokens_per_call": 2903.0
+        }
+      },
+      "accuracy": 0.8654305934906006
+    }
+  },
+  "Q88": {
+    "id": "text_detector_88",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "concern to climate change experts. Predict the relative increase in water vapour in the atmosphere based on a temperature rises of 2.0 K, assuming that the relative humidity remains constant. (The present global mean temperature is 290 K, and the equilibrium vapour pressure of water at that temperature is 0.0189 bar.)",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Concern to climate change experts. Predict the relative increase in water vapour in the atmosphere based on a temperature rise of 2.0 K, assuming that the relative humidity remains constant. (The present global mean temperature is 290 K, and the equilibrium vapour pressure of water at that temperature is 0.0189 bar.)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 745914,
+          "total_completion_tokens": 14684,
+          "total_tokens": 760598,
+          "call_count": 262,
+          "average_tokens_per_call": 2903.0458015267177
+        }
+      },
+      "accuracy": 0.9973485469818115
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "concern to climate change experts. Predict the relative increase in water vapour in the atmosphere based on a temperature rises of 2.0 K, assuming that the relative humidity remains constant. (The present global mean temperature is 290 K, and the equilibrium vapour pressure of water at that temperature is 0.0189 bar.)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 748761,
+          "total_completion_tokens": 14753,
+          "total_tokens": 763514,
+          "call_count": 263,
+          "average_tokens_per_call": 2903.0950570342206
+        }
+      },
+      "accuracy": 1.0
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Concern to climate change experts. Predict the relative increase in water vapour in the atmosphere based on a temperature rise of 2.0 K, assuming that the relative humidity remains constant. (The present global mean temperature is 290 K, and the equilibrium vapour pressure of water at that temperature is 0.0189 bar.)",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 751608,
+          "total_completion_tokens": 14821,
+          "total_tokens": 766429,
+          "call_count": 264,
+          "average_tokens_per_call": 2903.1401515151515
+        }
+      },
+      "accuracy": 0.9973485469818115
+    }
+  },
+  "Q89": {
+    "id": "text_detector_89",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Red buttons per bag Stem Leaf 1 1 2 5 3 2 4 8 5 3 6 6 7 5 7 8 4 7 8",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\nRed buttons per bag\nStem | Leaf\n1    | 1\n2    | 5\n3    | 2\n4    | 8\n5    | 3 6\n6    | \n7    | 5 7\n8    | 4 7 8\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 754455,
+          "total_completion_tokens": 14897,
+          "total_tokens": 769352,
+          "call_count": 265,
+          "average_tokens_per_call": 2903.2150943396227
+        }
+      },
+      "accuracy": 0.8433365821838379
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\nRed buttons per bag\nStem | Leaf\n1    | 1\n2    | 5\n3    | 2\n4    | 8\n5    | 3 6\n6    | \n7    | 5 7\n8    | 4 7 8\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 757302,
+          "total_completion_tokens": 14973,
+          "total_tokens": 772275,
+          "call_count": 266,
+          "average_tokens_per_call": 2903.2894736842104
+        }
+      },
+      "accuracy": 0.8433365821838379
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n```\nRed buttons per bag\nStem | Leaf\n1    | 1\n2    | 5\n3    | 2\n4    | 8\n5    | 3 6\n6    | \n7    | 5 7\n8    | 4 7 8\n```",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 760149,
+          "total_completion_tokens": 15049,
+          "total_tokens": 775198,
+          "call_count": 267,
+          "average_tokens_per_call": 2903.36329588015
+        }
+      },
+      "accuracy": 0.8433365821838379
+    }
+  },
+  "Q90": {
+    "id": "text_detector_90",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Push-up competition (number of push-ups) Stem Leaf 4 8 5 5 6 6 3 6 7 7 7 1 3 3 5 5 7 7 8",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Push-up competition (number of push-ups)\n\nStem | Leaf  \n4    | 8  \n5    | 5 6  \n6    | 3 6 7 7  \n7    | 1 3 5 7 8  ",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 762996,
+          "total_completion_tokens": 15103,
+          "total_tokens": 778099,
+          "call_count": 268,
+          "average_tokens_per_call": 2903.35447761194
+        }
+      },
+      "accuracy": 0.9829232692718506
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Push-up competition (number of push-ups)\n\nStem | Leaf\n4    | 8\n5    | 5 6\n6    | 3 6 7 7\n7    | 1 3 5 7 8",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 765843,
+          "total_completion_tokens": 15156,
+          "total_tokens": 780999,
+          "call_count": 269,
+          "average_tokens_per_call": 2903.342007434944
+        }
+      },
+      "accuracy": 0.9829232692718506
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Push-up competition (number of push-ups)\n\nStem | Leaf\n4    | 8\n5    | 5 6\n6    | 3 6 7 7\n7    | 1 3 5 7 8",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 768690,
+          "total_completion_tokens": 15209,
+          "total_tokens": 783899,
+          "call_count": 270,
+          "average_tokens_per_call": 2903.32962962963
+        }
+      },
+      "accuracy": 0.9829232692718506
+    }
+  },
+  "Q91": {
+    "id": "text_detector_91",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "cuneate obluse cordate truncate oblique",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n- cuneate\n- obtuse\n- cordate\n- truncate\n- oblique",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 771537,
+          "total_completion_tokens": 15236,
+          "total_tokens": 786773,
+          "call_count": 271,
+          "average_tokens_per_call": 2903.221402214022
+        }
+      },
+      "accuracy": 0.6996061205863953
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n- cuneate\n- obtuse\n- cordate\n- truncate\n- oblique",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 774384,
+          "total_completion_tokens": 15263,
+          "total_tokens": 789647,
+          "call_count": 272,
+          "average_tokens_per_call": 2903.113970588235
+        }
+      },
+      "accuracy": 0.6996061205863953
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n- cuneate\n- obtuse\n- cordate\n- truncate\n- oblique",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 777231,
+          "total_completion_tokens": 15290,
+          "total_tokens": 792521,
+          "call_count": 273,
+          "average_tokens_per_call": 2903.007326007326
+        }
+      },
+      "accuracy": 0.6996061205863953
+    }
+  },
+  "Q92": {
+    "id": "text_detector_92",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "entire doubly serrate undulate serrulate dentate sinuate serrate crenate incised \u00a9 E.M. Armstrong 2002",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- entire\n- doubly serrate\n- undulate\n- serrulate\n- dentate\n- sinuate\n- serrate\n- crenate\n- incised\n\nE.M. Armstrong 2002",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 780078,
+          "total_completion_tokens": 15344,
+          "total_tokens": 795422,
+          "call_count": 274,
+          "average_tokens_per_call": 2903.0
+        }
+      },
+      "accuracy": 0.8073468208312988
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- entire\n- doubly serrate\n- undulate\n- serrulate\n- dentate\n- sinuate\n- serrate\n- crenate\n- incised\n\nE.M. Armstrong 2002",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 782925,
+          "total_completion_tokens": 15398,
+          "total_tokens": 798323,
+          "call_count": 275,
+          "average_tokens_per_call": 2902.9927272727273
+        }
+      },
+      "accuracy": 0.8073468208312988
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- entire\n- doubly serrate\n- undulate\n- serrulate\n- dentate\n- sinuate\n- serrate\n- crenate\n- incised\n\nE.M. Armstrong 2002",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 785772,
+          "total_completion_tokens": 15452,
+          "total_tokens": 801224,
+          "call_count": 276,
+          "average_tokens_per_call": 2902.985507246377
+        }
+      },
+      "accuracy": 0.8073468208312988
+    }
+  },
+  "Q93": {
+    "id": "text_detector_93",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "spelt rolls $8/kilogram hamburger buns $7/kilogram rye rolls $6/kilogram wheat rolls $8/kilogram English muffins $8/kilogram tortillas $8/kilogram",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- spelt rolls: $8/kilogram\n- hamburger buns: $7/kilogram\n- rye rolls: $6/kilogram\n- wheat rolls: $8/kilogram\n- English muffins: $8/kilogram\n- tortillas: $5/kilogram",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 788619,
+          "total_completion_tokens": 15521,
+          "total_tokens": 804140,
+          "call_count": 277,
+          "average_tokens_per_call": 2903.032490974729
+        }
+      },
+      "accuracy": 0.9307647943496704
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- spelt rolls: $8/kilogram\n- hamburger buns: $7/kilogram\n- rye rolls: $6/kilogram\n- wheat rolls: $8/kilogram\n- English muffins: $8/kilogram\n- tortillas: $5/kilogram",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 791466,
+          "total_completion_tokens": 15590,
+          "total_tokens": 807056,
+          "call_count": 278,
+          "average_tokens_per_call": 2903.0791366906474
+        }
+      },
+      "accuracy": 0.9307647943496704
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "Here is the extracted text from the image:\n\n- spelt rolls: $8/kilogram\n- hamburger buns: $7/kilogram\n- rye rolls: $6/kilogram\n- wheat rolls: $8/kilogram\n- English muffins: $8/kilogram\n- tortillas: $5/kilogram",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 794313,
+          "total_completion_tokens": 15659,
+          "total_tokens": 809972,
+          "call_count": 279,
+          "average_tokens_per_call": 2903.125448028674
+        }
+      },
+      "accuracy": 0.9307647943496704
+    }
+  },
+  "Q94": {
+    "id": "text_detector_94",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "Accuracy of different algorithms heel desert pine globe par 0 2 4 6 8 10 Accuracy",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nAccuracy of different algorithms\nheel -\ndesert -\npine -\nglobe -\npar -\n```\n\nAdditionally, there are accuracy values represented by the bars, but the specific numerical values are not visible in the image.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 797160,
+          "total_completion_tokens": 15712,
+          "total_tokens": 812872,
+          "call_count": 280,
+          "average_tokens_per_call": 2903.114285714286
+        }
+      },
+      "accuracy": 0.6925375461578369
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nAccuracy of different algorithms\nheel -\ndesert -\npine -\nglobe -\npar -\n```\n\nAdditionally, there are accuracy values represented by the bars, but the specific numerical values are not visible in the image.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 800007,
+          "total_completion_tokens": 15765,
+          "total_tokens": 815772,
+          "call_count": 281,
+          "average_tokens_per_call": 2903.103202846975
+        }
+      },
+      "accuracy": 0.6925375461578369
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text extracted from the image is:\n\n```\nAccuracy of different algorithms\nheel -\ndesert -\npine -\nglobe -\npar -\n```\n\nAdditionally, there are accuracy values represented by the bars, but they are not specified in the text.",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 802854,
+          "total_completion_tokens": 15815,
+          "total_tokens": 818669,
+          "call_count": 282,
+          "average_tokens_per_call": 2903.081560283688
+        }
+      },
+      "accuracy": 0.7105925679206848
+    }
+  },
+  "Q95": {
+    "id": "text_detector_95",
+    "evaluation_metrics": "similarity_eval",
+    "answer": "primary consumers solar energy secondary consumers producers decomposers",
+    "run_1": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n- solar energy\n- producers\n- primary consumers\n- secondary consumers\n- decomposers",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 805701,
+          "total_completion_tokens": 15842,
+          "total_tokens": 821543,
+          "call_count": 283,
+          "average_tokens_per_call": 2902.9787985865723
+        }
+      },
+      "accuracy": 0.8890373110771179
+    },
+    "run_2": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n- primary consumers\n- secondary consumers\n- producers\n- decomposers\n- solar energy",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 808548,
+          "total_completion_tokens": 15869,
+          "total_tokens": 824417,
+          "call_count": 284,
+          "average_tokens_per_call": 2902.8767605633802
+        }
+      },
+      "accuracy": 0.8679062724113464
+    },
+    "run_3": {
+      "tool_call_pass": true,
+      "result": {
+        "result": "The text from the image is:\n\n- solar energy\n- producers\n- primary consumers\n- secondary consumers\n- decomposers",
+        "success": true,
+        "token_usage": {
+          "total_prompt_tokens": 811395,
+          "total_completion_tokens": 15896,
+          "total_tokens": 827291,
+          "call_count": 285,
+          "average_tokens_per_call": 2902.7754385964913
+        }
+      },
+      "accuracy": 0.8890373110771179
+    }
+  },
+  "Final_Accuracy": {
+    "run_1": 78.06053371805893,
+    "run_2": 77.80956076948266,
+    "run_3": 78.23948502540588
+  },
+  "token_usage": {
+    "total_prompt_tokens": 116029485,
+    "total_completion_tokens": 2373086,
+    "total_tokens": 118402571,
+    "call_count": 40755,
+    "average_tokens_per_call": 8710.473626898749
+  }
+}

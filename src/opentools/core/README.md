@@ -38,7 +38,7 @@ All tools inherit from **`BaseTool`**. It defines the common interface and metad
 - **`limitation`** — Known limitations.
 - **`type`** — Tool type, default `"function"`.
 - **`strict`** — Strict parameter validation, default `True`.
-- **`accuracy`** — Accuracy metrics (e.g. from a test result file).
+- **`accuracy`** — Accuracy metrics.
 - **`model_string`** — Model name when the tool uses an LLM.
 - **`required_api_keys`** — List of required env key names (e.g. `["OPENAI_API_KEY"]`).
 - **`is_multimodal`** — Whether the tool is multimodal.

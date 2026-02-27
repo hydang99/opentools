@@ -12,11 +12,11 @@ The table below summarizes each tool and how it is evaluated:
 - **Tool type**: coarse category, using one of:
   - `prompting_based` – mainly LLM reasoning / prompting.
   - `api_based` – primarily calls an external HTTP / API service.
-  - `local_processing` – mostly pure Python / local file processing.
+  - `programming_based` – mostly pure Python / local file processing.
 - **Evaluated?**:
   - `✅` = this tool folder currently contains a `test_result.json` file (it has been run against the shared test file).
   - `☐` = no `test_result.json` present yet (not evaluated with the shared test file).
-- **Test suite key**: name used in `test_file/data.json` (conventionally the folder name).
+- **Test suite key**: name used in `test_file/data.json`.
 - **Evaluation metrics**: typical `search_type` used (`exact_match`, `similarity_eval`, `search_pattern`).
 - **Current accuracy**: for evaluated tools, this column shows the **average** of `Final_Accuracy.run_1 / run_2 / run_3` (in %). Cells marked `–` mean no `test_result.json` is available yet.
 
@@ -240,7 +240,6 @@ tags=[
     "primary_function",
     "domain",
     "capability",
-    "technology",
     "use_case",
 ]
 ```
@@ -248,22 +247,7 @@ tags=[
 ## API Key Management
 
 - Declare required keys using `required_api_keys` in `BaseTool.__init__`.
-- Validate keys with `check_required_api_keys()` or `require_api_key()`.
-- API keys are loaded from environment variables ending in `_API_KEY` via
-  `OpenToolsConfig.from_env()` and `python-dotenv`.
 
-Example usage:
-
-```python
-def __init__(self):
-    super().__init__(
-        # ... other parameters
-        required_api_keys=["WEATHER_API_KEY"],
-    )
-    self.check_required_api_keys()
-
-    api_key = self.require_api_key("WEATHER_API_KEY")
-```
 
 ## Testing
 
@@ -322,7 +306,7 @@ Keep test assets organized by type. Use these subfolders under `test_file/`; if 
    - **`id`**: Unique integer for the case (optional but useful).
    - **`answer`**: Expected value used to compute accuracy (required).
    - **`category`**: Optional label (e.g. tool or task name).
-   - **Input parameters**: Any fields the tool’s `run()` expects (e.g. `image_path`, `image`, `file_path`, `query`, `url`). Use paths **relative to** `test_file/` and follow the [file and folder classification](#file-and-folder-classification) above (e.g. images → `images/` or `ocr/`, audio → `audio/`, CSV → `csvs/`). The test runner resolves these to absolute paths.
+   - **Input parameters**: Any fields the tool’s `run()` expects (e.g. `image_path`, `file_path`, `query`, `url`). Use paths **relative to** `test_file/` and follow the [file and folder classification](#file-and-folder-classification) above (e.g. images → `images/` or `ocr/`, audio → `audio/`, CSV → `csvs/`). The test runner resolves these to absolute paths.
 4. **Save** `data.json`. Place any new assets in the right subfolder under `test_file/` (create the folder if it doesn’t exist).
 
 Example: adding one case to the `text_detector` suite:
@@ -369,9 +353,3 @@ Evaluation is controlled by **`search_type`**:
 | **`search_pattern`**  | Tool output is correct if the string `answer` appears in the output (case-insensitive). Best when the answer is a substring or keyword. |
 
 Each test case is run multiple times (e.g. 3 runs); accuracy is aggregated and written to `temp_result.json` under `Final_Accuracy` (e.g. `run_1`, `run_2`, `run_3` as percentages).
-
-## Documentation Standards
-
-- Use Google-style docstrings for public methods.
-- Add type hints for all parameters and return values.
-- Keep comments concise and focused on non-obvious logic.

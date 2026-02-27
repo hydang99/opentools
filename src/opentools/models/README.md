@@ -1,6 +1,6 @@
 # OpenTools Models
 
-This directory contains modules for **tool discovery**, **tool execution**, and (optionally) **planning and memory**. The parts that are used by the main agent pipeline are **Initializer** and **Executor**; they are wired in via `agents/mixins/tool_capability_mixin.py` for all tool-based agents (ReAct, OpenTools, OctoTools, etc.).
+This directory contains modules for **tool discovery**, **tool execution**, and **planning and memory**. The parts that are used by the main agent pipeline are **Initializer** and **Executor**. They are wired in via `agents/mixins/tool_capability_mixin.py` for all tool-based agents (ReAct, OpenTools, OctoTools, etc.).
 
 ---
 
@@ -8,10 +8,10 @@ This directory contains modules for **tool discovery**, **tool execution**, and 
 
 | File | Purpose | Used by |
 |------|--------|--------|
-| **`initializer.py`** | Discover tools under `opentools/tools`, build `toolbox_metadata`, optionally start vLLM. | `ToolCapabilityMixin` (all tool-based agents). |
-| **`executor.py`** | Dynamically import a tool and run `tool.run(**args)` with optional LLM injection. | `ToolCapabilityMixin` (ReAct, OpenTools; OctoTools overrides with its own executor). |
-| **`memory.py`** | Store query, files, and action history (query, files, actions). | **Not used** by agents; OctoTools uses `agents/octotools/modules/memory.py`. |
-| **`planner.py`** | LLM-based query analysis, next-step planning, memory verification, final/direct output. | **Not used** by agents; OctoTools uses `agents/octotools/modules/planner.py`. |
+| **`initializer.py`** | Discover tools under `opentools/tools`, build `toolbox_metadata`. | `ToolCapabilityMixin` (all tool-based agents). |
+| **`executor.py`** | Dynamically import a tool and run `tool.run(**args)`. | `ToolCapabilityMixin` (ReAct, OpenTools; OctoTools overrides with its own executor). |
+| **`memory.py`** | Store query, files, and action history (query, files, actions). | **Not used** by agents. |
+| **`planner.py`** | LLM-based query analysis, next-step planning, memory verification, final/direct output. | **Not used** by agents. |
 | **`formatters.py`** | Pydantic schemas for planner/executor (`QueryAnalysis`, `NextStep`, `MemoryVerification`, `ToolCommand`). | Only imported by `planner.py` in this package. |
 | **`utils.py`** | `make_json_serializable` and `make_json_serializable_truncated`. | Only referenced in `solver.ipynb`; OctoTools uses `agents/octotools/modules/utils.py`. |
 
@@ -19,7 +19,7 @@ This directory contains modules for **tool discovery**, **tool execution**, and 
 
 ## Initializer (`initializer.py`)
 
-**Role:** Discover tool modules, instantiate tools to collect metadata, and optionally start a vLLM server. Used by `ToolCapabilityMixin.initialize_tool_capabilities()` to build `self.initializer`.
+**Role:** Discover tool modules, instantiate tools to collect metadata. Used by `ToolCapabilityMixin.initialize_tool_capabilities()` to build `self.initializer`.
 
 ### Constructor
 
@@ -40,13 +40,6 @@ This directory contains modules for **tool discovery**, **tool execution**, and 
 - **`available_tools`**: List of tool class names that were loaded and kept.
 - **`load_all`**: `True` when `enabled_tools == ["all"]`.
 - **`model_string`**, **`vllm_config_path`**, **`vllm_server_process`**: Used for vLLM when `model_string.startswith("vllm-")`.
-
-### vLLM
-
-When `model_string` starts with `"vllm-"`:
-
-- Runs `vllm serve <model> --port 8888` (or `vllm serve --config <vllm_config_path> --port 8888`).
-- Waits until the server reports startup; stores the process in `vllm_server_process`.
 
 ---
 
@@ -81,7 +74,6 @@ When `model_string` starts with `"vllm-"`:
 
 ## Memory (`memory.py`)
 
-**Status:** Not used by the current agent code. OctoTools uses its own `agents/octotools/modules/memory.py`.
 
 Stores query, attached files (with optional descriptions), and an ordered map of actions (tool name, sub_goal, command, result). Methods: `set_query`, `add_file`, `add_action`, `get_query`, `get_files`, `get_actions`. File type descriptions are inferred from extension when `add_file` is called without a description.
 
@@ -89,7 +81,6 @@ Stores query, attached files (with optional descriptions), and an ordered map of
 
 ## Planner (`planner.py`)
 
-**Status:** Not used by any agent. OctoTools uses `agents/octotools/modules/planner.py`, which has a similar role (query analysis, next step, memory verification, final/direct output).
 
 This module uses `formatters.py` for structured outputs (`QueryAnalysis`, `NextStep`, `MemoryVerification`) and would drive a “plan → execute → verify” loop if wired in.
 
@@ -97,7 +88,6 @@ This module uses `formatters.py` for structured outputs (`QueryAnalysis`, `NextS
 
 ## Formatters (`formatters.py`)
 
-**Status:** Only used by `models/planner.py`. Not referenced elsewhere.
 
 Pydantic models for planner/executor prompts:
 
@@ -110,7 +100,6 @@ Pydantic models for planner/executor prompts:
 
 ## Utils (`utils.py`)
 
-**Status:** Only referenced in `solver.ipynb`. Production OctoTools code uses `agents/octotools/modules/utils.py` (same helpers, different package).
 
 - **`make_json_serializable(obj)`**: Recursively converts objects to JSON-serializable form (dict/list/primitive or `obj.__dict__` or `str(obj)`).
 - **`make_json_serializable_truncated(obj, max_length=100000)`**: Same idea but truncates long strings and large representations to `max_length`.
@@ -125,6 +114,4 @@ Pydantic models for planner/executor prompts:
 
 2. Agents use **`self.initializer.toolbox_metadata`** and **`self.initializer.available_tools`** for tool lists and metadata (e.g. prompts, FAISS retrieval).
 
-3. When the agent decides to call a tool, it uses **`self.executor.execute_tool_command(tool_name, args)`** to run it. (OctoTools replaces `self.executor` with its own executor from `octotools/modules` but still uses the same Initializer.)
-
-The **Planner**, **Memory**, and **Formatters** in this directory are currently unused by the main pipeline; they mirror logic that lives under `agents/octotools/modules/` for the OctoTools agent.
+3. When the agent decides to call a tool, it uses **`self.executor.execute_tool_command(tool_name, args)`** to run it.

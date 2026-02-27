@@ -95,12 +95,6 @@ python solve.py \
   --enable_faiss_retrieval True
 ```
 
-**List available agents and exit:**
-
-```bash
-python solve.py --list_agents
-```
-
 ### Using the shell scripts (batch runs)
 
 Each benchmark folder often contains `.sh` scripts (e.g. `react_gpt4_opentools_toolset.sh`). They:
@@ -186,7 +180,6 @@ To change behavior, add or edit flags here. Useful options:
 - **`--max_time 1200`** — Allow more seconds per problem.
 - **`--max_steps 15`** — Allow more reasoning/tool steps.
 - **`--max_tokens 8000`** — Cap tokens per LLM call.
-- **`--task_description "..."`** — Prepend a task description to every query.
 - **`--output_types base,final,direct,full`** — Request multiple output types.
 - **`--verbose True`** or **`False`** — Control logging.
 
@@ -197,7 +190,6 @@ So: **LLM** → set `LLM` and ensure `--llm_engine_name $LLM` is present. **Agen
 Scripts often build a list of indices, e.g. `indices=($(seq 0 299))`. To run a subset:
 
 - Change the range: e.g. `indices=($(seq 0 99))` for the first 100 problems.
-- Or list specific indices: `indices=(0 5 10 20)`.
 
 The script may skip indices that already have an output file in `OUT_DIR` so you can resume.
 

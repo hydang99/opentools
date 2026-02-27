@@ -2,7 +2,7 @@
 
 [![Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white)](https://github.com/hydang99/opentools)
 [![Demo](https://img.shields.io/badge/Hugging%20Face-Demo%20WebUI-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/opentools/opentools)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 **OpenTools** is a community-driven framework for building, evaluating, and deploying tools for tool-integrated language models. It treats end-to-end agent performance as a combination of **tool-use accuracy** (selecting/calling tools correctly) and **intrinsic tool accuracy** (tools staying correct and stable as APIs and environments drift). To support both, OpenTools provides two complementary workflows: a **Tool Accuracy / Maintenance Loop** for continuous validation, regression testing, and reliability reporting, and an **Agentic Workflow** for integrating curated tool collections into LLM agents to solve real user tasks. The project emphasizes standardized tool schemas, continuous community-driven evaluation, clear separation between tools and agent policies, and transparent, debuggable execution via structured tool-call and error logs.
 
@@ -142,7 +142,7 @@ For how to run things and contribute in practice, start with the docs:
 
 ## License
 
-MIT License. See [`LICENSE`](./LICENSE).
+Apache License 2.0. See [`LICENSE`](./LICENSE).
 
 ## Support
 

@@ -180,7 +180,7 @@ class Wolfram_Math_Tool(BaseTool):
             return True
         return False
     
-    def test(self, tool_test: str="wolfram_math", llm_judge=True):
+    def test(self, tool_test: str="math_solver", llm_judge=True):
         """Test the Wolfram Math tool with various test samples, run 3 times, and save results in a JSON file."""
         try:
             # Load testbench data
@@ -265,6 +265,6 @@ if __name__ == "__main__":
     tool = Wolfram_Math_Tool()
     tool.embed_tool()
     try:
-        tool.test(tool_test="wolfram_math", llm_judge=True)
+        tool.test(tool_test="math_solver", llm_judge=True)
     except Exception as e:
         print(f"Error: {e}")

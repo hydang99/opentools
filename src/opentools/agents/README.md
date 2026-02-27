@@ -30,16 +30,16 @@ This directory contains agent implementations and the shared agent framework. Ag
 | **ReAct** | Yes (core) | **Thought → Action → Observation** in a loop. One “thought” and one tool call per step; continues until a “Final Answer”. | Tasks that need iterative tool use and explicit reasoning steps (search, calc, extract, then answer). |
 | **OpenTools** | Yes (core) | **Multi-agent loop**: Reasoning picks a sub-problem and sub-agent type; then generator/verifier and memory (global + local). Can run retrieval on very large tool outputs. | Complex, multi-step tasks with clear sub-tasks and need for verification/summary. |
 | **OctoTools** | Yes (core) | **Plan then execute**: Planner produces a base response and plan; dedicated executor and memory run the steps. Matches the original OctoTools flow. | When you want a distinct planning phase and a separate execution phase. |
-| **Chain-of-thought (CoT)** | Optional | **Step-by-step reasoning** in the prompt; no tool loop by default. Can enable tools so the model can call tools during reasoning. | Logic/math/reasoning-heavy questions; optional tools for lookup or computation. |
-| **Zero-shot** | Optional | **Single direct answer** from the LLM; no reasoning loop. Can enable tools for one-shot tool use. | Fast, simple Q&A; optional tools when one call is enough. |
+| **Chain-of-thought (CoT)** | Optional | **Step-by-step reasoning** in the prompt; no tool loop by default. | Logic/math/reasoning-heavy questions; optional tools for lookup or computation. |
+| **Zero-shot** | Optional | **Single direct answer** from the LLM; no reasoning loop.| Fast, simple Q&A; optional tools when one call is enough. |
 
 Summary:
 
 - **ReAct**: loop of think + act + observe until done.
 - **OpenTools**: loop of reason (sub-problem + sub-agent) → generate/verify with memory; handles huge tool outputs via retrieval.
 - **OctoTools**: plan first, then execute with executor and memory.
-- **CoT**: step-by-step reasoning; tools are optional.
-- **Zero-shot**: one-shot answer; tools are optional.
+- **CoT**: step-by-step reasoning.
+- **Zero-shot**: one-shot answer.
 
 ---
 
@@ -48,7 +48,7 @@ Summary:
 **Embeddings (`embeddings/`, `tool_embeddings.json`)**
 
 - **What**: Vector embeddings of tool metadata (name, description, category, tags) for semantic search.
-- **How they’re created**: When you call `BaseTool.embed_tool()` (e.g. from a tool’s `__main__` or a script), the tool’s metadata is embedded (e.g. via OpenAI embeddings) and stored under `agents/embeddings/tool_embeddings.json`.
+- **How they’re created**: When you call `BaseTool.embed_tool()`, the tool’s metadata is embedded (e.g. via OpenAI embeddings) and stored under `agents/embeddings/tool_embeddings.json`.
 - **How they’re used**: `ToolRetriever` (in `core/tool_retrieval.py`) loads this file, builds a FAISS index, and returns the top-k tools for a given question. Agents that set `enable_faiss_retrieval=True` use this to pass only relevant tools to the LLM instead of the full toolbox.
 
 **Mixins (`mixins/`)**
@@ -83,7 +83,6 @@ result = agent.solve("What is the capital of France?")
 - `enabled_tools`: List of tool class names or `["all"]`.
 - `enable_faiss_retrieval`: Use FAISS over tool embeddings to pass only relevant tools.
 - `num_threads`, `max_time`, `max_output_length`: Execution limits.
-- `vllm_config_path`: vLLM config when using a vLLM model.
 
 **Typical result shape**
 
@@ -119,10 +118,9 @@ src/opentools/agents/my_agent/
 
 ### Format and conventions
 
-- **Class-level metadata** (optional but recommended): `AGENT_NAME`, `AGENT_DESCRIPTION`.
+- **Class-level metadata**: `AGENT_NAME`, `AGENT_DESCRIPTION`.
 - **Constructor**: accept `llm_engine_name` and `verbose` at minimum; tool-based agents accept `enabled_tools`, `enable_faiss_retrieval`, etc., and call `super().__init__(...)` with them.
 - **`solve(question, **kwargs)`**: return a dict with at least the output field your pipeline expects (e.g. `direct_output`, `final_output`).
-- **Logging**: use `self.log(message, level)` if your base provides it (e.g. via `AgentDisplayMixin`).
 
 **Minimal agent (no tools)**
 
@@ -143,7 +141,6 @@ class MyAgent(BaseAgent):
     def solve(self, question: str, **kwargs):
         return {"direct_output": f"Echo: {question}"}
 
-register_agent("my_agent", MyAgent)
 ```
 
 **Minimal tool-based agent**
@@ -172,7 +169,6 @@ class MyToolAgent(ToolBasedAgent):
         # executions, failures = self.execute_tool(tool_calls, question)
         return {"direct_output": "Custom result"}
 
-register_agent("my_tool_agent", MyToolAgent)
 ```
 
 ---

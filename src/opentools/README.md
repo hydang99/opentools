@@ -56,7 +56,6 @@ print(result.get("direct_output") or result.get("final_output"))
 ```python
 from opentools import UnifiedSolver, solve_with_agent
 
-# Option A: solver instance
 solver = UnifiedSolver(
     agent_name="opentools",
     llm_engine_name="gpt-4o-mini",
@@ -64,13 +63,6 @@ solver = UnifiedSolver(
 )
 result = solver.solve(question="What is 2 + 2?")
 
-# Option B: one-off helper
-result = solve_with_agent(
-    question="Summarize this image.",
-    agent_name="react",
-    llm_engine_name="gpt-4o",
-    image_path="/path/to/image.png",
-)
 ```
 
 ### 3. Run a single tool

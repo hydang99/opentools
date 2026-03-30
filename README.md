@@ -147,4 +147,3 @@ Apache License 2.0. See [`LICENSE`](./LICENSE).
 ## Support
 
 - Issues: https://github.com/hydang99/opentools/issues
-- Discussions: https://github.com/hydang99/opentools/discussions

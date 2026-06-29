@@ -12,13 +12,13 @@ description = "An effective and easy-to-use agentic framework with extendable to
 readme = "README.md"
 requires-python = ">=3.10"
 dynamic = ["dependencies"]
-license = {text = "MIT"}
+license = {text = "Apache-2.0"}
 
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",

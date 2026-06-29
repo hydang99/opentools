@@ -75,6 +75,45 @@ opentools create-env-template
 opentools load-env .env
 ```
 
+### Evaluate a tool locally
+
+Run a static preflight before importing or executing a local tool:
+
+```bash
+opentools evaluate ./src/opentools/tools/calculator
+```
+
+The preflight reports observable network, credential, filesystem, subprocess, and
+dynamic-execution signals. It is a review aid, not a security guarantee. Tool code
+is executed only when explicitly requested:
+
+```bash
+opentools evaluate Calculator_Tool --run-tests --output evaluation-report.json
+```
+
+An optional LLM judge can review the tool card and observed evidence for
+documentation quality, test adequacy, output-contract clarity, and
+maintainability:
+
+```bash
+opentools evaluate Calculator_Tool --run-tests --judge --judge-model gpt-4o-mini
+```
+
+The judge is advisory, cannot override restricted preflight findings, and is not
+used as a security certification. CI does not invoke it automatically, avoiding
+credential requirements, API costs, and nondeterministic acceptance decisions.
+Invoking `--judge` sends selected tool metadata and sanitized findings—but not
+source code, credential values, or absolute local paths—to the configured model
+provider.
+
+Restricted findings block test execution unless the user also passes
+`--allow-risky`. Reports contain only observed test results; when a test routine
+does not write structured evidence, OpenTools reports
+`completed_without_structured_results` rather than inferring an accuracy.
+
+The same preflight and unit checks run on tool-related pull requests and on a
+weekly schedule through GitHub Actions, supporting regression and drift review.
+
 ---
 
 OpenTools can be used in two ways: **from the CLI** (direct command-line interface) or **inside a Python environment** (import and call from your code). Both modes use the same tools and agents.

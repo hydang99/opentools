@@ -5,6 +5,10 @@ This module provides a convenient CLI for discovering and managing tools.
 """
 
 import argparse
+import contextlib
+import importlib.util
+import inspect
+import io
 import json
 import os
 import sys
@@ -20,6 +24,13 @@ from . import (
     search_tools,
 )
 from .core.config import OpenToolsConfig
+from .evaluation import (
+    build_tool_card,
+    evaluation_report,
+    inspect_source,
+    judge_evaluation_report,
+    run_existing_tests,
+)
 
 
 def list_command(args):
@@ -60,6 +71,11 @@ def info_command(args):
         print(f"Input Types: {info.get('input_types', {})}")
         print(f"Output Type: {info.get('output_type', 'N/A')}")
         print(f"Demo Commands: {info.get('demo_commands', [])}")
+        print(f"Provenance: {info.get('provenance', {})}")
+        print(f"Execution: {info.get('execution', {})}")
+        print(f"Safety/Cautions: {info.get('safety', {})}")
+        print(f"Usage: {info.get('usage', {})}")
+        print(f"Evaluation: {info.get('evaluation', {})}")
 
 
 def search_command(args):
@@ -250,37 +266,136 @@ def test_command(args):
     if not tool:
         print(f"❌ Tool '{tool_name}' not found.")
         return 1
-    
+
     if not hasattr(tool, "test"):
         print(f"❌ Tool '{tool_name}' has no test() method.")
         return 1
-    
-    import inspect
-    sig = inspect.signature(tool.test)
-    params = list(sig.parameters.keys())
-    if "self" in params:
-        params.remove("self")
-    
-    test_kwargs = {}
-    if params:
-        # Tool has required params: use DEFAULT_TEST_ARGS or get_default_test_args() if defined
-        default_args = getattr(tool.__class__, "DEFAULT_TEST_ARGS", None)
-        if default_args is None and hasattr(tool, "get_default_test_args"):
-            default_args = tool.get_default_test_args()
-        if default_args:
-            test_kwargs = dict(default_args)
-        else:
-            print(f"⚠️  Tool '{tool_name}.test()' requires parameters: {params}")
-            print("   Define DEFAULT_TEST_ARGS on the tool class or implement get_default_test_args() for CLI testing.")
-            return 1
-    
+
     try:
-        tool.test(**test_kwargs)
-        print(f"✅ Test completed for {tool_name}")
-        return 0
-    except Exception as e:
-        print(f"❌ Test failed: {e}")
+        source = Path(inspect.getfile(tool.__class__)).resolve()
+        result = run_existing_tests(tool, source)
+    except Exception as exc:
+        print(f"❌ Test failed: {exc}")
         return 1
+
+    if result["status"] == "failed":
+        print(f"❌ Test failed: {result.get('error', 'test() returned False')}")
+        return 1
+    print(f"✅ Test routine completed for {tool_name}: {result['status']}")
+    if result.get("result_file"):
+        print(f"📁 Test result: {result['result_file']}")
+    return 0
+
+
+def _load_local_tool(source: Path):
+    """Load one BaseTool subclass after the caller has reviewed preflight results."""
+    from .core.base import BaseTool
+
+    module_file = source / "tool.py" if source.is_dir() else source
+    if not module_file.is_file() or module_file.suffix != ".py":
+        raise ValueError("Local tool must be a Python file or a directory containing tool.py")
+    module_name = f"opentools_local_{module_file.parent.name}_{module_file.stat().st_mtime_ns}"
+    spec = importlib.util.spec_from_file_location(module_name, module_file)
+    if spec is None or spec.loader is None:
+        raise ValueError(f"Could not load module specification for {module_file}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    candidates = [
+        obj
+        for _, obj in inspect.getmembers(module, inspect.isclass)
+        if obj is not BaseTool
+        and issubclass(obj, BaseTool)
+        and obj.__module__ == module.__name__
+    ]
+    if len(candidates) != 1:
+        raise ValueError(
+            f"Expected exactly one local BaseTool subclass, found {len(candidates)}"
+        )
+    return candidates[0](), module_file
+
+
+def _resolve_evaluation_target(target: str):
+    """Resolve a local source path or an installed registry tool."""
+    path = Path(target).expanduser()
+    if path.exists():
+        return None, path.resolve(), "local"
+
+    # Some legacy tool modules print during discovery. Keep evaluation JSON stable.
+    with contextlib.redirect_stdout(io.StringIO()):
+        load_all_tools(verbose=False)
+        tool = create_tool(target)
+    if tool is None:
+        raise ValueError(f"Tool or local path not found: {target}")
+    return tool, Path(inspect.getfile(tool.__class__)).resolve(), "installed"
+
+
+def evaluate_command(args):
+    """Inspect a tool and optionally run its existing real test routine."""
+    try:
+        tool, source, target_type = _resolve_evaluation_target(args.target)
+    except Exception as exc:
+        print(f"❌ {exc}", file=sys.stderr)
+        return 1
+
+    inspection_result = inspect_source(source)
+    test_result = {"status": "not_run"}
+    blocked = False
+
+    if args.run_tests:
+        if inspection_result["risk_level"] == "restricted" and not args.allow_risky:
+            test_result = {
+                "status": "blocked_by_preflight",
+                "reason": "Restricted source signals require --allow-risky before execution.",
+            }
+            blocked = True
+        else:
+            try:
+                if tool is None:
+                    tool, source = _load_local_tool(source)
+                test_result = run_existing_tests(tool, source)
+            except Exception as exc:
+                test_result = {
+                    "status": "failed",
+                    "error": f"{type(exc).__name__}: {exc}",
+                }
+
+    card = build_tool_card(tool, inspection_result, test_result) if tool else None
+    report = evaluation_report(source, inspection_result, card)
+    report["target_type"] = target_type
+    report["execution_requested"] = bool(args.run_tests)
+    report["llm_judge"] = {"status": "not_run"}
+
+    if args.judge:
+        report["llm_judge"] = judge_evaluation_report(report, model=args.judge_model)
+        if card is not None:
+            card["llm_review"] = report["llm_judge"]
+
+    if args.output:
+        output = Path(args.output).expanduser().resolve()
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(json.dumps(report, indent=2, default=str) + "\n", encoding="utf-8")
+        report["report_file"] = str(output)
+
+    if args.json:
+        print(json.dumps(report, indent=2, default=str))
+    else:
+        print(f"Target: {source}")
+        print(f"Risk level: {inspection_result['risk_level']}")
+        print(f"Files scanned: {inspection_result['files_scanned']}")
+        print(f"Findings: {len(inspection_result['findings'])}")
+        print(f"Test status: {test_result['status']}")
+        print(f"LLM judge status: {report['llm_judge']['status']}")
+        print(f"Caution: {inspection_result['caution']}")
+        if args.output:
+            print(f"Report: {report['report_file']}")
+
+    if blocked or test_result["status"] == "failed":
+        return 2
+    if args.judge and report["llm_judge"]["status"] != "completed":
+        return 2
+    if inspection_result["parse_errors"]:
+        return 2
+    return 0
 
 
 def stats_command(args):
@@ -366,6 +481,8 @@ Examples:
   opentools run Calculator_Tool --args '{"operation":"add","values":[1,2,3]}'
   opentools solve "What is 2+2?" --agent react --llm gpt-4o-mini --tools Calculator_Tool
   opentools test Calculator_Tool    # Run tool's test
+  opentools evaluate ./my_tool      # Static preflight; does not execute tool code
+  opentools evaluate Calculator_Tool --run-tests --output report.json
   opentools stats                   # Show registry stats
   opentools list-agents             # List available agents
   opentools reload                  # Reload all tools
@@ -411,6 +528,36 @@ Examples:
     test_parser = subparsers.add_parser('test', help='Run a tool\'s test routine')
     test_parser.add_argument('tool_name', help='Name of the tool to test')
     test_parser.set_defaults(func=test_command)
+
+    # Evaluate command. Static inspection is the safe default; execution is explicit.
+    evaluate_parser = subparsers.add_parser(
+        'evaluate',
+        help='Inspect a local or installed tool and optionally run its existing tests',
+    )
+    evaluate_parser.add_argument('target', help='Registered tool name, tool.py, or tool directory')
+    evaluate_parser.add_argument(
+        '--run-tests',
+        action='store_true',
+        help='Import the tool and execute its existing test() routine after preflight',
+    )
+    evaluate_parser.add_argument(
+        '--allow-risky',
+        action='store_true',
+        help='Allow test execution when preflight reports restricted capabilities',
+    )
+    evaluate_parser.add_argument('--output', help='Write the evidence report to this JSON file')
+    evaluate_parser.add_argument(
+        '--judge',
+        action='store_true',
+        help='Request an advisory LLM review of metadata and collected evidence',
+    )
+    evaluate_parser.add_argument(
+        '--judge-model',
+        default='gpt-4o-mini',
+        help='Configured OpenTools model used by --judge (default: gpt-4o-mini)',
+    )
+    evaluate_parser.add_argument('--json', action='store_true', help='Print the full JSON report')
+    evaluate_parser.set_defaults(func=evaluate_command)
     
     # Stats command
     stats_parser = subparsers.add_parser('stats', help='Show registry statistics')
@@ -461,4 +608,4 @@ Examples:
 
 
 if __name__ == '__main__':
-    sys.exit(main()) 
+    sys.exit(main())

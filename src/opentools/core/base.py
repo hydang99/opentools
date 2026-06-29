@@ -9,15 +9,13 @@ import json, os , dotenv, traceback
 from typing import Any, Dict, List, Optional
 from datetime import datetime
 from .config import config
-from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
 from .factory import create_llm_engine
 dotenv.load_dotenv()
 
 class BaseTool:
     """
     A base class for building tool classes that perform specific tasks.
-    
+
     This class provides a standardized interface for tools in the OpenTools framework,
     including metadata management, execution handling, and integration capabilities.
     """
@@ -42,6 +40,15 @@ class BaseTool:
         is_multimodal: bool = False,
         llm_engine = None,
         require_llm_engine: bool = False,
+        version: str = "1.0.0",
+        source_url: Optional[str] = None,
+        license: Optional[str] = None,
+        execution_type: str = "unspecified",
+        network_access: Optional[bool] = None,
+        side_effects: Optional[List[str]] = None,
+        estimated_cost: Optional[str] = None,
+        cautions: Optional[List[str]] = None,
+        suitable_for: Optional[List[str]] = None,
     ):
 
         """
@@ -64,6 +71,15 @@ class BaseTool:
             is_multimodal (bool, optional): Whether the tool is multimodal.
             llm_engine (LLMEngine, optional): The LLM engine to use for the tool.
             require_llm_engine (bool, optional): Whether the tool requires an LLM engine.
+            version (str, optional): Version of the tool implementation.
+            source_url (str, optional): Upstream source or project URL.
+            license (str, optional): SPDX license identifier when known.
+            execution_type (str, optional): local, api, prompting, or unspecified.
+            network_access (bool, optional): Whether execution requires network access.
+            side_effects (List[str], optional): Declared externally visible effects.
+            estimated_cost (str, optional): Human-readable cost caution.
+            cautions (List[str], optional): Important conditions users should review.
+            suitable_for (List[str], optional): Intended use cases for tool selection.
         This constructor sets up the tool's metadata and configuration for use within the OpenTools framework.
         """
         self.type = type
@@ -81,7 +97,16 @@ class BaseTool:
         self.output_dir = os.curdir
         self.agent_type = agent_type
         self.model_string = model_string
-        self.required_api_keys = required_api_keys
+        self.required_api_keys = required_api_keys or []
+        self.version = version
+        self.source_url = source_url
+        self.license = license
+        self.execution_type = execution_type
+        self.network_access = network_access
+        self.side_effects = side_effects or []
+        self.estimated_cost = estimated_cost
+        self.cautions = cautions or []
+        self.suitable_for = suitable_for or []
         if require_llm_engine:
             self.llm_engine = llm_engine if llm_engine else create_llm_engine(model_string, is_multimodal=is_multimodal)
         else:
@@ -163,6 +188,24 @@ class BaseTool:
             "limitation": self.limitation,
             "agent_type": self.agent_type,
             "accuracy": self.accuracy,
+            "version": self.version,
+            "source_url": self.source_url,
+            "license": self.license,
+            "execution": {
+                "type": self.execution_type,
+                "network_access": self.network_access,
+                "required_api_keys": self.required_api_keys or [],
+                "side_effects": self.side_effects,
+                "estimated_cost": self.estimated_cost,
+            },
+            "safety": {
+                "cautions": self.cautions,
+                "assessment": "declared_by_tool_author",
+            },
+            "usage": {
+                "suitable_for": self.suitable_for,
+                "limitations": self.limitation,
+            },
         }
         return metadata
 
@@ -383,10 +426,12 @@ class BaseTool:
     
     def eval_accuracy(self, result: str, expected_result: str):
         """Evaluate the accuracy of the tool."""
+        # Keep optional semantic-evaluation dependencies out of static CLI startup.
+        from sentence_transformers import SentenceTransformer
+        from sklearn.metrics.pairwise import cosine_similarity
+
         model = SentenceTransformer('all-MiniLM-L6-v2')
         v1  = model.encode(result)
         v2 =  model.encode(expected_result)
         # Convert numpy float32 to Python float for JSON serialization
         return float(cosine_similarity(v1.reshape(1, -1), v2.reshape(1, -1))[0,0])
-    
-    

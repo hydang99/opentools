@@ -1,0 +1,37 @@
+name: Tool evaluation checks
+
+on:
+  pull_request:
+    paths:
+      - "src/opentools/tools/**"
+      - "src/opentools/core/base.py"
+      - "src/opentools/evaluation.py"
+      - "src/opentools/cli.py"
+      - "tests/test_evaluation.py"
+      - ".github/workflows/tool-evaluation.yml"
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run evaluation unit tests
+        run: python -m unittest discover -s tests -p "test_evaluation.py"
+      - name: Inspect the toolbox without executing tool code
+        run: python src/opentools/evaluation.py src/opentools/tools --json > tool-preflight.json
+      - name: Publish preflight report for maintainer review
+        uses: actions/upload-artifact@v4
+        with:
+          name: tool-preflight
+          path: tool-preflight.json

@@ -41,6 +41,16 @@ This guide explains how to add new tools and agents, and how to contribute test 
                accuracy=self.find_accuracy(
                    os.path.join(os.path.dirname(__file__), "test_result.json")
                ),
+               version="1.0.0",
+               source_url="https://github.com/owner/project",
+               license="Apache-2.0",
+               execution_type="local",  # local, api, or prompting
+               network_access=False,
+               required_api_keys=[],
+               side_effects=[],
+               estimated_cost="none",
+               cautions=["Describe conditions users should review."],
+               suitable_for=["Describe appropriate use cases."],
            )
 
        def run(self, query: str, **kwargs):
@@ -52,7 +62,30 @@ This guide explains how to add new tools and agents, and how to contribute test 
 
    Tool discovery walks `src/opentools/tools/**/tool.py` and imports all `BaseTool` subclasses, so you don’t need to edit a registry. Just follow the folder and class pattern above.
 
-3. **Optional: embeddings**
+3. **Run the local preflight before executing it**
+
+   ```bash
+   opentools evaluate src/opentools/tools/<your_tool_name>
+   opentools evaluate src/opentools/tools/<your_tool_name> --run-tests --output report.json
+   ```
+
+   The first command statically reports capabilities that deserve review without
+   importing the tool. The second explicitly imports the tool and runs its existing
+   `test()` routine. Static inspection is a caution mechanism, not proof that code
+   is safe. Do not use `--allow-risky` until subprocess or dynamic-execution
+   findings have been manually reviewed.
+
+   Maintainers may optionally request an evidence-based LLM review after tests:
+
+   ```bash
+   opentools evaluate <tool> --run-tests --judge --judge-model gpt-4o-mini
+   ```
+
+   The judge reviews metadata and collected evidence only. It cannot certify
+   security or override deterministic preflight restrictions, and its output must
+   remain advisory rather than becoming the sole merge criterion.
+
+4. **Optional: embeddings**
 
    To include your tool in FAISS‑based retrieval:
 
@@ -123,6 +156,17 @@ src/opentools/tools/test_file/data.json
    For a detailed walkthrough of how the shared test file works, how to structure assets under `test_file/`, and how the evaluation metrics are computed, see the testing section in `src/opentools/tools/read_me.md` (the tools documentation in the `src` folder).
 
 ### 3. Guidelines
+
+Tool-related pull requests run metadata/evaluation unit checks and static
+preflight in CI. Maintainers should review restricted findings, declared access,
+and test evidence before accepting a tool. Scheduled CI repeats the checks to
+surface dependency or API drift; community-reported failures should be added as
+regression cases rather than recorded only as comments.
+
+Tool cards should declare provenance and license, execution type, network access,
+required credentials, side effects, cost cautions, appropriate uses, and known
+limitations. These declarations are shown separately from behavior observed by
+the static preflight.
 
 - **Return shape**  
   Tools should return a dict containing at least:
@@ -201,5 +245,3 @@ Agents live under `src/opentools/agents/<agent_name>/` and are registered in the
 
    - Add a short row for your agent to `agents/README.md` (what it does, how it reasons, whether it uses tools).
    - If the agent depends on tools, reuse the existing tool tests (via `BaseTool.test(...)`) and add higher‑level agent tests if needed (e.g. scripted calls that check expected shapes in `reasoning_trace` / `direct_output`).
-
-

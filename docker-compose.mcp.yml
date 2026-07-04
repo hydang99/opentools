@@ -1,0 +1,17 @@
+services:
+  opentools-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+    ports:
+      - "8000:8000"
+    environment:
+      OPENTOOLS_MCP_ALLOWED_TOOLS: "Calculator_Tool"
+      OPENTOOLS_MCP_ALLOW_TOOL_CALLS: "1"
+      OPENTOOLS_MCP_ALLOW_EXECUTION: "0"
+      OPENTOOLS_MCP_MAX_RISK: "low"
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true

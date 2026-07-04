@@ -91,7 +91,8 @@ class ToolRegistry:
                 "execution": meta.get("execution", {}),
                 "safety": meta.get("safety", {}),
                 "usage": meta.get("usage", {}),
-                "evaluation": {"reported_accuracy": meta.get("accuracy")},
+                "evaluation": meta.get("evaluation_record")
+                or {"reported_accuracy": meta.get("accuracy")},
             }
         except Exception as e:
             print(e)

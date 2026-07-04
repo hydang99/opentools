@@ -114,6 +114,146 @@ does not write structured evidence, OpenTools reports
 The same preflight and unit checks run on tool-related pull requests and on a
 weekly schedule through GitHub Actions, supporting regression and drift review.
 
+### Refresh evaluations and the tool inventory
+
+`evaluation_index.json` is the canonical summary used by tool cards and the
+generated table in `src/opentools/tools/readme.md`. Refresh both from existing
+evidence without executing tools:
+
+```bash
+opentools update-inventory
+```
+
+Run real existing tests for an explicit low-risk set, update the index, and
+regenerate the table:
+
+```bash
+opentools evaluate-all \
+  --tools Calculator_Tool \
+  --max-risk low \
+  --discard-raw-results
+```
+
+Bulk execution requires `--tools` or the explicit `--all-eligible` flag.
+Restricted tools are never eligible. The weekly GitHub workflow evaluates its
+configured low-risk tools and opens a reviewable automation pull request when the
+index or table changes; it does not push directly to `main`. API and LLM tools
+should be evaluated manually or in a separately configured workflow with the
+necessary credentials and cost controls.
+
+### MCP server
+
+OpenTools exposes the same inspection and evaluation layer through an MCP server:
+
+```bash
+opentools-mcp --transport stdio
+```
+
+The server provides four MCP tools: `list_opentools`, `inspect_opentool`,
+`evaluate_opentool`, and `call_opentool`. It accepts registered tool names only and returns sanitized
+evidence without source code, credential values, absolute paths, or result-file
+paths. Listing, inspection, and tool-card extraction use AST parsing and do not
+import submitted tool modules. Test execution is disabled by default.
+
+Restrict the visible toolbox and explicitly enable tests when starting a trusted,
+local server:
+
+```bash
+export OPENTOOLS_MCP_ALLOWED_TOOLS="Calculator_Tool,Search_Engine_Tool"
+export OPENTOOLS_MCP_ALLOW_EXECUTION=1
+export OPENTOOLS_MCP_ALLOW_TOOL_CALLS=1
+export OPENTOOLS_MCP_MAX_RISK=low
+opentools-mcp --transport stdio
+```
+
+Test execution and application tool calls have separate enable flags. Both
+require an explicit allowlist; only the requested module is then imported.
+Restricted tools remain blocked, and caution tools require the explicit
+`OPENTOOLS_MCP_MAX_RISK=caution` policy. A generic MCP client configuration is:
+
+```json
+{
+  "mcpServers": {
+    "opentools": {
+      "command": "opentools-mcp",
+      "args": ["--transport", "stdio"],
+      "env": {
+        "OPENTOOLS_MCP_ALLOWED_TOOLS": "Calculator_Tool",
+        "OPENTOOLS_MCP_ALLOW_TOOL_CALLS": "1",
+        "OPENTOOLS_MCP_MAX_RISK": "low"
+      }
+    }
+  }
+}
+```
+
+For local development, Streamable HTTP is also available through
+`opentools-mcp --transport streamable-http`. Do not expose an unauthenticated
+development server publicly.
+
+A minimal read-only container deployment exposing only the calculator is
+included:
+
+```bash
+docker compose -f docker-compose.mcp.yml up --build
+```
+
+The Streamable HTTP endpoint is available at `http://localhost:8000/mcp`.
+Extend the image with a tool's dependencies before adding that tool to the
+allowlist. Authentication and TLS must be added at the deployment boundary before
+public hosting.
+
+### Contribute and standardize a tool
+
+Convert a README plus an annotated Python function into a reviewable OpenTools
+bundle:
+
+```bash
+opentools convert-tool submitted.py \
+  --readme README.md \
+  --name "My Tool" \
+  --entrypoint run_my_tool \
+  --license Apache-2.0
+```
+
+The converter infers a JSON parameter schema from supported type annotations,
+preserves the submitted source, generates a `BaseTool` wrapper, and performs
+static risk inspection. It does **not** execute submitted code or report a
+functional score. Unsupported or ambiguous entrypoints fail with an explicit
+error rather than guessed behavior.
+
+The optional contribution WebUI exposes the same flow:
+
+```bash
+pip install -e '.[webui]'
+opentools-webui --host 127.0.0.1 --port 7860
+```
+
+Users upload `tool.py` and a README, review risk and metadata findings, and
+download a contribution bundle. An optional LLM review evaluates sanitized
+metadata and evidence only. Web submissions remain
+`pending_maintainer_review`; they are never merged or executed automatically.
+
+### Optional DSPy integration
+
+```bash
+pip install -e '.[dspy]'
+```
+
+```python
+import dspy
+
+from opentools.integrations.dspy import as_dspy_tool
+
+calculator = as_dspy_tool("Calculator_Tool")
+agent = dspy.ReAct("question -> answer", tools=[calculator])
+```
+
+The adapter reuses OpenTools schemas, credential declarations, and risk policy.
+Restricted tools cannot be adapted, and caution tools require
+`max_risk="caution"`. DSPy remains optional and is not required for the core
+toolbox or MCP server.
+
 ---
 
 OpenTools can be used in two ways: **from the CLI** (direct command-line interface) or **inside a Python environment** (import and call from your code). Both modes use the same tools and agents.

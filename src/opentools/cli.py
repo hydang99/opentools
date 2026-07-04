@@ -31,6 +31,8 @@ from .evaluation import (
     judge_evaluation_report,
     run_existing_tests,
 )
+from .inventory import refresh as refresh_inventory
+from .conversion import convert_submission
 
 
 def list_command(args):
@@ -398,6 +400,87 @@ def evaluate_command(args):
     return 0
 
 
+def _inventory_paths(args):
+    package_root = Path(__file__).parent
+    tools_root = Path(args.tools_root or package_root / "tools").resolve()
+    index_path = Path(args.index or tools_root / "evaluation_index.json").resolve()
+    inventory_path = Path(args.inventory or tools_root / "readme.md").resolve()
+    return tools_root, index_path, inventory_path
+
+
+def _print_inventory_summary(index, results):
+    summary = {
+        "indexed_tools": len(index.get("tools", {})),
+        "evaluations_requested": len(results),
+        "completed": sum(item.get("status") == "completed" for item in results.values()),
+        "failed": sum(item.get("status") == "failed" for item in results.values()),
+        "skipped": sum(
+            item.get("status") == "skipped_by_risk_policy" for item in results.values()
+        ),
+    }
+    print(json.dumps(summary, indent=2))
+    return summary
+
+
+def update_inventory_command(args):
+    """Refresh the index and Markdown table from source and existing evidence."""
+    tools_root, index_path, inventory_path = _inventory_paths(args)
+    index, results = refresh_inventory(
+        tools_root,
+        index_path,
+        inventory_path,
+        stale_after_days=args.stale_after_days,
+    )
+    _print_inventory_summary(index, results)
+    return 0
+
+
+def evaluate_all_command(args):
+    """Evaluate an explicit set of tools and refresh the canonical inventory."""
+    selected = [item.strip() for item in (args.tools or "").split(",") if item.strip()]
+    if not selected and not args.all_eligible:
+        print("❌ Pass --tools or explicitly select --all-eligible.", file=sys.stderr)
+        return 1
+    tools_root, index_path, inventory_path = _inventory_paths(args)
+    index, results = refresh_inventory(
+        tools_root,
+        index_path,
+        inventory_path,
+        run_tests=True,
+        selected_tools=selected,
+        max_risk=args.max_risk,
+        stale_after_days=args.stale_after_days,
+        discard_raw_results=args.discard_raw_results,
+    )
+    summary = _print_inventory_summary(index, results)
+    if any(name.startswith("unknown:") for name in results):
+        return 1
+    if args.fail_on_error and summary["failed"]:
+        return 2
+    return 0
+
+
+def convert_tool_command(args):
+    """Create a statically inspected OpenTools contribution bundle."""
+    try:
+        result = convert_submission(
+            args.source,
+            args.readme,
+            args.output,
+            name=args.name,
+            entrypoint=args.entrypoint,
+            description=args.description,
+            category=args.category,
+            source_url=args.source_url,
+            license_name=args.license_name,
+        )
+    except Exception as exc:
+        print(f"❌ {type(exc).__name__}: {exc}", file=sys.stderr)
+        return 1
+    print(json.dumps(result, indent=2, default=str))
+    return 0
+
+
 def stats_command(args):
     """Show registry statistics."""
     load_all_tools(verbose=False)
@@ -483,6 +566,9 @@ Examples:
   opentools test Calculator_Tool    # Run tool's test
   opentools evaluate ./my_tool      # Static preflight; does not execute tool code
   opentools evaluate Calculator_Tool --run-tests --output report.json
+  opentools update-inventory        # Refresh index and generated tool table
+  opentools evaluate-all --tools Calculator_Tool --discard-raw-results
+  opentools convert-tool function.py --readme README.md --name Example
   opentools stats                   # Show registry stats
   opentools list-agents             # List available agents
   opentools reload                  # Reload all tools
@@ -558,6 +644,69 @@ Examples:
     )
     evaluate_parser.add_argument('--json', action='store_true', help='Print the full JSON report')
     evaluate_parser.set_defaults(func=evaluate_command)
+
+    def add_inventory_arguments(command_parser):
+        command_parser.add_argument('--tools-root', help='Tools directory (default: packaged tools)')
+        command_parser.add_argument('--index', help='Evaluation index JSON output path')
+        command_parser.add_argument('--inventory', help='Generated Markdown inventory path')
+        command_parser.add_argument(
+            '--stale-after-days',
+            type=int,
+            default=30,
+            help='Mark dated evidence stale after this many days (default: 30)',
+        )
+
+    update_inventory_parser = subparsers.add_parser(
+        'update-inventory',
+        help='Regenerate the evaluation index and tool table from existing evidence',
+    )
+    add_inventory_arguments(update_inventory_parser)
+    update_inventory_parser.set_defaults(func=update_inventory_command)
+
+    evaluate_all_parser = subparsers.add_parser(
+        'evaluate-all',
+        help='Run existing tests for selected eligible tools and refresh the inventory',
+    )
+    add_inventory_arguments(evaluate_all_parser)
+    selection = evaluate_all_parser.add_mutually_exclusive_group()
+    selection.add_argument('--tools', help='Comma-separated class names or tool folders')
+    selection.add_argument(
+        '--all-eligible',
+        action='store_true',
+        help='Attempt every tool permitted by --max-risk',
+    )
+    evaluate_all_parser.add_argument(
+        '--max-risk',
+        choices=['low', 'caution'],
+        default='low',
+        help='Highest risk classification eligible for execution (default: low)',
+    )
+    evaluate_all_parser.add_argument(
+        '--discard-raw-results',
+        action='store_true',
+        help='Keep summaries in the index but remove raw result files created by this run',
+    )
+    evaluate_all_parser.add_argument(
+        '--fail-on-error',
+        action='store_true',
+        help='Return a failing exit code after recording evaluation failures',
+    )
+    evaluate_all_parser.set_defaults(func=evaluate_all_command)
+
+    convert_parser = subparsers.add_parser(
+        'convert-tool',
+        help='Convert annotated Python code into a reviewable OpenTools bundle',
+    )
+    convert_parser.add_argument('source', help='Submitted Python file')
+    convert_parser.add_argument('--readme', required=True, help='Submitted README file')
+    convert_parser.add_argument('--name', required=True, help='Display name for the tool')
+    convert_parser.add_argument('--entrypoint', help='Public function to wrap')
+    convert_parser.add_argument('--description')
+    convert_parser.add_argument('--category', default='community')
+    convert_parser.add_argument('--source-url')
+    convert_parser.add_argument('--license', dest='license_name')
+    convert_parser.add_argument('--output', default='opentools_contributions')
+    convert_parser.set_defaults(func=convert_tool_command)
     
     # Stats command
     stats_parser = subparsers.add_parser('stats', help='Show registry statistics')

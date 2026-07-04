@@ -13,12 +13,32 @@ import inspect
 import json
 import re
 import sys
+import warnings
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 
 
-NETWORK_MODULES = {"aiohttp", "httpx", "requests", "socket", "urllib"}
+NETWORK_MODULES = {
+    "aiohttp",
+    "arxiv",
+    "boto3",
+    "eutils",
+    "google",
+    "habanero",
+    "httpx",
+    "metapub",
+    "openai",
+    "pymed",
+    "requests",
+    "socket",
+    "urllib",
+    "waybackpy",
+    "wikipedia",
+    "yfinance",
+    "youtube_transcript_api",
+    "yt_dlp",
+}
 PROCESS_MODULES = {"commands", "subprocess"}
 SECRET_SUFFIXES = ("_API_KEY", "_KEY", "_PASSWORD", "_SECRET", "_TOKEN")
 WRITE_METHODS = {
@@ -122,6 +142,16 @@ class _CapabilityVisitor(ast.NodeVisitor):
         elif name.startswith("subprocess."):
             self._add(node, "process_execution", "restricted", f"calls {name}")
 
+        if name.endswith("create_llm_engine"):
+            self._add(node, "network_access", "caution", f"initializes an LLM engine via {name}")
+        for keyword in node.keywords:
+            if (
+                keyword.arg == "require_llm_engine"
+                and isinstance(keyword.value, ast.Constant)
+                and keyword.value.value is True
+            ):
+                self._add(node, "network_access", "caution", "declares an LLM engine requirement")
+
         if name == "open":
             mode = None
             if len(node.args) > 1:
@@ -190,7 +220,9 @@ def inspect_source(source: Path | str) -> Dict[str, Any]:
 
     for path in files:
         try:
-            tree = ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore", SyntaxWarning)
+                tree = ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
         except (OSError, UnicodeError, SyntaxError) as exc:
             parse_errors.append({"file": str(path), "error": str(exc)})
             continue
@@ -255,6 +287,8 @@ def build_tool_card(
         "status": "not_run",
         "reported_accuracy": metadata.get("accuracy"),
     }
+    if isinstance(metadata.get("evaluation_record"), dict):
+        evaluation_data.update(metadata["evaluation_record"])
     if evaluation:
         evaluation_data.update(evaluation)
     card = {
@@ -382,8 +416,8 @@ required_actions (array of strings), and rationale (short string).
 """
 
 
-def _judge_payload(report: Dict[str, Any]) -> Dict[str, Any]:
-    """Select bounded, non-secret evidence for an LLM review."""
+def model_review_payload(report: Dict[str, Any]) -> Dict[str, Any]:
+    """Select bounded, non-secret evidence suitable for an LLM or MCP client."""
     inspection = report.get("inspection") or {}
     tool_card = report.get("tool_card") or {}
     safety = tool_card.get("safety") or {}
@@ -510,7 +544,7 @@ def judge_evaluation_report(
 
             engine = create_llm_engine(model, use_cache=False, is_multimodal=False)
         prompt = "Review this OpenTools evidence:\n" + json.dumps(
-            _judge_payload(report), sort_keys=True, default=str
+            model_review_payload(report), sort_keys=True, default=str
         )
         response = engine.generate(
             prompt,

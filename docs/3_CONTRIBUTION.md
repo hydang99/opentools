@@ -163,10 +163,43 @@ and test evidence before accepting a tool. Scheduled CI repeats the checks to
 surface dependency or API drift; community-reported failures should be added as
 regression cases rather than recorded only as comments.
 
+After adding or updating results, regenerate the canonical index and table:
+
+```bash
+opentools update-inventory
+```
+
+Maintainers can run selected real evaluations and refresh both artifacts with:
+
+```bash
+opentools evaluate-all --tools My_Custom_Tool --max-risk low
+```
+
+Use `--discard-raw-results` in scheduled CI when only the compact summary should
+be committed. Bulk evaluation never runs tools classified as restricted. The
+scheduled workflow proposes index/table updates through a pull request so result
+changes remain reviewable.
+
 Tool cards should declare provenance and license, execution type, network access,
 required credentials, side effects, cost cautions, appropriate uses, and known
 limitations. These declarations are shown separately from behavior observed by
 the static preflight.
+
+### Web and automatic conversion path
+
+Contributors may upload a README and `tool.py` through `opentools-webui` or use
+the equivalent CLI command:
+
+```bash
+opentools convert-tool tool.py --readme README.md --name "My Tool" --entrypoint run
+```
+
+Automatic conversion currently supports one selected top-level synchronous
+function with non-variadic parameters. JSON schemas are inferred only from
+supported type annotations. Conversion preserves the original file, generates a
+wrapper, and records static findings, but it does not execute the contribution or
+claim functional accuracy. Generated bundles remain pending until maintainer
+review and real tests are added.
 
 - **Return shape**  
   Tools should return a dict containing at least:

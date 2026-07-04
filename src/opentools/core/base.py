@@ -188,6 +188,7 @@ class BaseTool:
             "limitation": self.limitation,
             "agent_type": self.agent_type,
             "accuracy": self.accuracy,
+            "evaluation_record": self.find_evaluation_record(),
             "version": self.version,
             "source_url": self.source_url,
             "license": self.license,
@@ -264,8 +265,23 @@ class BaseTool:
         except Exception as e:
             print(f"❌ Failed to save embeddings: {e}")
             
+    def find_evaluation_record(self):
+        """Read this tool's canonical summary from the generated evaluation index."""
+        try:
+            index_path = os.path.join(
+                os.path.dirname(__file__), '..', 'tools', 'evaluation_index.json'
+            )
+            with open(index_path, 'r', encoding='utf-8') as index_file:
+                index = json.load(index_file)
+            return index.get('tools', {}).get(self.__class__.__name__)
+        except (OSError, UnicodeError, json.JSONDecodeError, AttributeError):
+            return None
+
     def find_accuracy(self,filepath):
         """Get the accuracy of the tool from a file."""
+        record = self.find_evaluation_record()
+        if record and record.get('final_accuracy') is not None:
+            return record['final_accuracy']
         try:
             with open(filepath, 'r', encoding="utf-8") as f:
                 data = json.load(f)

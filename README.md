@@ -254,6 +254,11 @@ Restricted tools cannot be adapted, and caution tools require
 `max_risk="caution"`. DSPy remains optional and is not required for the core
 toolbox or MCP server.
 
+An executable notebook covering static inspection, inventory generation,
+conversion, MCP invocation, DSPy, the contribution WebUI, and the opt-in real
+LLM judge is available at
+[`docs/demo/4_evaluation_mcp_contribution.ipynb`](docs/demo/4_evaluation_mcp_contribution.ipynb).
+
 ---
 
 OpenTools can be used in two ways: **from the CLI** (direct command-line interface) or **inside a Python environment** (import and call from your code). Both modes use the same tools and agents.

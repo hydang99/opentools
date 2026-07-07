@@ -10,10 +10,23 @@
 
 ## What Is Included
 
-- Tool framework: `BaseTool`, registry, configuration, and LLM engine adapters.
-- Agents: OpenTools, OctoTools, ReAct, Chain-of-Thought, Zero-Shot.
-- Benchmarks: multi-agent runner and dataset folders.
-- CLI: tool discovery, metadata, and environment helpers.
+- **Open-source tool framework:** `BaseTool`, registry, JSON parameter schemas,
+  configuration, and model adapters.
+- **Local evaluation:** non-executing source inspection, policy-gated existing
+  tests, evidence reports, and an optional advisory LLM judge.
+- **Layered risk inspection:** built-in AST checks plus optional Gitleaks,
+  detect-secrets, Bandit, and repository-local Semgrep rules. Scanner failures
+  and missing installations are reported explicitly.
+- **Tool standardization:** deterministic conversion of a documented, annotated
+  Python function into a reviewable OpenTools bundle without executing it.
+- **Community maintenance:** generated tool cards and inventory tables, with a
+  scheduled CI workflow that proposes reviewable refresh pull requests.
+- **Application access:** an MCP server supporting stdio and Streamable HTTP,
+  with execution disabled by default and controlled by allowlists and risk policy.
+- **Existing demonstration UI:** the OpenTools Hugging Face Space supports agent
+  use, test-case feedback, and pending-review tool contributions.
+- **Agents and benchmarks:** OpenTools, OctoTools, ReAct, Chain-of-Thought,
+  Zero-Shot, the multi-agent runner, and benchmark datasets.
 
 ---
 
@@ -55,6 +68,23 @@ From the repo root:
 pip install -e .
 ```
 
+Install optional feature groups as needed:
+
+```bash
+# MCP server and client support
+pip install -e '.[mcp]'
+
+# Python security scanners: Bandit and detect-secrets
+pip install -e '.[security]'
+```
+
+Semgrep is best installed as an isolated command-line application because some
+Semgrep releases pin packages also used by MCP:
+
+```bash
+pipx install semgrep
+```
+
 
 ## API Keys and Environment
 
@@ -75,27 +105,47 @@ opentools create-env-template
 opentools load-env .env
 ```
 
-### Evaluate a tool locally
+## Tutorials
+
+### 1. Discover and run a tool
+
+List tools, inspect Calculator's tool card, and invoke the real implementation:
+
+```bash
+opentools list
+opentools info Calculator_Tool
+opentools run Calculator_Tool \
+  --args '{"operation":"add","values":[1,2,3]}' \
+  --json
+```
+
+The Calculator result should contain `"result": "6"` and `"success": true`.
+
+### 2. Inspect and evaluate a tool
 
 Run a static preflight before importing or executing a local tool:
 
 ```bash
 opentools evaluate ./src/opentools/tools/calculator
+```
 
-# Add installed third-party security checks (no uploaded code is executed)
+Add the optional external scanners:
+
+```bash
 pip install -e '.[security]'
-# Semgrep is isolated because its CLI may pin packages also used by MCP.
 pipx install semgrep
-# macOS; use the official Gitleaks installation method for other platforms.
+
+# macOS; use the official Gitleaks installation instructions on other systems.
 brew install gitleaks
+
 opentools evaluate ./path/to/tool.py --external-scanners --json
+```
 
 The external report names each scanner as `completed`, `findings`, `failed`, or
 `unavailable`; an absent scanner is never represented as a successful scan.
 Gitleaks and detect-secrets cover secret formats, Bandit checks Python security
 issues, and Semgrep uses the repository-local OpenTools ruleset. Findings omit
 matched values, source snippets, and secret hashes.
-```
 
 The preflight reports observable network, credential, filesystem, subprocess, and
 dynamic-execution signals. It is a review aid, not a security guarantee. Tool code
@@ -128,7 +178,7 @@ does not write structured evidence, OpenTools reports
 The same preflight and unit checks run on tool-related pull requests and on a
 weekly schedule through GitHub Actions, supporting regression and drift review.
 
-### Refresh evaluations and the tool inventory
+### 3. Refresh evaluations and the tool inventory
 
 `evaluation_index.json` is the canonical summary used by tool cards and the
 generated table in `src/opentools/tools/readme.md`. Refresh both from existing
@@ -155,7 +205,7 @@ index or table changes; it does not push directly to `main`. API and LLM tools
 should be evaluated manually or in a separately configured workflow with the
 necessary credentials and cost controls.
 
-### MCP server
+### 4. Connect an application through MCP
 
 OpenTools exposes the same inspection and evaluation layer through an MCP server:
 
@@ -201,8 +251,18 @@ Restricted tools remain blocked, and caution tools require the explicit
 }
 ```
 
-For local development, Streamable HTTP is also available through
-`opentools-mcp --transport streamable-http`. Do not expose an unauthenticated
+For local development, Streamable HTTP is also available:
+
+```bash
+opentools-mcp \
+  --transport streamable-http \
+  --host 127.0.0.1 \
+  --port 8000
+```
+
+Connect an MCP client to `http://127.0.0.1:8000/mcp`. Opening this endpoint in
+an ordinary browser is not a protocol test; use an MCP SDK client or the runnable
+MCP section of the notebook linked below. Do not expose an unauthenticated
 development server publicly.
 
 A minimal read-only container deployment exposing only the calculator is
@@ -217,7 +277,7 @@ Extend the image with a tool's dependencies before adding that tool to the
 allowlist. Authentication and TLS must be added at the deployment boundary before
 public hosting.
 
-### Contribute and standardize a tool
+### 5. Convert and contribute a tool
 
 Convert a README plus an annotated Python function into a reviewable OpenTools
 bundle:
@@ -227,7 +287,8 @@ opentools convert-tool submitted.py \
   --readme README.md \
   --name "My Tool" \
   --entrypoint run_my_tool \
-  --license Apache-2.0
+  --license Apache-2.0 \
+  --output opentools_contributions
 ```
 
 The converter infers a JSON parameter schema from supported type annotations,
@@ -244,10 +305,46 @@ download a contribution bundle. An optional LLM review evaluates sanitized
 metadata and evidence only. Web submissions remain
 `pending_maintainer_review`; they are never merged or executed automatically.
 
+To test the existing Space locally as a separate checkout:
+
+```bash
+git clone https://huggingface.co/spaces/opentools/opentools opentools-space
+cd opentools-space
+pip install -r requirements.txt
+python -m unittest discover -s tests -p "test_*.py" -v
+python app.py
+```
+
+Open `http://127.0.0.1:7860`, then use **Contribute Tools** to upload a Python
+file and README. The returned report should show the generated tool card,
+conversion status, built-in risk findings, per-scanner statuses, and
+`functional_evaluation.status: not_run`.
+
 An executable notebook covering static inspection, inventory generation,
 conversion, MCP invocation, and the opt-in real
 LLM judge is available at
 [`docs/demo/4_evaluation_mcp_contribution.ipynb`](docs/demo/4_evaluation_mcp_contribution.ipynb).
+
+### 6. Verify the revision features
+
+Run the main suite from the repository root:
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -p "test_*.py" -v
+```
+
+Run the real external-scanner integration test separately:
+
+```bash
+PYTHONPATH=src python -m unittest discover \
+  -s tests \
+  -p "test_external_scanners.py" \
+  -v
+```
+
+The scanner test creates temporary synthetic risky input, invokes only scanners
+that are actually installed, and verifies that suspected values are absent from
+the serialized report. It does not substitute mocked scanner results.
 
 ---
 

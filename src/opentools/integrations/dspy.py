@@ -106,4 +106,66 @@ def as_dspy_tools(
     ]
 
 
-__all__ = ["as_callable", "as_dspy_tool", "as_dspy_tools"]
+def build_dspy_agent(
+    tool_names: Iterable[str],
+    *,
+    max_steps: int = 5,
+    max_risk: str = "low",
+    tools_root: Optional[Path | str] = None,
+    instructions: Optional[str] = None,
+):
+    """Build a DSPy Module whose tool-selection policy can be optimized."""
+    try:
+        from .dspy_agent import OpenToolsDSPyAgent
+    except ImportError as exc:
+        raise RuntimeError(
+            "Install the optional integration with: pip install 'opentools[dspy]'"
+        ) from exc
+    return OpenToolsDSPyAgent(
+        tool_names,
+        max_steps=max_steps,
+        max_risk=max_risk,
+        tools_root=str(tools_root) if tools_root is not None else None,
+        instructions=instructions,
+    )
+
+
+def optimize_dspy_agent(
+    agent: Any,
+    *,
+    trainset: List[Any],
+    metric: Callable[..., Any],
+    batch_size: int = 32,
+    max_steps: int = 8,
+    max_demos: int = 4,
+    seed: int = 0,
+    num_threads: Optional[int] = None,
+    prompt_model: Any = None,
+):
+    """Optimize an OpenTools DSPy agent's policy with DSPy SIMBA."""
+    try:
+        from .dspy_agent import optimize_with_simba
+    except ImportError as exc:
+        raise RuntimeError(
+            "Install the optional integration with: pip install 'opentools[dspy]'"
+        ) from exc
+    return optimize_with_simba(
+        agent,
+        trainset=trainset,
+        metric=metric,
+        batch_size=batch_size,
+        max_steps=max_steps,
+        max_demos=max_demos,
+        seed=seed,
+        num_threads=num_threads,
+        prompt_model=prompt_model,
+    )
+
+
+__all__ = [
+    "as_callable",
+    "as_dspy_tool",
+    "as_dspy_tools",
+    "build_dspy_agent",
+    "optimize_dspy_agent",
+]

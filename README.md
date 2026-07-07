@@ -244,55 +244,10 @@ download a contribution bundle. An optional LLM review evaluates sanitized
 metadata and evidence only. Web submissions remain
 `pending_maintainer_review`; they are never merged or executed automatically.
 
-### Optional DSPy integration
-
-```bash
-pip install -e '.[dspy]'
-```
-
-```python
-import dspy
-
-from opentools.integrations.dspy import build_dspy_agent, optimize_dspy_agent
-
-lm = dspy.LM("openai/gpt-4o-mini")
-dspy.configure(lm=lm)
-
-agent = build_dspy_agent(["Calculator_Tool"])
-
-trainset = [
-    dspy.Example(question="What is 2 + 3?", answer="5").with_inputs("question"),
-    dspy.Example(question="What is 6 times 7?", answer="42").with_inputs("question"),
-]
-
-def exact_answer(example, prediction, trace=None):
-    return str(example.answer).strip() == str(prediction.answer).strip()
-
-optimized_agent = optimize_dspy_agent(
-    agent,
-    trainset=trainset,
-    metric=exact_answer,
-    batch_size=2,
-    max_steps=8,
-    max_demos=4,
-)
-```
-
-Here DSPy optimizes the agent's tool-selection policy—its instructions and
-few-shot demonstrations—not the implementation of Calculator. The lower-level
-`as_callable` and `as_dspy_tool` helpers remain available when an existing DSPy
-program only needs an OpenTools bridge. All paths reuse OpenTools schemas,
-credential declarations, and risk policy. Restricted tools cannot be adapted,
-and caution tools require `max_risk="caution"`.
-
 An executable notebook covering static inspection, inventory generation,
-conversion, MCP invocation, DSPy, and the opt-in real
+conversion, MCP invocation, and the opt-in real
 LLM judge is available at
 [`docs/demo/4_evaluation_mcp_contribution.ipynb`](docs/demo/4_evaluation_mcp_contribution.ipynb).
-The focused
-[`docs/demo/5_dspy_agent_optimization.ipynb`](docs/demo/5_dspy_agent_optimization.ipynb)
-shows baseline evaluation and opt-in SIMBA compilation without fabricating an
-optimization result.
 
 ---
 

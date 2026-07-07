@@ -113,16 +113,16 @@
       "average_accuracy": 100.0,
       "class_name": "Calculator_Tool",
       "evaluated": true,
-      "evaluation_status": "historical",
+      "evaluation_status": "completed",
       "final_accuracy": {
         "run_1": 100.0,
         "run_2": 100.0,
         "run_3": 100.0
       },
       "folder": "calculator",
-      "freshness": "unknown",
-      "last_evaluated": null,
-      "result_source": "src/opentools/tools/calculator/test_result.json",
+      "freshness": "current",
+      "last_evaluated": "2026-07-07T17:40:48.039615+00:00",
+      "result_source": null,
       "risk_level": "low",
       "total_questions": 100
     },

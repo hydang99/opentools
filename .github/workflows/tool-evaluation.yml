@@ -12,8 +12,6 @@ on:
       - "src/opentools/inventory.py"
       - "src/opentools/mcp_server.py"
       - "src/opentools/schema_validation.py"
-      - "src/opentools/webui.py"
-      - "src/opentools/integrations/**"
       - "src/opentools/cli.py"
       - "tests/**"
       - "requirements-mcp.txt"

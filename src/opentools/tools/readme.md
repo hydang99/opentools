@@ -39,7 +39,7 @@ by hand.
 | [`audio_processing`](./audio_processing/) | Processes and analyzes audio files. | local_processing | ✅ | `audio_processing` | exact_match / similarity_eval | 90.0 | restricted | – | 40 | historical |
 | [`board_title_solver`](./board_title_solver/) | Solves board or title-based puzzles. | prompting_based | ✅ | `board_title_solver` | exact_match | 100.0 | caution | – | 30 | historical |
 | [`browser_interaction`](./browser_interaction/) | Controls and automates browser actions. | api_based | ✅ | `browser_interaction` | task-specific | 94.93 | restricted | – | 46 | historical |
-| [`calculator`](./calculator/) | Performs arithmetic and calculations. | local_processing | ✅ | `calculator` | exact_match | 100.0 | low | – | 100 | historical |
+| [`calculator`](./calculator/) | Performs arithmetic and calculations. | local_processing | ✅ | `calculator` | exact_match | 100.0 | low | 2026-07-07 | 100 | completed / current |
 | [`calendar_calculation`](./calendar_calculation/) | Performs date and calendar computations. | local_processing | ✅ | `calendar_calculation` | exact_match | 100.0 | caution | – | 30 | historical |
 | [`chemistry_search`](./chemistry_search/) | Searches chemistry-related databases or information. | api_based | ✅ | `chemistry_search` | search_pattern / similarity_eval | 88.89 | caution | – | 36 | historical |
 | [`code_generate_execute`](./code_generate_execute/) | Generates and executes code. | prompting_based | ✅ | `code_generate_execute` | task-specific | 55.89 | restricted | – | 99 | historical |

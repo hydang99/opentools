@@ -67,9 +67,6 @@ test = [
     "pytest-cov>=4.0.0",
     "pytest-mock>=3.10.0",
 ]
-dspy = [
-    "dspy>=3.2,<4",
-]
 mcp = [
     "mcp>=1.27,<2",
     "jsonschema>=4.25,<5",
@@ -83,7 +80,7 @@ security = [
 Homepage = "https://github.com/hydang99/opentools"
 Repository = "https://github.com/hydang99/opentools"
 "Bug Tracker" = "https://github.com/hydang99/opentools/issues"
-"Web UI Demo" = "https://huggingface.co/spaces/opentools/opentools_demo"
+"Web UI Demo" = "https://huggingface.co/spaces/opentools/opentools"
 
 [tool.black]
 line-length = 88

@@ -187,8 +187,9 @@ the static preflight.
 
 ### Web and automatic conversion path
 
-Contributors may upload a README and `tool.py` through `opentools-webui` or use
-the equivalent CLI command:
+Contributors may upload a README and `tool.py` through the **Contribute Tools**
+tab in the existing [OpenTools Hugging Face Space](https://huggingface.co/spaces/opentools/opentools),
+or use the equivalent CLI command:
 
 ```bash
 opentools convert-tool tool.py --readme README.md --name "My Tool" --entrypoint run

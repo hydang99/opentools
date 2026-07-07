@@ -33,7 +33,6 @@ keywords = ["ai", "agents", "tools", "framework", "reasoning"]
 [project.scripts]
 opentools = "opentools.cli:main"
 opentools-mcp = "opentools.mcp_server:main"
-opentools-webui = "opentools.webui:main"
 
 [tool.setuptools]
 include-package-data = true
@@ -70,9 +69,6 @@ test = [
 ]
 dspy = [
     "dspy>=3.2,<4",
-]
-webui = [
-    "gradio>=5.43,<7",
 ]
 mcp = [
     "mcp>=1.27,<2",

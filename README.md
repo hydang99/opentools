@@ -222,14 +222,9 @@ static risk inspection. It does **not** execute submitted code or report a
 functional score. Unsupported or ambiguous entrypoints fail with an explicit
 error rather than guessed behavior.
 
-The optional contribution WebUI exposes the same flow:
-
-```bash
-pip install -e '.[webui]'
-opentools-webui --host 127.0.0.1 --port 7860
-```
-
-Users upload `tool.py` and a README, review risk and metadata findings, and
+The existing [OpenTools Hugging Face Space](https://huggingface.co/spaces/opentools/opentools)
+provides the equivalent **Contribute Tools** flow within the main demonstration
+UI. Users upload `tool.py` and a README, review risk and metadata findings, and
 download a contribution bundle. An optional LLM review evaluates sanitized
 metadata and evidence only. Web submissions remain
 `pending_maintainer_review`; they are never merged or executed automatically.
@@ -276,7 +271,7 @@ credential declarations, and risk policy. Restricted tools cannot be adapted,
 and caution tools require `max_risk="caution"`.
 
 An executable notebook covering static inspection, inventory generation,
-conversion, MCP invocation, DSPy, the contribution WebUI, and the opt-in real
+conversion, MCP invocation, DSPy, and the opt-in real
 LLM judge is available at
 [`docs/demo/4_evaluation_mcp_contribution.ipynb`](docs/demo/4_evaluation_mcp_contribution.ipynb).
 The focused

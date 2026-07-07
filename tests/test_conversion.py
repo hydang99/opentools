@@ -11,7 +11,6 @@ sys.path.insert(0, str(SRC))
 
 from opentools.conversion import convert_submission
 from opentools.core.base import BaseTool
-from opentools.webui import submit_contribution
 
 
 SOURCE = '''
@@ -62,24 +61,6 @@ class ConversionTests(unittest.TestCase):
                 (Path(result["bundle"]) / "contribution.json").read_text(encoding="utf-8")
             )
             self.assertEqual(manifest["functional_evaluation"]["status"], "not_run")
-
-    def test_web_submission_returns_review_bundle_without_execution_claim(self):
-        with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory)
-            source, readme = self._files(root)
-
-            report, archive = submit_contribution(
-                source,
-                readme,
-                "Web Adder",
-                output_root=root / "web-contributions",
-            )
-
-            self.assertEqual(report["status"], "completed")
-            self.assertEqual(report["functional_evaluation"]["status"], "not_run")
-            self.assertEqual(report["publication_status"], "pending_maintainer_review")
-            self.assertTrue(Path(archive).is_file())
-
 
 if __name__ == "__main__":
     unittest.main()

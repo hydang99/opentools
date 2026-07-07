@@ -49,6 +49,24 @@ class EvaluationTests(unittest.TestCase):
                 {"credential_access", "network_access", "process_execution"},
             )
 
+    def test_hardcoded_secret_is_restricted_and_redacted(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / "tool.py"
+            synthetic_credential = "Q7mV9kR2xP4nT8wL6cD3sF5h"
+            source.write_text(
+                f"SERVICE_API_KEY = {synthetic_credential!r}\n",
+                encoding="utf-8",
+            )
+
+            report = evaluation.inspect_source(source)
+
+            self.assertEqual(report["risk_level"], "restricted")
+            self.assertEqual(report["possible_secret_count"], 1)
+            self.assertTrue(
+                any(item["kind"] == "hardcoded_secret" for item in report["findings"])
+            )
+            self.assertNotIn(synthetic_credential, json.dumps(report))
+
     def test_metadata_validation_separates_required_and_recommended_fields(self):
         result = evaluation.validate_metadata(
             {

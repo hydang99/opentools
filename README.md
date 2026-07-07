@@ -218,7 +218,8 @@ opentools convert-tool submitted.py \
 
 The converter infers a JSON parameter schema from supported type annotations,
 preserves the submitted source, generates a `BaseTool` wrapper, and performs
-static risk inspection. It does **not** execute submitted code or report a
+static risk inspection, including redacted checks for possible hardcoded
+credentials. It does **not** execute submitted code or report a
 functional score. Unsupported or ambiguous entrypoints fail with an explicit
 error rather than guessed behavior.
 

@@ -41,6 +41,31 @@ NETWORK_MODULES = {
 }
 PROCESS_MODULES = {"commands", "subprocess"}
 SECRET_SUFFIXES = ("_API_KEY", "_KEY", "_PASSWORD", "_SECRET", "_TOKEN")
+SECRET_NAME_PATTERN = re.compile(
+    r"(?:api[_-]?key|password|secret|token|credential|access[_-]?key|private[_-]?key|client[_-]?secret)",
+    re.IGNORECASE,
+)
+KNOWN_SECRET_PATTERNS = (
+    ("private_key", re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----")),
+    ("openai_token", re.compile(r"\bsk-(?:proj-)?[A-Za-z0-9_-]{20,}\b")),
+    ("github_token", re.compile(r"\b(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{50,})\b")),
+    ("slack_token", re.compile(r"\bxox[baprs]-[A-Za-z0-9-]{20,}\b")),
+    ("aws_access_key", re.compile(r"\bAKIA[0-9A-Z]{16}\b")),
+    ("google_api_key", re.compile(r"\bAIza[0-9A-Za-z_-]{35}\b")),
+    ("huggingface_token", re.compile(r"\bhf_[A-Za-z0-9]{30,}\b")),
+    ("credential_in_url", re.compile(r"[a-z][a-z0-9+.-]*://[^\s/:]+:[^\s/@]+@", re.IGNORECASE)),
+)
+PLACEHOLDER_MARKERS = (
+    "changeme",
+    "dummy",
+    "example",
+    "placeholder",
+    "replace_me",
+    "test_only",
+    "your_api",
+    "your_key",
+    "your_token",
+)
 WRITE_METHODS = {
     "mkdir",
     "rmdir",
@@ -81,6 +106,25 @@ def _string_value(node: ast.AST) -> Optional[str]:
     return None
 
 
+def _known_secret_category(value: str) -> Optional[str]:
+    if any(marker in value.lower() for marker in PLACEHOLDER_MARKERS):
+        return None
+    for category, pattern in KNOWN_SECRET_PATTERNS:
+        if pattern.search(value):
+            return category
+    return None
+
+
+def _target_name(node: ast.AST) -> Optional[str]:
+    if isinstance(node, ast.Name):
+        return node.id
+    if isinstance(node, ast.Attribute):
+        return node.attr
+    if isinstance(node, ast.Subscript):
+        return _string_value(node.slice)
+    return None
+
+
 class _CapabilityVisitor(ast.NodeVisitor):
     def __init__(self, filename: str) -> None:
         self.filename = filename
@@ -88,6 +132,7 @@ class _CapabilityVisitor(ast.NodeVisitor):
         self.imports: Set[str] = set()
         self.credentials: Set[str] = set()
         self.scope: List[str] = []
+        self.secret_locations: Set[tuple[int | None, str]] = set()
 
     def _add(self, node: ast.AST, kind: str, severity: str, detail: str) -> None:
         finding = {
@@ -104,6 +149,43 @@ class _CapabilityVisitor(ast.NodeVisitor):
             for item in self.findings
         }:
             self.findings.append(finding)
+
+    def _add_secret(self, node: ast.AST, category: str, context: str) -> None:
+        key = (getattr(node, "lineno", None), category)
+        if key in self.secret_locations:
+            return
+        self.secret_locations.add(key)
+        self._add(
+            node,
+            "hardcoded_secret",
+            "restricted",
+            f"possible {category} in {context}; value redacted",
+        )
+
+    def _inspect_named_value(self, node: ast.AST, name: Optional[str], value: ast.AST) -> None:
+        literal = _string_value(value)
+        if literal is None:
+            return
+        category = _known_secret_category(literal)
+        if category:
+            self._add_secret(node, category, f"{name or 'string literal'}")
+        elif (
+            name
+            and SECRET_NAME_PATTERN.search(name)
+            and len(literal.strip()) >= 8
+            and not any(marker in literal.lower() for marker in PLACEHOLDER_MARKERS)
+        ):
+            self._add_secret(node, "credential_literal", name)
+
+    def visit_Assign(self, node: ast.Assign) -> None:
+        for target in node.targets:
+            self._inspect_named_value(node, _target_name(target), node.value)
+        self.generic_visit(node)
+
+    def visit_AnnAssign(self, node: ast.AnnAssign) -> None:
+        if node.value is not None:
+            self._inspect_named_value(node, _target_name(node.target), node.value)
+        self.generic_visit(node)
 
     def visit_FunctionDef(self, node: ast.FunctionDef) -> None:
         self.scope.append(node.name)
@@ -145,6 +227,7 @@ class _CapabilityVisitor(ast.NodeVisitor):
         if name.endswith("create_llm_engine"):
             self._add(node, "network_access", "caution", f"initializes an LLM engine via {name}")
         for keyword in node.keywords:
+            self._inspect_named_value(node, keyword.arg, keyword.value)
             if (
                 keyword.arg == "require_llm_engine"
                 and isinstance(keyword.value, ast.Constant)
@@ -190,6 +273,13 @@ class _CapabilityVisitor(ast.NodeVisitor):
                     "caution",
                     f"reads environment credential {credential}",
                 )
+        self.generic_visit(node)
+
+    def visit_Constant(self, node: ast.Constant) -> None:
+        if isinstance(node.value, str):
+            category = _known_secret_category(node.value)
+            if category:
+                self._add_secret(node, category, "string literal")
         self.generic_visit(node)
 
     def visit_Subscript(self, node: ast.Subscript) -> None:
@@ -249,6 +339,9 @@ def inspect_source(source: Path | str) -> Dict[str, Any]:
         ),
         "observed_credentials": sorted(credentials),
         "observed_imports": sorted(imports),
+        "possible_secret_count": sum(
+            finding["kind"] == "hardcoded_secret" for finding in findings
+        ),
         "findings": sorted(
             findings,
             key=lambda item: (item["file"], item["line"] or 0, item["kind"]),

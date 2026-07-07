@@ -81,6 +81,20 @@ Run a static preflight before importing or executing a local tool:
 
 ```bash
 opentools evaluate ./src/opentools/tools/calculator
+
+# Add installed third-party security checks (no uploaded code is executed)
+pip install -e '.[security]'
+# Semgrep is isolated because its CLI may pin packages also used by MCP.
+pipx install semgrep
+# macOS; use the official Gitleaks installation method for other platforms.
+brew install gitleaks
+opentools evaluate ./path/to/tool.py --external-scanners --json
+
+The external report names each scanner as `completed`, `findings`, `failed`, or
+`unavailable`; an absent scanner is never represented as a successful scan.
+Gitleaks and detect-secrets cover secret formats, Bandit checks Python security
+issues, and Semgrep uses the repository-local OpenTools ruleset. Findings omit
+matched values, source snippets, and secret hashes.
 ```
 
 The preflight reports observable network, credential, filesystem, subprocess, and

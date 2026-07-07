@@ -33,6 +33,7 @@ from .evaluation import (
 )
 from .inventory import refresh as refresh_inventory
 from .conversion import convert_submission
+from .external_scanners import RISK_ORDER, run_external_scanners
 
 
 def list_command(args):
@@ -340,6 +341,11 @@ def evaluate_command(args):
         return 1
 
     inspection_result = inspect_source(source)
+    if args.external_scanners:
+        external = run_external_scanners(source)
+        inspection_result["external_scanners"] = external
+        if RISK_ORDER[external["risk_level"]] > RISK_ORDER[inspection_result["risk_level"]]:
+            inspection_result["risk_level"] = external["risk_level"]
     test_result = {"status": "not_run"}
     blocked = False
 
@@ -632,6 +638,11 @@ Examples:
         help='Allow test execution when preflight reports restricted capabilities',
     )
     evaluate_parser.add_argument('--output', help='Write the evidence report to this JSON file')
+    evaluate_parser.add_argument(
+        '--external-scanners',
+        action='store_true',
+        help='Run installed Gitleaks, detect-secrets, Bandit, and local-rule Semgrep checks',
+    )
     evaluate_parser.add_argument(
         '--judge',
         action='store_true',

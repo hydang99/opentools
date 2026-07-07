@@ -567,6 +567,7 @@ def model_review_payload(report: Dict[str, Any]) -> Dict[str, Any]:
                 }
                 for item in inspection.get("parse_errors", [])
             ],
+            "external_scanners": inspection.get("external_scanners"),
         },
     }
 
@@ -671,8 +672,16 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Statically inspect OpenTools source")
     parser.add_argument("source", help="Python file or directory to inspect")
     parser.add_argument("--json", action="store_true", help="Print JSON output")
+    parser.add_argument("--external-scanners", action="store_true")
     args = parser.parse_args()
     report = inspect_source(args.source)
+    if args.external_scanners:
+        from opentools.external_scanners import RISK_ORDER, run_external_scanners
+
+        external = run_external_scanners(args.source)
+        report["external_scanners"] = external
+        if RISK_ORDER[external["risk_level"]] > RISK_ORDER[report["risk_level"]]:
+            report["risk_level"] = external["risk_level"]
     if args.json:
         print(json.dumps(report, indent=2))
     else:

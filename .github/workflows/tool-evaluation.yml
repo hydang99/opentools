@@ -6,6 +6,8 @@ on:
       - "src/opentools/tools/**"
       - "src/opentools/core/base.py"
       - "src/opentools/evaluation.py"
+      - "src/opentools/external_scanners.py"
+      - "src/opentools/security/**"
       - "src/opentools/conversion.py"
       - "src/opentools/inventory.py"
       - "src/opentools/mcp_server.py"
@@ -41,15 +43,24 @@ jobs:
           python-version: "3.11"
       - name: Install framework and MCP test dependencies
         run: python -m pip install -r requirements-mcp.txt
+      - name: Install external security scanners
+        run: |
+          python -m pip install bandit detect-secrets
+          pipx install semgrep
+          go install github.com/gitleaks/gitleaks/v8@v8.30.1
       - name: Run evaluation unit tests
         run: python -m unittest discover -s tests -p "test_*.py"
       - name: Inspect the toolbox without executing tool code
         run: python src/opentools/evaluation.py src/opentools/tools --json > tool-preflight.json
+      - name: Run redacted external scanner layer
+        run: python src/opentools/external_scanners.py src/opentools/tools --json > external-security-preflight.json
       - name: Publish preflight report for maintainer review
         uses: actions/upload-artifact@v4
         with:
           name: tool-preflight
-          path: tool-preflight.json
+          path: |
+            tool-preflight.json
+            external-security-preflight.json
 
   refresh-inventory:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'

@@ -41,7 +41,7 @@ include-package-data = true
 where = ["src"]
 
 [tool.setuptools.package-data]
-"*" = ["*.txt", "*.json"]
+"*" = ["*.txt", "*.json", "*.yml"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
@@ -73,6 +73,10 @@ dspy = [
 mcp = [
     "mcp>=1.27,<2",
     "jsonschema>=4.25,<5",
+]
+security = [
+    "bandit>=1.8,<2",
+    "detect-secrets>=1.5,<2",
 ]
 
 [project.urls]

@@ -1,0 +1,27 @@
+rules:
+  - id: opentools.python.subprocess-shell-true
+    languages: [python]
+    severity: ERROR
+    message: subprocess with shell=True can permit command injection
+    patterns:
+      - pattern: subprocess.$FUNC(..., shell=True, ...)
+  - id: opentools.python.dynamic-execution
+    languages: [python]
+    severity: ERROR
+    message: Dynamic code execution requires manual security review
+    pattern-either:
+      - pattern: eval(...)
+      - pattern: exec(...)
+  - id: opentools.python.unsafe-deserialization
+    languages: [python]
+    severity: ERROR
+    message: Pickle deserialization can execute attacker-controlled code
+    pattern-either:
+      - pattern: pickle.load(...)
+      - pattern: pickle.loads(...)
+  - id: opentools.python.tls-verification-disabled
+    languages: [python]
+    severity: WARNING
+    message: Disabling TLS verification exposes network requests to interception
+    patterns:
+      - pattern: requests.$FUNC(..., verify=False, ...)

@@ -3,7 +3,7 @@
 [![Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white)](https://github.com/hydang99/opentools)
 [![Demo](https://img.shields.io/badge/Hugging%20Face-Demo%20WebUI-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/opentools/opentools)
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-stdio%20%7C%20HTTP-6C63FF)
 
 **OpenTools** is a community-driven framework for building, evaluating, and deploying tools for tool-integrated language models. It treats end-to-end agent performance as a combination of **tool-use accuracy** (selecting/calling tools correctly) and **intrinsic tool accuracy** (tools staying correct and stable as APIs and environments drift). To support both, OpenTools provides a **Tool Accuracy / Maintenance Loop** for repeatable evaluation and maintainer-reviewed updates, and an **Agentic Workflow** for integrating curated tool collections into LLM agents. The project emphasizes standardized tool schemas, community feedback, separation between tools and agent policies, and transparent execution evidence.

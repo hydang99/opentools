@@ -1,2 +1,0 @@
-def python(): 
-	return x

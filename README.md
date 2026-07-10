@@ -3,8 +3,55 @@
 [![Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white)](https://github.com/hydang99/opentools)
 [![Demo](https://img.shields.io/badge/Hugging%20Face-Demo%20WebUI-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/opentools/opentools)
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-stdio%20%7C%20HTTP-6C63FF)
 
-**OpenTools** is a community-driven framework for building, evaluating, and deploying tools for tool-integrated language models. It treats end-to-end agent performance as a combination of **tool-use accuracy** (selecting/calling tools correctly) and **intrinsic tool accuracy** (tools staying correct and stable as APIs and environments drift). To support both, OpenTools provides two complementary workflows: a **Tool Accuracy / Maintenance Loop** for continuous validation, regression testing, and reliability reporting, and an **Agentic Workflow** for integrating curated tool collections into LLM agents to solve real user tasks. The project emphasizes standardized tool schemas, continuous community-driven evaluation, clear separation between tools and agent policies, and transparent, debuggable execution via structured tool-call and error logs.
+**OpenTools** is a community-driven framework for building, evaluating, and deploying tools for tool-integrated language models. It treats end-to-end agent performance as a combination of **tool-use accuracy** (selecting/calling tools correctly) and **intrinsic tool accuracy** (tools staying correct and stable as APIs and environments drift). To support both, OpenTools provides a **Tool Accuracy / Maintenance Loop** for repeatable evaluation and maintainer-reviewed updates, and an **Agentic Workflow** for integrating curated tool collections into LLM agents. The project emphasizes standardized tool schemas, community feedback, separation between tools and agent policies, and transparent execution evidence.
+
+---
+
+## ✨ Latest Updates
+
+> [!UPDATES]
+> **📰 July 2026 update:** OpenTools now supports a review-oriented path
+> from an open-source Python function to a standardized contribution bundle,
+> risk evidence, maintainer review, and controlled application access.
+
+| Update | What it adds | Try it |
+|---|---|---|
+| 🧩 **Tool conversion** | Convert a documented, typed Python function into a standardized wrapper and tool card without executing it. | [`opentools convert-tool`](#5-convert-and-contribute-a-tool) |
+| 🛡️ **Layered inspection** | Built-in AST analysis plus optional Gitleaks, detect-secrets, Bandit, and local Semgrep rules, with unavailable scanners reported explicitly. | [Inspect a tool](#2-inspect-and-evaluate-a-tool) |
+| 🤖 **Advisory LLM review** | Review sanitized metadata and evidence for documentation, test evidence, output clarity, and maintainability. The judge cannot approve a tool or override risk findings. | [Run the opt-in judge](#2-inspect-and-evaluate-a-tool) |
+| 🌐 **MCP access** | Discover, inspect, evaluate, and invoke registered tools from external applications through stdio or Streamable HTTP. | [Connect through MCP](#4-connect-an-application-through-mcp) |
+| 👥 **Contributor WebUI** | Upload `tool.py` and a README, inspect findings, and download a pending-review bundle in the existing Hugging Face Space. | [Open the demo](https://huggingface.co/spaces/opentools/opentools) |
+| 📋 **Manual maintenance** | Maintainers explicitly select evaluations, inspect generated changes, and refresh the shared inventory after review. | [Refresh the inventory](#3-refresh-evaluations-and-the-tool-inventory) |
+
+### Review-oriented contribution workflow
+
+```mermaid
+flowchart LR
+    A["Contributor<br/>tool.py + README"] --> B["Deterministic<br/>conversion"]
+    B --> C["AST + installed<br/>security scanners"]
+    C --> D["Contributor report<br/>optional LLM advice"]
+    D -->|Revise| A
+    D --> E["Human maintainer<br/>review"]
+    E -->|Accept| F["OpenTools<br/>toolbox"]
+    F --> G["Python / CLI"]
+    F --> H["MCP applications"]
+
+    classDef contribution fill:#FCE4D6,stroke:#9E480E,color:#222;
+    classDef evaluation fill:#FFF2CC,stroke:#BF9000,color:#222;
+    classDef review fill:#D9E2F3,stroke:#4472C4,color:#222;
+    classDef publish fill:#E2F0D9,stroke:#548235,color:#222;
+    class A,B contribution;
+    class C,D evaluation;
+    class E review;
+    class F,G,H publish;
+```
+
+The hosted contribution flow **does not import or execute uploaded code**.
+Scanner and LLM outputs are review evidence, not a safety certification or an
+automatic acceptance decision.
 
 ---
 

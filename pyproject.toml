@@ -10,7 +10,7 @@ authors = [
 ]
 description = "An effective and easy-to-use agentic framework with extendable tools for complex reasoning."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dynamic = ["dependencies"]
 license = {text = "Apache-2.0"}
 
@@ -21,7 +21,6 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
@@ -107,7 +106,7 @@ line_length = 88
 known_first_party = ["opentools"]
 
 [tool.mypy]
-python_version = "3.10"
+python_version = "3.11"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true

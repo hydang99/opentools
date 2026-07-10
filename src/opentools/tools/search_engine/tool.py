@@ -108,7 +108,21 @@ class Search_Engine_Tool(BaseTool):
             demo_commands= {
                 "command": "reponse = tool.run(query='AI research papers', num_results=5, safe_search=True, language='en', country='us', output_format='markdown')",
                 "description": "Search for AI research papers, return 5 results, use safe search, use English language, use United States country, return results in markdown format"
-            }
+            },
+            version="1.0.0",
+            source_url="https://github.com/inclusionAI/AWorld/blob/main/examples/gaia/mcp_collections/tools/search.py",
+            license="unknown",
+            execution_type="api",
+            network_access=True,
+            required_api_keys=["GOOGLE_API_KEY", "GOOGLE_CX_ID"],
+            side_effects=["Sends the query to Google Custom Search"],
+            estimated_cost="Subject to the configured Google API quota and pricing.",
+            cautions=[
+                "Queries leave the local environment.",
+                "Results can change as the external search index changes.",
+                "Verify the upstream license before redistributing adapted code.",
+            ],
+            suitable_for=["Current public web information"],
         )
         self.workspace = Path(os.getcwd())
         self.supported_extensions = {".pdf"}

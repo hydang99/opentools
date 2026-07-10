@@ -76,11 +76,23 @@ class ToolRegistry:
             return {
                 "name": tool_name,
                 "description": getattr(temp_instance, "description", meta.get("description", "N/A")),
-                "version": getattr(temp_instance, "tool_version", "1.0.0"),
+                "version": meta.get("version", getattr(temp_instance, "tool_version", "1.0.0")),
                 "input_types": meta.get("parameters", {}),
                 "output_type": "varies",
                 "demo_commands": meta.get("demo_commands", []),
                 "require_llm_engine": getattr(temp_instance, "require_llm_engine", False),
+                "category": meta.get("category"),
+                "tags": meta.get("tags", []),
+                "limitations": meta.get("limitation"),
+                "provenance": {
+                    "source_url": meta.get("source_url"),
+                    "license": meta.get("license"),
+                },
+                "execution": meta.get("execution", {}),
+                "safety": meta.get("safety", {}),
+                "usage": meta.get("usage", {}),
+                "evaluation": meta.get("evaluation_record")
+                or {"reported_accuracy": meta.get("accuracy")},
             }
         except Exception as e:
             print(e)
@@ -253,4 +265,4 @@ class ToolRegistry:
 
 
 # Global tool registry instance
-registry = ToolRegistry() 
+registry = ToolRegistry()

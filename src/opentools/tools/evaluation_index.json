@@ -1,0 +1,668 @@
+{
+  "schema_version": "1.0",
+  "stale_after_days": 30,
+  "tools": {
+    "Advanced_Object_Detector_Tool": {
+      "average_accuracy": null,
+      "class_name": "Advanced_Object_Detector_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "advanced_object_detector",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "low",
+      "total_questions": null
+    },
+    "Advanced_Text_Detector_Tool": {
+      "average_accuracy": 83.54,
+      "class_name": "Advanced_Text_Detector_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 83.54158257183276,
+        "run_2": 83.54158257183276,
+        "run_3": 83.54158257183276
+      },
+      "folder": "advanced_text_detector",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/advanced_text_detector/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 95
+    },
+    "Archived_Tool": {
+      "average_accuracy": null,
+      "class_name": "Archived_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "archived",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    },
+    "Arxiv_Paper_Search_Tool": {
+      "average_accuracy": null,
+      "class_name": "Arxiv_Paper_Search_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "arxiv_paper_search",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    },
+    "Audio_Processing_Tool": {
+      "average_accuracy": 90.0,
+      "class_name": "Audio_Processing_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 90.0,
+        "run_2": 90.0,
+        "run_3": 90.0
+      },
+      "folder": "audio_processing",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/audio_processing/test_result.json",
+      "risk_level": "restricted",
+      "total_questions": 40
+    },
+    "Board_Title_Solver_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Board_Title_Solver_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "board_title_solver",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/board_title_solver/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 30
+    },
+    "Browser_Interaction_Tool": {
+      "average_accuracy": 94.93,
+      "class_name": "Browser_Interaction_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 97.82608695652173,
+        "run_2": 91.30434782608695,
+        "run_3": 95.65217391304348
+      },
+      "folder": "browser_interaction",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/browser_interaction/test_result.json",
+      "risk_level": "restricted",
+      "total_questions": 46
+    },
+    "Calculator_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Calculator_Tool",
+      "evaluated": true,
+      "evaluation_status": "completed",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "calculator",
+      "freshness": "current",
+      "last_evaluated": "2026-07-07T22:46:40.295943+00:00",
+      "result_source": null,
+      "risk_level": "low",
+      "total_questions": 100
+    },
+    "Calendar_Calculation_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Calendar_Calculation_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "calendar_calculation",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/calendar_calculation/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 30
+    },
+    "Chemistry_Search_Tool": {
+      "average_accuracy": 88.89,
+      "class_name": "Chemistry_Search_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 88.88888888888889,
+        "run_2": 91.66666666666667,
+        "run_3": 86.11111111111111
+      },
+      "folder": "chemistry_search",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/chemistry_search/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 36
+    },
+    "Code_Generate_Execute_Tool": {
+      "average_accuracy": 55.89,
+      "class_name": "Code_Generate_Execute_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 56.56565656565657,
+        "run_2": 54.54545454545455,
+        "run_3": 56.56565656565657
+      },
+      "folder": "code_generate_execute",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/code_generate_execute/test_result.json",
+      "risk_level": "restricted",
+      "total_questions": 99
+    },
+    "Colour_Hue_Solver_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Colour_Hue_Solver_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "colour_hue_solver",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/colour_hue_solver/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 30
+    },
+    "Csv_Extraction_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Csv_Extraction_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "csv_extraction",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/csv_extraction/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 45
+    },
+    "Doc_Extraction_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Doc_Extraction_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "doc_extraction",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/doc_extraction/test_result.json",
+      "risk_level": "restricted",
+      "total_questions": 40
+    },
+    "Download_File_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Download_File_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "download_file",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/download_file/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 28
+    },
+    "Generalist_Solution_Generator_Tool": {
+      "average_accuracy": null,
+      "class_name": "Generalist_Solution_Generator_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "generalist_solution_generator",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    },
+    "Google_Search_Octotools_Tool": {
+      "average_accuracy": null,
+      "class_name": "Google_Search_Octotools_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "google_search_octotools",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    },
+    "Math_Solver_Tool": {
+      "average_accuracy": 67.39,
+      "class_name": "Math_Solver_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 69.06474820143885,
+        "run_2": 64.74820143884892,
+        "run_3": 68.34532374100719
+      },
+      "folder": "math_solver",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/math_solver/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 139
+    },
+    "Maze_Solving_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Maze_Solving_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "maze_solving",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/maze_solving/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 30
+    },
+    "N_Queens_Solving_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "N_Queens_Solving_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "n_queens_solving",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/n_queens_solving/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 30
+    },
+    "Nature_News_Fetcher_Tool": {
+      "average_accuracy": null,
+      "class_name": "Nature_News_Fetcher_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "nature_news_fetcher",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    },
+    "Pdf_Extraction_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Pdf_Extraction_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "pdf_extraction",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/pdf_extraction/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 48
+    },
+    "Plain_Text_Extraction_Tool": {
+      "average_accuracy": 90.0,
+      "class_name": "Plain_Text_Extraction_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 90.0,
+        "run_2": 90.0,
+        "run_3": 90.0
+      },
+      "folder": "plain_text_extraction",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/plain_text_extraction/test_result.json",
+      "risk_level": "low",
+      "total_questions": 40
+    },
+    "Pptx_Extraction_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Pptx_Extraction_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "pptx_extraction",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/pptx_extraction/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 10
+    },
+    "Pubmed_Search_Tool": {
+      "average_accuracy": 53.72,
+      "class_name": "Pubmed_Search_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 53.71549226343632,
+        "run_2": 53.71549226343632,
+        "run_3": 53.71549226343632
+      },
+      "folder": "pubmed_search",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/pubmed_search/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 40
+    },
+    "Relevant_Patch_Zoomer_Tool": {
+      "average_accuracy": null,
+      "class_name": "Relevant_Patch_Zoomer_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "relevant_patch_zoomer",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    },
+    "Rubik_Cube_Solver_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Rubik_Cube_Solver_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "rubik_cube_solver",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/rubik_cube_solver/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 30
+    },
+    "Search_Engine_Tool": {
+      "average_accuracy": 70.81,
+      "class_name": "Search_Engine_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 70.88731150416766,
+        "run_2": 70.79792652060004,
+        "run_3": 70.74610322713852
+      },
+      "folder": "search_engine",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/search_engine/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 34
+    },
+    "Simple_ArXiv_Paper_Search_Tool": {
+      "average_accuracy": null,
+      "class_name": "Simple_ArXiv_Paper_Search_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "simple_arxiv_paper_search",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    },
+    "Target_Solver_Tool": {
+      "average_accuracy": 99.36,
+      "class_name": "Target_Solver_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 99.01895943562612,
+        "run_2": 99.43562610229277,
+        "run_3": 99.61419753086419
+      },
+      "folder": "target_solver",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/target_solver/test_result.json",
+      "risk_level": "restricted",
+      "total_questions": 45
+    },
+    "Text_Detector_Tool": {
+      "average_accuracy": 83.54,
+      "class_name": "Text_Detector_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 83.54158233655126,
+        "run_2": 83.54158233655126,
+        "run_3": 83.54158233655126
+      },
+      "folder": "text_detector",
+      "freshness": "stale",
+      "last_evaluated": "2026-02-19T13:51:20.001282",
+      "result_source": "src/opentools/tools/text_detector/test_results/test_result_20260219_135120.json",
+      "risk_level": "caution",
+      "total_questions": 95
+    },
+    "URL_Text_Extractor_Tool": {
+      "average_accuracy": 90.91,
+      "class_name": "URL_Text_Extractor_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 90.9090909090909,
+        "run_2": 90.9090909090909,
+        "run_3": 90.9090909090909
+      },
+      "folder": "url_text_extractor",
+      "freshness": "stale",
+      "last_evaluated": "2026-02-19T14:14:27.209272",
+      "result_source": "src/opentools/tools/url_text_extractor/test_results/test_result_20260219_141427.json",
+      "risk_level": "caution",
+      "total_questions": 33
+    },
+    "Url_Text_Extractor_Octotools_Tool": {
+      "average_accuracy": null,
+      "class_name": "Url_Text_Extractor_Octotools_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "url_text_extractor_octotools",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    },
+    "Video_Processing_Tool": {
+      "average_accuracy": null,
+      "class_name": "Video_Processing_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "video_processing",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    },
+    "Visual_AI_Tool": {
+      "average_accuracy": 78.04,
+      "class_name": "Visual_AI_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 78.06053371805893,
+        "run_2": 77.80956076948266,
+        "run_3": 78.23948502540588
+      },
+      "folder": "visual_ai",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/visual_ai/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 95
+    },
+    "Wiki_Search_Tool": {
+      "average_accuracy": 70.76,
+      "class_name": "Wiki_Search_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 70.84566563367844,
+        "run_2": 70.62150845925014,
+        "run_3": 70.81592013438542
+      },
+      "folder": "wiki_search",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/wiki_search/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 45
+    },
+    "Wikipedia_Knowledge_Searcher_Octotools_Tool": {
+      "average_accuracy": null,
+      "class_name": "Wikipedia_Knowledge_Searcher_Octotools_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "wikipedia_knowledge_searcher_octotools",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    },
+    "Wolfram_Math_Tool": {
+      "average_accuracy": 64.99,
+      "class_name": "Wolfram_Math_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 66.18705035971223,
+        "run_2": 64.02877697841727,
+        "run_3": 64.74820143884892
+      },
+      "folder": "wolfram_math",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/wolfram_math/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 139
+    },
+    "Woodslide_Solver_Tool": {
+      "average_accuracy": 0.0,
+      "class_name": "Woodslide_Solver_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 0.0,
+        "run_2": 0.0,
+        "run_3": 0.0
+      },
+      "folder": "woodslide_solver",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/woodslide_solver/test_result.json",
+      "risk_level": "caution",
+      "total_questions": 30
+    },
+    "Xlsxe_Extraction_Tool": {
+      "average_accuracy": 100.0,
+      "class_name": "Xlsxe_Extraction_Tool",
+      "evaluated": true,
+      "evaluation_status": "historical",
+      "final_accuracy": {
+        "run_1": 100.0,
+        "run_2": 100.0,
+        "run_3": 100.0
+      },
+      "folder": "xlsxe_extraction",
+      "freshness": "unknown",
+      "last_evaluated": null,
+      "result_source": "src/opentools/tools/xlsxe_extraction/test_result.json",
+      "risk_level": "restricted",
+      "total_questions": 53
+    },
+    "Yahoo_Finance_Tool": {
+      "average_accuracy": null,
+      "class_name": "Yahoo_Finance_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "yahoo_finance",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    },
+    "Youtube_Tool": {
+      "average_accuracy": null,
+      "class_name": "Youtube_Tool",
+      "evaluated": false,
+      "evaluation_status": "not_evaluated",
+      "final_accuracy": null,
+      "folder": "youtube",
+      "freshness": "not_evaluated",
+      "last_evaluated": null,
+      "result_source": null,
+      "risk_level": "caution",
+      "total_questions": null
+    }
+  }
+}

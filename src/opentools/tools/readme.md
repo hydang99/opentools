@@ -19,51 +19,62 @@ The table below summarizes each tool and how it is evaluated:
 - **Test suite key**: name used in `test_file/data.json`.
 - **Evaluation metrics**: typical `search_type` used (`exact_match`, `similarity_eval`, `search_pattern`).
 - **Current accuracy**: for evaluated tools, this column shows the **average** of `Final_Accuracy.run_1 / run_2 / run_3` (in %). Cells marked `–` mean no `test_result.json` is available yet.
+- **Risk**: static preflight classification (`low`, `caution`, or `restricted`);
+  it is a review signal, not a security guarantee.
+- **Last evaluated / Cases / Status**: timestamp, suite size, execution status,
+  and freshness from the canonical `evaluation_index.json`. Legacy results that
+  contain no timestamp are marked with unknown freshness.
 
-| Tool name (folder) | Short description | Tool type | Evaluated? | Test suite key (`test_file/data.json`) | Evaluation metrics | Current accuracy |
-|--------------------|-------------------|-----------|------------|----------------------------------------|--------------------|------------------|
-| [`advanced_object_detector`](./advanced_object_detector/) | Detects and localizes objects in images. | prompting_based | ☐ | `advanced_object_detector` | similarity_eval | – |
-| [`advanced_text_detector`](./advanced_text_detector/) | Detects and extracts text from images (OCR). | prompting_based | ✅ | `advanced_text_detector` | exact_match / similarity_eval | 83.54 |
-| [`archived`](./archived/) | Placeholder for deprecated or archived tools. | local_processing | ☐ | `archived` | – | – |
-| [`arxiv_paper_search`](./arxiv_paper_search/) | Searches and retrieves papers from arXiv. | api_based | ✅ | `arxiv_paper_search` | search_pattern / similarity_eval | 97.78 |
-| [`audio_processing`](./audio_processing/) | Processes and analyzes audio files. | local_processing | ✅ | `audio_processing` | exact_match / similarity_eval | 90.0 |
-| [`board_title_solver`](./board_title_solver/) | Solves board or title-based puzzles. | prompting_based | ✅ | `board_title_solver` | exact_match | 100.0 |
-| [`browser_interaction`](./browser_interaction/) | Controls and automates browser actions. | api_based | ✅ | `browser_interaction` | task-specific | 94.93 |
-| [`calculator`](./calculator/) | Performs arithmetic and calculations. | local_processing | ✅ | `calculator` | exact_match | 99.0 |
-| [`calendar_calculation`](./calendar_calculation/) | Performs date and calendar computations. | local_processing | ✅ | `calendar_calculation` | exact_match | 100.0 |
-| [`chemistry_search`](./chemistry_search/) | Searches chemistry-related databases or information. | api_based | ✅ | `chemistry_search` | search_pattern / similarity_eval | 88.89 |
-| [`code_generate_execute`](./code_generate_execute/) | Generates and executes code. | prompting_based | ✅ | `code_generate_execute` | task-specific | 55.90 |
-| [`colour_hue_solver`](./colour_hue_solver/) | Solves colour or hue-based puzzles. | prompting_based | ✅ | `colour_hue_solver` | exact_match | 100.0 |
-| [`csv_extraction`](./csv_extraction/) | Extracts data from CSV files. | local_processing | ✅ | `csv_extraction` | exact_match | 100.0 |
-| [`doc_extraction`](./doc_extraction/) | Extracts text and structure from documents. | local_processing | ✅ | `doc_extraction` | exact_match / similarity_eval | 100.0 |
-| [`download_file`](./download_file/) | Downloads files from URLs. | api_based | ✅ | `download_file` | exact_match | 100.0 |
-| [`generalist_solution_generator`](./generalist_solution_generator/) | Generates solutions for general tasks using an LLM. | prompting_based | ☐ | `generalist_solution_generator` | similarity_eval | – |
-| [`google_search_octotools`](./google_search_octotools/) | Performs web search via Google (Octotools integration). | api_based | ☐ | `google_search_octotools` | search_pattern | – |
-| [`math_solver`](./math_solver/) | Solves mathematical problems (optionally with images). | prompting_based | ✅ | `math_solver` | exact_match | 67.39 |
-| [`maze_solving`](./maze_solving/) | Solves maze puzzles. | local_processing | ✅ | `maze_solving` | exact_match | 100.0 |
-| [`n_queens_solving`](./n_queens_solving/) | Solves the N-queens puzzle. | local_processing | ✅ | `n_queens_solving` | exact_match | 100.0 |
-| [`nature_news_fetcher`](./nature_news_fetcher/) | Fetches news or content from Nature. | api_based | ☐ | `nature_news_fetcher` | search_pattern | – |
-| [`pdf_extraction`](./pdf_extraction/) | Extracts text and content from PDFs. | local_processing | ✅ | `pdf_extraction` | exact_match / similarity_eval | 100.0 |
-| [`plain_text_extraction`](./plain_text_extraction/) | Extracts plain text from files. | local_processing | ✅ | `plain_text_extraction` | exact_match / similarity_eval | 90.0 |
-| [`pptx_extraction`](./pptx_extraction/) | Extracts content from PowerPoint files. | local_processing | ✅ | `pptx_extraction` | exact_match / similarity_eval | 100.0 |
-| [`pubmed_search`](./pubmed_search/) | Searches the PubMed database. | api_based | ✅ | `pubmed_search` | search_pattern / similarity_eval | 53.72 |
-| [`relevant_patch_zoomer`](./relevant_patch_zoomer/) | Finds or zooms into relevant image patches. | prompting_based | ☐ | `relevant_patch_zoomer` | similarity_eval | – |
-| [`rubik_cube_solver`](./rubik_cube_solver/) | Solves Rubik's cube configurations. | local_processing | ✅ | `rubik_cube_solver` | exact_match | 0.0 |
-| [`search_engine`](./search_engine/) | Performs general web search. | api_based | ✅ | `search_engine` | search_pattern / similarity_eval | 70.81 |
-| [`simple_arxiv_paper_search`](./simple_arxiv_paper_search/) | Simplified arXiv paper search. | api_based | ☐ | `simple_arxiv_paper_search` | search_pattern / similarity_eval | – |
-| [`target_solver`](./target_solver/) | Solves target-based puzzles or tasks. | prompting_based | ✅ | `target_solver` | exact_match | 99.36 |
-| [`text_detector`](./text_detector/) | Detects and extracts text from images. | prompting_based | ✅ | `text_detector` | exact_match / similarity_eval | 71.24 |
-| [`url_text_extractor`](./url_text_extractor/) | Extracts text from a URL's web page. | api_based | ✅ | `url_text_extractor` | search_pattern / similarity_eval | 90.91 |
-| [`url_text_extractor_octotools`](./url_text_extractor_octotools/) | URL text extraction (Octotools integration). | api_based | ☐ | `url_text_extractor_octotools` | search_pattern / similarity_eval | – |
-| [`video_processing`](./video_processing/) | Processes and analyzes video files. | local_processing | ☐ | `video_processing` | exact_match / similarity_eval | – |
-| [`visual_ai`](./visual_ai/) | Analyzes images and answers visual questions (multimodal). | prompting_based | ✅ | `visual_ai` | similarity_eval | 78.04 |
-| [`wiki_search`](./wiki_search/) | Searches Wikipedia. | api_based | ✅ | `wiki_search` | search_pattern / similarity_eval | 70.76 |
-| [`wikipedia_knowledge_searcher_octotools`](./wikipedia_knowledge_searcher_octotools/) | Wikipedia search (Octotools integration). | api_based | ☐ | `wikipedia_knowledge_searcher_octotools` | search_pattern / similarity_eval | – |
-| [`wolfram_math`](./wolfram_math/) | Mathematical computation via Wolfram. | api_based | ✅ | `wolfram_math` | exact_match | 64.99 |
-| [`woodslide_solver`](./woodslide_solver/) | Solves woodslide puzzles. | local_processing | ✅ | `woodslide_solver` | exact_match | 100.0 |
-| [`xlsxe_extraction`](./xlsxe_extraction/) | Extracts data from Excel files. | local_processing | ✅ | `xlsxe_extraction` | exact_match | 100.0 |
-| [`yahoo_finance`](./yahoo_finance/) | Fetches financial data from Yahoo Finance. | api_based | ☐ | `yahoo_finance` | exact_match | – |
-| [`youtube`](./youtube/) | Fetches or searches YouTube content. | api_based | ☐ | `youtube` | search_pattern / similarity_eval | – |
+The table between the generated markers is produced by `opentools
+update-inventory`; edit tool metadata and tests rather than editing generated rows
+by hand.
+
+<!-- BEGIN GENERATED TOOL INVENTORY -->
+| Tool name (folder) | Short description | Tool type | Evaluated? | Test suite key | Evaluation metrics | Current accuracy | Risk | Last evaluated | Cases | Status |
+|---|---|---|---|---|---|---:|---|---|---:|---|
+| [`advanced_object_detector`](./advanced_object_detector/) | Detects and localizes objects in images. | prompting_based | ☐ | `advanced_object_detector` | similarity_eval | – | low | – | – | not_evaluated |
+| [`advanced_text_detector`](./advanced_text_detector/) | Detects and extracts text from images (OCR). | prompting_based | ✅ | `advanced_text_detector` | exact_match / similarity_eval | 83.54 | caution | – | 95 | historical |
+| [`archived`](./archived/) | Placeholder for deprecated or archived tools. | local_processing | ☐ | `archived` | – | – | caution | – | – | not_evaluated |
+| [`arxiv_paper_search`](./arxiv_paper_search/) | Searches and retrieves papers from arXiv. | api_based | ☐ | `arxiv_paper_search` | search_pattern / similarity_eval | – | caution | – | – | not_evaluated |
+| [`audio_processing`](./audio_processing/) | Processes and analyzes audio files. | local_processing | ✅ | `audio_processing` | exact_match / similarity_eval | 90.0 | restricted | – | 40 | historical |
+| [`board_title_solver`](./board_title_solver/) | Solves board or title-based puzzles. | prompting_based | ✅ | `board_title_solver` | exact_match | 100.0 | caution | – | 30 | historical |
+| [`browser_interaction`](./browser_interaction/) | Controls and automates browser actions. | api_based | ✅ | `browser_interaction` | task-specific | 94.93 | restricted | – | 46 | historical |
+| [`calculator`](./calculator/) | Performs arithmetic and calculations. | local_processing | ✅ | `calculator` | exact_match | 100.0 | low | 2026-07-07 | 100 | completed / current |
+| [`calendar_calculation`](./calendar_calculation/) | Performs date and calendar computations. | local_processing | ✅ | `calendar_calculation` | exact_match | 100.0 | caution | – | 30 | historical |
+| [`chemistry_search`](./chemistry_search/) | Searches chemistry-related databases or information. | api_based | ✅ | `chemistry_search` | search_pattern / similarity_eval | 88.89 | caution | – | 36 | historical |
+| [`code_generate_execute`](./code_generate_execute/) | Generates and executes code. | prompting_based | ✅ | `code_generate_execute` | task-specific | 55.89 | restricted | – | 99 | historical |
+| [`colour_hue_solver`](./colour_hue_solver/) | Solves colour or hue-based puzzles. | prompting_based | ✅ | `colour_hue_solver` | exact_match | 100.0 | caution | – | 30 | historical |
+| [`csv_extraction`](./csv_extraction/) | Extracts data from CSV files. | local_processing | ✅ | `csv_extraction` | exact_match | 100.0 | caution | – | 45 | historical |
+| [`doc_extraction`](./doc_extraction/) | Extracts text and structure from documents. | local_processing | ✅ | `doc_extraction` | exact_match / similarity_eval | 100.0 | restricted | – | 40 | historical |
+| [`download_file`](./download_file/) | Downloads files from URLs. | api_based | ✅ | `download_file` | exact_match | 100.0 | caution | – | 28 | historical |
+| [`generalist_solution_generator`](./generalist_solution_generator/) | Generates solutions for general tasks using an LLM. | prompting_based | ☐ | `generalist_solution_generator` | similarity_eval | – | caution | – | – | not_evaluated |
+| [`google_search_octotools`](./google_search_octotools/) | Performs web search via Google (Octotools integration). | api_based | ☐ | `google_search_octotools` | search_pattern | – | caution | – | – | not_evaluated |
+| [`math_solver`](./math_solver/) | Solves mathematical problems (optionally with images). | prompting_based | ✅ | `math_solver` | exact_match | 67.39 | caution | – | 139 | historical |
+| [`maze_solving`](./maze_solving/) | Solves maze puzzles. | local_processing | ✅ | `maze_solving` | exact_match | 100.0 | caution | – | 30 | historical |
+| [`n_queens_solving`](./n_queens_solving/) | Solves the N-queens puzzle. | local_processing | ✅ | `n_queens_solving` | exact_match | 100.0 | caution | – | 30 | historical |
+| [`nature_news_fetcher`](./nature_news_fetcher/) | Fetches news or content from Nature. | api_based | ☐ | `nature_news_fetcher` | search_pattern | – | caution | – | – | not_evaluated |
+| [`pdf_extraction`](./pdf_extraction/) | Extracts text and content from PDFs. | local_processing | ✅ | `pdf_extraction` | exact_match / similarity_eval | 100.0 | caution | – | 48 | historical |
+| [`plain_text_extraction`](./plain_text_extraction/) | Extracts plain text from files. | local_processing | ✅ | `plain_text_extraction` | exact_match / similarity_eval | 90.0 | low | – | 40 | historical |
+| [`pptx_extraction`](./pptx_extraction/) | Extracts content from PowerPoint files. | local_processing | ✅ | `pptx_extraction` | exact_match / similarity_eval | 100.0 | caution | – | 10 | historical |
+| [`pubmed_search`](./pubmed_search/) | Searches the PubMed database. | api_based | ✅ | `pubmed_search` | search_pattern / similarity_eval | 53.72 | caution | – | 40 | historical |
+| [`relevant_patch_zoomer`](./relevant_patch_zoomer/) | Finds or zooms into relevant image patches. | prompting_based | ☐ | `relevant_patch_zoomer` | similarity_eval | – | caution | – | – | not_evaluated |
+| [`rubik_cube_solver`](./rubik_cube_solver/) | Solves Rubik's cube configurations. | local_processing | ✅ | `rubik_cube_solver` | exact_match | 100.0 | caution | – | 30 | historical |
+| [`search_engine`](./search_engine/) | Performs general web search. | api_based | ✅ | `search_engine` | search_pattern / similarity_eval | 70.81 | caution | – | 34 | historical |
+| [`simple_arxiv_paper_search`](./simple_arxiv_paper_search/) | Simplified arXiv paper search. | api_based | ☐ | `simple_arxiv_paper_search` | search_pattern / similarity_eval | – | caution | – | – | not_evaluated |
+| [`target_solver`](./target_solver/) | Solves target-based puzzles or tasks. | prompting_based | ✅ | `target_solver` | exact_match | 99.36 | restricted | – | 45 | historical |
+| [`text_detector`](./text_detector/) | Detects and extracts text from images. | prompting_based | ✅ | `text_detector` | exact_match / similarity_eval | 83.54 | caution | 2026-02-19 | 95 | historical / stale |
+| [`url_text_extractor`](./url_text_extractor/) | Extracts text from a URL's web page. | api_based | ✅ | `url_text_extractor` | search_pattern / similarity_eval | 90.91 | caution | 2026-02-19 | 33 | historical / stale |
+| [`url_text_extractor_octotools`](./url_text_extractor_octotools/) | URL text extraction (Octotools integration). | api_based | ☐ | `url_text_extractor_octotools` | search_pattern / similarity_eval | – | caution | – | – | not_evaluated |
+| [`video_processing`](./video_processing/) | Processes and analyzes video files. | local_processing | ☐ | `video_processing` | exact_match / similarity_eval | – | caution | – | – | not_evaluated |
+| [`visual_ai`](./visual_ai/) | Analyzes images and answers visual questions (multimodal). | prompting_based | ✅ | `visual_ai` | similarity_eval | 78.04 | caution | – | 95 | historical |
+| [`wiki_search`](./wiki_search/) | Searches Wikipedia. | api_based | ✅ | `wiki_search` | search_pattern / similarity_eval | 70.76 | caution | – | 45 | historical |
+| [`wikipedia_knowledge_searcher_octotools`](./wikipedia_knowledge_searcher_octotools/) | Wikipedia search (Octotools integration). | api_based | ☐ | `wikipedia_knowledge_searcher_octotools` | search_pattern / similarity_eval | – | caution | – | – | not_evaluated |
+| [`wolfram_math`](./wolfram_math/) | Mathematical computation via Wolfram. | api_based | ✅ | `wolfram_math` | exact_match | 64.99 | caution | – | 139 | historical |
+| [`woodslide_solver`](./woodslide_solver/) | Solves woodslide puzzles. | local_processing | ✅ | `woodslide_solver` | exact_match | 0.0 | caution | – | 30 | historical |
+| [`xlsxe_extraction`](./xlsxe_extraction/) | Extracts data from Excel files. | local_processing | ✅ | `xlsxe_extraction` | exact_match | 100.0 | restricted | – | 53 | historical |
+| [`yahoo_finance`](./yahoo_finance/) | Fetches financial data from Yahoo Finance. | api_based | ☐ | `yahoo_finance` | exact_match | – | caution | – | – | not_evaluated |
+| [`youtube`](./youtube/) | Fetches or searches YouTube content. | api_based | ☐ | `youtube` | search_pattern / similarity_eval | – | caution | – | – | not_evaluated |
+<!-- END GENERATED TOOL INVENTORY -->
 
 ## Tool Architecture
 

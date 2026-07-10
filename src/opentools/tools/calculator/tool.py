@@ -68,6 +68,15 @@ class Calculator_Tool(BaseTool):
                 "command": "reponse = tool.run(operation='add', values=[1, 2, 3])",
                 "description": "Add 1, 2, and 3"
             },
+            version="1.0.0",
+            source_url="https://github.com/hydang99/opentools",
+            license="Apache-2.0",
+            execution_type="local",
+            network_access=False,
+            side_effects=[],
+            estimated_cost="none",
+            cautions=["Results are limited to the supported operations and unit set."],
+            suitable_for=["Deterministic arithmetic", "Common unit conversions"],
         )
         
         self.func_map = {

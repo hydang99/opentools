@@ -1,0 +1,19 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements-mcp.txt ./
+RUN pip install --no-cache-dir -r requirements-mcp.txt
+
+COPY pyproject.toml README.md LICENSE requirements.txt ./
+COPY src ./src
+RUN pip install --no-cache-dir --no-deps .
+
+ENV OPENTOOLS_MCP_ALLOWED_TOOLS=Calculator_Tool
+ENV OPENTOOLS_MCP_ALLOW_TOOL_CALLS=1
+ENV OPENTOOLS_MCP_ALLOW_EXECUTION=0
+ENV OPENTOOLS_MCP_MAX_RISK=low
+
+EXPOSE 8000
+
+CMD ["opentools-mcp", "--transport", "streamable-http", "--host", "0.0.0.0", "--port", "8000"]

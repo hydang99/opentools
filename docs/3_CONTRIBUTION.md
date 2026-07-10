@@ -157,11 +157,11 @@ src/opentools/tools/test_file/data.json
 
 ### 3. Guidelines
 
-Tool-related pull requests run metadata/evaluation unit checks and static
-preflight in CI. Maintainers should review restricted findings, declared access,
-and test evidence before accepting a tool. Scheduled CI repeats the checks to
-surface dependency or API drift; community-reported failures should be added as
-regression cases rather than recorded only as comments.
+Before accepting a tool, maintainers should manually run the metadata/evaluation
+unit checks and static preflight, then review restricted findings, declared
+access, and test evidence. Repeat these checks when dependencies or APIs change;
+community-reported failures should be added as regression cases rather than
+recorded only as comments.
 
 After adding or updating results, regenerate the canonical index and table:
 
@@ -175,10 +175,9 @@ Maintainers can run selected real evaluations and refresh both artifacts with:
 opentools evaluate-all --tools My_Custom_Tool --max-risk low
 ```
 
-Use `--discard-raw-results` in scheduled CI when only the compact summary should
-be committed. Bulk evaluation never runs tools classified as restricted. The
-scheduled workflow proposes index/table updates through a pull request so result
-changes remain reviewable.
+Use `--discard-raw-results` when only the compact summary should be retained.
+Bulk evaluation never runs tools classified as restricted. Review the generated
+index and table diff before committing an update.
 
 Tool cards should declare provenance and license, execution type, network access,
 required credentials, side effects, cost cautions, appropriate uses, and known

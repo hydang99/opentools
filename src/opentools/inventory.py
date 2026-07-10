@@ -17,7 +17,7 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 try:
     from .evaluation import inspect_source, run_existing_tests
-except ImportError:  # Allow dependency-light direct execution in CI.
+except ImportError:  # Allow dependency-light direct execution.
     module_path = Path(__file__).with_name("evaluation.py")
     spec = importlib.util.spec_from_file_location("opentools_evaluation", module_path)
     if spec is None or spec.loader is None:

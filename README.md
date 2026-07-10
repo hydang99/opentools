@@ -19,8 +19,8 @@
   and missing installations are reported explicitly.
 - **Tool standardization:** deterministic conversion of a documented, annotated
   Python function into a reviewable OpenTools bundle without executing it.
-- **Community maintenance:** generated tool cards and inventory tables, with a
-  scheduled CI workflow that proposes reviewable refresh pull requests.
+- **Community maintenance:** generated tool cards and inventory tables that
+  maintainers refresh explicitly after reviewing evaluation evidence.
 - **Application access:** an MCP server supporting stdio and Streamable HTTP,
   with execution disabled by default and controlled by allowlists and risk policy.
 - **Existing demonstration UI:** the OpenTools Hugging Face Space supports agent
@@ -164,19 +164,20 @@ opentools evaluate Calculator_Tool --run-tests --judge --judge-model gpt-4o-mini
 ```
 
 The judge is advisory, cannot override restricted preflight findings, and is not
-used as a security certification. CI does not invoke it automatically, avoiding
-credential requirements, API costs, and nondeterministic acceptance decisions.
-Invoking `--judge` sends selected tool metadata and sanitized findings—but not
-source code, credential values, or absolute local paths—to the configured model
-provider.
+used as a security certification. It runs only when a maintainer explicitly
+passes `--judge`, avoiding unintended credential use, API costs, and
+nondeterministic acceptance decisions. Invoking `--judge` sends selected tool
+metadata and sanitized findings—but not source code, credential values, or
+absolute local paths—to the configured model provider.
 
 Restricted findings block test execution unless the user also passes
 `--allow-risky`. Reports contain only observed test results; when a test routine
 does not write structured evidence, OpenTools reports
 `completed_without_structured_results` rather than inferring an accuracy.
 
-The same preflight and unit checks run on tool-related pull requests and on a
-weekly schedule through GitHub Actions, supporting regression and drift review.
+Run the preflight and unit checks manually before reviewing a tool or refreshing
+the shared inventory. This keeps execution, credentials, and result updates
+under maintainer control.
 
 ### 3. Refresh evaluations and the tool inventory
 
@@ -199,11 +200,10 @@ opentools evaluate-all \
 ```
 
 Bulk execution requires `--tools` or the explicit `--all-eligible` flag.
-Restricted tools are never eligible. The weekly GitHub workflow evaluates its
-configured low-risk tools and opens a reviewable automation pull request when the
-index or table changes; it does not push directly to `main`. API and LLM tools
-should be evaluated manually or in a separately configured workflow with the
-necessary credentials and cost controls.
+Restricted tools are never eligible. Maintainers should review the generated
+index and table diff before committing it. API and LLM tools require the
+necessary credentials and should be evaluated deliberately with appropriate
+cost controls.
 
 ### 4. Connect an application through MCP
 
